@@ -1,0 +1,10 @@
+--- iiKeyNames\Setup-iiKeyNames.tp2
++++ "b/e:\\Jeux modd\303\251s\\Baldur's Gate 2\\BigWorldSetup\\OverwriteFiles\\BWP\\BiG World Fixpack\\iiKeyNames\\Setup-iiKeyNames.tp2"	
+@@ -11,6 +11,7 @@ AUTHOR ~igi~
+ LANGUAGE ~English~ ~English~ ~iiKeyNames/Languages/English/setup.tra~
+ LANGUAGE ~Spanish (Translation by Januszka)~  ~Spanish~ ~iiKeyNames/Languages/Spanish/setup.tra~
+ LANGUAGE ~Polish (Translation by Yarpen)~  ~Polish~ ~iiKeyNames/Languages/Polish/setup.tra~
++LANGUAGE ~French~  ~French~ ~iiKeyNames/Languages/French/setup.tra~
+ 
+ // ------------------------------------------------------------------------------------------------------------------------
+ // Readme stuff

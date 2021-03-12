@@ -1,0 +1,16 @@
+--- ascension\ascensionmain\baf\cut\irenic2d.baf
++++ "b/e:\\Jeux modd\303\251s\\Baldur's Gate 2\\BigWorldSetup\\OverwriteFiles\\BWP\\ascension\\ascensionmain\\baf\\cut\\irenic2d.baf"	
+@@ -28,10 +28,10 @@ THEN
+     CreateVisualEffect("SPPORTAL",[1581.1111])
+     CreateVisualEffect("SPPORTAL",[981.1212])
+     Wait(2)
+-    CreateCreature("finsolar",[1022.1196],SEE)  // finsolar
++    CreateCreature("finsolar",[1022.1196],13)  // finsolar
+     ActionOverride("finsolar",DialogueInterrupt(FALSE))
+-    CreateCreature("finsola2",[1581.1111],W)  // finsola2
+-    CreateCreature("finsola3",[981.1212],NWW)  // finsola3
++    CreateCreature("finsola2",[1581.1111],4)  // finsola2
++    CreateCreature("finsola3",[981.1212],5)  // finsola3
+     DialogueInterrupt(FALSE)
+     Enemy()
+     EndCutSceneMode()

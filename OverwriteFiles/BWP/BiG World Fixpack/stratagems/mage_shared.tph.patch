@@ -1,0 +1,10 @@
+--- stratagems\mage\mage_shared.tph
++++ "b/e:\\Jeux modd\303\251s\\Baldur's Gate 2\\BigWorldSetup\\OverwriteFiles\\BWP\\stratagems\\mage\\mage_shared.tph"	
+@@ -525,6 +525,7 @@ BEGIN
+             SET $av("%lev%")+=1
+          END
+       END
++	  SET lev_max=8
+       FOR (i=8;i>=0;i -= 1) BEGIN
+          PATCH_IF $av("%i%")>0 BEGIN
+             SET lev_max=i

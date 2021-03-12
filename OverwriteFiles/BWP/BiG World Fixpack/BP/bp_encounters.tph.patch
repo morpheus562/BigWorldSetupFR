@@ -1,0 +1,19 @@
+--- BP\LIB\bp_encounters.tph
++++ "b/e:\\Jeux modd\303\251s\\Baldur's Gate 2\\BigWorldSetup\\OverwriteFiles\\BWP\\BiG World Fixpack\\BP\\bp_encounters.tph"	
+@@ -1924,7 +1924,7 @@ BUT_ONLY_IF_IT_CHANGES
+   LAF undead_rules END
+ 
+   ACTION_IF NOT FILE_EXISTS_IN_GAME ~bpundead.bcs~ BEGIN
+-    COMPILE ~bp/baf/new_bad/bpundead.baf~
++    COMPILE ~bp/baf/new_baf/undead/bpundead.baf~
+   END
+ 
+   ACTION_IF NOT FILE_EXISTS_IN_GAME ~bpcrypt.bcs~ BEGIN
+@@ -1986,6 +1986,7 @@ END
+ DEFINE_ACTION_FUNCTION treant_encounter BEGIN
+ INCLUDE ~bp/lib/bp_creatures.tph~
+ 
++LAF treant_spell END
+ LAF treants END
+ 
+ COPY_EXISTING ~ar1900.bcs~ ~override~

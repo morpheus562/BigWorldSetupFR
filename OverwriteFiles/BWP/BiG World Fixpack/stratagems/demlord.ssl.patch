@@ -1,0 +1,11 @@
+--- stratagems\fiend\ssl\demlord.ssl
++++ "b/e:\\Jeux modd\303\251s\\Baldur's Gate 2\\BigWorldSetup\\OverwriteFiles\\BWP\\stratagems\\fiend\\ssl\\demlord.ssl"	
+@@ -67,7 +67,7 @@ THEN
+ 		Wait(3)
+ 		CreateVisualEffectObject("SPPORTAL",Myself)
+ 		SetGlobal("DemonWalks","GLOBAL",2)
+-		MoveBetweenAreasEffect("AR2200","SPPORTAL",[4092.2503],S)
++		MoveBetweenAreasEffect("AR2200","SPPORTAL",[4092.2503],0)
+ END
+ 
+ IF

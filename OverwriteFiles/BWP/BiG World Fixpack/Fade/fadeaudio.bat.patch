@@ -1,0 +1,8 @@
+--- Fade\fadeaudio.bat	
++++ "b/e:\\Jeux modd\303\251s\\Baldur's Gate 2\\BigWorldSetupFR\\OverwriteFiles\\BWP\\Fade\\fadeaudio.bat"	
+@@ -4,4 +4,4 @@ oggdec E3*.ogg
+ del E3*.ogg
+ del oggdec.exe
+ cd ..
+-notepad Fade\README-FadeSoABeta.txt
++:: notepad Fade\README-FadeSoABeta.txt

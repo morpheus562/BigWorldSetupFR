@@ -366,8 +366,8 @@ Func Au3NetFix($p_Num = 0)
 	If FileExists($g_GameDir&'\WeiDU') And Not StringInStr(FileGetAttrib($g_GameDir&'\WeiDU'), 'D') Then FileDelete($g_GameDir&'\WeiDU'); remove WeiDU for mac/linux (if it exists)
 	If FileExists($g_DownDir&'\WeiDU.exe') Then FileCopy($g_DownDir&'\WeiDU.exe', $g_GameDir&'\WeiDU\WeiDU.exe', 9); file will be overwritten if it's a beta, since that had to be extracted later
 	If FileExists($g_DownDir&'\WeiDU64.exe') Then FileCopy($g_DownDir&'\WeiDU64.exe', $g_GameDir&'\WeiDU\WeiDU.exe', 9); file will be overwritten if it's a beta, since that had to be extracted later
-	$ExtractOnlyMods=IniRead($g_GConfDir&'\Game.ini', 'Options', 'ExtractOnly', 'BWFixpack,BWTextpack,BWInstallpack,WeiDU,BeregostCF')
-	$DownloadOnlyMods=IniRead($g_GConfDir&'\Game.ini', 'Options', 'DownloadOnly', 'BG1TP,BWPDF')
+	$ExtractOnlyMods=IniRead($g_GConfDir&'\Game.ini', 'Options', 'ExtractOnly', 'BWFixpack,BWInstallpack,WeiDU,BeregostCF')
+	$DownloadOnlyMods=IniRead($g_GConfDir&'\Game.ini', 'Options', 'DownloadOnly', 'BWPDF')
 	For $c=1 to $g_CurrentPackages[0][0]
 		If StringRegExp($ExtractOnlyMods, '(?i)(\A|\x2c)'&$g_CurrentPackages[$c][0]&'(\z|\x2c)') Then; avoid file movements from Au3Extract (subdir-logic will move if no tp2 is found)
 			_Install_CreateTP2Entry($g_CurrentPackages[$c][0], IniRead($g_MODIni, $g_CurrentPackages[$c][0], 'Name', $g_CurrentPackages[$c][0]), 0)

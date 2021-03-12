@@ -1,0 +1,23 @@
+--- stratagems\spellholditems\dw#shcut.baf	
++++ "b/e:\\Jeux modd\303\251s\\Baldur's Gate 2\\BigWorldSetup\\OverwriteFiles\\BWP\\stratagems\\spellholditems\\dw#shcut.baf"	
+@@ -7,13 +7,13 @@ THEN
+ 		ReallyForceSpell(Myself,HOLD_PARTY) // SPIN863.SPL (No such index)
+ 		FadeToColor([20.0],0)
+ 		Wait(2)
+-		LeaveAreaLUAPanic("AR1515","",[950.864],NW)
+-		LeaveAreaLUA("AR1515","",[950.864],NW)
+-		ActionOverride(Player2,LeaveAreaLUA("AR1515","",[960.869],NW))
+-		ActionOverride(Player3,LeaveAreaLUA("AR1515","",[955.864],NW))
+-		ActionOverride(Player4,LeaveAreaLUA("AR1515","",[950.869],NW))
+-		ActionOverride(Player5,LeaveAreaLUA("AR1515","",[955.869],NW))
+-		ActionOverride(Player6,LeaveAreaLUA("AR1515","",[950.859],NW))
++		LeaveAreaLUAPanic("AR1515","",[950.864],6)
++		LeaveAreaLUA("AR1515","",[950.864],6)
++		ActionOverride(Player2,LeaveAreaLUA("AR1515","",[960.869],6))
++		ActionOverride(Player3,LeaveAreaLUA("AR1515","",[955.864],6))
++		ActionOverride(Player4,LeaveAreaLUA("AR1515","",[950.869],6))
++		ActionOverride(Player5,LeaveAreaLUA("AR1515","",[955.869],6))
++		ActionOverride(Player6,LeaveAreaLUA("AR1515","",[950.859],6))
+ 		MultiPlayerSync()
+ 		SetGlobal("DW_desk_steals","GLOBAL",1)
+ 		EndCutSceneMode()

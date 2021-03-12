@@ -4,8 +4,6 @@
 Func _Tree_EndSelection()
 	_PrintDebug('+' & @ScriptLineNumber & ' Calling _Tree_EndSelection')
 	_Tree_GetCurrentSelection(1)
-	If _Test_CheckBG1TP() = 1 Then IniDelete($g_UsrIni, 'Current', 'BG1TP'); Remove download for german totsc-textpatch if not required
-	If _Test_CheckTotSCFiles_BG1() = 1 Then IniDelete($g_UsrIni, 'Current', 'BG1TotSCSound'); Remove download for spanish totsc-sounds if not required
 	_ResetInstall(0); Reset the installation-order
 	Local $Ignores[$g_Connections[0][0]][2]; save ignored warnings for reloads
 	For $c=1 to $g_Connections[0][0]
@@ -1005,7 +1003,7 @@ EndFunc   ;==>_Tree_Reload
 ; Take read selection-array and sort it theme-wise for the selection-screen
 ; ---------------------------------------------------------------------------------------------
 Func _Tree_SelectConvert($p_Array)
-	Local $Trans = StringSplit(IniRead($g_ProgDir & '\App-Translation-EN.ini', 'UI-Buildtime', 'Menu[2][2]', ''), '|'); => translations for themes
+	Local $Trans = StringSplit(IniRead($g_TRAIni, 'UI-Buildtime', 'Menu[2][2]', ''), '|'); => translations for themes
 	Dim $Theme[$Trans[0]]
 	For $a=1 to $p_Array[0][0]
 		$Theme[Number($p_Array[$a][8])]&='|'&$a; add index-numbers to a string that represents a theme

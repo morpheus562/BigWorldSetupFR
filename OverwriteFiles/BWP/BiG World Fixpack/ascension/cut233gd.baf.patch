@@ -1,0 +1,11 @@
+--- ascension\ascensionmain\baf\cut\cut233gd.baf
++++ "b/e:\\Jeux modd\303\251s\\Baldur's Gate 2\\BigWorldSetup\\OverwriteFiles\\BWP\\ascension\\ascensionmain\\baf\\cut\\cut233gd.baf"	
+@@ -42,7 +42,7 @@ THEN
+     CreateCreature("balth2",[1409.1164],3)  // balth2
+     ActionOverride("balth2",ChangeAIScript("",OVERRIDE))
+     ActionOverride("balth2",FaceObject("finmel01"))
+-    CreateCreature("finsare2",[1150.1164],NEE)
++    CreateCreature("finsare2",[1150.1164],11)
+     ActionOverride("finsare2",FaceObject("finmel01"))
+     ReallyForceSpellRES("jwsleep","finmel01")
+     Wait(1)
