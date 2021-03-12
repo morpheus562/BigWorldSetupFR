@@ -1,5 +1,3 @@
-**This application is now obsolete.**
-
 # Big World Setup FR (BWS-FR)
 
 Cette application est une modification du [Big World Setup](<https://github.com/BigWorldSetup/BigWorldSetup>).  
@@ -12,7 +10,7 @@ Cependant, si une personne désire le faire, libre à elle de créer une pré
 
 ## Pour commencer
 
-1. [Télécharger](<https://github.com/Selphira/BigWorldSetup/archive/master.zip>) le Big World Setup FR.
+1. [Télécharger](<https://github.com/Selphira/BigWorldSetupFR/archive/master.zip>) le Big World Setup FR.
 2. L'extraire où vous voulez (mais pas dans le dossier du jeu !)
 3. Fermer les jeux ouverts et les éditeurs de jeux pour éviter toute interférence avec le processus d'installation
 4. Désactiver votre antivirus (uniquement pendant l'installation - n'oubliez pas de le réactiver après !)
