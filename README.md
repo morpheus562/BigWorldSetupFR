@@ -1,12 +1,12 @@
 # Big World Setup FR (BWS-FR)
 
 Cette application est une modification du [Big World Setup](<https://github.com/BigWorldSetup/BigWorldSetup>).  
-Tout comme ce dernier, elle vous permet de télécharger, extraire et installer automatiquement des mods, tout en gérant les conflits, dépendances et ordre d'installation.
+Tout comme ce dernier, elle vous permet de télécharger, extraire et installer automatiquement des mods, tout en gérant les conflits, dépendances et ordres d'installation.
 
 Cette version ne gère que des mods compatibles avec BG2 et BGT et possédant une traduction française. Quelques exceptions qui n'ont aucune conséquence sur les textes affichés sont toutefois gérées.
 
 BGEE, BG2EE et EET ne seront PAS gérés.
-Cependant, si une personne désire le faire, libre à elle de créer une pré
+Cependant, si une personne désire le faire, libre à elle de créer une pré-sélection et les fichiers ini associés.
 
 ## Pour commencer
 
