@@ -56,6 +56,9 @@ J'invite les auteurs des mods originaux à récupérer ces correctifs pour les i
   - \[F\] Corrections des entrées ajoutées dans le fichier stats.ids
   - \[F\] Le composant "Rencontres sylvanesques" a besoin du sort CLERIC_ANIMATE_TREE, mais ce dernier n'était pas toujours installé pour lui.
 
+- Generalized Biffing v2.5
+  - \[F\] La version 247 de Weidu provoque un crash au lancement du jeu. La version 246 est forcée lors de l'installation du mod. 
+
 - Gerri's BGT NPC Portraits v3.0
   - \[C\] Le composant "Portraits for BG1 Romantic Encounters" se basait sur le composant 0 de "BG1 Romantics Encounters" qui n'existe plus et remplacé par les composants 100 à 105. 
 
