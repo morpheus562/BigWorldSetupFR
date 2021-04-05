@@ -1,0 +1,24 @@
+--- Lysre\French\CKLys25J.tra
++++ "b/E:\\Jeux modd\303\251s\\Baldur's Gate 2\\BigWorldSetupFR\\OverwriteFiles\\BWP\\Lysre\\French\\CKLys25J.tra"	
+@@ -1,13 +1,11 @@
+ //.//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+ //Interjections   /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+ ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+-@3    = ~Vermine, profite aujourd'hui de cette chance que tu as de servir <CHARNAME>. Estime toi heureux de ne pas etre un des creations de mon esprit vermine. Sinon je prendrai un malin plaisir a te tuer. A te faire renaitre. Puis je te tuerai une seconde fois... Puis, je verrai combien de fois tu peux renaitre cent, milles ? Les dragons ont l'eternite pour ce genre de jeu.~
+-@14   = ~Pour des religieux, ces gens sont bien laches. Enfin, ce sont des bipedes, inutile de trop esperer de ces miserables, eux, leurs faux dieux, toute ces choses ne sont que des futilites, des inepties, de l'ennuie. Comme je le repete toujours avec delice. Un jour, Tiamat decimera ceux qui s'opposeront a son reigne. Haaa....~
+-@15   = ~C'est tellement previsible, que s'en ai presque risible. Personnellement, je prefere les diables aux demons, a la difference de ces derniers, les diables tiennent parole.~
+-@16   = ~Quelle fidelite, quelle couardise... Je t'apprecie petite chose idiote... Un jour, j'aurai le temps et je viendrai sans aucun doute chercher un serviteur aussi maleable...~
+-@17   = ~Magnifique... Un idiot de bipede, coince par sa propre betise dans une creation malade qui depasse son esprit limite. Le spectacle est amusant, mais aussi un peu frustant. Voila un met bien a l'abri de mes crocs... Quel dommage.~
+-@18   = ~(Se tortille) Quelle splendeur ! L'energie de ce lieu fait vibrer mon sang... Quel douce sensation... On entend presque les cris dechirants d'ame meurtries... Quoi que cette tour renferme... Il faut reconnaitre que c'est quelque chose digne d'interet.~
+-@19   = ~Voila un splendide tour <CHARNAME>, il vous fait honneur.~
+-@20   = ~Voila une situation singuliere...  ~
+-
+-
++@3    = ~Vermine, profite aujourd'hui de cette chance que tu as de servir <CHARNAME>. Estime toi heureux de ne pas être une des créations de mon esprit vermine. Sinon je prendrai un malin plaisir à te tuer. À te faire renaître. Puis, je te tuerai une seconde fois... Puis, je verrai combien de fois tu peux renaître, cent, milles ? Les dragons ont l'éternité pour ce genre de jeu.~
++@14   = ~Pour des religieux, ces gens sont bien lâches. Enfin, ce sont des bipèdes, inutile de trop espérer de ces misérables, eux, leurs faux dieux, toutes ces choses ne sont que des futilités, des inepties, de l'ennui. Comme je le répète toujours avec délice. Un jour, Tiamat décimera ceux qui s'opposeront à son règne. Haaa....~
++@15   = ~C'est tellement prévisible, que s'en est presque risible. Personnellement, je préfère les diables aux démons, à la différence de ces derniers, les diables tiennent parole.~
++@16   = ~Quelle fidélité, quelle couardise... Je t'apprécie petite chose idiote... Un jour, j'aurai le temps et je viendrai sans aucun doute chercher un serviteur aussi malléable...~
++@17   = ~Magnifique... Un idiot de bipède, coincé par sa propre bétise dans une création malade qui dépasse son esprit limité. Le spectacle est amusant, mais aussi un peu frustrant. Voilà un met bien à l'abri de mes crocs... Quel dommage.~
++@18   = ~(Se tortille) Quelle splendeur ! L'énergie de ce lieu fait vibrer mon sang... Quelle douce sensation... On entend presque les cris déchirants d'âmes meurtries... Quoi que cette tour renferme... Il faut reconnaître que c'est quelque chose digne d'intérêt.~
++@19   = ~Voilà un splendide tour <CHARNAME>, il vous fait honneur.~
++@20   = ~Voilà une situation singulière...  ~

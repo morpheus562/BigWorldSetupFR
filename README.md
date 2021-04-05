@@ -44,6 +44,10 @@ J'invite les auteurs des mods originaux à récupérer ces correctifs pour les i
 - Item Upgrade v45
   - Des traductions manquantes dans le fichier itemupgrade/languages/french/lolwot.tra empêchaient le mod de s'installer en français.
   
+- Lysre v1.2
+  - L'installation échouait lors de l'ajout du kit.
+  - Les fichiers audio n'étaient pas installés, car le fichier oggdec.exe était manquant
+
 - Prêtre de Bhaal v1.2
   - Renommage de fichiers pour correspondre à ceux attendus par le script d'installation.
     - .\P!Bhaal\2da\P!Bhaal.2da en .\P!Bhaal\2da\PIBhaal.2da
@@ -52,6 +56,7 @@ J'invite les auteurs des mods originaux à récupérer ces correctifs pour les i
 - Stratagems v33.7
   - Correction d'une erreur de typo: **east_antimagic** en **easy_antimagic**
   - Correction d'une erreur où parfois, la variable **lev_max** était vide (pas certaine que ce soit la bonne façon de corriger).
+  - Correction du [bug](<https://www.gibberlings3.net/forums/topic/31468-sword-coast-stratagems-v33-now-available/?do=findComment&comment=293929>) où les mages ne faisaient plus rien dans certaines conditions.
 
 - Wheels of Prophecy v8.3
   - Mauvais chemin enregistré dans la variable **mod_root**
@@ -60,7 +65,7 @@ J'invite les auteurs des mods originaux à récupérer ces correctifs pour les i
 - Area patcher
   - Les composants 5000 et 5001 se basaient sur le composant 15 de BG1NPC qui est devenu le 80.
 
-- Ascension v2.0
+- Ascension v2.0.15
   - Certaines orientations étaient écrites sous forme de lettre et non de chiffre.
   - Il modifiait le fichier action.ids pour gérer les orientations sous forme de lettre.
   
@@ -88,19 +93,29 @@ J'invite les auteurs des mods originaux à récupérer ces correctifs pour les i
   - Certaines orientations étaient écrites sous forme de lettre et non de chiffre. 
   - Il modifiait le fichier action.ids pour gérer les orientations sous forme de lettre.
   
-#### Traductions
+#### Traductions et corrections d'orthographe
 
 - Ascalons Questpack v4
   - Utilisation de la [version de travail](<https://github.com/Jazira33/AC_QUEST>) (non finalisée) de Jazira pour avoir la traduction française.
 
+- Ascension v2.0.15
+  - Traduction maison des nouvelles chaînes ajoutées par la 2.0, à l'exception des épilogues écrits par Shawne 
+
 - BG2 Impoved GUI v3.12
   - Petite traduction maison
+  
+- Lysre v1.2
+  - Corrections d'un grand nombre de fautes d'orthographe
+  - Ajout des caractères accentués
 
 - iiKeyNames v2
   - Petite traduction maison
 
 - Mapnames v2
   - Ajout de la traduction française trouvée sur forum de [SpellholdStudio](<http://www.shsforums.net/topic/46634-sword-coast-map-labels/?p=545744>)
+
+- Pretre de Mystra v1
+  - Corrections d'orthographe
 
 - Unique Artifact v7.2
   - Petite traduction maison
