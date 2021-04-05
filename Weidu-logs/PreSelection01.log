@@ -1,0 +1,974 @@
+// Log of Currently Installed WeiDU Mods
+// The top of the file is the 'oldest' mod
+// ~TP2_File~ #language_number #component_number // [Subcomponent Name -> ] Component Name [ : Version]
+~SETUP-WEIDU.TP2~ #0 #0 // 24700
+~SETUP-BWINSTALLPACK.TP2~ #0 #0 // BiG World Installpack v18.2.5.7z
+~CORRECFRBG2/CORRECFRBG2.TP2~ #0 #0 // Correction des fautes mineures pour Baldur's Gate II - Shadows of Amn: 1.3 (2016-09-19)
+~CORRECFRBG2/CORRECFRBG2.TP2~ #0 #1 // Correction des fautes mineures pour Baldur's Gate II - Throne of Bhaal: 1.3 (2016-09-19)
+~TOBEX/TOBEX.TP2~ #2 #100 // TobEx - Base: Beta 0025
+~TOBEX/TOBEX.TP2~ #2 #101 // Appliquer un jet de concentration en cas de degats [Travail en cours]: Beta 0025
+~TOBEX/TOBEX.TP2~ #2 #102 // Reveiller en cas de degats: Beta 0025
+~TOBEX/TOBEX.TP2~ #2 #105 // Pas d'interruption de sort pour zero degat: Beta 0025
+~TOBEX/TOBEX.TP2~ #2 #107 // Permettre le jumelage a toutes les races: Beta 0025
+~TOBEX/TOBEX.TP2~ #2 #108 // Permettre de changer d'armure en cours de combat: Beta 0025
+~TOBEX/TOBEX.TP2~ #2 #109 // Desactiver le surcroit d'experience: Beta 0025
+~TOBEX/TOBEX.TP2~ #2 #111 // Desactiver le silence en cas de Charme: Beta 0025
+~TOBEX/TOBEX.TP2~ #2 #112 // Restrictions sur les competences au niveau un: Beta 0025
+~TOBEX/TOBEX.TP2~ #2 #113 // Rester cache en cas de succes du vol a la tire [C]: Beta 0025
+~TOBEX/TOBEX.TP2~ #2 #114 // Une attaque lors du repos fait avancer le temps: Beta 0025
+~TOBEX/TOBEX.TP2~ #2 #115 // Sous-titres des dialogues de salutation: Beta 0025
+~TOBEX/TOBEX.TP2~ #2 #116 // Activer les sons d'attaque des animations: Beta 0025
+~TOBEX/TOBEX.TP2~ #2 #117 // Quatre emplacements d'arme dans l'inventaire pour tous: Beta 0025
+~TOBEX/TOBEX.TP2~ #2 #118 // Sous-titres pour les ensembles de sons d'origine: Beta 0025
+~TOBEX/TOBEX.TP2~ #2 #120 // Faire tomber l'inventaire au sol en cas de desintegration: Beta 0025
+~TOBEX/TOBEX.TP2~ #2 #121 // Faire tomber l'inventaire au sol en cas de mort due au froid: Beta 0025
+~TOBEX/TOBEX.TP2~ #2 #122 // Faire tomber l'inventaire au sol en cas de petrification: Beta 0025
+~TOBEX/TOBEX.TP2~ #2 #123 // Activer la pause automatique sur tous les ecrans: Beta 0025
+~TOBEX/TOBEX.TP2~ #2 #124 // Restreindre les animations d'attaque aux veritables attaques: Beta 0025
+~BG2FIXPACK/SETUP-BG2FIXPACK.TP2~ #4 #0 // BG2 Fixpack - Correctifs principaux: v13
+~BG2FIXPACK/SETUP-BG2FIXPACK.TP2~ #4 #3 // Correctifs en version BETA (consultez le ReadMe !): v13
+~BG2FIXPACK/SETUP-BG2FIXPACK.TP2~ #4 #100 // Gain d'experience si on envoie Keldorn se reconcilier avec Maria: v13
+~BG2FIXPACK/SETUP-BG2FIXPACK.TP2~ #4 #101 // Animations des sorts amelioree: v13
+~BG2FIXPACK/SETUP-BG2FIXPACK.TP2~ #4 #103 // Correction des dagues a usage mixte: v13
+~BG2FIXPACK/SETUP-BG2FIXPACK.TP2~ #4 #104 // Correction des symboles divin (par Ghreyfain): v13
+~BG2FIXPACK/SETUP-BG2FIXPACK.TP2~ #4 #106 // Penalite d'attaque des Geants contre les Petites-personnes, les Nains et les Gnomes: v13
+~BG2FIXPACK/SETUP-BG2FIXPACK.TP2~ #4 #107 // Retire la restriction de jumelage des Archers et des Traqueurs: v13
+~BG2FIXPACK/SETUP-BG2FIXPACK.TP2~ #4 #108 // Retire le deuxieme attribut bonus pour le chemin Mauvais a l'epreuve de la Colere en Enfer: v13
+~BG2FIXPACK/SETUP-BG2FIXPACK.TP2~ #4 #109 // Correction du comportement des demons convoques: v13
+~BG2FIXPACK/SETUP-BG2FIXPACK.TP2~ #4 #110 // Correctifs additionnels pour les scripts: v13
+~BG2FIXPACK/SETUP-BG2FIXPACK.TP2~ #4 #112 // Les tueurs de magiciens provoquent un fourvoiement magique sur les attaques a distance: v13
+~BG2FIXPACK/SETUP-BG2FIXPACK.TP2~ #4 #113 // Correctifs additionnels pour les alignements: v13
+~BG2FIXPACK/SETUP-BG2FIXPACK.TP2~ #4 #114 // "Action libre" protege aussi contre l'etourdissement: v13
+~BG2FIXPACK/SETUP-BG2FIXPACK.TP2~ #4 #115 // Les pattes provenant d'une metamorphose ne peuvent pas etre dissipees: v13
+~BG2FIXPACK/SETUP-BG2FIXPACK.TP2~ #4 #116 // Remove Thieving Start Bonuses from Bard and Ranger Skills: v13
+~DRUIDGROVEMAKEOVER/SETUP-DRUIDGROVEMAKEOVER.TP2~ #0 #0 // Druid Grove Area Visual Makeover
+~SETUP-BDTOBV175.TP2~ #0 #0 // Baldurdash Fix Pack for SoA-ToB, v1.75 WeiDU: v1.75 BWP BG2Fixpack adaptation
+~SETUP-BDTOBV175.TP2~ #0 #2 // Core Baldurdash Fixes (by Kevin Dorner): v1.75 BWP BG2Fixpack adaptation
+~IIKEYNAMES/SETUP-IIKEYNAMES.TP2~ #3 #2001 // Key Names
+~1PP/1PP.TP2~ #1 #101 // 1ppv4 : Core paperdolls (composant principal): v4.2.0
+~1PP/1PP.TP2~ #1 #103 // 1ppv4 : Couleurs de palette etendues -> Installation complete (recommandee): v4.2.0
+~1PP/1PP.TP2~ #1 #114 // 1ppv4 : Rendu des sorts nuance: v4.2.0
+~1PP/1PP.TP2~ #1 #200 // 1ppv4 : Corrections de base: v4.2.0
+~1PP/1PP.TP2~ #1 #400 // 1ppv4 : Mise a jour et modification des objets: v4.2.0
+~1PP/1PP.TP2~ #1 #401 // 1ppv4 : Rendu des projectiles ameliore: v4.2.0
+~CTB/SETUP-CTB.TP2~ #2 #0 // Check The Bodies: 3.0
+~CTB/SETUP-CTB.TP2~ #2 #1 // Candlekeep Chores: 3.0
+~CTB/SETUP-CTB.TP2~ #2 #3 // Other Improvements: 3.0
+~TETHYRFORESTPATCH/SETUP-TETHYRFORESTPATCH.TP2~ #0 #0 // Tethyr Forest Patch: 3b
+~SETUP-CTBCUTIMP.TP2~ #0 #0 // Check the Bodies cutscene improvement
+~BGT/BGT.TP2~ #3 #0 // Baldur's Gate Trilogy - Composant principal: v1.21
+~TXTMUSIC/TXTMUSIC.TP2~ #2 #0 // Musique retablie sur les ecrans textes pour BG1TuTu, EasyTutu et BGT-WeiDU: 9 (22 Mar 13)
+~ASCENSION/ASCENSION.TP2~ #2 #0 // Rewritten Final Chapter of Throne of Bhaal: 2.0.15
+~ASCENSION/ASCENSION.TP2~ #2 #10 // Balthazar can be redeemed: 2.0.15
+~ASCENSION/ASCENSION.TP2~ #2 #20 // Improved Sarevok-Player Interactions: 2.0.15
+~ASCENSION/ASCENSION.TP2~ #2 #30 // Improved Imoen-Player Interactions in Throne of Bhaal: 2.0.15
+~ASCENSION/ASCENSION.TP2~ #2 #40 // Restored Bhaalspawn Powers: 2.0.15
+~ASCENSION/ASCENSION.TP2~ #2 #50 // Improved Slayer Transformation: 2.0.15
+~ASCENSION/ASCENSION.TP2~ #2 #60 // Expanded Epilogues for Bioware NPCs -> David Gaider's expanded epilogues for Bioware NPCs: 2.0.15
+~ASCENSION/ASCENSION.TP2~ #2 #1000 // Tougher Abazigal: 2.0.15
+~ASCENSION/ASCENSION.TP2~ #2 #1100 // Tougher Balthazar: 2.0.15
+~ASCENSION/ASCENSION.TP2~ #2 #1200 // Tougher Demogorgon: 2.0.15
+~ASCENSION/ASCENSION.TP2~ #2 #1300 // Tougher Gromnir: 2.0.15
+~ASCENSION/ASCENSION.TP2~ #2 #1400 // Tougher Illasera: 2.0.15
+~ASCENSION/ASCENSION.TP2~ #2 #1500 // Tougher Yaga-Shura: 2.0.15
+~ASCENSION/ASCENSION.TP2~ #2 #2000 // Full-body portrait for Bodhi: 2.0.15
+~ASCENSION/ASCENSION.TP2~ #2 #2400 // Slightly improved cutscenes, by DavidW: 2.0.15
+~ITEM_REV/ITEM_REV.TP2~ #1 #0 // Item Revisions par Demivrgvs: V4 Beta 10
+~SPELL_REV/SETUP-SPELL_REV.TP2~ #1 #0 // Spell Revisions: v4 Beta 18
+~SPELL_REV/SETUP-SPELL_REV.TP2~ #1 #10 // Animations des Devas et Planetaires: v4 Beta 18
+~SPELL_REV/SETUP-SPELL_REV.TP2~ #1 #20 // Correction d'Image Miroir: v4 Beta 18
+~SPELL_REV/SETUP-SPELL_REV.TP2~ #1 #30 // Correction de la Dissipation de la Magie: v4 Beta 18
+~SPELL_REV/SETUP-SPELL_REV.TP2~ #1 #55 // Spell Deflection blocks AoE spells: v4 Beta 18
+~SETUP-RES_FIXER.TP2~ #0 #0 // Resource Fixer: v1
+~BP/SETUP-BP.TP2~ #2 #0 // Big Picture, composant principal (requis pour la plupart des sous-composants): v181-b4611 BWP Fix
+~BP/SETUP-BP.TP2~ #2 #35 // Ajoute de sacs et de dagues magiques de lancer dans les magasins: v181-b4611 BWP Fix
+~BP/SETUP-BP.TP2~ #2 #1100 // Couronne de cuivre et esclavagistes: v181-b4611 BWP Fix
+~BP/SETUP-BP.TP2~ #2 #1130 // Rencontre avec Drizzt (Chapitre 6): v181-b4611 BWP Fix
+~BP/SETUP-BP.TP2~ #2 #1170 // Rencontres sylvanesques: v181-b4611 BWP Fix
+~BP/SETUP-BP.TP2~ #2 #1190 // Ajouts lors des epreuves des enfers: v181-b4611 BWP Fix
+~BP/SETUP-BP.TP2~ #2 #1200 // Antre d'Horred: v181-b4611 BWP Fix
+~BP/SETUP-BP.TP2~ #2 #1330 // Rixe dans les tavernes (dans l'Antre des Sept Vaux): v181-b4611 BWP Fix
+~BP/SETUP-BP.TP2~ #2 #1350 // Prison planaire: v181-b4611 BWP Fix
+~BP/SETUP-BP.TP2~ #2 #1375 // Ameliorations de la Sphere planaire (Tolgerias inclus): v181-b4611 BWP Fix
+~BP/SETUP-BP.TP2~ #2 #1570 // Ameliorations de Spellhold -> Ameliorations de l'Asile - Ensemble complet: v181-b4611 BWP Fix
+~BP/SETUP-BP.TP2~ #2 #1600 // Amelioration de Suldanessalar: v181-b4611 BWP Fix
+~BP/SETUP-BP.TP2~ #2 #1625 // Quete du tanneur: v181-b4611 BWP Fix
+~BP/SETUP-BP.TP2~ #2 #1650 // Ameliorations de Franc-Marche: v181-b4611 BWP Fix
+~BP/SETUP-BP.TP2~ #2 #1675 // Ajout de la Baguette d Orcus: v181-b4611 BWP Fix
+~BP/SETUP-BP.TP2~ #2 #1700 // Ameliorations des Collines de Lancevent: v181-b4611 BWP Fix
+~BP/SETUP-BP.TP2~ #2 #1110 // Dragon brun, de Kensai Ryu: v181-b4611 BWP Fix
+~BP/SETUP-BP.TP2~ #2 #1120 // Amelioration du Roi de la crypte, par Kensai Ryu: v181-b4611 BWP Fix
+~BP/SETUP-BP.TP2~ #2 #1175 // Le Gnome Guerrier/Illusioniste des Quais, de Kensai Ryu: v181-b4611 BWP Fix
+~BP/SETUP-BP.TP2~ #2 #1275 // La Liche sur les Quais, de Gebhard Blucher: v181-b4611 BWP Fix
+~BP/SETUP-BP.TP2~ #2 #1525 // Amelioration de la Passe du Petit Croc, par Kensai Ryu: v181-b4611 BWP Fix
+~BP/SETUP-BP.TP2~ #2 #1250 // Kuroisan le kensai acide, par Westley Weimer: v181-b4611 BWP Fix
+~BP/SETUP-BP.TP2~ #2 #1425 // L'insigne rouge, une Rencontre Basee sur le Poison, par Westley Weimer: v181-b4611 BWP Fix
+~BP/SETUP-BP.TP2~ #2 #1450 // Le Rituel, par Westley Weimer: v181-b4611 BWP Fix
+~BP/SETUP-BP.TP2~ #2 #1800 // Enrichissements de ToB: v181-b4611 BWP Fix
+~SETUP-BGTMUSIC.TP2~ #2 #2 // Baldur's Gate Trilogy - Musique -> Musique integrale de Baldur's Gate/Shadows of Amn/Throne of Bhaal (ATTENTION: modifie BGMain.exe)
+~SETUP-BONEHILLV275.TP2~ #5 #0 // Secret of BoneHill (necessite BGT ou Tutu): v2.75c BWP Fix
+~DRIZZTSAGA/DRIZZTSAGA.TP2~ #1 #1 // The Drizzt Saga pour BGEE/Tutu/BGT -> Version BP-BGT Worldmap : ajout de toutes les zones a la carte du monde (requiert BP-BGT Worldmap): v3.00
+~DRIZZTSAGA/DRIZZTSAGA.TP2~ #1 #3 // Debut repousse : Drizzt revient apres la Tour de Durlag: v3.00
+~SETUP-VAULT.TP2~ #1 #0 // The Vault (refonte d'Erebusant pour compatibilite avec BGT): v7.2 BWP Fix
+~SETUP-VAULT.TP2~ #1 #1 // Amelioration des objets de The Vault - Compatibilite avec Item Revisions. Recommande par souci de coherence si vous projetez d'installer plus tard le composant principal d'IR: v7.2 BWP Fix
+~BGQE/SETUP-BGQE.TP2~ #2 #0 // Installation de la quete de la vase...: v24
+~BGQE/SETUP-BGQE.TP2~ #2 #1 // Installation de la quete de famille a Beregost...: v24
+~BGQE/SETUP-BGQE.TP2~ #2 #2 // Installation de la quete de la garde d'enfants, y compris la rencontre au festival...: v24
+~BGQE/SETUP-BGQE.TP2~ #2 #3 // Installation de la quete du monstre de Nashkel...: v24
+~BGQE/SETUP-BGQE.TP2~ #2 #4 // Installation de la quete du paladin dechu...: v24
+~BGQE/SETUP-BGQE.TP2~ #2 #5 // Installation de la quete de l'amour eternel...: v24
+~BGQE/SETUP-BGQE.TP2~ #2 #6 // Installation de la rencontre de l'orque amoureux...: v24
+~BGQE/SETUP-BGQE.TP2~ #2 #7 // Installation de la quete une aide inattendue...: v24
+~BGQE/SETUP-BGQE.TP2~ #2 #8 // Installation de la quete du hamster...: v24
+~BGQE/SETUP-BGQE.TP2~ #2 #9 // Installation de la quete de l'ivrogne pres du temple de Beregost...: v24
+~BGQE/SETUP-BGQE.TP2~ #2 #10 // Installation de la quete un endroit douillet pour Noober...: v24
+~BGQE/SETUP-BGQE.TP2~ #2 #11 // Installation de la quete de l'epee de Brage...: v24
+~BGQE/SETUP-BGQE.TP2~ #2 #12 // Installation de la quete sources legales des cartes maritimes...: v24
+~BGQE/SETUP-BGQE.TP2~ #2 #13 // Installation de la quete additions a la Maison de la Dame et du Temple de la Reine Garce...: v24
+~BGQE/SETUP-BGQE.TP2~ #2 #14 // Installation de la quete un fermier inquiet...: v24
+~BGQE/SETUP-BGQE.TP2~ #2 #15 // Installation de la quete des corps pour une bonne cause...: v24
+~BGQE/SETUP-BGQE.TP2~ #2 #16 // Installation de la quete terminer la quete de Cordyr sans tuer Sil...: v24
+~SETUP-TGC1E.TP2~ #6 #0 // Le Clan Gris Episode Un : A la Lumière d'une Bougie, BGT-WeiDU edition v1.8 -> Edition normale: v1.8.T1 BWP Fix
+~SIRINESCALL/SETUP-SIRINESCALL.TP2~ #2 #0 // Le Chant des Sirènes: v16
+~SOA/SETUP-SOA.TP2~ #1 #1 // The Stone of Askavar pour TotSC/Tutu/BGT/BGEE -> Version BP-BGT Worldmap : ajout de toutes les zones a la carte du monde (requiert BP-BGT Worldmap): 2.2
+~AC_QUEST/AC_QUEST.TP2~ #3 #0 // Un travail bien paye: 4.0
+~AC_QUEST/AC_QUEST.TP2~ #3 #1 // Un festin pour les gnolls: 4.0
+~AC_QUEST/AC_QUEST.TP2~ #3 #2 // A la recherche de Ricochet: 4.0
+~AC_QUEST/AC_QUEST.TP2~ #3 #3 // A la recherche de Perwell: 4.0
+~AC_QUEST/AC_QUEST.TP2~ #3 #4 // Des loups et des hommes -> Quete qui utilise une hutte pres de Thalantyr a Haute Haie.: 4.0
+~AC_QUEST/AC_QUEST.TP2~ #3 #6 // Le grand Carlini: 4.0
+~AC_QUEST/AC_QUEST.TP2~ #3 #7 // Elevage de grouilleux: 4.0
+~AC_QUEST/AC_QUEST.TP2~ #3 #8 // Les groupies: 4.0
+~AC_QUEST/AC_QUEST.TP2~ #3 #9 // Les Serpents d'Abbathor: 4.0
+~AC_QUEST/AC_QUEST.TP2~ #3 #10 // Un petit-homme parmi les sans-yeux: 4.0
+~BW_HERBS/SETUP-BW_HERBS.TP2~ #1 #0 // Herbes et Potions (BG1 / BG1Tutu / BGT) par Baronius: v1.0.3 BWP Tweak
+~THALAN/THALAN.TP2~ #2 #0 // Thalantyr - Item Upgrade: v4.2.5
+~SETUP-LOSTITEMS.TP2~ #0 #0 // Lost Items: vR2 BWP Fix
+~BG1NPC/BG1NPC.TP2~ #2 #0 // BG1 NPC Project : modifications necessaires: v25
+~BG1NPC/BG1NPC.TP2~ #2 #10 // BG1 NPC Project : bavardages, quetes et interjections: v25
+~BG1NPC/BG1NPC.TP2~ #2 #20 // BG1 NPC Project : romance d'Ajantis, elements de base (contenu adolescent) -> Rythme : 1 heure de temps reel entre les dialogues de romance (standard): v25
+~BG1NPC/BG1NPC.TP2~ #2 #30 // BG1 NPC Project : romance de Branwen, elements de base (contenu adolescent) -> Rythme : 1 heure de temps reel entre les dialogues de romance (standard): v25
+~BG1NPC/BG1NPC.TP2~ #2 #40 // BG1 NPC Project : romance de Coran, elements de base (contenu adulte) -> Rythme : 1 heure de temps reel entre les dialogues de romance (standard): v25
+~BG1NPC/BG1NPC.TP2~ #2 #50 // BG1 NPC Project : romance de Dynaheir, elements de base (contenu adolescent) -> Rythme : 1 heure de temps reel entre les dialogues de romance (standard): v25
+~BG1NPC/BG1NPC.TP2~ #2 #60 // BG1 NPC Project : relation avec Shar-Teel, elements de base (contenu adulte) -> Rythme : 1 heure de temps reel entre les dialogues de romance (standard): v25
+~BG1NPC/BG1NPC.TP2~ #2 #70 // BG1 NPC Project : romance de Xan, elements de base (contenu adolescent) -> Rythme : 1 heure de temps reel entre les dialogues de romance (standard): v25
+~BG1NPC/BG1NPC.TP2~ #2 #120 // BG1 NPC Project : ajustement de reputation grace a des bardes: v25
+~BG1NPC/BG1NPC.TP2~ #2 #130 // BG1 NPC Project : ajustements du journal de Sarevok -> Journal de Sarevok enrichi par SixofSpades: v25
+~BG1NPC/BG1NPC.TP2~ #2 #150 // BG1 NPC Project : donner a Kivan son portait issu du mod "Kivan and Deheriana Companions": v25
+~BG1NPC/BG1NPC.TP2~ #2 #200 // BG1 NPC Project : dialogues inities par le joueur: v25
+~CDPORTRAITS/SETUP-CDPORTRAITS.TP2~ #0 #11 // Edwin -> Use BG2 portrait: v1
+~CDPORTRAITS/SETUP-CDPORTRAITS.TP2~ #0 #21 // Imoen -> Use BG2 portrait: v1
+~CDPORTRAITS/SETUP-CDPORTRAITS.TP2~ #0 #31 // Jaheira -> Use BG2 portrait: v1
+~CDPORTRAITS/SETUP-CDPORTRAITS.TP2~ #0 #41 // Minsc -> Use BG2 portrait: v1
+~CDPORTRAITS/SETUP-CDPORTRAITS.TP2~ #0 #52 // Viconia -> Use SoD portrait: v1
+~BG1NPCMUSIC/SETUP-BG1NPCMUSIC.TP2~ #0 #0 // The BG1 NPC Project Music Pack -> Install All Audio: v6
+~IMOEN.TP2~ #1 #0 // 'Imoen Romance Add-on Mod BG2:SoA(ToB requis!)v1.201'
+~GARRICK-TT/SETUP-GARRICK-TT.TP2~ #0 #0 // Garrick : les contes d'un troubadour: 1.26
+~BG1RE/SETUP-BG1RE.TP2~ #2 #103 // Main Component: Amount of -ahem- details and BG-style vs. description text! (Required) -> BG-style Version [Adult content] and Show/Install all Components with Warnings.: 7.0
+~BG1RE/SETUP-BG1RE.TP2~ #2 #1 // Bardolan's Briefing, by berelinde: 7.0
+~BG1RE/SETUP-BG1RE.TP2~ #2 #2 // Scar's Spare Time, by jastey: 7.0
+~BG1RE/SETUP-BG1RE.TP2~ #2 #3 // Kim's Preoccupation, by jastey (WARNING - refer to the readme!): 7.0
+~BG1RE/SETUP-BG1RE.TP2~ #2 #4 // Extension of Bjornin Encounter (Personal Wound Treatment), by jastey: 7.0
+~BG1RE/SETUP-BG1RE.TP2~ #2 #5 // No Starch in the Maypole: 7.0
+~BG1RE/SETUP-BG1RE.TP2~ #2 #7 // Husam's Personal Preparation, by jastey: 7.0
+~BG1RE/SETUP-BG1RE.TP2~ #2 #8 // Laurel's Post-Hunting, by jastey: 7.0
+~BG1RE/SETUP-BG1RE.TP2~ #2 #9 // Bartus' Seduction, by jastey: 7.0
+~BG1RE/SETUP-BG1RE.TP2~ #2 #10 // Lina's Massage, by jastey: 7.0
+~BG1RE/SETUP-BG1RE.TP2~ #2 #11 // First Night with Quentin, by Kulyok: 7.0
+~BG1RE/SETUP-BG1RE.TP2~ #2 #12 // Chatting Niklos Up, by Kulyok (mature content. WARNING - refer to the readme!): 7.0
+~BG1RE/SETUP-BG1RE.TP2~ #2 #13 // Slythe and Krystin, by Kulyok (mature content. WARNING - refer to the readme!): 7.0
+~BG1RE/SETUP-BG1RE.TP2~ #2 #14 // No Regrets: 7.0
+~BG1RE/SETUP-BG1RE.TP2~ #2 #15 // Purchased Love, by Thimblerig: 7.0
+~BG1RE/SETUP-BG1RE.TP2~ #2 #16 // Hull: Heavy Duty, by Lava: 7.0
+~BG1RE/SETUP-BG1RE.TP2~ #2 #17 // Late Night with Jaheira, by Kulyok: 7.0
+~BG1RE/SETUP-BG1RE.TP2~ #2 #18 // Sil's Blessing, by Lava: 7.0
+~BG1RE/SETUP-BG1RE.TP2~ #2 #19 // Melicamp: The Poultry Boy, by Lava: 7.0
+~BG1RE/SETUP-BG1RE.TP2~ #2 #20 // Reading with Rinnie, by Western Paladin: 7.0
+~BG1RE/SETUP-BG1RE.TP2~ #2 #21 // Molly the Husband-Grabber, by Kulyok: 7.0
+~BG1RE/SETUP-BG1RE.TP2~ #2 #22 // The Mourning of Centeol, the Spider Lady, by Lava: 7.0
+~BG1RE/SETUP-BG1RE.TP2~ #2 #23 // The Essential End, by Lava (WARNING - refer to the readme!): 7.0
+~BG1RE/SETUP-BG1RE.TP2~ #2 #24 // The Harvestmen Lair, by Lava (mature content): 7.0
+~BG1RE/SETUP-BG1RE.TP2~ #2 #25 // The Great Zudini, by Kulyok (mature content): 7.0
+~BG1RE/SETUP-BG1RE.TP2~ #2 #26 // The Messenger, by Thimblerig: 7.0
+~BG1RE/SETUP-BG1RE.TP2~ #2 #27 // Ender Sai, the Hero's Reward, by Thimblerig (WARNING - refer to the readme!): 7.0
+~BG1RE/SETUP-BG1RE.TP2~ #2 #29 // The Honest Lies of Two Riversides, By Lava: 7.0
+~BG1RE/SETUP-BG1RE.TP2~ #2 #31 // Dinner with Thalantyr, by jastey: 7.0
+~BG1RE/SETUP-BG1RE.TP2~ #2 #32 // Girdle of Gender Reactions, by Thimblerig, Kulyok, Domi, Lava, Lastknightleft, Twani, Jastey, Daisy Ninja Girl: 7.0
+~BG1RE/SETUP-BG1RE.TP2~ #2 #33 // The Surgeon's Dream, by Kulyok: 7.0
+~BG1RE/SETUP-BG1RE.TP2~ #2 #36 // Arlene the Working Girl, by Kulyok: 7.0
+~BG1RE/SETUP-BG1RE.TP2~ #2 #37 // Della May from Thay, by Kulyok: 7.0
+~BG1RE/SETUP-BG1RE.TP2~ #2 #39 // Phoenix Flame, by Kulyok (mature content): 7.0
+~BG1RE/SETUP-BG1RE.TP2~ #2 #40 // Mikala the Monk, by Twani: 7.0
+~BG1RE/SETUP-BG1RE.TP2~ #2 #43 // Minor Disclosures, by jastey: 7.0
+~BG1RE/SETUP-BG1RE.TP2~ #2 #44 // Cloakwood Lovers, by tibicina: 7.0
+~CHATTYIMOEN/SETUP-CHATTYIMOEN.TP2~ #1 #0 // Chatty Imoen : Repliques audio supplementaires: v1.3
+~CHATTYIMOEN/SETUP-CHATTYIMOEN.TP2~ #1 #1 // Chatty Imoen : Interactions supplementaires avec les autres personnages: v1.3
+~BG1UB/SETUP-BG1UB.TP2~ #3 #0 // Restitution du deuxieme niveau de l'Ile de Glace: v16.3
+~BG1UB/SETUP-BG1UB.TP2~ #3 #1 // La fiole mysterieuse: v16.3
+~BG1UB/SETUP-BG1UB.TP2~ #3 #3 // Angelo remarque Shar-Teel: v16.3
+~BG1UB/SETUP-BG1UB.TP2~ #3 #8 // Safana la flirteuse: v16.3
+~BG1UB/SETUP-BG1UB.TP2~ #3 #9 // Recompense appropriee pour Albert et Rufie: v16.3
+~BG1UB/SETUP-BG1UB.TP2~ #3 #10 // Placer Entar Ecudargent dans sa demeure: v16.3
+~BG1UB/SETUP-BG1UB.TP2~ #3 #11 // Scar et la fille des Sashenstar: v16.3
+~BG1UB/SETUP-BG1UB.TP2~ #3 #12 // Quoningar le Clerc: v16.3
+~BG1UB/SETUP-BG1UB.TP2~ #3 #13 // Shilo Chen et les Ogres-mages: v16.3
+~BG1UB/SETUP-BG1UB.TP2~ #3 #14 // Edie, la postulante de la Ligue des Marchands: v16.3
+~BG1UB/SETUP-BG1UB.TP2~ #3 #15 // Renforts de mercenaires du Poing Enflamme: v16.3
+~BG1UB/SETUP-BG1UB.TP2~ #3 #16 // Corrections de creatures: v16.3
+~BG1UB/SETUP-BG1UB.TP2~ #3 #17 // Restitutions de creatures: v16.3
+~BG1UB/SETUP-BG1UB.TP2~ #3 #18 // Restitutions de noms de creatures: v16.3
+~BG1UB/SETUP-BG1UB.TP2~ #3 #19 // Restitutions mineures de dialogues: v16.3
+~BG1UB/SETUP-BG1UB.TP2~ #3 #20 // Restitutions audio: v16.3
+~BG1UB/SETUP-BG1UB.TP2~ #3 #21 // Reparations et restitutions de magasins, tavernes et auberges: v16.3
+~BG1UB/SETUP-BG1UB.TP2~ #3 #22 // Corrections et restitutions d'objets: v16.3
+~BG1UB/SETUP-BG1UB.TP2~ #3 #23 // Corrections et restitutions de lieux: v16.3
+~BG1UB/SETUP-BG1UB.TP2~ #3 #24 // Cadavres permanents: v16.3
+~BG1UB/SETUP-BG1UB.TP2~ #3 #28 // Alteration de Prisme et ses emeraudes: v16.3
+~BG1UB/SETUP-BG1UB.TP2~ #3 #29 // Le Duc Eltan dans la batisse du Maitre du Port: v16.3
+~BG1UB/SETUP-BG1UB.TP2~ #3 #30 // Rencontre de Nim Furlwing: v16.3
+~BG1UB/SETUP-BG1UB.TP2~ #3 #31 // Restitution du film de la taverne du Chant de l'Elfe: v16.3
+~BG1UB/SETUP-BG1UB.TP2~ #3 #32 // Svlast, la rencontre du Paladin dechu: v16.3
+~BG1UB/SETUP-BG1UB.TP2~ #3 #33 // Mal-Kalen, le fantome d'Ulcaster: v16.3
+~BG1UB/SETUP-BG1UB.TP2~ #3 #34 // Restitutions de dialogues du chapitre 6: v16.3
+~SETUP-BGSPAWN.TP2~ #3 #0 // Systeme BGSpawn base sur le niveau et le nombre de membres du groupe (REMARQUE : necessite Baldur's Gate Trilogy - WeiDU): 1.12 BWP Fix
+~SETUP-BGSPAWN.TP2~ #3 #1 // Choisissez l'intervalle entre les apparitions de creatures: 1.12 BWP Fix
+~SETUP-BGSPAWN.TP2~ #3 #2 // Seigneur Loup Vampirique (inspire par le Loup d'Ulcaster de DavidW) REMARQUE : ceci modifie certains Loups vampiriques dans le jeu. Le systeme BGSpawn s'en sert: 1.12 BWP Fix
+~SETUP-BGSPAWN.TP2~ #3 #3 // Rencontres aleatoires de BGSpawn entre les zones (REMARQUE : necessite Baldur's Gate Trilogy - WeiDU): 1.12 BWP Fix
+~SETUP-BGTTWEAK.TP2~ #2 #100 // Eldoth rappelle d'aller recuperer la rancon de Skie: 11 (5 Feb 12) BWP Fix
+~SETUP-BGTTWEAK.TP2~ #2 #400 // Ajout de la cape de Semaj et anneau de protection de Korevas ameliore: 11 (5 Feb 12) BWP Fix
+~SETUP-BGTTWEAK.TP2~ #2 #800 // Importer davantage d'objets dans Shadows of Amn (ATTENTION : Ceci est de la triche): 11 (5 Feb 12) BWP Fix
+~SETUP-BGTTWEAK.TP2~ #2 #901 // Pieges aleatoires dans la caverne des pirates -> Attribution faite pendant l'installation: 11 (5 Feb 12) BWP Fix
+~SETUP-BGTTWEAK.TP2~ #2 #1000 // Sacs sur la Cote des Epees: 11 (5 Feb 12) BWP Fix
+~SETUP-BGTTWEAK.TP2~ #2 #1200 // Arkion reagit en fonction de la reputation du PJ: 11 (5 Feb 12) BWP Fix
+~SETUP-BGTTWEAK.TP2~ #2 #1502 // Modifier les effets de la penurie de fer -> Les armures et boucliers peuvent se briser: 11 (5 Feb 12) BWP Fix
+~SETUP-BGTTWEAK.TP2~ #2 #2001 // Modification de la biographie du protagoniste -> Ne pas affecter la biographie BG1 pour les personnages importes: 11 (5 Feb 12) BWP Fix
+~SETUP-BGTTWEAK.TP2~ #2 #2100 // Armes exotiques pour Taerom: 11 (5 Feb 12) BWP Fix
+~SETUP-BGTTWEAK.TP2~ #2 #2300 // Desactiver la reaction hostile apres un charme: 11 (5 Feb 12) BWP Fix
+~SETUP-BGTTWEAK.TP2~ #2 #2400 // Les objets des ennemis peuvent se briser: 11 (5 Feb 12) BWP Fix
+~SETUP-BGTTWEAK.TP2~ #2 #2500 // Acces a Barbe d'Ulgoth uniquement par l'ouest du Travers du Ver: 11 (5 Feb 12) BWP Fix
+~SETUP-BGTTWEAK.TP2~ #2 #2600 // Empecher l'acces a la Tour de Durlag par les zones adjacentes: 11 (5 Feb 12) BWP Fix
+~SETUP-BGTTWEAK.TP2~ #2 #2700 // Mettre l'Epee du chaos +2 dans l'inventaire de Sarevok: 11 (5 Feb 12) BWP Fix
+~SETUP-BGTTWEAK.TP2~ #2 #2800 // Reinitialisation de la reputation dans BG2: 11 (5 Feb 12) BWP Fix
+~SETUP-TTSQ.TP2~ #4 #0 // The Tortured Soul Quest - WeiDU: v7
+~EMAD/SETUP-EMAD.TP2~ #3 #0 // Une aventure classée Z - Une non-entrée pour l'IM4: v11
+~EMAD/SETUP-EMAD.TP2~ #3 #1 // La promesse d'un troll: v11
+~EMAD/SETUP-EMAD.TP2~ #3 #2 // Le meilleur ami de l'enfant de Bhaal: v11
+~EMAD/SETUP-EMAD.TP2~ #3 #3 // Sous son charme: v11
+~EMAD/SETUP-EMAD.TP2~ #3 #5 // Pot-pourri de personnages: v11
+~BWQUEST.TP2~ #1 #0 // La Rose Noire Acte I: Les Prix du Marche
+~C#SB_SILBER/SETUP-C#SB_SILBER.TP2~ #2 #0 // Adalon's Blood - Modification pour BGII par Gandalf the white: 14
+~TOD/TOD.TP2~ #6 #0 // Mod Tower of Deception (necessite Throne of Bhaal): v4.0.3
+~TOD/TOD.TP2~ #6 #1 // Gardien ameliore de l'Eclat Astral: v4.0.3
+~TOD/TOD.TP2~ #6 #2 // Rencontre avec Ustrain: v4.0.3
+~ASSASSINATIONS/ASSASSINATIONS.TP2~ #6 #0 // Mod Assassinations pour Baldur's Gate II: v16
+~TOTDG/SETUP-TOTDG.TP2~ #2 #0 // Couleurs de l'Infini : Contes des Jardins Profonds -> Oui, mais sans corriger les sauvegardes de jeu existantes: 12.6
+~INNERSHADE/SETUP-INNERSHADE.TP2~ #1 #0 // Couleurs de l'Infini : Innershade -> Oui, mais sans corriger les sauvegardes de jeu existantes: 10.4
+~WHITEQUEEN/WHITEQUEEN.TP2~ #4 #0 // Couleurs de l'Infini - La Reine Blanche -> Oui, mais sans corriger les sauvegardes de jeu existantes: 6.8
+~ISNF/ISNF.TP2~ #2 #0 // Couleurs de l'Infini : I Shall Never Forget (Je N'Oublierai Jamais): 5.8
+~EILISTRAEE/SETUP-EILISTRAEE.TP2~ #1 #0 // Eilistraee's Song -> Oui, mais sans corriger les sauvegardes de jeu existantes: 6.8
+~SOUTHERNEDGE/SOUTHERNEDGE.TP2~ #4 #0 // Bord Sud : le nouveau quartier d'Athkatla -> Oui, mais sans corriger les sauvegardes de jeu existantes: 3.21
+~OOZE/OOZE.TP2~ #4 #0 // Le Salon des vases : une nouvelle zone sous les bas quartiers d'Athkatla: 2.9
+~TANGLEDISLE/TANGLEDISLE.TP2~ #3 #0 // L'ile du Chene Enchevetre : une nouvelle zone d'Athkatla -> Oui , mais ne pas patcher les sauvegardes existantes: 2.20
+~SETUP-AZENMOD.TP2~ #1 #0 // Rencontre tactique d'Azengaard (revision d'erebusant): v5 BWP Fix
+~SETUP-AZENMOD.TP2~ #1 #1 // Crypte de Franc-Marche amelioree: v5 BWP Fix
+~SETUP-AZENMOD.TP2~ #1 #2 // Forteresse d'Irenicus amelioree: v5 BWP Fix
+~SETUP-COM_ENCOUNTERS.TP2~ #1 #0 // Rencontres, par Chosen of Mystra (Necessite Throne of  Bhaal): v1.10_charsets BWP Fix
+~SETUP-COM_ENCOUNTERS.TP2~ #1 #1 // Rencontres avec les druides ameliorees: v1.10_charsets BWP Fix
+~SETUP-COM_ENCOUNTERS.TP2~ #1 #2 // Rencontres avec Shagbag ameliorees: v1.10_charsets BWP Fix
+~DERATS_MAGASIN_2/SETUP-DERATS_MAGASIN_2.TP2~ #0 #0 // L'interplan, Articles magiques: v5
+~RGENIE/SETUP-RGENIE.TP2~ #7 #0 // Le Genie de Ribald
+~HEARTWOOD/HEARTWOOD.TP2~ #4 #0 // Coeur du bois (version WeiDU): 7.0.0
+~BW_HERBS_BG2/SETUP-BW_HERBS_BG2.TP2~ #6 #0 // Herbes et Potions pour BG2, par Baronius: v1.0.5 BWP Patch
+~ROLLES/ROLLES.TP2~ #2 #0 // Rolles Safyer: v5.0.4
+~RTTITEMPACK/RTTITEMPACK.TP2~ #2 #0 // Voulez-vous installer RTT Item Pack ? **Tous les objets magiques sont ajoutes au magasin 'special' de Ribald (Marche de l'Aventurier, Promenade de Waukyne) qui sera accessible seulement au retour de l'asile de SpellHold.**: v1.2 BWP Fix
+~RUAD/RUAD.TP2~ #1 #0 // Ruad Ro'fhessa (SoA): v29.4.0
+~RUAD/RUAD.TP2~ #1 #10 // Ruad Ro'fhessa (ToB): v29.4.0
+~UNDERREP/SETUP-UNDERREP.TP2~ #1 #0 // Objets peu representes provenant d'Icewind Dale 2
+~ITEMUPGRADE/ITEMUPGRADE.TP2~ #1 #10 // Shadows Of Amn Item Upgrades -> Version revisee (les nouvelles ameliorations sont proposees dans le meme style que les ameliorations du jeu de base): v45
+~ITEMUPGRADE/ITEMUPGRADE.TP2~ #1 #11 // Throne Of Bhaal Item Upgrades -> Version revisee (les nouvelles ameliorations sont proposees dans le meme style que les ameliorations du jeu de base): v45
+~CLIFFKEY/SETUP-CLIFFKEY.TP2~ #3 #1 // Un mod pour les maniaques - Ajoute un porte-clefs a  Feerune ! Reportez-vous au fichier readme pour plus de details sur les choix  proposes ci-dessous. -> Version 2 : l'acheter dans des magasins: v7
+~SETUP-BLOODMORT.TP2~ #4 #0 // Nouveau sort - Sang du Martyr: v6
+~STUFFOFTHEMAGI/STUFFOFTHEMAGI.TP2~ #1 #0 // Arsenal du mage -> Utiliser les nouveaux objets, moins grobillesques ET les ajouter a l'equipement des creatures (recommande): 6.0.0
+~BOLSA/BOLSA.TP2~ #2 #0 // Bolsa: v6.0.0
+~DARRON/DARRON.TP2~ #4 #0 // Darron: v2.0.0
+~NANSTEIN/NANSTEIN.TP2~ #1 #0 // Nanstein, Ingenieur mage en chef de la montagne Sansimportance: V2
+~ALCHEMY/ALCHEMY.TP2~ #2 #0 // Kit d'alchimie de Jan: v8.1.0
+~SWORDAP/SWORDAP.TP2~ #4 #0 // Epees ameliorees d'Haer'Dalis: v3.1.0
+~MERSKSTORE/SETUP-MERSKSTORE.TP2~ #0 #0 // Mersetek: V1.3.1
+~MYSTIGAN/SETUP-MYSTIGAN.TP2~ #0 #0 // Marchand Mystigan (ToB requis)
+~DSR/DSR.TP2~ #2 #0 // Rituel de Convocation demoniaque - WeiDU: v8.0.0
+~SETUP-IWDITEMPACK.TP2~ #4 #0 // Talisman du Loup Noir
+~SETUP-IWDITEMPACK.TP2~ #4 #1 // Chaine de Fureur de Drakkas
+~SETUP-IWDITEMPACK.TP2~ #4 #2 // Insigne de la Maison Despana
+~SETUP-IWDITEMPACK.TP2~ #4 #3 // Brise-Barriques du Shaengarne
+~SETUP-IWDITEMPACK.TP2~ #4 #4 // Harnois plain de Kresselack
+~SETUP-IWDITEMPACK.TP2~ #4 #5 // Manteau de la Tempete Prochaine
+~SETUP-IWDITEMPACK.TP2~ #4 #6 // Fleau aux Trois Cranes
+~SETUP-IWDITEMPACK.TP2~ #4 #7 // Epieu de Frene Blanc
+~SETUP-IWDITEMPACK.TP2~ #4 #8 // Douze Pas
+~SETUP-IWDITEMPACK.TP2~ #4 #9 // Torche eternelle de Belib
+~SETUP-IWDITEMPACK.TP2~ #4 #10 // Ceinture liante du Corbeau Noir
+~SETUP-IWDITEMPACK.TP2~ #4 #11 // Amulette du jeune Ned
+~IWDITEMFIX/SETUP-IWDITEMFIX.TP2~ #0 #0 // Fix IWD Item Pack Items turning to Gold on load
+~SETUP-VALEN.TP2~ #1 #0 // Valen: v45 BWP Fix
+~XAN/XAN.TP2~ #3 #0 // PNJ Xan, module pour Baldur's Gate II: v19
+~XAN/XAN.TP2~ #3 #4 // Souhaitez-vous modifier la classe de Xan ? -> Modifier la classe de Xan en Entropiste (ToB requis): v19
+~XAN/XAN.TP2~ #3 #5 // Animation "epee enflammee" de BG1: v19
+~YASRAENA/SETUP-YASRAENA.TP2~ #2 #0 // Yasraena (BG2:SoA & TOB NPC) creee par nethrin & Sillara of the Tamari: v16_charsets
+~THAEL/THAEL.TP2~ #2 #0 // THAEL, l'elfe mage-voleur et VELVEVLOS, la lame sanglante: v2.32
+~HANNA/HANNA.TP2~ #2 #0 // Hanna NPC (ToB requis): v2.5 BWS-FR Fix
+~SETUP-KIM.TP2~ #0 #0 // Kim pour BG2:SOA (ToB:requis) version 1.62d
+~SETUP-KIM.TP2~ #0 #1 // Installation de la hache reajustee
+~TIAX/TIAX.TP2~ #2 #0 // Tiax MOD PNJ Pour Baldur's Gate 2: v6
+~SARAHTOB/SETUP-SARAHTOB.TP2~ #1 #0 // Mod Sarah NPC Romance pour BG2:ToB: 6
+~SETUP-VAMPIRETALES.TP2~ #3 #0 // Vampire Tales (Necessite Throne of Bhaal)
+~SETUP-VAMPIRETALES.TP2~ #3 #1 // Culte de l'Oeil Aveugle ameliore.
+~SETUP-VAMPIRETALES.TP2~ #3 #2 // Combat du Menestrel ameliore.
+~SETUP-VAMPIRETALES.TP2~ #3 #3 // Boutique CoM 1
+~SETUP-SOLAUFEIN.TP2~ #3 #0 // Romance de Solaufein pour Baldur s Gate II (SoA & ToB): v104 BWP Fix
+~SETUP-SHEENA.TP2~ #1 #0 // Installez une Histoire de Demi Dragon: v2.6 BWP Fix
+~KETO/SETUP-KETO.TP2~ #1 #0 // Keto-SOA NPC: V6
+~SETUP-KIARA-ZAIYA.TP2~ #1 #0 // Kiara-Zaiya pour BG2 SOA: v1.6.2 BWP Fix
+~SETUP-KIARA-ZAIYA.TP2~ #1 #3 // Combats originaux d'Amaralis: v1.6.2 BWP Fix
+~SETUP-KIARA-ZAIYA.TP2~ #1 #4 // Kiara plus redoutable en vampire: v1.6.2 BWP Fix
+~SETUP-KIARA-ZAIYA.TP2~ #1 #5 // Modification de Suldanessalar: v1.6.2 BWP Fix
+~SETUP-KIARA-ZAIYA.TP2~ #1 #6 // Jao et son equipe pour Shadows of Amn : un autre rude combat: v1.6.2 BWP Fix
+~SETUP-HORACE.TP2~ #2 #0 // Horace - BGII: v1.74 BWP Fix
+~SETUP-HORACE.TP2~ #2 #1 // Collecteur d'os: v1.74 BWP Fix
+~DEARNISE/DEARNISE.TP2~ #2 #0 // Romance de'Arnise pour Baldur's Gate II: v7
+~CHLOE/CHLOE.TP2~ #4 #0 // Mod du PNJ Chloe: v1.5 BWP Fix
+~BANTERPACK/SETUP-BANTERPACK.TP2~ #3 #0 // Pocket Plane Banter Pack for BG2: Shadows of Amn: v17
+~BANTERPACK/SETUP-BANTERPACK.TP2~ #3 #2 // Pack de Dialogues du Pocket Plane Group pour BG2 : ToB: v17
+~IEPBANTERS/IEPBANTERS.TP2~ #3 #0 // Interaction entre les PNJs plus developpee dans SoA: v5.7
+~IEPBANTERS/IEPBANTERS.TP2~ #3 #1 // Interaction Minsc/Aerie plus developpee dans ToB: v5.7
+~IEPBANTERS/IEPBANTERS.TP2~ #3 #2 // Dialogue "retrospectif" pour Imoen dans ToB: v5.7
+~IEPBANTERS/IEPBANTERS.TP2~ #3 #3 // Dialogue au reveil pour la romance d'Anomen (de David Gaider avec des ajouts de Kulyok): v5.7
+~IEPBANTERS/IEPBANTERS.TP2~ #3 #4 // Revision des conflits entre PNJs: v5.7
+~IEPBANTERS/IEPBANTERS.TP2~ #3 #5 // Restitution de commentaires Aerie/Jaheira/Anomen dans l'Ombreterre: v5.7
+~IEPBANTERS/IEPBANTERS.TP2~ #3 #10 // Voulez-vous installer l'accelerateur de discussions ? Combien de temps souhaitez-vous entre deux discussions entre PNJs dans le jeu ? -> 45 minutes: v5.7
+~VICONIA/VICONIA.TP2~ #1 #0 // Viconia Friendship: v4.5
+~MAZZY/MAZZY.TP2~ #1 #0 // Mazzy Friendship: v3.5
+~YOSHIMO/YOSHIMO.TP2~ #2 #0 // Yoshimo Friendship Mod pour BGII : SoA: v4.5
+~ALCOOL/ALCOOL.TP2~ #0 #0 // Sorties dans les tavernes: V0.12
+~JANQUEST/SETUP-JANQUEST.TP2~ #0 #0 // Extension de la quete de Jan
+~KORGAN/KORGAN.TP2~ #3 #0 // La Redemption de Korgan: v10.0.1
+~SAREVOKFRIENDSHIP/SAREVOKFRIENDSHIP.TP2~ #1 #0 // Sarevok Friendship pour BGII : ToB: v2.6
+~NPCFLIRT/SETUP-NPCFLIRT.TP2~ #3 #0 // Aerie Flirt Pack pour SoA: v1.07
+~NPCFLIRT/SETUP-NPCFLIRT.TP2~ #3 #1 // Aerie/Solaufein : Conflit de romance pour SoA (Solaufein V60 ou plus recommandee): v1.07
+~NPCFLIRT/SETUP-NPCFLIRT.TP2~ #3 #2 // Aerie Flirt Pack pour ToB: v1.07
+~NPCFLIRT/SETUP-NPCFLIRT.TP2~ #3 #3 // Aerie/Solaufein : Conflit de romance pour ToB (Solaufein V60 ou plus recommandee): v1.07
+~NPCFLIRT/SETUP-NPCFLIRT.TP2~ #3 #4 // Jaheira Flirt Pack pour SoA: v1.07
+~NPCFLIRT/SETUP-NPCFLIRT.TP2~ #3 #5 // Jaheira/Solaufein : Conflit de romance pour SoA (Solaufein V60 ou plus recommandee): v1.07
+~NPCFLIRT/SETUP-NPCFLIRT.TP2~ #3 #6 // Jaheira Flirt Pack pour ToB: v1.07
+~NPCFLIRT/SETUP-NPCFLIRT.TP2~ #3 #7 // Jaheira/Solaufein : Conflit de romance pour ToB (Solaufein V60 ou plus recommandee): v1.07
+~NPCFLIRT/SETUP-NPCFLIRT.TP2~ #3 #8 // Viconia Flirt Pack pour SoA: v1.07
+~NPCFLIRT/SETUP-NPCFLIRT.TP2~ #3 #9 // Viconia/Solaufein : Conflit de romance pour SoA (Solaufein V60 ou plus recommandee): v1.07
+~NPCFLIRT/SETUP-NPCFLIRT.TP2~ #3 #10 // Viconia Flirt Pack pour ToB: v1.07
+~NPCFLIRT/SETUP-NPCFLIRT.TP2~ #3 #11 // Viconia/Solaufein : Conflit de romance pour ToB (Solaufein V60 ou plus recommandee): v1.07
+~NPCFLIRT/SETUP-NPCFLIRT.TP2~ #3 #12 // Anomen Flirt Pack pour SoA: v1.07
+~NPCFLIRT/SETUP-NPCFLIRT.TP2~ #3 #13 // Anomen/Solaufein : Conflit de romance pour SoA (Solaufein V60 ou plus recommandee): v1.07
+~NPCFLIRT/SETUP-NPCFLIRT.TP2~ #3 #14 // Anomen Flirt Pack pour ToB: v1.07
+~NPCFLIRT/SETUP-NPCFLIRT.TP2~ #3 #15 // Anomen/Solaufein : Conflit de romance pour ToB (Solaufein V60 ou plus recommandee): v1.07
+~RE/SETUP-RE.TP2~ #2 #0 // Reactions d'Aerie, Anomen, Jaheira et Viconia aux Rencontres: v15
+~RE/SETUP-RE.TP2~ #2 #1 // Tempetes et Eclairs, par berelinde (Seigneure des Tempêtes Ada, contenu adulte): v15
+~RE/SETUP-RE.TP2~ #2 #2 // La Magie d'Aimi, par berelinde (contenu adulte): v15
+~RE/SETUP-RE.TP2~ #2 #3 // Les Doigts Agiles d'Anishai, par cmorgan: v15
+~RE/SETUP-RE.TP2~ #2 #4 // Une Soiree en Compagnie d'Aran, par Kulyok: v15
+~RE/SETUP-RE.TP2~ #2 #5 // Les Desirs de Bjornin, par jastey (contenu adulte): v15
+~RE/SETUP-RE.TP2~ #2 #6 // La Tentation de Bodhi, par Kulyok (contenu adulte): v15
+~RE/SETUP-RE.TP2~ #2 #7 // A Franc-Marche avec la Maitresse de Guilde Busya, par magrat: v15
+~RE/SETUP-RE.TP2~ #2 #8 // Le Cambion Joueur, par Kulyok: v15
+~RE/SETUP-RE.TP2~ #2 #9 // Les Dons de Chanelle, par cmorgan (contenu adulte): v15
+~RE/SETUP-RE.TP2~ #2 #10 // Une Nuit avec Coran, par magrat: v15
+~RE/SETUP-RE.TP2~ #2 #11 // L'Epreuve de Cyric, par Kulyok: v15
+~RE/SETUP-RE.TP2~ #2 #12 // Un Rendez-Vous avec un Seigneur Pirate, par Kulyok (Desharik, contenu adulte): v15
+~RE/SETUP-RE.TP2~ #2 #13 // La Dryade Esseulee, par Kulyok (contenu adulte): v15
+~RE/SETUP-RE.TP2~ #2 #14 // La Douceur d'Edwin, par Kulyok: v15
+~RE/SETUP-RE.TP2~ #2 #15 // Les Exploits d'Eldoth, par Kulyok: v15
+~RE/SETUP-RE.TP2~ #2 #16 // Une Romance avec Elhan, par Kulyok: v15
+~RE/SETUP-RE.TP2~ #2 #17 // Le Gros Gourdin de Firkraag: v15
+~RE/SETUP-RE.TP2~ #2 #18 // Le Contrat de Gaelan, par Evaine Dian: v15
+~RE/SETUP-RE.TP2~ #2 #19 // Une Promenade avec Garren Lancevent, par Kulyok: v15
+~RE/SETUP-RE.TP2~ #2 #20 // Haer'Dalis, par Kulyok: v15
+~RE/SETUP-RE.TP2~ #2 #21 // Le Coeur d'Hendak, par jastey: v15
+~RE/SETUP-RE.TP2~ #2 #22 // Ilona, une Fille de Marchand, par Kulyok: v15
+~RE/SETUP-RE.TP2~ #2 #23 // Les Fascinations de Jarlaxle, par Catseye: v15
+~RE/SETUP-RE.TP2~ #2 #24 // Une Nuit avec Lais a Imnesvale, par Kulyok: v15
+~RE/SETUP-RE.TP2~ #2 #25 // La Promesse de Laran, par berelinde (contenu adulte): v15
+~RE/SETUP-RE.TP2~ #2 #26 // Le Chant d'Amour de Logan, Lord Coprith, par Ajnos: v15
+~RE/SETUP-RE.TP2~ #2 #27 // Mekrath et la Nymphologie, par Kulyok: v15
+~RE/SETUP-RE.TP2~ #2 #28 // Les Marchandises Speciales de Mira, par berelinde: v15
+~RE/SETUP-RE.TP2~ #2 #29 // Le Retour de Noober, par cmorgan: v15
+~RE/SETUP-RE.TP2~ #2 #30 // Rebecca la Bohemienne, par Kulyok: v15
+~RE/SETUP-RE.TP2~ #2 #31 // Renal Bloodscalp : une Dangereuse Affaire, par cmorgan (contenu adulte): v15
+~RE/SETUP-RE.TP2~ #2 #32 // La Specialite du Vieux Ribald, par Evaine Dian: v15
+~RE/SETUP-RE.TP2~ #2 #33 // Sire Ryan Trawl, par Kulyok: v15
+~RE/SETUP-RE.TP2~ #2 #34 // Saemon, un Pirate, par Kulyok (contenu adulte): v15
+~RE/SETUP-RE.TP2~ #2 #35 // Le Reve de Sendai, par Kulyok: v15
+~RE/SETUP-RE.TP2~ #2 #36 // Sheri D'Avignon, la Barde, par cmorgan (contenu adulte): v15
+~RE/SETUP-RE.TP2~ #2 #37 // Solaufein et la Chambre des Plaisirs, par jastey: v15
+~RE/SETUP-RE.TP2~ #2 #38 // La Recompense de Phaere, par berelinde (Talak, esclave sexuel, contenu adulte): v15
+~RE/SETUP-RE.TP2~ #2 #39 // Recherches Magiques avec Teos, par Kulyok: v15
+~RE/SETUP-RE.TP2~ #2 #40 // Un Flirt avec Yoshimo, par Kulyok: v15
+~RE/SETUP-RE.TP2~ #2 #41 // Les Peurs d'Isabelle, par gertjanvh (contenu adulte): v15
+~RE/SETUP-RE.TP2~ #2 #42 // Au Secours d'Anne, par gertjanvh (contenu adulte): v15
+~RE/SETUP-RE.TP2~ #2 #43 // La Reine Ellesime, par Domi: v15
+~RE/SETUP-RE.TP2~ #2 #44 // La Romance de Valygar, par Kulyok: v15
+~RE/SETUP-RE.TP2~ #2 #45 // Une Repetition avec Chandra, par Western Paladin: v15
+~RE/SETUP-RE.TP2~ #2 #46 // Goldander Blackenrock : Apres la Fete, par magrat: v15
+~RE/SETUP-RE.TP2~ #2 #47 // Une Conversation avc Viekang, par magrat: v15
+~RE/SETUP-RE.TP2~ #2 #48 // Bravoure ou Folie ? par Aeryn (Sarevok, contenu adulte): v15
+~RE/SETUP-RE.TP2~ #2 #49 // A Cause de la Lune, par Aeryn (Cernd): v15
+~RE/SETUP-RE.TP2~ #2 #50 // La Confession de Cernick, par Cal Jones: v15
+~RE/SETUP-RE.TP2~ #2 #51 // Romance avec Valygar - Trône de Bhaal, par Kulyok: v15
+~RE/SETUP-RE.TP2~ #2 #52 // Minsc prend un bain, par Thimblerig: v15
+~RE/SETUP-RE.TP2~ #2 #53 // La Vanite de Nizidramanii'yt, par Thimblerig: v15
+~RE/SETUP-RE.TP2~ #2 #54 // Un rendez-vous nocturne, par SisterVigilante: v15
+~FADE/SETUP-FADE.TP2~ #1 #0 // Fade: Un PNJ pour Baldur's Gate II
+~HOMEWARDBOUND/SETUP-HOMEWARDBOUND.TP2~ #1 #0 // Homeward Bound: v7 - 25 April, 2010 BWP Fix
+~HOMEWARDBOUND/SETUP-HOMEWARDBOUND.TP2~ #1 #2 // La separation met fin aux romances -> Les parametres du jeu original restent inchanges: v7 - 25 April, 2010 BWP Fix
+~CAL.TP2~ #3 #0 // Installer le mod Cal(culator) ?
+~SNAKES/SNAKES.TP2~ #1 #0 // La menace ophidienne (pour BGII - ToB uniquement): v4.0.0
+~THOGHMA/SETUP-THOGHMA.TP2~ #0 #0 // Quete au service d'Oghma: v1.7
+~SHARDSOFICE/SETUP-SHARDSOFICE.TP2~ #2 #0 // Le prix de l'amitie: v7
+~SHARDSOFICE/SETUP-SHARDSOFICE.TP2~ #2 #1 // Certains de mes meilleurs amis sont des vases: v7
+~SHARDSOFICE/SETUP-SHARDSOFICE.TP2~ #2 #2 // Restaurer la convocation de vache ? Mais pourquoi faire ?: v7
+~LUCY/LUCY.TP2~ #5 #0 // Lucy la Wiverne: v5.0
+~LYSRE/LYSRE.TP2~ #0 #0 // Lysre MOD PNJ Pour Baldur's Gate 2: 1.0
+~CERBERUS/SETUP-CERBERUS.TP2~ #4 #0 // Mod Cerberus pour BG2:SoA, version 1.06
+~SLANDOR/SLANDOR.TP2~ #2 #0 // Le minotaure et Lilarcor: 2.0
+~ZALNOYA/SETUP-ZALNOYA.TP2~ #2 #0 // Zalnoya et les Voleurs de l'Ombre
+~ZALNOYA/SETUP-ZALNOYA.TP2~ #2 #1 // Correctif pour les rencontres de vampires standards
+~DERATS_OGRE/SETUP-DERATS_OGRE.TP2~ #0 #0 // L'ogre et le gnome, une histoire de bleu: Version 1
+~REUNION/REUNION.TP2~ #1 #0 // Mod Reunion pour Baldur's Gate II: v6
+~ARESTORATIONP/ARESTORATIONP.TP2~ #7 #0 // Restauration de lieux: v8.4
+~ARESTORATIONP/ARESTORATIONP.TP2~ #7 #1 // Restauration de personnages et de dialogues: v8.4
+~ARESTORATIONP/ARESTORATIONP.TP2~ #7 #2 // Restauration de sons: v8.4
+~ARESTORATIONP/ARESTORATIONP.TP2~ #7 #3 // Restauration d'objets: v8.4
+~ARESTORATIONP/ARESTORATIONP.TP2~ #7 #4 // Restauration d'options de souhait: v8.4
+~ARESTORATIONP/ARESTORATIONP.TP2~ #7 #5 // Restauration de table d'XP dans ToB: v8.4
+~ARESTORATIONP/ARESTORATIONP.TP2~ #7 #6 // Liche Deril: v8.4
+~ARESTORATIONP/ARESTORATIONP.TP2~ #7 #7 // Restauration de rencontres aleatoires: v8.4
+~ARESTORATIONP/ARESTORATIONP.TP2~ #7 #8 // Restaurations mineures: v8.4
+~ARESTORATIONP/ARESTORATIONP.TP2~ #7 #10 // Meilleur import d'objet: v8.4
+~ARESTORATIONP/ARESTORATIONP.TP2~ #7 #11 // Restauration du reve de fin avec l'Ecorcheur: v8.4
+~ARESTORATIONP/ARESTORATIONP.TP2~ #7 #12 // Transformation en Ecorcheur alternative: v8.4
+~ARESTORATIONP/ARESTORATIONP.TP2~ #7 #13 // Restauration de la cinematique de la Promenade de Waukyne: v8.4
+~UB/SETUP-UB.TP2~ #1 #0 // Le rapt de Bouh par Cliffette: v28
+~UB/SETUP-UB.TP2~ #1 #1 // Les relations Suna Seni/Valygar: v28
+~UB/SETUP-UB.TP2~ #1 #2 // Kalah et ce qui lui avait ete promis: v28
+~UB/SETUP-UB.TP2~ #1 #3 // "Le chat et la souris" (Bodhi vous pourchasse a Spellhold) par Ghreyfain: v28
+~UB/SETUP-UB.TP2~ #1 #4 // Gorje Hilldark et la quete de l'Illithium etendue: v28
+~UB/SETUP-UB.TP2~ #1 #5 // La quete de Pai'Na et du fleau des araignees: v28
+~UB/SETUP-UB.TP2~ #1 #6 // Amelioration de la Rune Tordue: v28
+~UB/SETUP-UB.TP2~ #1 #7 // Restaure diverses rencontres: v28
+~UB/SETUP-UB.TP2~ #1 #8 // Artemis Entreri dans l'antre de Bodhi: v28
+~UB/SETUP-UB.TP2~ #1 #9 // "Creations de Xzar" corrigees: v28
+~UB/SETUP-UB.TP2~ #1 #10 // Serviteurs des Enfers restaures, par SimDing0: v28
+~UB/SETUP-UB.TP2~ #1 #12 // Restaure certains objets: v28
+~UB/SETUP-UB.TP2~ #1 #15 // Restauration des portraits des PNJ: v28
+~UB/SETUP-UB.TP2~ #1 #17 // Correction des noms de personnages et des biographies: v28
+~UB/SETUP-UB.TP2~ #1 #18 // Dialogues mineurs restaures: v28
+~UB/SETUP-UB.TP2~ #1 #21 // Corrections mineures de Throne of Bhaal: v28
+~UB/SETUP-UB.TP2~ #1 #25 // Le meurtre d'Acton Balthis, par Kulyok: v28
+~SETUP-D0QUESTPACK.TP2~ #3 #0 // Ameliorations generales de l'IA: v3.5
+~SETUP-D0QUESTPACK.TP2~ #3 #1 // Ameliorations des creatures et des zones -> Ameliorations de toutes les creatures et de toutes les zones: v3.5
+~SETUP-D0QUESTPACK.TP2~ #3 #4 // Ameliorations diverses -> Avec des rencontres aleatoires supplementaires: v3.5
+~SETUP-D0QUESTPACK.TP2~ #3 #5 // Contenu additionnel concernant les Voleurs de l'Ombre: v3.5
+~SETUP-D0QUESTPACK.TP2~ #3 #6 // Intrigue alternative Menestrels/Xzar: v3.5
+~SETUP-D0QUESTPACK.TP2~ #3 #7 // Extension de la rencontre avec Reynald: v3.5
+~SETUP-D0QUESTPACK.TP2~ #3 #8 // Intrigue dans la Couronne de Cuivre: v3.5
+~SETUP-D0QUESTPACK.TP2~ #3 #9 // Quete de la potion de Rahul Kanakia: v3.5
+~SETUP-D0QUESTPACK.TP2~ #3 #10 // Epreuves des enfers revisees: v3.5
+~SETUP-D0QUESTPACK.TP2~ #3 #11 // Amelioration de l'Oasis II -> AO2 Renforcement des dialogues et des combats: v3.5
+~SETUP-D0QUESTPACK.TP2~ #3 #13 // Sauvetage de Sanik a Brynnlaw: v3.5
+~SETUP-D0QUESTPACK.TP2~ #3 #14 // Chapardage chez le comptable: v3.5
+~SETUP-D0QUESTPACK.TP2~ #3 #15 // Nouveau destin pour les glands des Dryades: v3.5
+~SETUP-D0QUESTPACK.TP2~ #3 #16 // La tragedie de Besamen: v3.5
+~SETUP-D0QUESTPACK.TP2~ #3 #17 // Implication des esclavagistes plus poussee: v3.5
+~SETUP-D0QUESTPACK.TP2~ #3 #18 // Renvoi des Chevaliers Solamniques chez eux: v3.5
+~SETUP-D0QUESTPACK.TP2~ #3 #19 // Nazariel la liche: v3.5
+~SETUP-D0QUESTPACK.TP2~ #3 #20 // Negociation des recompenses: v3.5
+~SETUP-D0QUESTPACK.TP2~ #3 #21 // Voler l'infernal: v3.5
+~ALTERNATIVES/SETUP-ALTERNATIVES.TP2~ #2 #0 // Alternatives: v15
+~LONGERROAD/LONGERROAD.TP2~ #2 #0 // Longer Road: 2.0.1
+~LONGERROAD/LONGERROAD.TP2~ #2 #1 // Restaure le portrait SoA d'Irenicus: 2.0.1
+~WHEELS/SETUP-WHEELS.TP2~ #1 #0 // Les Roues de la Prophetie (The Wheels of Prophecy): v8.3
+~BUTCHERY/BUTCHERY.TP2~ #1 #10 // Combat contre Tazok et DigDag revise par DrAzTiK: 4.0.0
+~BUTCHERY/BUTCHERY.TP2~ #1 #20 // Reequilibrage de certaines creatures generiques (orques et ogres): 4.0.0
+~BUTCHERY/BUTCHERY.TP2~ #1 #30 // Reequilibrage de Tazok et de DigDag: 4.0.0
+~SETUP-EDWINROMANCE.TP2~ #1 #0 // La Romance d'Edwin: v2.11
+~SETUP-EDWINROMANCE.TP2~ #1 #2 // Flirts d'Edwin: v2.11
+~SETUP-EDWINROMANCE.TP2~ #1 #3 // Nouvelle fin pour la Romance de Viconia ecrite par Laufey: v2.11
+~TSUJATHA/SETUP-TSUJATHA.TP2~ #3 #0 // Tsujatha (PNJ pour BG2:SoA) cree par 'Sillara of the Tamari': v15_charsets BWP Fix
+~NPC_TWEAK/NPC_TWEAK.TP2~ #1 #0 // Anomen: v6
+~NPC_TWEAK/NPC_TWEAK.TP2~ #1 #1 // Cernd: v6
+~VIC.TP2~ #1 #0 // Les races améliorées de victor: v2.0 BWP Fix
+~VIC.TP2~ #1 #3 // Le tueur de Liche: v2.0 BWP Fix
+~FADINGPROMISES/SETUP-FADINGPROMISES.TP2~ #5 #0 // Fading Promises: v9
+~SETUP-FAIRYDRAGON.TP2~ #4 #0 // Authentique Dragon Fee Malicieux: v6
+~WILDMAGE/WILDMAGE.TP2~ #4 #1 // New Wild Magic Spells -> Haughty pansy: v2.1
+~WILDMAGE/WILDMAGE.TP2~ #4 #4 // Spellshaper Kit -> Changed avatar: v2.1
+~TELEPORT/TELEPORT.TP2~ #7 #0 // Sort de téléportation pour BG2:SoA: v14 BWP Fix
+~TELEPORT/TELEPORT.TP2~ #7 #1 // Sort de téléportation pour  BG2:ToB: v14 BWP Fix
+~NPCKIT/NPCKIT.TP2~ #1 #30 // Amelioration de la description des Mages Specialistes: v5
+~NPCKIT/NPCKIT.TP2~ #1 #31 // Remplace pour les nains le kit du Berserker par un kit d'Enrage: v5
+~NPCKIT/NPCKIT.TP2~ #1 #400 // Anomen devient Pretre de Helm apres avoir reussi le Test de Chevalerie: v5
+~NPCKIT/NPCKIT.TP2~ #1 #410 // Anomen devient Berserker apres avoir echoue au Test de Chevalerie: v5
+~NPCKIT/NPCKIT.TP2~ #1 #420 // Empeche Anomen Chaotique Neutre de gagner un Symbole Sacre: v5
+~NPCKIT/NPCKIT.TP2~ #1 #900 // Ajoute Sorcier Rouge a la description de la classe d'Edwin: v5
+~NPCKIT/NPCKIT.TP2~ #1 #2100 // Change le Kit de Korgan en Enrage: v5
+~NPCKIT/NPCKIT.TP2~ #1 #2200 // Fait de Mazzy une vraie Lame consacree d'Arvoreen: v5
+~NPCKIT/NPCKIT.TP2~ #1 #2300 // Change le titre de Minsc en Rodeur de Rashemenie: v5
+~NPCKIT/NPCKIT.TP2~ #1 #2500 // Donne a Nalia le Kit d'Aventurier: v5
+~NPCKIT/NPCKIT.TP2~ #1 #2800 // Donne a Sarevok le vrai Kit de Semeur de Mort: v5
+~SETUP-MYSTRA.TP2~ #0 #0 // Installation du Kit
+~SETUP-PBHAAL.TP2~ #0 #0 // Installation du Kit : Prêtre de Bhaal - crée par Esprit
+~DERATS_KITS/SETUP-DERATS_KITS.TP2~ #0 #0 // Profil de guerrier (demi-orque) : Porteur de haine: v17
+~DERATS_KITS/SETUP-DERATS_KITS.TP2~ #0 #1 // Profil de clerc : Precheur des flammes: v17
+~DERATS_KITS/SETUP-DERATS_KITS.TP2~ #0 #2 // Profil de clerc (nain) : Chantre de la pierre: v17
+~DERATS_KITS/SETUP-DERATS_KITS.TP2~ #0 #3 // Profil de voleur : Arpenteur d'ombres: v17
+~DERATS_KITS/SETUP-DERATS_KITS.TP2~ #0 #4 // Profil de voleur (gnome) : Ombremage: v17
+~DERATS_KITS/SETUP-DERATS_KITS.TP2~ #0 #5 // Profil de mage (remplace l'invocateur) : Savant Artilleur: v17
+~DERATS_KITS/SETUP-DERATS_KITS.TP2~ #0 #6 // Profil de sorcier : Sorcelier: v17
+~DERATS_KITS/SETUP-DERATS_KITS.TP2~ #0 #7 // Profil de jumelage Guerrier -> Mage : Seigneur de guerre: v17
+~DERATS_KITS/SETUP-DERATS_KITS.TP2~ #0 #8 // Profil de multi-classes Guerrier/Mage (elfe) : Chantelameur: v17
+~DERATS_KITS/SETUP-DERATS_KITS.TP2~ #0 #9 // Version BG2 standardisee (pas de malus au temps d'incantation et bonus de maitrise +1/+1 automatique au niveau 9): v17
+~DERATS_KITS/SETUP-DERATS_KITS.TP2~ #0 #10 // Profil de multi-classes Clerc/Entropiste (humain) : Explorateur theurgique: v17
+~DERATS_KITS/SETUP-DERATS_KITS.TP2~ #0 #11 // Profil de multi-classes Voleur/Necromancien : Anatomiste: v17
+~1PP/1PP.TP2~ #1 #104 // 1ppv4 : Modifications de l'interface graphique pour BGII: v4.2.0
+~1PP/1PP.TP2~ #1 #105 // 1ppv4 : Corrections d'avatars: v4.2.0
+~1PP/1PP.TP2~ #1 #106 // 1ppv4 : Femmes naines -> Avatars differencies pour les femmes naines - Baldur's Gate II: v4.2.0
+~1PP/1PP.TP2~ #1 #111 // 1ppv4 : Des voleurs en pagaille -> BGII - Avatars uniques de voleur: v4.2.0
+~1PP/1PP.TP2~ #1 #113 // 1ppv4 : Avatar intelligent & Changement d'armure: v4.2.0
+~1PP/1PP.TP2~ #1 #201 // 1ppv4 : Icones de sorts et de parchemins uniformes: v4.2.0
+~1PP/1PP.TP2~ #1 #203 // 1ppv4 : Retablissement des animations d'epees enflammees: v4.2.0
+~1PP/1PP.TP2~ #1 #204 // 1ppv4 : Coloration des batons: v4.2.0
+~1PP/1PP.TP2~ #1 #205 // 1ppv4 : Boucliers de BG1: v4.2.0
+~1PP/1PP.TP2~ #1 #206 // 1ppv4 : Animations supplementaires de boucliers (fichiers de base): v4.2.0
+~1PP/1PP.TP2~ #1 #207 // 1ppv4 : Batons de magiciens (fichiers de base): v4.2.0
+~1PP/1PP.TP2~ #1 #208 // 1ppv4 : Animations supplementaires de casques (fichiers de base): v4.2.0
+~1PP/1PP.TP2~ #1 #209 // 1ppv4 : Ailes amovibles (fichiers de base): v4.2.0
+~1PP/1PP.TP2~ #1 #210 // 1ppv4 : Plus de diversite de paperdolls d'objets (fichiers de base): v4.2.0
+~1PP/1PP.TP2~ #1 #300 // 1ppv4 : Correction des animations des solaires et des elementaires: v4.2.0
+~1PP/1PP.TP2~ #1 #301 // 1ppv4 : Correction d'autres elements divers: v4.2.0
+~SETUP-OVERSIGHT.TP2~ #1 #2 // Corrections/ameliorations de classes: 16 BWP Fix
+~SETUP-OVERSIGHT.TP2~ #1 #7 // Liberateur Sacre: 16 BWP Fix
+~SONG_AND_SILENCE/SETUP-SONG_AND_SILENCE.TP2~ #1 #0 // Changements concernant les bardes et voleurs purs, ainsi que les kits originaux du jeu (necessaire pour les autres composants): v10
+~SONG_AND_SILENCE/SETUP-SONG_AND_SILENCE.TP2~ #1 #1 // Ajout d'une echoppe pour bardes et voleurs: v10
+~SONG_AND_SILENCE/SETUP-SONG_AND_SILENCE.TP2~ #1 #2 // Installer l'Acrobate (kit de barde): v10
+~SONG_AND_SILENCE/SETUP-SONG_AND_SILENCE.TP2~ #1 #3 // Installer le Choriste (kit de barde): v10
+~SONG_AND_SILENCE/SETUP-SONG_AND_SILENCE.TP2~ #1 #4 // Installer le Chanteur Funebre (kit de barde): v10
+~SONG_AND_SILENCE/SETUP-SONG_AND_SILENCE.TP2~ #1 #5 // Installer le Gitan (kit de barde): v10
+~SONG_AND_SILENCE/SETUP-SONG_AND_SILENCE.TP2~ #1 #6 // Installer l'Aventurier (kit de voleur): v10
+~SONG_AND_SILENCE/SETUP-SONG_AND_SILENCE.TP2~ #1 #7 // Installer le Cambrioleur (kit de voleur): v10
+~SONG_AND_SILENCE/SETUP-SONG_AND_SILENCE.TP2~ #1 #8 // Installer le Lamesprit (kit de voleur): v10
+~SONG_AND_SILENCE/SETUP-SONG_AND_SILENCE.TP2~ #1 #9 // Installer le Tireur d'Elite (kit de voleur): v10
+~SONG_AND_SILENCE/SETUP-SONG_AND_SILENCE.TP2~ #1 #10 // Installer le Danseur de l'Ombre (kit de voleur): v10
+~SWORD_AND_FIST/SETUP-SWORD_AND_FIST.TP2~ #4 #30 // Installer le kit de guerrier : Champion Occultiste: v9
+~SWORD_AND_FIST/SETUP-SWORD_AND_FIST.TP2~ #4 #31 // Installer le kit de guerrier : Duelliste: v9
+~SWORD_AND_FIST/SETUP-SWORD_AND_FIST.TP2~ #4 #32 // Installer le kit de guerrier : Poing de l'Ordre: v9
+~SWORD_AND_FIST/SETUP-SWORD_AND_FIST.TP2~ #4 #34 // Installer le kit de guerrier : Magelame (by ronin69hof, ronin69hof@gmail.com): v9
+~DIVINE_REMIX/SETUP-DIVINE_REMIX.TP2~ #1 #11 // Installer les nouveaux sorts -> Ajouter les nouveaux sorts uniquement si d'autres mods ne l'ont pas deja fait: v8
+~DIVINE_REMIX/SETUP-DIVINE_REMIX.TP2~ #1 #100 // Modification des Clercs: v8
+~DIVINE_REMIX/SETUP-DIVINE_REMIX.TP2~ #1 #103 // Installer le kit de clerc d'Etoile d'Argent de Selune: v8
+~DIVINE_REMIX/SETUP-DIVINE_REMIX.TP2~ #1 #106 // Installer le kit de clerc de Manteau de la Nuit de Shar: v8
+~DIVINE_REMIX/SETUP-DIVINE_REMIX.TP2~ #1 #107 // Installer le kit de clerc de Stratege Divin de la Cavaliere Rouge: v8
+~DIVINE_REMIX/SETUP-DIVINE_REMIX.TP2~ #1 #109 // Installer le kit de clerc d'Aumonier de Guerre de Tempus: v8
+~DIVINE_REMIX/SETUP-DIVINE_REMIX.TP2~ #1 #112 // Installer le kit de clerc de Noble Martyr d'Ilmater: v8
+~DIVINE_REMIX/SETUP-DIVINE_REMIX.TP2~ #1 #115 // Installer le kit de clerc d'Adepte des Flammes de Kossuth: v8
+~DIVINE_REMIX/SETUP-DIVINE_REMIX.TP2~ #1 #118 // Installer le kit de clerc de Tyran d'Iyachtu Xvim: v8
+~DIVINE_REMIX/SETUP-DIVINE_REMIX.TP2~ #1 #121 // Installer le kit de clerc de Gardien du Savoir d'Oghma: v8
+~DIVINE_REMIX/SETUP-DIVINE_REMIX.TP2~ #1 #124 // Installer le kit de clerc de Garde du Coeur de Sunie: v8
+~DIVINE_REMIX/SETUP-DIVINE_REMIX.TP2~ #1 #127 // Installer le kit de clerc de Protecteur Feerique de Corellon: v8
+~DIVINE_REMIX/SETUP-DIVINE_REMIX.TP2~ #1 #130 // Installer le kit de clerc de Maitre des Conflits de Cyric: v8
+~DIVINE_REMIX/SETUP-DIVINE_REMIX.TP2~ #1 #200 // Modification des Druides: v8
+~DIVINE_REMIX/SETUP-DIVINE_REMIX.TP2~ #1 #203 // Installer le kit de Druide de Maitre des Vases: v8
+~DIVINE_REMIX/SETUP-DIVINE_REMIX.TP2~ #1 #403 // Installer le kit de Rodeur d'Archer Sylvain: v8
+~DIVINE_REMIX/SETUP-DIVINE_REMIX.TP2~ #1 #406 // Installer le kit de Rodeur Sauvage: v8
+~DIVINE_REMIX/SETUP-DIVINE_REMIX.TP2~ #1 #409 // Installer le kit de Rodeur de Coureur des Bois: v8
+~DIVINE_REMIX/SETUP-DIVINE_REMIX.TP2~ #1 #412 // Installer le kit de Rodeur de Vengeur: v8
+~DIVINE_REMIX/SETUP-DIVINE_REMIX.TP2~ #1 #415 // Installer le kit de Rodeur de Coureur Sauvage: v8
+~RR/SETUP-RR.TP2~ #1 #0 // Mise a jour du Combat a deux armes pour les voleurs et les bardes: v4.92
+~RR/SETUP-RR.TP2~ #1 #1 // Revisions des kits des voleurs: v4.92
+~RR/SETUP-RR.TP2~ #1 #2 // Revisions des capacites de haut niveau du voleur: v4.92
+~RR/SETUP-RR.TP2~ #1 #3 // Ajustements raciaux propres pour les capacites de voleur: v4.92
+~RR/SETUP-RR.TP2~ #1 #4 // Revisions des kits des bardes: v4.92
+~RR/SETUP-RR.TP2~ #1 #5 // Revisions des capacites de haut niveau des bardes: v4.92
+~RR/SETUP-RR.TP2~ #1 #7 // Equipement supplementaire pour les voleurs et les bardes: v4.92
+~RR/SETUP-RR.TP2~ #1 #8 // Equipement ameliorable: v4.92
+~HAMMERS/SETUP-HAMMERS.TP2~ #2 #0 // Marteaux de jet: v6.1.0
+~HAMMERS/SETUP-HAMMERS.TP2~ #2 #25 // Marteau de jet standard: v6.1.0
+~HAMMERS/SETUP-HAMMERS.TP2~ #2 #35 // Armes de jet +1: v6.1.0
+~HAMMERS/SETUP-HAMMERS.TP2~ #2 #50 // Objets magiques supplementaires: v6.1.0
+~CURSED_ITEMS/CURSED_ITEMS.TP2~ #1 #0 // Cursed items revisions, par Salk: v3.75
+~CURSED_ITEMS/CURSED_ITEMS.TP2~ #1 #10 // Pierre de rappel: v3.75
+~ITEM_REV/ITEM_REV.TP2~ #1 #3 // Autoriser le lancement de sorts en armure -> Avec une penalite de vitesse d'incantation pour les lanceurs de sorts profanes: V4 Beta 10
+~ITEM_REV/ITEM_REV.TP2~ #1 #9 // Autoriser l'usage des competences de voleur en armure -> Furtivite penalisee par les armures: V4 Beta 10
+~ITEM_REV/ITEM_REV.TP2~ #1 #1030 // Revision des boutiques: V4 Beta 10
+~ITEM_REV/ITEM_REV.TP2~ #1 #1040 // Bonus des armures revus -> Penalite a la vitesse de deplacement: V4 Beta 10
+~ITEM_REV/ITEM_REV.TP2~ #1 #10 // Bonus des boucliers revus: V4 Beta 10
+~ITEM_REV/ITEM_REV.TP2~ #1 #17 // Modifications des armes: V4 Beta 10
+~ITEM_REV/ITEM_REV.TP2~ #1 #11 // Le combat a deux armes differe selon le type d'arme, legere ou lourde: V4 Beta 10
+~ITEM_REV/ITEM_REV.TP2~ #1 #18 // Attaque sournoise revue (avec et sans penalite) -> Uniquement avec les armes du voleur monoclasse: V4 Beta 10
+~ITEM_REV/ITEM_REV.TP2~ #1 #1200 // Evitement des coups critiques revu: V4 Beta 10
+~ITEM_REV/ITEM_REV.TP2~ #1 #12 // Les objets de protection peuvent etre portes en meme temps qu'une armure magique: V4 Beta 10
+~ITEM_REV/ITEM_REV.TP2~ #1 #1093 // Annule les restrictions d'arme pour les lanceurs de sorts divins multiclasses -> Pour les Clercs et les Druides, specialisation diminuee de moitie: V4 Beta 10
+~ITEM_REV/ITEM_REV.TP2~ #1 #15 // Equipement des Druides version papier -> Pour les Druides uniquement: V4 Beta 10
+~ITEM_REV/ITEM_REV.TP2~ #1 #1060 // Les Kensai peuvent porter des bracelets: V4 Beta 10
+~WSR/WSR.TP2~ #2 #100 // Revision du kit de Tueur de magiciens: v1.14
+~WSR/WSR.TP2~ #2 #302 // Revision des restrictions d'utilisation d'objets pour le Tueur de magiciens -> Changements moderes: v1.14
+~WSR/WSR.TP2~ #2 #999 // Icones style BG2 pour le contenu de WSR: v1.14
+~INFINITYANIMATIONS/INFINITYANIMATIONS.TP2~ #1 #0 // Infinity Animations (composant principal): v6.0.0 beta
+~INFINITYANIMATIONS/INFINITYANIMATIONS.TP2~ #1 #25 // Correction des animations des humanoides: v6.0.0 beta
+~INFINITYANIMATIONS/INFINITYANIMATIONS.TP2~ #1 #50 // Genies differencies: v6.0.0 beta
+~INFINITYANIMATIONS/INFINITYANIMATIONS.TP2~ #1 #100 // Demons differencies: v6.0.0 beta
+~INFINITYANIMATIONS/INFINITYANIMATIONS.TP2~ #1 #175 // Diantrefosses -> Attribuer a certains l'animation de NWN: v6.0.0 beta
+~INFINITYANIMATIONS/INFINITYANIMATIONS.TP2~ #1 #210 // Animation d'Isair pour les cambions -> Pour tous les cambions: v6.0.0 beta
+~INFINITYANIMATIONS/INFINITYANIMATIONS.TP2~ #1 #260 // Animation de Madae pour les alu-demons -> Pour toutes les alu-demons: v6.0.0 beta
+~INFINITYANIMATIONS/INFINITYANIMATIONS.TP2~ #1 #400 // Morts-vivants differencies: v6.0.0 beta
+~INFINITYANIMATIONS/INFINITYANIMATIONS.TP2~ #1 #410 // Combattants squelettes -> Leur attribuer l'animation de necrophage des tertres (Wight Barrow): v6.0.0 beta
+~INFINITYANIMATIONS/INFINITYANIMATIONS.TP2~ #1 #450 // Animation de pauvre here -> Pour certains mendiants et esclaves: v6.0.0 beta
+~INFINITYANIMATIONS/INFINITYANIMATIONS.TP2~ #1 #500 // Plus d'animations de base: v6.0.0 beta
+~INFINITYANIMATIONS/INFINITYANIMATIONS.TP2~ #1 #550 // Plus d'animations d'Icewind Dale: v6.0.0 beta
+~INFINITYANIMATIONS/INFINITYANIMATIONS.TP2~ #1 #600 // Plus d'animations d'Icewind Dale II: v6.0.0 beta
+~INFINITYANIMATIONS/INFINITYANIMATIONS.TP2~ #1 #720 // Plus d'animations de Planescape: Torment -> 50 % des creatures non-recrutables concernees: v6.0.0 beta
+~INFINITYANIMATIONS/INFINITYANIMATIONS.TP2~ #1 #7010 // Avatars de Moinesse pour IA -> 50 % des creatures non-recrutables concernees: v6.0.0 beta
+~INFINITYANIMATIONS/INFINITYANIMATIONS.TP2~ #1 #9000 // Correction des cartes -> Correction des references des creatures dans les cartes: v6.0.0 beta
+~AURORA/SETUP-AURORA.TP2~ #1 #0 // Aurora's Shoes and Boots: v5.2.2 BWP-FR Fix
+~AURORA/SETUP-AURORA.TP2~ #1 #10 // Petits portraits pour les PNJs -> Marchands et PNJs mineurs: v5.2.2 BWP-FR Fix
+~AURORA/SETUP-AURORA.TP2~ #1 #115 // Changer les prix d'achat des magasins -> Reduit a 75%: v5.2.2 BWP-FR Fix
+~AURORA/SETUP-AURORA.TP2~ #1 #170 // Changer les prix de vente des magasins -> Augmente de 125%: v5.2.2 BWP-FR Fix
+~AURORA/SETUP-AURORA.TP2~ #1 #215 // Changer les prix des gemmes et des bijoux -> Reduit a 67% (recommande): v5.2.2 BWP-FR Fix
+~AURORA/SETUP-AURORA.TP2~ #1 #247 // Changement de l'or recu en recompense de quete -> Reduit a 50%: v5.2.2 BWP-FR Fix
+~AURORA/SETUP-AURORA.TP2~ #1 #470 // Changer l'or transporte par les creatures -> Reduit a 50% (recommande): v5.2.2 BWP-FR Fix
+~AURORA/SETUP-AURORA.TP2~ #1 #500 // Version papier des Horreurs casquees et de Bataille: v5.2.2 BWP-FR Fix
+~AURORA/SETUP-AURORA.TP2~ #1 #520 // Commandos Kobolds Realistes: v5.2.2 BWP-FR Fix
+~W_PACKMULE/SETUP-W_PACKMULE.TP2~ #3 #0 // Mule de bat -> Fontes standards: v1.4a BWP Fix
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #2 #70 // Incantation des sorts style Icewind Dale (Andyr): v9
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #2 #100 // Couleurs ternes pour les habits des roturiers: v9
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #2 #110 // Amelioration des icones des objets: v9
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #2 #130 // Mode pause dans tous les dialogues: v9
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #2 #140 // Correction du cri de Bouh: v9
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #2 #181 // Recipients uniques -> Recipients uniques seulement: v9
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #2 #1010 // Davantage d'interjections: v9
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #2 #1020 // Modifier la valeur limite des points de vie pour les dialogues des PNJs blesses: v9
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #2 #1090 // Pack d'objets exotiques: v9
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #2 #1120 // Plus de munitions dans les boutiques: v9
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #2 #1161 // Forteresses pour toutes les classes -> Conserver les restrictions des classes: v9
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #2 #1170 // Marchands bonus (Baldurdash): v9
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #2 #1220 // Permettre a Cromwell d'ameliorer les objets de la Tour de Garde: v9
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #2 #1226 // Ajuster le temps de forgeage de Cromwell -> Huit heures: v9
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #2 #1230 // Permettre a Cespenar d'utiliser les recettes de Cromwell: v9
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #2 #1270 // Changer le declencheur de fin de chapitre des mines de Bois-Manteau pour la methode sans TotSC (plainab) (BETA): v9
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #2 #2040 // Gourdins universels: v9
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #2 #2090 // Changer la limite de points d'experience -> Retirer la limite: v9
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #2 #2192 // Limiter la capacite des vendeurs a identifier les objets -> Methode hybride: v9
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #2 #2240 // Table debridee des TAC0: v9
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #2 #2300 // Tables de capacites de haut niveau pour les triclasses: v9
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #2 #2320 // Suppression de la limite du nombre de pieges (Ardanis/GeN1e): v9
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #2 #2340 // Suppression de la limite de convocation des creatures celestes (Ardanis/GeN1e): v9
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #2 #2500 // Modification de la limite de poids de la force exceptionnelle: v9
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #2 #2530 // Les eclairs ne rebondissent pas (Angel): v9
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #2 #2999 // Maximum de PV au niveau 1: v9
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #2 #3001 // Davantage de points de vie a la montee de niveau -> Style NWN: v9
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #2 #3008 // Autoriser le tirage des PV jusqu'au niveau 20 (Angel): v9
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #2 #3050 // Retirer l'effet de fatigue des sorts de restauration: v9
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #2 #3060 // Desactiver la voix "Vous devez reunir votre groupe avant d'aller plus loin" (Weimer): v9
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #2 #3121 // Patch du bonheur (les PNJs du groupe ne se plaignent pas de la reputation) -> Les PNJs peuvent etre en colere a propos de la reputation mais ne partent jamais (Salk): v9
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #2 #3125 // Rendre heureux les personnages neutres lorsque la reputation est moyenne: v9
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #2 #3190 // Repos possible partout (Japheth): v9
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #2 #3230 // Taerum fabrique une armure d'Ankheg supplementaire (Icendoan/grogerson): v9
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #2 #3330 // Rendre les membres du groupe moins susceptibles de  mourir de facon permanente: v9
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #2 #3340 // Augmenter la vitesse de deplacement du groupe en dehors des combats -> De 50 pour cent: v9
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #2 #4000 // Ajuster le jet de reputation des PNJs mauvais recrutables: v9
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #2 #4010 // Convocation par l'Esprit du Destin amelioree: v9
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #2 #4025 // Permettre de separer les couples de PNJ: v9
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #2 #4031 // Caracteristiques coherentes : Edwin -> Valeurs de BG2: v9
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #2 #4041 // Caracteristiques coherentes : Jaheira -> Valeurs de BG2: v9
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #2 #4050 // Changer l'alignement de Jaheira en "Neutre Bon": v9
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #2 #4061 // Caracteristiques coherentes : Minsc -> Valeurs de BG2: v9
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #2 #4071 // Caracteristiques coherentes : Viconia -> Valeurs de BG2: v9
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #2 #4100 // Changer l'alignement de Korgan en "Neutre Mauvais": v9
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #2 #4150 // Deplacer Bouh dans le sac de Minsc: v9
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #2 #4170 // S'assurer que Shar-Teel ne meurt pas lors du defi originel: v9
+~SETUP-TURAMBAR_FIXES_TWEAKS.TP2~ #0 #18 // Fixes for SoBH: v1.8.1 BWP Fix
+~D0TWEAK/SETUP-D0TWEAK.TP2~ #1 #4 // Correction des armes enchantees: v25
+~D0TWEAK/SETUP-D0TWEAK.TP2~ #1 #5 // Nouvelles races ennemies: v25
+~REFINEMENTS/SETUP-REFINEMENTS.TP2~ #1 #11 // Capacites de haut niveau (HLA) modifiees -> Choisir quelles classes obtiennent les HLA modifiees: beta 4.29
+~REFINEMENTS/SETUP-REFINEMENTS.TP2~ #1 #101 // HLAs de guerrier: beta 4.29
+~REFINEMENTS/SETUP-REFINEMENTS.TP2~ #1 #102 // HLAs de barbare: beta 4.29
+~REFINEMENTS/SETUP-REFINEMENTS.TP2~ #1 #103 // HLAs de rodeur: beta 4.29
+~REFINEMENTS/SETUP-REFINEMENTS.TP2~ #1 #104 // HLAs de paladin: beta 4.29
+~REFINEMENTS/SETUP-REFINEMENTS.TP2~ #1 #105 // HLAs de clerc: beta 4.29
+~REFINEMENTS/SETUP-REFINEMENTS.TP2~ #1 #106 // HLAs de druide: beta 4.29
+~REFINEMENTS/SETUP-REFINEMENTS.TP2~ #1 #107 // HLAs de moine: beta 4.29
+~REFINEMENTS/SETUP-REFINEMENTS.TP2~ #1 #108 // HLAs de magicien: beta 4.29
+~REFINEMENTS/SETUP-REFINEMENTS.TP2~ #1 #40 // Robes de bas niveau universelles: beta 4.29
+~WSR/WSR.TP2~ #2 #200 // Revision des facultes de haut niveau du Tueur de magiciens: v1.14
+~SPELL_REV/SETUP-SPELL_REV.TP2~ #1 #60 // Mise a jour du Livre de sorts des PNJs recrutables: v4 Beta 18
+~SELPHIRATWEAKS/SELPHIRATWEAKS.TP2~ #0 #20 // Progression des sorts des mages: 1.0
+~SELPHIRATWEAKS/SELPHIRATWEAKS.TP2~ #0 #21 // Progression des sorts des sorciers: 1.0
+~SELPHIRATWEAKS/SELPHIRATWEAKS.TP2~ #0 #22 // Progression des sorts des paladins: 1.0
+~SELPHIRATWEAKS/SELPHIRATWEAKS.TP2~ #0 #23 // Progression des sorts des rodeurs: 1.0
+~SELPHIRATWEAKS/SELPHIRATWEAKS.TP2~ #0 #24 // Progression des sorts des druides: 1.0
+~SELPHIRATWEAKS/SELPHIRATWEAKS.TP2~ #0 #25 // Progression des sorts des bardes: 1.0
+~SELPHIRATWEAKS/SELPHIRATWEAKS.TP2~ #0 #26 // Progression des sorts des pretres: 1.0
+~STRATAGEMS/SETUP-STRATAGEMS.TP2~ #3 #3010 // Remplacer les fleches et autres projectiles magiques +1 par des projectiles non-magiques de "maitre": 33.7
+~STRATAGEMS/SETUP-STRATAGEMS.TP2~ #3 #3501 // Standardisation des sorts entre BG1 et BG2 -> Introduction des parchemins de sorts de BG2 dans BG1: 33.7
+~STRATAGEMS/SETUP-STRATAGEMS.TP2~ #3 #3540 // Reduire la puissance de la dissipation de la magie des inquisiteurs -> Dissipation des inquisiteurs a 1,5 x leur niveau (et non deux fois): 33.7
+~STRATAGEMS/SETUP-STRATAGEMS.TP2~ #3 #4000 // Ours plus rapides: 33.7
+~STRATAGEMS/SETUP-STRATAGEMS.TP2~ #3 #4020 // Loups et chiens sauvages plus realistes: 33.7
+~STRATAGEMS/SETUP-STRATAGEMS.TP2~ #3 #4030 // Metamorphose amelioree: 33.7
+~STRATAGEMS/SETUP-STRATAGEMS.TP2~ #3 #4050 // Reduit la vitesse a laquelle la reputation augmente -> La reputation augmente au 2/3 de sa vitesse normale: 33.7
+~STRATAGEMS/SETUP-STRATAGEMS.TP2~ #3 #4150 // Permettre aux Mages Cagoules de deceler le lancement de sorts a l'interieur, dans les zones au niveau du sol, a Athkatla: 33.7
+~STRATAGEMS/SETUP-STRATAGEMS.TP2~ #3 #4161 // Augmenter le prix de la licence pour pratiquer la magie a Athkatla -> La licence coute 15.000 po: 33.7
+~STRATAGEMS/SETUP-STRATAGEMS.TP2~ #3 #4171 // Augmenter le prix demande par Gaelan Bayle -> Gaelan veut 60.000 pieces d'or: 33.7
+~STRATAGEMS/SETUP-STRATAGEMS.TP2~ #3 #4210 // Rendre le labyrinthe de la Tour de Garde aleatoire: 33.7
+~STRATAGEMS/SETUP-STRATAGEMS.TP2~ #3 #4215 // Retirer les objets exagerement opportuns de certaines regions: 33.7
+~STRATAGEMS/SETUP-STRATAGEMS.TP2~ #3 #4216 // Retirer les munitions exagerement opportunes du jeu -> Retirer uniquement les projectiles non magiques des conteneurs aleatoires: 33.7
+~STRATAGEMS/SETUP-STRATAGEMS.TP2~ #3 #4230 // Retarder l'arrivee des marchands-bonus au Marche de l'Aventurier et a la couronne de Cuivre: 33.7
+~STRATAGEMS/SETUP-STRATAGEMS.TP2~ #3 #4250 // Changer les sequenceurs de sorts et les contingences en capacites speciales: 33.7
+~STRATAGEMS/SETUP-STRATAGEMS.TP2~ #3 #5000 // IA du groupe plus simple: 33.7
+~STRATAGEMS/SETUP-STRATAGEMS.TP2~ #3 #5070 // Changement esthetique : Peau de pierre ne modifie plus la couleur de votre personnage: 33.7
+~STRATAGEMS/SETUP-STRATAGEMS.TP2~ #3 #5900 // Initialise les composants de l'IA (requis pour les composants tactiques et d'IA): 33.7
+~STRATAGEMS/SETUP-STRATAGEMS.TP2~ #3 #6000 // IA generale plus efficace: 33.7
+~STRATAGEMS/SETUP-STRATAGEMS.TP2~ #3 #6010 // Meilleurs appels a l'aide: 33.7
+~STRATAGEMS/SETUP-STRATAGEMS.TP2~ #3 #6030 // Mages plus intelligents: 33.7
+~STRATAGEMS/SETUP-STRATAGEMS.TP2~ #3 #6040 // Pretres plus intelligents: 33.7
+~STRATAGEMS/SETUP-STRATAGEMS.TP2~ #3 #6100 // Potions pour PNJ: 33.7
+~STRATAGEMS/SETUP-STRATAGEMS.TP2~ #3 #6200 // Araignees ameliorees: 33.7
+~STRATAGEMS/SETUP-STRATAGEMS.TP2~ #3 #6300 // Sirenes et dryades plus intelligentes: 33.7
+~STRATAGEMS/SETUP-STRATAGEMS.TP2~ #3 #6310 // Vers charognards legerement plus intelligents: 33.7
+~STRATAGEMS/SETUP-STRATAGEMS.TP2~ #3 #6320 // Basilics plus intelligents: 33.7
+~STRATAGEMS/SETUP-STRATAGEMS.TP2~ #3 #6500 // Golems ameliores: 33.7
+~STRATAGEMS/SETUP-STRATAGEMS.TP2~ #3 #6510 // Demons et celestes ameliores: 33.7
+~STRATAGEMS/SETUP-STRATAGEMS.TP2~ #3 #6520 // Genies plus intelligents: 33.7
+~STRATAGEMS/SETUP-STRATAGEMS.TP2~ #3 #6540 // Dragons plus intelligents: 33.7
+~STRATAGEMS/SETUP-STRATAGEMS.TP2~ #3 #6550 // Spectateurs plus intelligents: 33.7
+~STRATAGEMS/SETUP-STRATAGEMS.TP2~ #3 #6560 // Flagelleurs mentaux plus intelligents: 33.7
+~STRATAGEMS/SETUP-STRATAGEMS.TP2~ #3 #6570 // Githyankis plus intelligents: 33.7
+~STRATAGEMS/SETUP-STRATAGEMS.TP2~ #3 #6580 // Vampires ameliores: 33.7
+~STRATAGEMS/SETUP-STRATAGEMS.TP2~ #3 #6590 // Boss de fin de ToB plus intelligent: 33.7
+~STRATAGEMS/SETUP-STRATAGEMS.TP2~ #3 #6800 // Illasera plus intelligente: 33.7
+~STRATAGEMS/SETUP-STRATAGEMS.TP2~ #3 #6810 // Gromnir plus intelligent: 33.7
+~STRATAGEMS/SETUP-STRATAGEMS.TP2~ #3 #6820 // Yaga-Shura plus intelligent: 33.7
+~STRATAGEMS/SETUP-STRATAGEMS.TP2~ #3 #6830 // Abazigal plus intelligent: 33.7
+~STRATAGEMS/SETUP-STRATAGEMS.TP2~ #3 #6840 // Les versions Ascension de Irenicus et Sendai utilisent les capacites et l'IA de SCS: 33.7
+~STRATAGEMS/SETUP-STRATAGEMS.TP2~ #3 #6850 // Donner aux demons les scripts et capacites d'Ascension: 33.7
+~STRATAGEMS/SETUP-STRATAGEMS.TP2~ #3 #7000 // Dopplegangers ameliores: 33.7
+~STRATAGEMS/SETUP-STRATAGEMS.TP2~ #3 #7010 // Gardes des Griffes Noires et du Trone de Fer plus coriaces: 33.7
+~STRATAGEMS/SETUP-STRATAGEMS.TP2~ #3 #7020 // Deploiements des groupes d'assassins ameliores: 33.7
+~STRATAGEMS/SETUP-STRATAGEMS.TP2~ #3 #7030 // Kobolds ameliores: 33.7
+~STRATAGEMS/SETUP-STRATAGEMS.TP2~ #3 #7040 // Chasseurs de primes deplaces: 33.7
+~STRATAGEMS/SETUP-STRATAGEMS.TP2~ #3 #7050 // Ulcaster ameliore: 33.7
+~STRATAGEMS/SETUP-STRATAGEMS.TP2~ #3 #7060 // Ile de Balduran amelioree: 33.7
+~STRATAGEMS/SETUP-STRATAGEMS.TP2~ #3 #7070 // Tour de Durlag amelioree: 33.7
+~STRATAGEMS/SETUP-STRATAGEMS.TP2~ #3 #7080 // Fanatiques du culte du demon ameliores: 33.7
+~STRATAGEMS/SETUP-STRATAGEMS.TP2~ #3 #7090 // Druides de Bois-Manteau ameliores: 33.7
+~STRATAGEMS/SETUP-STRATAGEMS.TP2~ #3 #7100 // Bassilus ameliore: 33.7
+~STRATAGEMS/SETUP-STRATAGEMS.TP2~ #3 #7110 // Groupe de Drasus ameliore: 33.7
+~STRATAGEMS/SETUP-STRATAGEMS.TP2~ #3 #7130 // Mages Rouges ameliores: 33.7
+~STRATAGEMS/SETUP-STRATAGEMS.TP2~ #3 #7140 // Assassins d'Ombre-ville ameliore: 33.7
+~STRATAGEMS/SETUP-STRATAGEMS.TP2~ #3 #7200 // Combat de fin du chapitre deux plus difficile: 33.7
+~STRATAGEMS/SETUP-STRATAGEMS.TP2~ #3 #7210 // Combat de fin du chapitre trois plus difficile: 33.7
+~STRATAGEMS/SETUP-STRATAGEMS.TP2~ #3 #7220 // Combat de fin du chapitre quatre plus difficile: 33.7
+~STRATAGEMS/SETUP-STRATAGEMS.TP2~ #3 #7230 // Combat de fin du chapitre cinq plus difficile: 33.7
+~STRATAGEMS/SETUP-STRATAGEMS.TP2~ #3 #7250 // Combat final ameliore: 33.7
+~STRATAGEMS/SETUP-STRATAGEMS.TP2~ #3 #7900 // Rencontres mineures ameliorees: 33.7
+~STRATAGEMS/SETUP-STRATAGEMS.TP2~ #3 #8000 // Rendre le debut du donjon d'Irenicus legerement plus difficile: 33.7
+~STRATAGEMS/SETUP-STRATAGEMS.TP2~ #3 #8010 // Seigneur des ombres ameliore: 33.7
+~STRATAGEMS/SETUP-STRATAGEMS.TP2~ #3 #8020 // Les demi-liches lancent des sortileges: 33.7
+~STRATAGEMS/SETUP-STRATAGEMS.TP2~ #3 #8040 // Ajuster la difficulte des regroupements de monstres en fonction du curseur de difficulte: 33.7
+~STRATAGEMS/SETUP-STRATAGEMS.TP2~ #3 #8050 // Rencontres aleatoires ameliorees: 33.7
+~STRATAGEMS/SETUP-STRATAGEMS.TP2~ #3 #8060 // Chateau de'Arnise ameliore (inspire du mod Tactics): 33.7
+~STRATAGEMS/SETUP-STRATAGEMS.TP2~ #3 #8070 // Oeil aveugle ameliore: 33.7
+~STRATAGEMS/SETUP-STRATAGEMS.TP2~ #3 #8080 // Bodhi amelioree: 33.7
+~STRATAGEMS/SETUP-STRATAGEMS.TP2~ #3 #8085 // La version Ascension de Bodhi utilise les capacites ameliorees de Bodhi: 33.7
+~STRATAGEMS/SETUP-STRATAGEMS.TP2~ #3 #8100 // Combat contre Irenicus a l'Asile ameliore: 33.7
+~STRATAGEMS/SETUP-STRATAGEMS.TP2~ #3 #8110 // Sahuagins ameliores: 33.7
+~STRATAGEMS/SETUP-STRATAGEMS.TP2~ #3 #8120 // Antre des spectateurs amelioree: 33.7
+~STRATAGEMS/SETUP-STRATAGEMS.TP2~ #3 #8140 // Drows ameliores: 33.7
+~STRATAGEMS/SETUP-STRATAGEMS.TP2~ #3 #8150 // Tour de Garde amelioree: 33.7
+~STRATAGEMS/SETUP-STRATAGEMS.TP2~ #3 #8160 // Temple des geants de feu ameliore: 33.7
+~STRATAGEMS/SETUP-STRATAGEMS.TP2~ #3 #8170 // Enclave de Sendai amelioree: 33.7
+~STRATAGEMS/SETUP-STRATAGEMS.TP2~ #3 #8190 // Rencontres mineures ameliorees: 33.7
+~AURORA/SETUP-AURORA.TP2~ #1 #420 // Tresors aleatoires realistes -> A la fois 1 et 2 (sans perte de tresors): v5.2.2 BWP-FR Fix
+~BP/SETUP-BP.TP2~ #2 #325 // Animaux: v181-b4611 BWP Fix
+~BP/SETUP-BP.TP2~ #2 #475 // Elementaires: v181-b4611 BWP Fix
+~BP/SETUP-BP.TP2~ #2 #625 // Molosses sataniques: v181-b4611 BWP Fix
+~BP/SETUP-BP.TP2~ #2 #675 // Chevaliers et Paladins: v181-b4611 BWP Fix
+~BP/SETUP-BP.TP2~ #2 #725 // Brumes: v181-b4611 BWP Fix
+~BP/SETUP-BP.TP2~ #2 #800 // Voleurs de l'Ombre: v181-b4611 BWP Fix
+~BP/SETUP-BP.TP2~ #2 #875 // Trolls: v181-b4611 BWP Fix
+~BP/SETUP-BP.TP2~ #2 #925 // Animaux-garous: v181-b4611 BWP Fix
+~RR/SETUP-RR.TP2~ #1 #9 // Revisions des roublards -> Utiliser les potions de voleur de la version papier et empecher leurs effets de se cumuler.: v4.92
+~RR/SETUP-RR.TP2~ #1 #11 // Rencontre avec les Elus de Cyric: v4.92
+~RR/SETUP-RR.TP2~ #1 #12 // Amelioration des Voleurs de l'Ombre: v4.92
+~RR/SETUP-RR.TP2~ #1 #999 // Icones du style de BG2 pour le contenu de RR: v4.92
+~ATWEAKS/SETUP-ATWEAKS.TP2~ #1 #100 // Restaurer l'infravision innee des personnages demi-orques: v4.53
+~ATWEAKS/SETUP-ATWEAKS.TP2~ #1 #101 // Empecher les morts-vivants squelettiques et desincarnes d'etre affectes par les attaques illithids devorant le cerveau: v4.53
+~ATWEAKS/SETUP-ATWEAKS.TP2~ #1 #115 // Autoriser les mages a retranscrire des sorts memorises sur des parchemins -> Les parchemins peuvent etre retranscrits partout depuis le livre de sorts: v4.53
+~ATWEAKS/SETUP-ATWEAKS.TP2~ #1 #120 // Retablir l'immunite naturelle des paladins aux maladies: v4.53
+~ATWEAKS/SETUP-ATWEAKS.TP2~ #1 #130 // Caracteristiques raciales supplementaires pour les nains: v4.53
+~ATWEAKS/SETUP-ATWEAKS.TP2~ #1 #140 // Caracteristiques raciales supplementaires pour les gnomes: v4.53
+~ATWEAKS/SETUP-ATWEAKS.TP2~ #1 #160 // Morts-vivants version papier: v4.53
+~ATWEAKS/SETUP-ATWEAKS.TP2~ #1 #180 // Mephites version papier: v4.53
+~ATWEAKS/SETUP-ATWEAKS.TP2~ #1 #185 // Creatures feeriques version papier: v4.53
+~ATWEAKS/SETUP-ATWEAKS.TP2~ #1 #186 // Sort Appel des creatures des bois revise: v4.53
+~ATWEAKS/SETUP-ATWEAKS.TP2~ #1 #190 // Elementaires version papier: v4.53
+~ATWEAKS/SETUP-ATWEAKS.TP2~ #1 #191 // Augmenter le nombre de DV des princes elementaires: v4.53
+~ATWEAKS/SETUP-ATWEAKS.TP2~ #1 #201 // Incantation immediate pour les capacites innees du guerrier: v4.53
+~ATWEAKS/SETUP-ATWEAKS.TP2~ #1 #202 // Pouvoirs de Bhaal revises -> Ameliorer les pouvoirs de Bhaal et standardiser leur temps d'incantation: v4.53
+~ATWEAKS/SETUP-ATWEAKS.TP2~ #1 #203 // Rendre la metamorphose druidique impossible a interrompre: v4.53
+~ATWEAKS/SETUP-ATWEAKS.TP2~ #1 #210 // Restaurer la vulnerabilite a la Dissipation de la Magie des Nishruu et Hakeashar: v4.53
+~ATWEAKS/SETUP-ATWEAKS.TP2~ #1 #212 // Rendre les sorts de detection des alignements plus precis: v4.53
+~ATWEAKS/SETUP-ATWEAKS.TP2~ #1 #213 // Tables des bonus aux jets de sauvegardes etendus pour les nains, les gnomes et les halfelins: v4.53
+~ATWEAKS/SETUP-ATWEAKS.TP2~ #1 #216 // Les bardes interrompent leur invisibilite par leur chant -> Seul le Bouffon interrompt son invisibilite par son chant: v4.53
+~ATWEAKS/SETUP-ATWEAKS.TP2~ #1 #270 // Recompenses de quetes impartiales: v4.53
+~ATWEAKS/SETUP-ATWEAKS.TP2~ #1 #220 // Script simple du voleur: v4.53
+~ATWEAKS/SETUP-ATWEAKS.TP2~ #1 #230 // Script simple du Barde (chante Chant du Barde quand inactif): v4.53
+~ATWEAKS/SETUP-ATWEAKS.TP2~ #1 #239 // Script simple pour clerc/paladin: v4.53
+~ATWEAKS/SETUP-ATWEAKS.TP2~ #1 #301 // Changer l'apparence de l'armure de Valygar: v4.53
+~ATWEAKS/SETUP-ATWEAKS.TP2~ #1 #302 // Changer l'apparence de la Robe de Vecna: v4.53
+~ATWEAKS/SETUP-ATWEAKS.TP2~ #1 #310 // Coloration distinctive des creatures: v4.53
+~ATWEAKS/SETUP-ATWEAKS.TP2~ #1 #315 // Jeux de sons de créatures distincts: v4.53
+~ATWEAKS/SETUP-ATWEAKS.TP2~ #1 #500 // Capacite de stockage des contenants legerement etendue -> Utiliser la capacite de stockage recommandee (999): v4.53
+~ATWEAKS/SETUP-ATWEAKS.TP2~ #1 #999 // Icones du style de BG2 pour le contenu d'aTweaks: v4.53
+~DJINNICOMPANION/SETUP-DJINNICOMPANION.TP2~ #2 #0 // Afaaq, le compagnon Djinn -> Version complete (avec quetes, conversations et plus encore): v2.8
+~DJINNICOMPANION/SETUP-DJINNICOMPANION.TP2~ #2 #103 // Changer la frequence des conversations (n'affecte que le djinn, par defaut : 60 minutes) -> 45 minutes: v2.8
+~DJINNICOMPANION/SETUP-DJINNICOMPANION.TP2~ #2 #900 // Ajouter des creatures d'Infinity Animation ?: v2.8
+~ATP/ATP.TP2~ #0 #100 // ATP: Improved generic player script: 3.0
+~ATP/ATP.TP2~ #0 #540 // ATP: Restore Hulrik and his cow's quest: 3.0
+~TB#TWEAKS/TB#TWEAKS.TP2~ #0 #100 // Nature's Beauty Tweak.: TB#Tweaks, V 2.99
+~TB#TWEAKS/TB#TWEAKS.TP2~ #0 #150 // Imprisonment Fix.: TB#Tweaks, V 2.99
+~TB#TWEAKS/TB#TWEAKS.TP2~ #0 #200 // Flesh to Stone Fix.: TB#Tweaks, V 2.99
+~TB#TWEAKS/TB#TWEAKS.TP2~ #0 #300 // Drop Weapons in Panic Effect Removal.: TB#Tweaks, V 2.99
+~TB#TWEAKS/TB#TWEAKS.TP2~ #0 #9150 // Mages drop spellbooks. -> 25% of mages drop spellbooks, spellbooks contain 25% of memorized spells.: TB#Tweaks, V 2.99
+~P5TWEAKS/SETUP-P5TWEAKS.TP2~ #0 #30 // Drop Items on Imprisonment: v5.1
+~P5TWEAKS/SETUP-P5TWEAKS.TP2~ #0 #50 // Restore SoA Background Music for Promenade Cutscene: v5.1
+~UA/UA.TP2~ #2 #0 // L'Amulette de protection +1 n'est pas unique: v7.2
+~UA/UA.TP2~ #2 #1 // L'Anneau de protection +2 et la cape de protection +2 ne sont pas unique: v7.2
+~UA/UA.TP2~ #2 #2 // Les Bottes de rapiditÃ© ne sont pas unique: v7.2
+~UA/UA.TP2~ #2 #3 // Artefacts uniques - core -> Etendu: v7.2
+~POLYTWEAK/POLYTWEAK.TP2~ #0 #60 // Improved (less buggy) trolls: v2.00 BWP Fix
+~POLYTWEAK/POLYTWEAK.TP2~ #0 #70 // Improved Umberhulks: v2.00 BWP Fix
+~POLYTWEAK/POLYTWEAK.TP2~ #0 #80 // Improved Yuan-Ti: v2.00 BWP Fix
+~POLYTWEAK/POLYTWEAK.TP2~ #0 #83 // Improved Minotaurs: v2.00 BWP Fix
+~POLYTWEAK/POLYTWEAK.TP2~ #0 #85 // Corrected Vampire Stats: v2.00 BWP Fix
+~POLYTWEAK/POLYTWEAK.TP2~ #0 #800 // Distinctive Icons for Blackrazor and Flametongue: v2.00 BWP Fix
+~LEVEL1NPCS/LEVEL1NPCS.TP2~ #2 #0 // Level 1 NPCs par Nythrun : Liste des PNJs recrutables (requis pour l'installation de composants des PNJs): v3
+~LEVEL1NPCS/LEVEL1NPCS.TP2~ #2 #3 // PNJs recrutables avec une experience plus proche de celle du personnage principal -> Uniquement lors du recrutement initial: v3
+~LEVEL1NPCS/LEVEL1NPCS.TP2~ #2 #51 // Reequilibrage des caracteristiques des PNJs de BG1 -> Revision de mos_anted: v3
+~LEVEL1NPCS/LEVEL1NPCS.TP2~ #2 #55 // Dudleyfix pour les PNJs de BG1: v3
+~LEVEL1NPCS/LEVEL1NPCS.TP2~ #2 #60 // Correction des sorts et capacites innees des PNJs de BG1: v3
+~LEVEL1NPCS/LEVEL1NPCS.TP2~ #2 #100 // Mise a jour des references par le jeu aux classes/kits des PNJs: v3
+~XPMOD/SETUP-XPMOD.TP2~ #2 #0 // Reduction de l xp des creatures -> Reduire a 75%: 7
+~XPMOD/SETUP-XPMOD.TP2~ #2 #15 // Reduction de l xp de quete -> Reduire a 75%: 7
+~SETUP-BP-BALANCER.TP2~ #0 #6 // XP for Disarming Traps -> At 50% from your current configuration
+~SETUP-BP-BALANCER.TP2~ #0 #16 // Installing files needed for the components of the group "Balancing XP and items of several mods"
+~SETUP-BP-BALANCER.TP2~ #0 #17 // Restore original BG1 creatures' XP and items -> Keep custom items from other Mods
+~SETUP-BP-BALANCER.TP2~ #0 #27 // Item and XP Balancing for 'Secret of Bone Hill (v2.75)' -> Also randomly remove SOME overpowered custom items (will not affect quest relevanted items)
+~SETUP-BP-BALANCER.TP2~ #0 #30 // Item and XP Balancing for 'DrizztSaga (v1.0)' -> Also randomly remove SOME overpowered custom items (will not affect quest relevanted items)
+~SELPHIRATWEAKS/SELPHIRATWEAKS.TP2~ #0 #10 // Effet du charisme sur les prix: 1.0
+~SELPHIRATWEAKS/SELPHIRATWEAKS.TP2~ #0 #11 // Effet de la reputation sur les prix: 1.0
+~SELPHIRATWEAKS/SELPHIRATWEAKS.TP2~ #0 #30 // Erudition des classes: 1.0
+~SELPHIRATWEAKS/SELPHIRATWEAKS.TP2~ #0 #40 // Attaque par round bonus des compÃ©tences martiales: 1.0
+~SELPHIRATWEAKS/SELPHIRATWEAKS.TP2~ #0 #50 // Adaptation des bonus d'experience des piÃ¨ges: 1.0
+~KLATU/SETUP-KLATU.TP2~ #0 #2030 // Identify all store items: 1.7 BWP fix
+~KLATU/SETUP-KLATU.TP2~ #0 #2040 // Fix Wild Mage Items and Spells: 1.7 BWP fix
+~KLATU/SETUP-KLATU.TP2~ #0 #2050 // Prevent Wish Spells from Interrupting Caster: 1.7 BWP fix
+~KLATU/SETUP-KLATU.TP2~ #0 #2060 // Standardize Poison Immunity: 1.7 BWP fix
+~KLATU/SETUP-KLATU.TP2~ #0 #2110 // Treat all Innate Abilities as Non-Magical (Unaffected by Wild/Dead Magic and Silence): 1.7 BWP fix
+~KLATU/SETUP-KLATU.TP2~ #0 #2120 // Treat all Psionic Abilities as Non-Magical (Unaffected by Wild/Dead Magic and Silence): 1.7 BWP fix
+~KLATU/SETUP-KLATU.TP2~ #0 #2130 // Treat all Bardsong Effects as Non-Magical (Unaffected by Wild/Dead Magic): 1.7 BWP fix
+~JIMFIX/SETUP-JIMFIX.TP2~ #0 #100 // Check for and fix incorrect spell animations: v3.1a
+~BG1NPCBEG/BG1NPCBEG.TP2~ #1 #110 // Deplacer Ajantis: v3.0
+~BG1NPCBEG/BG1NPCBEG.TP2~ #1 #120 // Deplacer Alora: v3.0
+~BG1NPCBEG/BG1NPCBEG.TP2~ #1 #130 // Deplacer Coran: v3.0
+~BG1NPCBEG/BG1NPCBEG.TP2~ #1 #140 // Deplacer Eldoth: v3.0
+~BG1NPCBEG/BG1NPCBEG.TP2~ #1 #150 // Deplacer Faldorn: v3.0
+~BG1NPCBEG/BG1NPCBEG.TP2~ #1 #160 // Deplacer Kivan: v3.0
+~BG1NPCBEG/BG1NPCBEG.TP2~ #1 #170 // Deplacer Quayle: v3.0
+~BG1NPCBEG/BG1NPCBEG.TP2~ #1 #180 // Deplacer Safana: v3.0
+~BG1NPCBEG/BG1NPCBEG.TP2~ #1 #190 // Deplacer Shar-Teel: v3.0
+~BG1NPCBEG/BG1NPCBEG.TP2~ #1 #200 // Deplacer Tiax: v3.0
+~BG1NPCBEG/BG1NPCBEG.TP2~ #1 #210 // Deplacer Viconia: v3.0
+~INFINITYANIMATIONS/INFINITYANIMATIONS.TP2~ #1 #8030 // Animations de personnages de BG1 pour les PNJs -> La plupart des creatures concernees: v6.0.0 beta
+~SETUP-NSCPORTRAITS.TP2~ #0 #0 // Portraits for BG1 (BGT or EET): v3.0 BWP Fix 3
+~SETUP-NSCPORTRAITS.TP2~ #0 #1 // Portraits for BG2 and ToB: v3.0 BWP Fix 3
+~SETUP-NSCPORTRAITS.TP2~ #0 #30 // Portraits for Secret of Bone Hill: v3.0 BWP Fix 3
+~SETUP-NSCPORTRAITS.TP2~ #0 #50 // Portraits for Stone of Askavar: v3.0 BWP Fix 3
+~SETUP-NSCPORTRAITS.TP2~ #0 #300 // Portraits for BG1 Mini-Quests and Encounters: v3.0 BWP Fix 3
+~SETUP-NSCPORTRAITS.TP2~ #0 #305 // Portraits for Lure of the Sirines Call: v3.0 BWP Fix 3
+~SETUP-NSCPORTRAITS.TP2~ #0 #310 // Portraits for Grey Clan Episode I: v3.0 BWP Fix 3
+~SETUP-NSCPORTRAITS.TP2~ #0 #1300 // Portraits for Tower of Deception: v3.0 BWP Fix 3
+~SETUP-NSCPORTRAITS.TP2~ #0 #1310 // Portraits for Assassinations: v3.0 BWP Fix 3
+~SETUP-NSCPORTRAITS.TP2~ #0 #1330 // Portraits for BG2 Romantic Encounters: v3.0 BWP Fix 3
+~SETUP-NSCPORTRAITS.TP2~ #0 #1780 // Portraits for BG1 Romantic Encounters: v3.0 BWP Fix 3
+~SETUP-NSCPORTRAITS.TP2~ #0 #1380 // Portraits for Ascalon's Questpack: v3.0 BWP Fix 3
+~SETUP-NSCPORTRAITS.TP2~ #0 #1360 // Portraits for Tales of the Deep Gardens: v3.0 BWP Fix 3
+~SETUP-NSCPORTRAITS.TP2~ #0 #1390 // Portraits for Jan's Quest: v3.0 BWP Fix 3
+~SETUP-NSCPORTRAITS.TP2~ #0 #1410 // Portraits for Innershade: v3.0 BWP Fix 3
+~SETUP-NSCPORTRAITS.TP2~ #0 #1430 // Portraits for Eilistraees Song: v3.0 BWP Fix 3
+~SETUP-NSCPORTRAITS.TP2~ #0 #1500 // Portraits for Longer Road: v3.0 BWP Fix 3
+~SETUP-NSCPORTRAITS.TP2~ #0 #1510 // Portraits for Zalnoya: v3.0 BWP Fix 3
+~SETUP-NSCPORTRAITS.TP2~ #0 #1520 // Portraits for Ding0's Questpack: v3.0 BWP Fix 3
+~SETUP-NSCPORTRAITS.TP2~ #0 #1530 // Portraits for Slandor (The Minotaur and Lilacor): v3.0 BWP Fix 3
+~SETUP-NSCPORTRAITS.TP2~ #0 #1540 // Portraits for Sirines: v3.0 BWP Fix 3
+~SETUP-NSCPORTRAITS.TP2~ #0 #1550 // Portraits for Afaaq (Djinni Companion): v3.0 BWP Fix 3
+~SETUP-NSCPORTRAITS.TP2~ #0 #1590 // Portraits for ISNF (I Shall Never Forget): v3.0 BWP Fix 3
+~SETUP-NSCPORTRAITS.TP2~ #0 #1340 // Portraits for Big Picture: v3.0 BWP Fix 3
+~SETUP-NSCPORTRAITS.TP2~ #0 #3010 // Alternate Portrait for Kim NPC: v3.0 BWP Fix 3
+~SETUP-NSCPORTRAITS.TP2~ #0 #5000 // Alternate Female Character-Creation Portraits: v3.0 BWP Fix 3
+~SETUP-NSCPORTRAITS.TP2~ #0 #5010 // Alternate Male Character-Creation Potraits: v3.0 BWP Fix 3
+~BG1_CBPORTRAITS/SETUP-BG1_CBPORTRAITS.TP2~ #0 #0 // BG1 Color Balanced Portraits
+~BG2_CBPORTRAITS/SETUP-BG2_CBPORTRAITS.TP2~ #0 #0 // BG2 Color Balanced Portraits
+~BP-BGT-WORLDMAP/SETUP-BP-BGT-WORLDMAP.TP2~ #5 #0 // Carte du monde pour Baldur's Gate - icones de carte en couleurs pour Baldur's Gate incluses: v10.2.6
+~BP-BGT-WORLDMAP/SETUP-BP-BGT-WORLDMAP.TP2~ #5 #1 // Carte du monde pour Throne of Bhaal -> Utiliser la nouvelle carte du monde aussi pour Throne of Bhaal: v10.2.6
+~CDTWEAKS/SETUP-CDTWEAKS.TP2~ #2 #3220 // Points d'entree de carte plus judicieux: v9
+~MAPNAMES/SETUP-MAPNAMES.TP2~ #1 #0 // Annotations de la carte de la Cote des Epees: v2
+~MAPNAMES/SETUP-MAPNAMES.TP2~ #1 #25 // Mise a jour des marqueurs de carte: v2
+~1PP_HQ_MUSIC_BGT/1PP_HQ_MUSIC_BGT.TP2~ #0 #0 // 1pp: High quality music for BGT -> Patch BGT and BGII areas to make full use of updated music (Recommended)
+~SETUP-AREA_PATCHER.TP2~ #0 #0 // Area Patcher: ALPHA 16
+~SETUP-AREA_PATCHER.TP2~ #0 #2001 // Fix AR2300 Script - Prevent infinite loop after Sahuagin king dies: ALPHA 16
+~SETUP-AREA_PATCHER.TP2~ #0 #2002 // Fix AR0701 Script - Undeadify the sea troll for Roger the Fence's quest: ALPHA 16
+~SETUP-AREA_PATCHER.TP2~ #0 #6000 // Fix BGSPAWN Near Areas: ALPHA 16
+~SETUP-CRE_PATCHER.TP2~ #0 #0 // Cre Patcher: ALPHA 1
+~SETUP-ITEM_PATCHER.TP2~ #0 #0 // Item Patcher: ALPHA 6
+~SETUP-ITEM_PATCHER.TP2~ #0 #100 // Gives some vanilla items the Droppable Flag: ALPHA 6
+~SETUP-ITEM_PATCHER.TP2~ #0 #101 // Gives some BP items the Droppable Flag: ALPHA 6
+~SETUP-ITEM_PATCHER.TP2~ #0 #102 // Gives some CtB items the Droppable Flag: ALPHA 6
+~SETUP-ITEM_PATCHER.TP2~ #0 #105 // Gives some Keto items the Droppable Flag: ALPHA 6
+~SETUP-ITEM_PATCHER.TP2~ #0 #106 // Gives some Kim items the Droppable Flag: ALPHA 6
+~SETUP-ITEM_PATCHER.TP2~ #0 #113 // Gives some Tashia items the Droppable Flag: ALPHA 6
+~SETUP-LOLFIXER.TP2~ #0 #0 // Area Stuff - MAJESTIC Area Fixer: 19022016
+~SETUP-LOLFIXER.TP2~ #0 #1 // Creature Stuff - Creature Resource Fixer: 19022016
+~SETUP-LOLFIXER.TP2~ #0 #2 // Creature Stuff - Inventory Unborker (removes spurious references to the item table): 19022016
+~SETUP-LOLFIXER.TP2~ #0 #3 // Creature Stuff - Inventory Cleaner (removes items that don't exist and converts them into already present items where applicable): 19022016
+~SETUP-LOLFIXER.TP2~ #0 #4 // Creature Stuff - Inventory Overhauler (moves invalid but equippable items to inventory and equips anything in the inventory to a free slot): 19022016
+~SETUP-LOLFIXER.TP2~ #0 #5 // Creature Stuff - MAJESTIC Creature Fixer: 19022016
+~SETUP-LOLFIXER.TP2~ #0 #6 // Creature Stuff - Duplicate Creature Effect Remover: 19022016
+~SETUP-LOLFIXER.TP2~ #0 #7 // Item Stuff - Item Resource Fixer: 19022016
+~SETUP-LOLFIXER.TP2~ #0 #8 // Item Stuff - MAJESTIC Item Fixer: 19022016
+~SETUP-LOLFIXER.TP2~ #0 #9 // Item Stuff - Portrait Icon Assigner: 19022016
+~SETUP-LOLFIXER.TP2~ #0 #10 // Item Stuff - Proper Immunity Assigner: 19022016
+~SETUP-LOLFIXER.TP2~ #0 #11 // Item Stuff - Duplicate Item Effect Remover: 19022016
+~SETUP-LOLFIXER.TP2~ #0 #12 // Item Stuff - MAJESTIC Item Checker: 19022016
+~SETUP-LOLFIXER.TP2~ #0 #13 // Spell Stuff - Spell Resource Fixer: 19022016
+~SETUP-LOLFIXER.TP2~ #0 #14 // Spell Stuff - MAJESTIC Spell Fixer: 19022016
+~SETUP-LOLFIXER.TP2~ #0 #15 // Store Stuff - MAJESTIC Store Fixer: 19022016
+~GENERALIZED_BIFFING/GENERALIZED_BIFFING.TP2~ #1 #1 // Archivage generalise au format bif -> Archiver tous les fichiers (recommande par les createurs du Big World Project): v2.5
+~SETUP-GUI.TP2~ #2 #3 // Interface Graphique Utilisateur (GUI) -> "Baldur's Gate Trilogy" (Elminster avec baton)
+~WIDESCREEN/WIDESCREEN.TP2~ #1 #0 // Mod Widescreen -> pour les jeux Infinity Engine originaux (CHOISISSEZ CA !): Widescreen Mod v3.07
+~GUI_720/SETUP-GUI_720.TP2~ #0 #0 // BG2 GUI in 1280x720
+~BG2IMPOVEDGUI/BG2IMPOVEDGUI.TP2~ #3 #200 // Colorize icon of not memorized scrolls: 3.8
+~BG2IMPOVEDGUI/BG2IMPOVEDGUI.TP2~ #3 #410 // Show Hit Points on NPC/Party -> Enemy + Ally/Summon/Charmed (default): 3.8
+~BG2IMPOVEDGUI/BG2IMPOVEDGUI.TP2~ #3 #510 // THAC0 and Damage info on Inventory screen -> Background picture from 1pp Mod: 3.8
+~BG2IMPOVEDGUI/BG2IMPOVEDGUI.TP2~ #3 #600 // Dark portraits on party when dragging not allowed item: 3.8
+~BG2IMPOVEDGUI/BG2IMPOVEDGUI.TP2~ #3 #700 // Show Total Roll on Character Generation screen: 3.8
+~BG2IMPOVEDGUI/BG2IMPOVEDGUI.TP2~ #3 #810 // Journal with folding quests -> Large text area: 3.8
+~BG2IMPOVEDGUI/BG2IMPOVEDGUI.TP2~ #3 #900 // Grayscale background on Pause: 3.8
+~BG2IMPOVEDGUI/BG2IMPOVEDGUI.TP2~ #3 #1140 // Show NPC's active effects on right mouse click -> Equipped items & Casted spells, show remaining time: 3.8
+~BG2IMPOVEDGUI/BG2IMPOVEDGUI.TP2~ #3 #1200 // Extended Items/Quest messages: 3.8
+// Recently Uninstalled: ~SETUP-BWS_FINAL.TP2~ #0 #0 // Make quick-logged WeiDU-entries visible
