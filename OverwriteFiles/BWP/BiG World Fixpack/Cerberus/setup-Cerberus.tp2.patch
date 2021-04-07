@@ -1,0 +1,23 @@
+--- Cerberus\setup-Cerberus.tp2
++++ "b/E:\\Jeux modd\303\251s\\Baldur's Gate 2\\BigWorldSetupFR\\OverwriteFiles\\BWP\\Cerberus\\setup-Cerberus.tp2"	
+@@ -1,6 +1,6 @@
+ BACKUP ~Cerberus/backup~
+ AUTHOR ~Jarno Mikkola, Contact me at here: http://www.shsforums.net/topic/39610-cerberus-v099/~
+-
++VERSION ~v1.06 BWS-FR Fix~
+ AUTO_TRA ~Cerberus/%s~
+ 
+ LANGUAGE
+@@ -46,9 +46,9 @@ BUT_ONLY
+ 
+ COPY ~Cerberus/IJ#dog.bcs~ ~override/IJ#dog.bcs~
+ COPY ~Cerberus/IJ#dog.cre~ ~override/IJ#dog.cre~ 
+-	SAY NAME1 ~Mysterious Dog~
+-	SAY NAME2 ~Dog~
+-	SAY BIO ~Just don't get me killed.~
++	SAY NAME1 ~Chien mystérieux~
++	SAY NAME2 ~Chien~
++	SAY BIO ~Ne me faites pas tuer.~
+ 	SAY BATTLE_CRY1 ~~ [IJ#WI03]
+ 	SAY BATTLE_CRY2 ~~ [IJ#WI03]
+ 	SAY BATTLE_CRY3 ~~ [IJ#WI03]
