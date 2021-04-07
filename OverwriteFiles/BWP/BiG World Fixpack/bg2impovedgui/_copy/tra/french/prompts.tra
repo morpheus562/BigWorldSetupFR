@@ -1,62 +1,62 @@
-@6560 = ~Main Hand Damage range~
-@6561 = ~Off Hand Damage range~
-@6562 = ~Main Hand Estimated damage~
-@6563 = ~Off Hand Estimated damage~
+@6560 = ~Plage de dégâts de la main principale~
+@6561 = ~Plage de dégâts de la main secondaire~
+@6562 = ~Dégâts estimés de la main principale~
+@6563 = ~Dégâts estimés de la main secondaire~
 
 @6564 = ~La quête a été complétée~ [GAM_06]
 @6565 = ~Le journal de quête a été mis à jour~ [GAM_06]
-@6566 = ~Le journal de a été mis à jour~ [GAM_06]
+@6566 = ~Le journal a été mis à jour~ [GAM_06]
 @6567 = ~Une nouvelle quête a été ajoutée au journal~ [GAM_06]
 
 // ..
 //@6571 = last available
 
 
-@10  = ~Core (updated Tobex.dll)~
-@-10000 = ~Installing~
-@-10001 = ~Already applied, skipping...~
-@-10002 = ~Required bytes in BGMain.exe don't match, aborting...~
-@-10003 = ~Tobex not installed, ERROR !~
+@10  = ~Core (mise a jour de Tobex.dll)~
+@-10000 = ~Installation~
+@-10001 = ~Deja applique, passe...~
+@-10002 = ~Les octets requis dans BGMain.exe ne correspondent pas, abandon...~
+@-10003 = ~Tobex n'est pas installe, ERREUR !~
 
-@100 = ~Loot Panel~
-@110 = ~Classic mode~
-@120 = ~Moving same items from different containers as one action~
+@100 = ~Panneau du butin~
+@110 = ~Mode classique~
+@120 = ~Deplacer les mêmes objets de differents conteneurs en une seule action~
 
-@200 = ~Colorize icon of not memorized scrolls~
+@200 = ~Colorer l'icone des parchemins non mémorises~
 
-@300 = ~Hide 'Write magic' button for already known spells and for opposition schools~
+@300 = ~Cacher le bouton "Retranscrire" pour les sorts deja connus et pour les écoles d'opposition.~
 
-@400 = ~Show Hit Points on NPC/Party~
-@410 = ~Enemy + Ally/Summon/Charmed (default)~
-@420 = ~Enemy~
-@430 = ~Enemy + Ally/Summon/Charmed + Party~
-@440 = ~Enemy + Neutral~
-@450 = ~Enemy + Neutral + Ally/Summon/Charmed~
-@470 = ~Ally/Summon/Charmed~
-@480 = ~Ally/Summon/Charmed + Party~
-@490 = ~All NPC + Party~
+@400 = ~Afficher les points de vie des PNJs/Groupe~
+@410 = ~Ennemi + Allie/Invocation/Charme (par defaut)~
+@420 = ~Ennemi~
+@430 = ~Ennemi + Allie/Invocation/Charme + Groupe~
+@440 = ~Ennemi + Neutre~
+@450 = ~Ennemi + Neutre + Allie/Invocation/Charme~
+@470 = ~Allie/Invocation/Charme~
+@480 = ~Allie/Invocation/Charme + Groupe~
+@490 = ~Tous les PNJs + Groupe~
 
-@550 = ~THAC0 and Damage info on Inventory screen~
-@500 = ~Original background picture~
-@510 = ~Background picture from 1pp Mod~
-@520 = ~Background picture by Sir-Kill~
+@550 = ~TAC0 et informations sur les degats sur l'ecran d'inventaire~
+@500 = ~Image de fond originale~
+@510 = ~Image de fond du mod 1pp~
+@520 = ~Image de fond de Sir-Kill~
 
-@600 = ~Dark portraits on party when dragging not allowed item~
+@600 = ~Portraits sombres sur le groupe lorsque l'on fait glisser un objet non autorise~
 
-@700 = ~Show Total Roll on Character Generation screen~
+@700 = ~Afficher le total des jets de des sur l'ecran de creation du personnage~
 
-@800 = ~Journal with folding quests~
-@810 = ~Large text area~
-@820 = ~Original text area~
+@800 = ~Journal avec possibilite de cacher la description des quetes~
+@810 = ~Grande zone de texte~
+@820 = ~Zone de texte originale~
 
-@900 = ~Grayscale background on Pause~
+@900 = ~Fond en niveaux de gris quand le jeu est en pause~
 
-@1000 = ~Unlimited Hand Off Slot~
+@1000 = ~Emplacement illimite pour la main secondaire~
 
-@1100 = ~Show NPC's active effects on right mouse click~
-@1110 = ~Casted spells~
-@1120 = ~Casted spells + show remaining time~
-@1130 = ~Equipped items & Casted spells~
-@1140 = ~Equipped items & Casted spells, show remaining time~
+@1100 = ~Afficher les effets actifs d'un' PNJ lors d'un clic droit sur lui~
+@1110 = ~Sorts lances ~
+@1120 = ~Sorts lances + afficher le temps restant~
+@1130 = ~Objets équipes et sorts lances~
+@1140 = ~Objets équipes et sorts lances + afficher le temps restant~
 
-@1200 = ~Extended Items/Quest messages~
+@1200 = ~Messages etendus a propos des quetes et des objets~
