@@ -315,6 +315,7 @@
 ~XAN/XAN.TP2~ #3 #4 // Souhaitez-vous modifier la classe de Xan ? -> Modifier la classe de Xan en Entropiste (ToB requis): v19
 ~XAN/XAN.TP2~ #3 #5 // Animation "epee enflammee" de BG1: v19
 ~YASRAENA/SETUP-YASRAENA.TP2~ #2 #0 // Yasraena (BG2:SoA & TOB NPC) creee par nethrin & Sillara of the Tamari: v16_charsets
+~ALORA/ALORA.TP2~ #3 #0 // Alora PNJ de Chosen of Mystra: 2.0
 ~THAEL/THAEL.TP2~ #2 #0 // THAEL, l'elfe mage-voleur et VELVEVLOS, la lame sanglante: v2.32
 ~HANNA/HANNA.TP2~ #2 #0 // Hanna NPC (ToB requis): v2.5 BWS-FR Fix
 ~SETUP-KIM.TP2~ #0 #0 // Kim pour BG2:SOA (ToB:requis) version 1.62d
@@ -435,7 +436,7 @@
 ~SHARDSOFICE/SETUP-SHARDSOFICE.TP2~ #2 #2 // Restaurer la convocation de vache ? Mais pourquoi faire ?: v7
 ~LUCY/LUCY.TP2~ #5 #0 // Lucy la Wiverne: v5.0
 ~LYSRE/LYSRE.TP2~ #0 #0 // Lysre MOD PNJ Pour Baldur's Gate 2: 1.0
-~CERBERUS/SETUP-CERBERUS.TP2~ #4 #0 // Mod Cerberus pour BG2:SoA, version 1.06
+~CERBERUS/SETUP-CERBERUS.TP2~ #4 #0 // Mod Cerberus pour BG2:SoA, version 1.06: v1.06 BWS-FR Fix
 ~SLANDOR/SLANDOR.TP2~ #2 #0 // Le minotaure et Lilarcor: 2.0
 ~ZALNOYA/SETUP-ZALNOYA.TP2~ #2 #0 // Zalnoya et les Voleurs de l'Ombre
 ~ZALNOYA/SETUP-ZALNOYA.TP2~ #2 #1 // Correctif pour les rencontres de vampires standards
@@ -847,10 +848,10 @@
 ~TB#TWEAKS/TB#TWEAKS.TP2~ #0 #9150 // Mages drop spellbooks. -> 25% of mages drop spellbooks, spellbooks contain 25% of memorized spells.: TB#Tweaks, V 2.99
 ~P5TWEAKS/SETUP-P5TWEAKS.TP2~ #0 #30 // Drop Items on Imprisonment: v5.1
 ~P5TWEAKS/SETUP-P5TWEAKS.TP2~ #0 #50 // Restore SoA Background Music for Promenade Cutscene: v5.1
-~UA/UA.TP2~ #2 #0 // L'Amulette de protection +1 n'est pas unique: v7.2
-~UA/UA.TP2~ #2 #1 // L'Anneau de protection +2 et la cape de protection +2 ne sont pas unique: v7.2
-~UA/UA.TP2~ #2 #2 // Les Bottes de rapiditÃ© ne sont pas unique: v7.2
-~UA/UA.TP2~ #2 #3 // Artefacts uniques - core -> Etendu: v7.2
+~UA/UA.TP2~ #2 #0 // Rendre l'Amulette de protection +1 non unique: v7.2
+~UA/UA.TP2~ #2 #1 // Rendre l'Anneau de protection +2 et la Cape de protection +2 non uniques: v7.2
+~UA/UA.TP2~ #2 #2 // Rendre les Bottes de rapidite non uniques: v7.2
+~UA/UA.TP2~ #2 #3 // Artefacts uniques : composant principal -> Application etendue (encore plus d'objets magiques non dupliques): v7.2
 ~POLYTWEAK/POLYTWEAK.TP2~ #0 #60 // Improved (less buggy) trolls: v2.00 BWP Fix
 ~POLYTWEAK/POLYTWEAK.TP2~ #0 #70 // Improved Umberhulks: v2.00 BWP Fix
 ~POLYTWEAK/POLYTWEAK.TP2~ #0 #80 // Improved Yuan-Ti: v2.00 BWP Fix
@@ -942,33 +943,33 @@
 ~SETUP-ITEM_PATCHER.TP2~ #0 #105 // Gives some Keto items the Droppable Flag: ALPHA 6
 ~SETUP-ITEM_PATCHER.TP2~ #0 #106 // Gives some Kim items the Droppable Flag: ALPHA 6
 ~SETUP-ITEM_PATCHER.TP2~ #0 #113 // Gives some Tashia items the Droppable Flag: ALPHA 6
-~SETUP-LOLFIXER.TP2~ #0 #0 // Area Stuff - MAJESTIC Area Fixer: 19022016
-~SETUP-LOLFIXER.TP2~ #0 #1 // Creature Stuff - Creature Resource Fixer: 19022016
-~SETUP-LOLFIXER.TP2~ #0 #2 // Creature Stuff - Inventory Unborker (removes spurious references to the item table): 19022016
-~SETUP-LOLFIXER.TP2~ #0 #3 // Creature Stuff - Inventory Cleaner (removes items that don't exist and converts them into already present items where applicable): 19022016
-~SETUP-LOLFIXER.TP2~ #0 #4 // Creature Stuff - Inventory Overhauler (moves invalid but equippable items to inventory and equips anything in the inventory to a free slot): 19022016
-~SETUP-LOLFIXER.TP2~ #0 #5 // Creature Stuff - MAJESTIC Creature Fixer: 19022016
-~SETUP-LOLFIXER.TP2~ #0 #6 // Creature Stuff - Duplicate Creature Effect Remover: 19022016
-~SETUP-LOLFIXER.TP2~ #0 #7 // Item Stuff - Item Resource Fixer: 19022016
-~SETUP-LOLFIXER.TP2~ #0 #8 // Item Stuff - MAJESTIC Item Fixer: 19022016
-~SETUP-LOLFIXER.TP2~ #0 #9 // Item Stuff - Portrait Icon Assigner: 19022016
-~SETUP-LOLFIXER.TP2~ #0 #10 // Item Stuff - Proper Immunity Assigner: 19022016
-~SETUP-LOLFIXER.TP2~ #0 #11 // Item Stuff - Duplicate Item Effect Remover: 19022016
-~SETUP-LOLFIXER.TP2~ #0 #12 // Item Stuff - MAJESTIC Item Checker: 19022016
-~SETUP-LOLFIXER.TP2~ #0 #13 // Spell Stuff - Spell Resource Fixer: 19022016
-~SETUP-LOLFIXER.TP2~ #0 #14 // Spell Stuff - MAJESTIC Spell Fixer: 19022016
-~SETUP-LOLFIXER.TP2~ #0 #15 // Store Stuff - MAJESTIC Store Fixer: 19022016
+~SETUP-LOLFIXER.TP2~ #0 #0 // Area Stuff - MAJESTIC Area Fixer: 19022016 BWS-FR Fix
+~SETUP-LOLFIXER.TP2~ #0 #1 // Creature Stuff - Creature Resource Fixer: 19022016 BWS-FR Fix
+~SETUP-LOLFIXER.TP2~ #0 #2 // Creature Stuff - Inventory Unborker (removes spurious references to the item table): 19022016 BWS-FR Fix
+~SETUP-LOLFIXER.TP2~ #0 #3 // Creature Stuff - Inventory Cleaner (removes items that don't exist and converts them into already present items where applicable): 19022016 BWS-FR Fix
+~SETUP-LOLFIXER.TP2~ #0 #4 // Creature Stuff - Inventory Overhauler (moves invalid but equippable items to inventory and equips anything in the inventory to a free slot): 19022016 BWS-FR Fix
+~SETUP-LOLFIXER.TP2~ #0 #5 // Creature Stuff - MAJESTIC Creature Fixer: 19022016 BWS-FR Fix
+~SETUP-LOLFIXER.TP2~ #0 #6 // Creature Stuff - Duplicate Creature Effect Remover: 19022016 BWS-FR Fix
+~SETUP-LOLFIXER.TP2~ #0 #7 // Item Stuff - Item Resource Fixer: 19022016 BWS-FR Fix
+~SETUP-LOLFIXER.TP2~ #0 #8 // Item Stuff - MAJESTIC Item Fixer: 19022016 BWS-FR Fix
+~SETUP-LOLFIXER.TP2~ #0 #9 // Item Stuff - Portrait Icon Assigner: 19022016 BWS-FR Fix
+~SETUP-LOLFIXER.TP2~ #0 #10 // Item Stuff - Proper Immunity Assigner: 19022016 BWS-FR Fix
+~SETUP-LOLFIXER.TP2~ #0 #11 // Item Stuff - Duplicate Item Effect Remover: 19022016 BWS-FR Fix
+~SETUP-LOLFIXER.TP2~ #0 #12 // Item Stuff - MAJESTIC Item Checker: 19022016 BWS-FR Fix
+~SETUP-LOLFIXER.TP2~ #0 #13 // Spell Stuff - Spell Resource Fixer: 19022016 BWS-FR Fix
+~SETUP-LOLFIXER.TP2~ #0 #14 // Spell Stuff - MAJESTIC Spell Fixer: 19022016 BWS-FR Fix
+~SETUP-LOLFIXER.TP2~ #0 #15 // Store Stuff - MAJESTIC Store Fixer: 19022016 BWS-FR Fix
 ~GENERALIZED_BIFFING/GENERALIZED_BIFFING.TP2~ #1 #1 // Archivage generalise au format bif -> Archiver tous les fichiers (recommande par les createurs du Big World Project): v2.5
 ~SETUP-GUI.TP2~ #2 #3 // Interface Graphique Utilisateur (GUI) -> "Baldur's Gate Trilogy" (Elminster avec baton)
 ~WIDESCREEN/WIDESCREEN.TP2~ #1 #0 // Mod Widescreen -> pour les jeux Infinity Engine originaux (CHOISISSEZ CA !): Widescreen Mod v3.07
 ~GUI_720/SETUP-GUI_720.TP2~ #0 #0 // BG2 GUI in 1280x720
-~BG2IMPOVEDGUI/BG2IMPOVEDGUI.TP2~ #3 #200 // Colorize icon of not memorized scrolls: 3.8
-~BG2IMPOVEDGUI/BG2IMPOVEDGUI.TP2~ #3 #410 // Show Hit Points on NPC/Party -> Enemy + Ally/Summon/Charmed (default): 3.8
-~BG2IMPOVEDGUI/BG2IMPOVEDGUI.TP2~ #3 #510 // THAC0 and Damage info on Inventory screen -> Background picture from 1pp Mod: 3.8
-~BG2IMPOVEDGUI/BG2IMPOVEDGUI.TP2~ #3 #600 // Dark portraits on party when dragging not allowed item: 3.8
-~BG2IMPOVEDGUI/BG2IMPOVEDGUI.TP2~ #3 #700 // Show Total Roll on Character Generation screen: 3.8
-~BG2IMPOVEDGUI/BG2IMPOVEDGUI.TP2~ #3 #810 // Journal with folding quests -> Large text area: 3.8
-~BG2IMPOVEDGUI/BG2IMPOVEDGUI.TP2~ #3 #900 // Grayscale background on Pause: 3.8
-~BG2IMPOVEDGUI/BG2IMPOVEDGUI.TP2~ #3 #1140 // Show NPC's active effects on right mouse click -> Equipped items & Casted spells, show remaining time: 3.8
-~BG2IMPOVEDGUI/BG2IMPOVEDGUI.TP2~ #3 #1200 // Extended Items/Quest messages: 3.8
+~BG2IMPOVEDGUI/BG2IMPOVEDGUI.TP2~ #3 #200 // Surligner en vert les parchemins de sorts non retranscrits dans le livre de sorts: 3.15
+~BG2IMPOVEDGUI/BG2IMPOVEDGUI.TP2~ #3 #430 // Afficher les points de vie au-dessus du groupe et des PNJs -> des ennemis, des creatures alliees, convoquees ou charmees, et du groupe: 3.15
+~BG2IMPOVEDGUI/BG2IMPOVEDGUI.TP2~ #3 #510 // Afficher les informations sur le TAC0 et les degats dans l'ecran d'inventaire -> ecran d'inventaire du mod 1pp: 3.15
+~BG2IMPOVEDGUI/BG2IMPOVEDGUI.TP2~ #3 #600 // Griser le portrait des personnages quand on fait glisser un objet qu'ils ne peuvent pas utiliser: 3.15
+~BG2IMPOVEDGUI/BG2IMPOVEDGUI.TP2~ #3 #700 // Afficher le total des jets de des dans l'ecran de creation du personnage: 3.15
+~BG2IMPOVEDGUI/BG2IMPOVEDGUI.TP2~ #3 #810 // Plier et deplier la description des quetes dans le journal -> Grande zone de texte: 3.15
+~BG2IMPOVEDGUI/BG2IMPOVEDGUI.TP2~ #3 #920 // Afficher la carte en niveaux de gris quand le jeu est en pause -> la carte en niveaux de gris est activee par defaut: 3.15
+~BG2IMPOVEDGUI/BG2IMPOVEDGUI.TP2~ #3 #1140 // Afficher les effets actifs d'un PNJ avec le clic droit -> des objets equipes et des sorts lances avec l'affichage du temps restant: 3.15
+~BG2IMPOVEDGUI/BG2IMPOVEDGUI.TP2~ #3 #1200 // Preciser les messages d'avancement de quete, de gain ou de perte d'objet: 3.15
 // Recently Uninstalled: ~SETUP-BWS_FINAL.TP2~ #0 #0 // Make quick-logged WeiDU-entries visible
