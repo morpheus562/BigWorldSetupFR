@@ -1,0 +1,564 @@
+@5000 = ~Vieilles chaussures~
+@5001 = ~Ces chaussures doivent avoir appartenu à quelqu'un qui a vécu ici autrefois. Un petit nom est brodé sur le côté intérieur de la chaussure gauche : il s'agit de « Jaalv ».
+
+Poids : 2~
+@5002 = ~Coquillage~
+@5003 = ~Ce coquillage a été trouvé dans le couvoir, sur l'île du Chêne Enchevêtré dans la ville d'Athkatla. Il n'y a pas de magie dans ce coquillage. C'est juste une merveille de la nature.
+
+Poids : 2~
+@5004 = ~Anneau de cuivre~
+@5005 = ~Cette bague en cuivre n'allait que pour les très gros doigts. Deux noms sont gravés sur sa face intérieure : Mnol et Jullka. Il s'agit peut-être d'une alliance. Peut-être appartenait-elle à ce Mnol ?
+
+Poids : 0~
+@5006 = ~Carotte~
+@5007 = ~La carotte est un légume-racine, généralement de couleur orange, bien qu'il existe des cultivars violet, noir, rouge, blanc et jaune. C'est une forme domestiquée de la carotte sauvage, Daucus carota. Elles sont non seulement très saines à manger, mais peuvent également être une excellente source d'énergie.
+
+PARAMÈTRES :
+
+Spécial : guérit 2 points de vie et confère un bonus de +1 au TAC0 pour 1 tour
+
+Poids : 1~
+@5008 = ~Chou rouge~
+@5009 = ~Le chou rouge est une sorte de chou, également appelé chou violet. Ses feuilles sont de couleur rouge foncé et violet. Le chou rouge a besoin d'un sol bien fertilisé et d'une humidité suffisante pour pousser. C'est une plante saisonnière qui est semée au printemps et récoltée à la fin de l'automne. Il peut être une bonne source d'énergie. Certains pensent qu'ils - et une soupe à base de chou rouge - sont le meilleur remède contre la gueule de bois.
+
+PARAMÈTRES :
+
+Spécial : guérit 3 points de vie et guérit l'intoxication pendant 8 heures
+
+Poids : 5~
+@5010 = ~Citrouille~
+@5011 = ~Les citrouilles sont rondes avec une peau lisse et légèrement striée, et le plus souvent de couleur jaune foncé à orange. La coquille épaisse contient les graines et la pulpe. Elles peuvent être transformées en un repas raffiné. Celle-ci est assez grosse.
+
+PARAMÈTRES :
+
+Spécial : guérit 3 points de vie et 3 autres après 2 rounds.
+
+Poids : 10~
+@5012 = ~Croc du dragon fantomatique~
+@5013 = ~On dirait un croc de dragon, mais il est partiellement transparent. C'est assez inhabituel, car il pèse beaucoup moins que les os de dragon normaux, mais il est clairement d'une grande puissance. Même s'il peut être difficile de le saisir, comme d'autres armes tranchantes, il peut être utilisé en tant que tel.
+
+PARAMÈTRES :
+
+Capacités d'équipement :
+- Résistance à la magie : +5 %
+- Classe d'armure : +2
+
+Capacités de combat : 
+- Ne bénéficie que de 50 % du bonus au TAC0 habituellement accordé par les armes +4
+- 1 % de chances de lancer Souffle de Dragon en touchant
+
+TAC0 :  +2
+Dégâts : 1d4+4
+Type de dégâts : perforant
+Facteur de vitesse : 0
+Type de compétence : dague
+Type : arme à 1 main
+Force nécessaire : 3
+Poids : 2
+Non utilisable par :
+ Clerc
+ Clerc / Mage
+ Clerc / Voleur
+ Clerc / Rôdeur
+ Guerrier / Clerc
+ Guerrier / Mage / Clerc
+ Belluaire~
+@5014 = ~Fruit impossible~
+@5015 = ~Même si vous n'avez jamais vu un tel fruit auparavant - et vous êtes certain qu'il serait impossible de le trouver ou de le goûter - Dicca a réussi à l'obtenir d'une manière ou d'une autre. Il doit avoir une grande valeur. Vous l'avez obtenu de Finn, qui l'a obtenu de Dicca. Elle a décidé de donner sa plus précieuse trouvaille car elle pensait probablement que cela ferait taire ses pensées et sa peur après avoir tué Jaalv. 
+
+PARAMÈTRES :
+
+Lorsqu'il est consommé, ce fruit offre une résistance permanente de 5 % à tous les dommages physiques et +2 au maximum de points de vie.
+
+Poids : 1~
+@5016 = ~Boîte à musique~
+@5017 = ~Cette belle boîte à musique semble avoir une certaine magie inscrite dans sa mélodie. Chaque fois que la boîte joue la mélodie, vous vous sentez plus détendu et plus assoupi. On pense que cet objet spécifique a été commandé par le Seigneur Ghalannam, car sa fille souffrait d'insomnie. La fille était de santé fragile et, après la mort de sa mère, elle ne pouvait plus dormir correctement. Elle faisait des cauchemars à propos de créatures vicieuses et de l'obscurité qui venait la chercher. Elle criait dans la nuit, pleurait après sa mère. Le c?ur de son père s'est alors rempli de douleur. Cette boîte à musique devait être sa solution au problème. Il a fallu trente jours pour créer cet objet, mais une fois qu'il a finalement été fabriqué, il a effectivement aidé à résoudre les problèmes de sommeil de sa fille.
+
+Le Seigneur Ghalannam écoutait également la boîte à musique et sa mélodie, tout en regardant sa fille dormir en paix. Il pénétrait souvent lui-même dans les pays des rêves, assis dans le fauteuil de la chambre de sa fille. Tous deux rêvaient de la femme morte, leur mère et leur épouse. La voir en rêve devenait leur rituel. Quelque chose qui serait toujours un baume pour leur c?ur endolori.
+
+Poids : 4~
+@5018 = ~Bouteille de sève infectée~
+@5019 = ~C'est une bouteille qui contient la sève infectée du chêne emmêlé. Elle a un aspect sombre et une odeur de moisi. Ce serait peut-être une bonne idée de montrer ceci à quelqu'un qui s'y connaît en maladies magiques. Elle ne semble pas naturelle.
+
+Poids : 0~
+@5020 = ~Gourdin~
+@5021 = ~Gourdin de la Mort Errante +3~
+@5022 = ~On pense que ce gourdin est lié à l'énergie de la mort elle-même. Ceux qui l'utilisent gagnent non seulement sa sagesse et sa force, mais parviennent également à endommager les liens de l'ennemi avec la vie. Chaque coup réussi rend l'ennemi vulnérable aux poisons et aux instruments de la mort. L'arme elle-même semble solide au toucher, mais froide comme une pierre tombale.
+
+PARAMÈTRES :
+
+Capacités d'équipement :
+- Force : +1
+- Sagesse : +1
+
+Capacités de combat : 
+- Chaque coup réussi applique une pénalité de 1 au jet de sauvegarde contre la mort de la victime (2 tours, cumulatif)
+
+TAC0 : +3
+Dégâts : 1d6+3
+Type de dégâts : contondant
+Facteur de vitesse : 1
+Type de compétence : gourdin
+Type : arme à 1 main
+Force nécessaire : 5
+Poids : 1
+Non utilisable par :
+ Mage
+~
+@5023 = ~Bâton~
+@5024 = ~Bâton des Pins +4~
+@5025 = ~Ce bâton vert est chaud au toucher et a un parfum de pin. Il semble un peu plus léger que la plupart des bâtons et il peut se courber davantage. Néanmoins, il peut faire beaucoup de dégâts à ceux qui décident de s'opposer à celui qui le porte. Il a été enchanté par un druide nommé Hanthakar et il peut non seulement protéger des flèches et des billes, mais aussi de toute forme de cécité. Car ceux qui protègent la nature ne peuvent pas perdre la vue.
+
+PARAMÈTRES :
+
+Capacités d'équipement :
+- Immunité contre l'aveuglement
+- Classe d'armure : +1 contre les projectiles
+
+TAC0 :  +4
+Dégâts : 1d6+4
+Type de dégâts : contondant
+Facteur de vitesse : 3
+Type de compétence : bâton
+Type : arme à 2 mains
+Force nécessaire : 5
+Poids : 4~
+@5026 = ~Cotte de mailles~
+@5027 = ~Mailles de l'Espion Violet~
+@5028 = ~Cette cotte de mailles frissonne de magie. Cet objet puissant était autrefois utilisé par l'un des chefs qui dirigeaient l'enclave du Culte du Dragon en Sembie, Jaqual. Bien que la plupart le considèrent comme l'utilisateur le plus emblématique de l'armure, celle-ci a en fait été créée près de cinquante ans avant qu'il ne la porte pour la première fois. Elle a d'abord été créée par une forgeronne douée pour son bien-aimé, Marh. C'était un mercenaire et un homme qui combinait les deux pouvoirs des arcanes avec le potentiel d'une épée bien faite. Malheureusement, même cette puissante armure n'était pas assez solide pour le protéger d'une liche qu'il affrontait dans les ruines voisines. Jaqual, le membre du Culte du Dragon, la porta plus tard avec fierté, car la cotte de mailles était de la couleur du drapeau du culte, le violet. Il considérait que c'était un signe qu'elle devait appartenir au culte. Personne ne savait ce qu'il était advenu de l'armure lorsqu'il est mort de vieillesse. Bien que d'une manière ou d'une autre, elle a fini par se retrouver à Amn.
+
+PARAMÈTRES :
+
+Capacités d'équipement :
+- Porter cette armure n?empêche pas de lancer des sorts
+- Intelligence : +1
+- Il y a 50 % de chances qu'en étant touché, l'armure lance Absorption mineure de Larloch sur l'attaquant (uniquement si elle est portée par un guerrier / mage)
+
+Classe d'armure : 5 (3 contre les armes tranchantes, 7 contre les armes contondantes)
+Force nécessaire : 5
+Poids : 7
+Non utilisable par :
+ Druide
+ Mage
+ Moine
+ Voleur
+ Kensaï
+ Archer
+ Traqueur
+ Belluaire~
+@5029 = ~Épée à deux mains~
+@5030 = ~La Scie +2~
+@5031 = ~Cette épée inhabituelle a été créée pour une femme puissante, adepte des épées et de la magie, qui a été envoyée pour combattre les plus viles créatures. Elle fut bientôt considérée comme la Tueuse de Ceux qui dévorent. Beaucoup répètent encore les récits d'Aloomya Doomtrust et la considèrent comme le héros qui a sauvé la ville de Saradush des créatures qui rampaient sous la ville. Cette épée semble s'être habituée à ceux qui sont à la fois de splendides guerriers et d'habiles arcanistes : de tels aventuriers tirent encore plus de profit de l'utilisation de cette arme.
+
+PARAMÈTRES :
+
+Capacités d'équipement :
+- Est considérée comme +4 pour déterminer ce qu'elle peut toucher
+- Le porteur peut mémoriser deux sorts profanes supplémentaires de niveau 1 (uniquement quand portée par un guerrier / mage)
+
+Capacités de combat : 
+- 20 % de chances de tuer les flagelleurs mentaux, otyughs, mimiques et vers charognards en touchant (pas de jet de sauvegarde)
+
+TAC0 :  +2
+Dégâts : 1d10+2
+Type de dégâts : tranchant
+Facteur de vitesse : 5
+Type de compétence : épée à deux mains
+Type : arme à 2 mains
+Force nécessaire : 14
+Poids : 9
+Non utilisable par :
+ Belluaire
+ Clerc
+ Druide
+ Guerrier/Druide
+ Mage
+ Moine
+ Voleur~
+@5032 = ~Fronde~
+@5033 = ~Tue-poissons +2~
+@5034 = ~Il existe de nombreuses frondes dans ce monde, mais une seule est aussi puissante contre les poissons. Cette fronde mortelle peut tuer même les espèces de poissons les plus puissantes, comme les sahuagins et les kuo-toas. Prenez garde, hommes-poissons qui pensez seulement à vous tenir sur le chemin du maître de la fronde.  
+
+PARAMÈTRES :
+
+Capacités d'équipement :
+- Résistance au froid : +50 %
+
+Capacités de combat : 
+- Les sahuagins et les kuo-toas subissent 2d8+2 dégâts additionnels par impact (sans jet de sauvegarde)
+
+TAC0 : +2
+Dégâts : +2 (projectile)
+Facteur de vitesse : 4
+Type de compétence : fronde
+Type : arme à 1 main
+Force nécessaire : 3
+Poids : 0~
+@5035 = ~Le tome du chevalier par Sir Koomt Eeltorn~
+@5036 = ~Ce livre raconte l'histoire du chevalier commandant Tooks Moreghast. Pour une quelconque raison, cette page a été marquée par le lecteur précédent :
+
+...même alors, Sir Tooks Moreghast décida de ne jamais regarder en arrière, il savait que quelque chose devait être fait. Il avait sa fidèle compagne, la puissante Carsomyr, entre ses mains. Il était entouré de quelques dizaines de guerriers morts-vivants. Les trous vides qui, il y a des siècles, contenaient des yeux le fixaient maintenant avec une colère noire. Le vide remplissant leurs corps de morts-vivants ensemble hurlaient de viles promesses de mort.
+
+Moreghast se mit à courir. Il trancha avec sa puissante épée ; les os de ses ennemis ne pouvaient pas résister à la puissante lame. Mais lorsqu'un ennemi mourait, deux autres venaient à sa place. Ils venaient et venaient. Moreghast dut faire gagner du temps à ses compagnons pour qu'ils puissent fermer les portes du cimetière maudit et enfermer les morts-vivants à l'intérieur. La vie de gens innocents était en jeu. Pour que l'avenir puisse exister, Moreghast devait se battre.
+
+Il se battit pendant trois heures. Il pouvait à peine respirer. Il espérait avoir fait gagner suffisamment de temps à Asharana et Bigoo. « Encore quelques coups... et c'est fini, mes amis », pensait-il. Une profonde respiration... une autre estafilade. Une autre charge...
+
+Il regarda sa poitrine et y vit la vieille et puissante hache plantée dedans. Un vilain morceau de métal se nourrissait de sa chair, laissant son sang couler et tomber sur le sol humide. La crasse, la sueur, les influx sanguins de la vie - tous se mélangèrent, créant d'eux-mêmes une mixture mortelle. Il regarda sa fidèle épée. Alors qu'elle s'élevait dans le ciel, il se laissa reposer. Il entendit ses amis au loin. « Ils ont réussi... », se consola-t-il. C'était ce qu'il voulait croire.
+
+Il tomba. Mais même ainsi, c'était une victoire : une victoire qui ne devait jamais être ignorée. Payée dans le sang. Écrite dans le temps. Gravée dans les rêves.
+
+Poids : 2~
+@5037 = ~L'ombre dans le ciel par Nimm Gaugewoe~
+@5038 = ~Les thèmes de ce livre sont l'amour tragique, la maladie, la perte d'un ami. En parcourant le tome, on trouve ce passage :
+
+Chacun de ses yeux était comme un vortex pour son propre esprit. Il regardait en eux et voyait son passé et son avenir, surtout parce qu'il voulait savoir que ces deux petits miroirs bienheureux ne le jugeraient pas aussi sévèrement qu'il se jugeait lui-même. C'est ce qu'il voulait apprendre, et voilà sa chance. En ce jour. Il mit sa main dans le sac qui pendait à son épaule. Il y avait un livre à l'intérieur. Un livre qu'elle avait l'habitude de lire dans sa jeunesse. Il voulait le lui donner, mais il savait que ce petit geste, pourtant significatif, pourrait redéfinir leur amitié. Le bout de son doigt toucha un coin de la couverture du livre. Puis, toute la main saisit le cadeau et le sortit du sac...
+
+« Qu'est-ce que c'est ? », demanda-t-elle calmement, même si elle connaissait la réponse. « Tu sais que ce n'est pas bien. Tu sais que nous ne serons pas heureux ensemble. » En disant cela, les petits miroirs derrière lesquels elle regardait devenaient de plus en plus brumeux. Ils étaient remplis de sentiments qui pouvaient se transformer en rivières à chaque seconde.
+
+« Nous le serons. Même si ce n'est que pour quelques temps...». Il essaya d'être aussi prudent que possible avec les mots, mais il n'y avait qu'une seule façon de le dire. « Je sais que tu seras partie dans quelques semaines, mais ces quelques semaines sont meilleures à embrasser que le silence d'une tombe. Oui, tu seras morte et nous ne pouvons pas te guérir, faire disparaître tout cela, mais je ne veux pas que cela s?arrête aujourd'hui. Nous avons encore ces quelques semaines ». Il posa sa main sur sa joue.
+
+« Non ! » dit-elle en prenant du recul. « C'est égoïste. Nous ne faisons que rendre les choses plus difficiles. Je ne sais pas qui aggrave la situation, maintenant... toi, pour m'avoir mis dans une telle position, ou... » - la rivière commença sa course - « ... ou moi-même pour t'avoir laissé croire qu'il y avait ici une fin heureuse. Ce n'est pas bien. Crois-moi comme j'essaie de me croire. »
+
+Il savait ce qu'elle faisait. Elle avait commencé à lui dire au revoir, mais il ne le permettait pas. Cela ne pouvait pas arriver.
+
+«... tu le sais. » dit-elle... comme si elle pouvait lire dans ses pensées. Ils se connaissaient depuis qu'elle avait sept ans et lui dix, alors, peut-être qu'elle avait vraiment eu le temps d'apprendre tout ça.
+
+« Est-ce que je peux au moins rester à côté de toi ? En tant qu'ami. » a-t-il demandé. Il savait qu'il avait perdu. Tout ce qu'il pouvait faire, c'était accepter sa décision et être là pour elle.
+
+« Eh bien... », commença-t-elle, « tu ne m'écouterais même pas si je te disais le contraire ». Elle le laissa s'asseoir à côté d'elle. Ils s'assirent ensemble en silence. Tous deux pleins de regrets.
+
+* * *
+
+La dernière partie du livre mentionne le fait que l'homme ne put pas venir à l'enterrement :
+
+Il était là, assis seul dans la chambre, éloigné d'une journée du lieu de repos final de sa chère amie. Il n'avait pas réussi. Il savait qu'il devait partir, mais il espérait que la fin de cette triste histoire n'aurait pas lieu dans les trois jours. C'était la santé de sa grand-mère. Il prit sa décision... irréversible. Il pleurait quand ils mirent son corps dans le lit sombre et boueux. Une première couche de drap de terre recouvrait le cercueil.
+
+C'est alors qu'il partit en bas, vers la loge de la taverne. Puis il traversa la route jusqu'à l'intérieur du pub. Peut-être alors qu'il pourrait oublier. Il voulait tout oublier. Peut-être même comment respirer.
+
+Poids : 2~
+@5039 = ~Prière au Bosquet par Sora Kurochi~
+@5040 = ~C'est un poème écrit par Sora Kurochi de Kozakura :
+
+Neuf freux ont murmuré à mon oreille,
+jusqu'à ce que je puisse briser votre sceau -
+Vert et fort, propre et vrai,
+Il a révélé où mon c?ur a été.
+
+Dame du bosquet, larme du temps,
+Transforme mon âme en pin.
+Laisse-la pousser, laisse-la percer,
+Ne la laisse jamais mourir de fureur.
+
+Touché mais sévère,
+Tendu mais mince.
+Gauche et sombre,
+Protège-moi avec de l'écorce.
+
+Dis-moi que c'est déjà fait,
+Prouve que le temps est gagné...
+
+Laisse-moi me reposer,
+et être au mieux de ma forme.
+
+Poids : 1~
+@5041 = ~Gahaluur, par un artiste inconnu~
+@5042 = ~Cet étrange parchemin est censé avoir une histoire écrite dessus, mais vous n'arrivez pas à lui donner un sens. Le matériau est rempli de mots et de symboles étranges. On dirait que chaque mot a été, d'une certaine manière... déformé dans son sens et sa signification. Plus vous le regardez, moins il a de sens. Non pas qu'il ait eu un sens au départ. Pour rendre les choses encore plus étranges, chaque fois que vous essayez de vous concentrer sur un mot, vous pouvez sentir du tanin et ressentir un étrange goût métallique sur votre langue.
+
+Poids : 1~
+@5043 = ~Orbe cosmique~
+@5044 = ~C'est un orbe cosmique qui a été utilisé par une créature maléfique qui a enlevé le Club de lecture, vous y compris. Il semble être magique, mais vous ne pouvez pas être sûr qu'il ne s'agissait pas simplement d'une clé qui devait vous permettre de sortir du plan sur lequel la créature vous a amené.
+
+Poids : 0~~C'est un orbe cosmique qui a été utilisé par une créature maléfique qui a enlevé le Club de lecture, vous y compris. Il semble être magique, mais vous ne pouvez pas être sûr qu'il ne s'agissait pas simplement d'une clé qui devait vous permettre de sortir du plan sur lequel la créature vous a amenée.
+
+Poids : 0~
+@5045 = ~Cosmos en décomposition~
+@5046 = ~Cette amulette est un artefact puissant qui peut aider tous ceux qui veulent apprivoiser les pouvoirs cosmiques, à la fois divins et obscurs. Cependant, ce pouvoir a un prix.
+
+PARAMÈTRES :
+
+Capacités d'équipement :
+- Connaissances : +20
+- Intelligence : +2
+- Sagesse : +2
+- Immunité à la Fatigue naturelle ou magique
+- Le porteur ne peut pas effectuer plus d'une attaque par round
+- Malédiction : cet objet ne peut être supprimé que par le sort Délivrance de la malédiction
+
+Poids : 1~
+@5047 = ~Liquide souillé~
+@5048 = ~Vous avez trouvé ce liquide étrange à côté du vieux cadavre d'un vieux dragon, caché sous le Chêne Enchevêtré. Vous avez réussi à en mettre un peu dans ce flacon.
+
+Poids : 5~
+@5049 = ~Cet orbe cosmique est capable d'invoquer des étoiles d'au-delà de ce monde, qui peuvent cibler des ennemis. Il s'agit en fait d'un portail à sens unique qui mène directement dans le cosmos. Lorsqu'on la tient, la sphère lévite juste à côté de la main du mage. Son pouvoir a un coût, car le cosmos semble se nourrir du propriétaire de l'orbe.
+
+PARAMÈTRES :
+
+Capacités d'équipement :
+- Niveau de lanceur de sort : +2
+- Constitution : -1
+- Le porteur ne peut pas effectuer plus d'une attaque par round
+- Malédiction : cet objet ne peut être supprimé que par le sort Délivrance de la malédiction
+
+Capacités de combat : 
+- 20 % de chances d'infliger 2 points de dégâts supplémentaires (source aléatoire : feu, électricité, acide, magie)
+- 2 % de chances de lancer Toucher vampirique en touchant
+
+TAC0 : +5
+Dégâts : 1D2+5
+Facteur de vitesse : 4
+Type de compétence : spécial (projectiles)
+Type : arme à 1 main
+Intelligence nécessaire : 16
+Poids : 0
+Non utilisable par :
+ Kensaï
+ Cavalier~
+@5050 = ~Caisse vide~
+@5051 = ~Ce n'est qu'une caisse vide. Elle n'a rien de spécial. Comme toute caisse, elle sert à transporter et à stocker des choses, mais elle reste peu pratique pour ceux qui ne voyagent pas en charrette ou sur un bateau.
+
+Poids : 4~
+@5052 = ~Corde~
+@5053 = ~Ce n'est qu'un bout de corde. Elle n'est pas assez longue pour être utile dans l'aventure. Elle est à peine utile pour attacher des choses et les maintenir en place. C'était probablement une partie d'un long morceau de corde.
+
+Poids : 5~
+@5054 = ~Vieux poisson~
+@5055 = ~C'est un vieux poisson. Il sent très mauvais et, bien qu'il ne soit pas mortel, le manger rendra sûrement cette personne malade.
+
+Poids : 2~
+@5056 = ~Ceinture~
+@5057 = ~Matériel de poseur de pièges~
+@5058 = ~Cette ceinture utilitaire n'est pas seulement un vêtement fin et bien fait, mais possède de nombreuses poches avec différents outils et bibelots qui facilitent grandement la pose de pièges. Cordes, pics spécialisés, pièces de rechange... avec un tel ensemble, tout le monde devrait faire attention où il pose les pieds.
+
+PARAMÈTRES : 
+
+Capacités d'équipement :
+- Pose de pièges : +30 %
+- TAC0 : +1
+
+Poids : 2~
+@5059 = ~Casque~
+@5060 = ~Bois perçants~
+@5061 = ~Ce casque n'est pas seulement beau. Les bois qui y sont attachés sont censés être ceux d'un cerf magique. Elles sont assez puissantes pour protéger comme par magie celui qui porte ce casque et percer la chair des attaquants.
+
+PARAMÈTRES : 
+
+Capacités d'équipement :
+- Résistance aux dégâts perforants : +10 %
+- Régénère 1 point de vie tous les 2 tours
+
+Capacités de combat : 
+- Chaque attaquant qui réussit à toucher l'utilisateur de ce casque a 60 % de chances de subir 1 point de dégât perforant.
+
+Poids : 2
+Non utilisable par :
+ Mage
+ Barde
+ Voleur
+ Ensorceleur
+ Kensaï
+ Moine~
+@5062 = ~Masque~
+@5063 = ~Charisme sauvage~
+@5064 = ~C'est un masque de cerf enchanté. On dirait qu'il a été fabriqué avec un bois inhabituel de couleur métallique. Il a une odeur musquée. On dit que celui qui le porte sera non seulement protégé contre les animaux, mais qu'il deviendra aussi plus sauvage au combat.
+
+PARAMÈTRES : 
+
+Capacités d'équipement :
+- Charisme : +1
+- Classe d'armure : +2 contre les animaux
+- TAC0 en mêlée : +2
+
+Charisme nécessaire : 14
+
+Poids : 2~
+@5065 = ~Lance~
+@5066 = ~Trident des Îles~
+@5067 = ~Ce trident est un objet puissant et une arme qui possède des enchantements à la fois protecteurs et combattants. Selon une rumeur, il aurait appartenu à un elfe aquatique voyageur, Shill'mar, qui l'utilisait pour combattre les sahuagins et les requins qui tentaient d'arrêter son aventure. Les gens disent qu'il a finalement été tué, mais qu'il en a emmené beaucoup avec lui, au fond des mers.
+
+PARAMÈTRES : 
+
+Capacités d'équipement : 
+- Résistance à l'acide : +25 %
+- Résistance au froid : +25 %
+- Résistance à l'électricité : +25 %
+- Force : +1
+
+TAC0 :  +3
+Dégâts : 1d6+3 (perforant)
+Facteur de vitesse : 4
+Type de compétence : lance
+Type : arme à 2 mains
+Force nécessaire : 5
+Poids : 3
+Non utilisable par :
+ Belluaire
+ Clerc
+ Mage
+ Moine
+ Ensorceleur
+ Voleur~
+@5068 = ~Épée bâtarde~
+@5069 = ~Enfant du soleil +3~
+@5070 = ~Cette puissante épée bâtarde est appelée Enfant du Soleil et on pense qu'elle a été créée par un groupe d'elfes. Elle n'existait que pour se moquer d'une compagnie de drows à laquelle le premier groupe devait faire face. Personne ne sait comment la bataille s'est terminée ni quel camp a gagné.
+
+PARAMÈTRES : 
+
+Capacités d'équipement : 
+- 50 % de chances d'infliger 1 point de dégât de feu en touchant
+- Chaque frappe procure +2 % de résistance au feu pour 1 round (cumulatif) 
+
+TAC0 :  +3
+Dégâts : 2d4+3
+Damage type: tranchant
+Facteur de vitesse : 7
+Type de compétence : épée bâtarde
+Type : arme à 1 main
+Force nécessaire : 11
+Poids : 8
+Non utilisable par :
+ Druide
+ Clerc
+ Mage
+ Voleur~
+@5071 = ~Écharpe~
+@5072 = ~Écharpe de Moomik~
+@5073 = ~Cette écharpe est un cadeau de Moomik, le xvart gardien du phare vivant sur l'île du Chêne Enchevêtré.
+
+PARAMÈTRES : 
+
+Capacités d'équipement :
+- Résistance au froid : +20 %
+- Classe d'armure : +2 contre les humanoïdes
+
+Poids : 1~
+@5074 = ~Couteau~
+@5075 = ~Couteau à beurre aiguisé de Balduran~
+@5076 = ~Les légendes parlent souvent du couteau à beurre de Balduran. Le héros ne permettait à aucun autre ustensile de toucher ses condiments. On pense que sa mère lui a offert le couteau à beurre orné comme cadeau d'anniversaire pour ses dix-huit ans. 
+
+Ce couteau à beurre est maintenant aiguisé, grâce à l'homme inhabituel de l'île du Chêne Enchevêtré à Athkatla.
+
+PARAMÈTRES :
+
+Capacités d'équipement :
+- Immunité contre la Graisse
+- Résistance à la magie : +2 %
+
+Capacités de combat : 
+- 10 % de chances de produire une explosion de graisse (jet de sauvegarde contre le beurre... non attendez... ça n'existe pas... c'est juste de la magie ?)
+
+TAC0 :  +2
+Dégâts : 1d4+2
+Type de dégâts : perforant
+Facteur de vitesse : 0
+Type de compétence : dague
+Type : arme à 1 main
+Force nécessaire : 3
+Poids : 1
+Non utilisable par :
+ Clerc
+ Clerc / Mage
+ Clerc / Voleur
+ Clerc / Rôdeur
+ Guerrier / Clerc
+ Guerrier / Mage / Clerc
+ Belluaire~
+@5077 = ~Étoile du matin~
+@5078 = ~Micasta, Celle d'au-delà du ciel +5~
+@5079 = ~De nombreuses légendes racontent des histoires d'épées puissantes et de chevaliers en armures brillantes qui les manient, mais il existe aussi des armes qui ne sont pas aussi souvent associées à des histoires épiques, mais qui détiennent pourtant de magnifiques pouvoirs. Micasta, celle d'au-delà du ciel, est une de ces armes. Cette étoile du matin enchantée peut être comparée aux lames les plus puissantes. Elle détient une magie qui peut blesser les bêtes puissantes. Elle est encore plus puissante contre les enfants de la nuit et les dragons. Micasta peut apprivoiser leur ego et affaiblir leur chair. 
+
+PARAMÈTRES :
+
+Capacités d'équipement :
+- Résistance à la magie : +10 %
+
+Capacités de combat : 
+- Tous les vampires touchés par cette arme subissent 5 points de dégâts de feu supplémentaires
+- Tous les dragons touchés par cette arme subissent 5 points de dégâts magiques supplémentaires ; il y a également 25 % de chances qu'en frappant un dragon, la créature perde définitivement 5 % de sa résistance à la magie
+
+TAC0 :  +5
+Dégâts : 2d4+5
+Type de dégâts : contondant
+Facteur de vitesse : 6
+Type de compétence : fléau/étoile du matin
+Type : arme à 1 main
+Force nécessaire : 11
+Poids : 10
+Non utilisable par :
+ Druide
+ Mage
+ Moine
+ Voleur
+ Guerrier / Druide
+ Belluaire~
+@5080 = ~Hache~
+@5081 = ~Beau tueur +3~
+@5082 = ~Cette hache n'est pas seulement une belle arme. Les gens croient qu'elle a été créée par un célèbre agent des Harpistes, un barde nommé Thoklo Chinbread. Thoklo était célèbre non seulement pour sa voix magnifique, mais aussi pour son style de combat unique.
+
+PARAMÈTRES : 
+
+Capacités d'équipement :
+- Charisme : +2
+- TAC0 : +2 (uniquement lorsqu'elle est utilisé par des bardes)
+
+Capacités de combat : 
+- Chaque coup fait subir à l'ennemi une pénalité de -1 au TAC0 pendant 1 tour (jet de sauvegarde contre la mort à -2 pour annuler, cumulatif)
+
+TAC0 :  +3
+Dégâts : 1d8+3
+Type de dégâts : tranchant
+Facteur de vitesse : 4
+Type de compétence : hache
+Type : arme à 1 main
+Force nécessaire : 10
+Poids : 4
+Non utilisable par :
+ Clerc
+ Mage
+ Moine
+ Voleur
+ Clerc / Rôdeur
+ Guerrier / Druide
+ Guerrier / Clerc
+ Guerrier / Mage / Clerc
+ Belluaire
+ Druide
+ Ensorceleur~
+@5083 = ~Lanterne~
+@5084 = ~La lumière d'au-delà du mur du jardin~
+@5085 = ~On dit que cette lanterne étrange a un pouvoir sur les bêtes puissantes et tous les cauchemars qui se cachent dans l'obscurité. Tenue à la main, elle protège non seulement ceux qui souhaitent se projeter dans l'inconnu, mais elle combat aussi la mort.
+
+PARAMÈTRES : 
+
+Capacités d'équipement :
+- Classe d'armure : +1, +3 contre les spectres, les âmes-en-peine et les créatures démoniaques
+- Jets de sauvegarde : +2 contre les attaques faites par les spectres, les âmes-en-peine et les créatures démoniaques
+- Protection contre l'aveuglement
+- Jets de sauvegarde contre la mort : +2
+
+Capacités de combat : 
+- Quand le porteur est frappé par une ombre, la lumière de cette lanterne la tue instantanément (pas de jet de sauvegarde)
+
+Capacité de charges :
+- peut lancer Lumière du jour une fois par jour
+
+Poids : 3~
+@5086 = ~Cape~
+@5087 = ~Cape chantante~
+@5088 = ~Cette cape magique attirait sûrement beaucoup d'oreilles lors des bals et des réunions royales. Elle a des couleurs vives et est fabriquée avec un matériau de haute qualité. Ce qui est étrange, c'est qu'elle semble murmurer une sorte de chant. Certains considéreraient cela comme un effet de l'imagination, mais cela doit être plus que cela, car tous ceux qui portent cette cape reçoivent des améliorations magiques.
+
+PARAMÈTRES : 
+
+Capacités d'équipement :
+- Les sorts d'arcanes et divins gagnent +50 % de durée
+- Connaissances : +20
+
+Poids : 3~
+@5089 = ~Mouette~
+@5090 = ~Cette mouette vous aime beaucoup. Elle ressemble à Sigmund. Oui, c'est bien Sigmund.  
+
+PARAMÈTRES : 
+
+Capacité de charges :
+- Peut révéler un espace extérieur une fois par jour (comme le sort Clairvoyance)
+
+Poids : 3~
