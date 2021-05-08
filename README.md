@@ -109,7 +109,7 @@ J'invite les auteurs des mods originaux à récupérer ces correctifs pour les i
 - Ascension v2.0.15
   - Traduction maison des nouvelles chaînes ajoutées par la 2.0, à l'exception des épilogues écrits par Shawne.
 
-- BG2 Impoved GUI v3.12
+- BG2 Impoved GUI v3.16
   - Petite traduction maison, relue et corrigée par [Freedy Gwendo](https://www.baldursgateworld.fr/lacouronne/members/freddy_gwendo.html).
   
 - Cerberus v1.06
