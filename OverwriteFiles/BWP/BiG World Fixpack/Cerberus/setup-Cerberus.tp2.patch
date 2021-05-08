@@ -17,7 +17,7 @@
 -	SAY BIO ~Just don't get me killed.~
 +	SAY NAME1 ~Chien mystérieux~
 +	SAY NAME2 ~Chien~
-+	SAY BIO ~Ne me faites pas tuer.~
++	SAY BIO ~Évitez juste de me laisser mourir.~
  	SAY BATTLE_CRY1 ~~ [IJ#WI03]
  	SAY BATTLE_CRY2 ~~ [IJ#WI03]
  	SAY BATTLE_CRY3 ~~ [IJ#WI03]
