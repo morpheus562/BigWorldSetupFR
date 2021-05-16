@@ -125,6 +125,9 @@ J'invite les auteurs des mods originaux à récupérer ces correctifs pour les i
 - iiKeyNames v2
   - Petite traduction maison.
 
+- Item Revision v4 beta 10
+  - Le mod vérifie si le composant "Services etendus des temples" de atweaks est installé, mais le numéro du composant est incorrect (600 au lieu de 510).
+
 - Mapnames v2
   - Ajout de la traduction française trouvée sur forum de [SpellholdStudio](<http://www.shsforums.net/topic/46634-sword-coast-map-labels/?p=545744>).
 
