@@ -1,15 +1,3 @@
-@6560   = ~Plage de dégâts de la main principale~
-@6561   = ~Plage de dégâts de la deuxième main~
-@6562   = ~Dégâts estimés de la main principale~
-@6563   = ~Dégâts estimés de la deuxième main~
-
-@6564   = ~Une quête a été réalisée~ [GAM_06]
-@6565   = ~Votre journal de quête a été mis à jour~ [GAM_06]
-@6566   = ~Votre journal a été mis à jour~ [GAM_06]
-@6567   = ~Une nouvelle quête a été ajoutée à votre journal~ [GAM_06]
-
-// ..
-//@6571 = last available
 @10     = ~Composant principal (mise a jour de Tobex.dll)~
 @-10000 = ~Installation~
 @-10001 = ~Deja installe. Passe...~
@@ -35,9 +23,10 @@
 @490    = ~de tous les PNJs et he groupe~
 
 @550    = ~Afficher les informations sur le TAC0 et les degats dans l'ecran d'inventaire~
-@500    = ~ecran d'inventaire original~
+@500    = ~ecran d'inventaire par defaut~
 @510    = ~ecran d'inventaire du mod 1pp~
 @520    = ~ecran d'inventaire de Sir-Kill~
+@599    = ~Saute, incompatible avec TutuGUI~
 
 @600    = ~Griser le portrait des personnages quand on fait glisser un objet qu'ils ne peuvent pas utiliser~
 
@@ -56,11 +45,28 @@
 @1100   = ~Afficher les effets actifs d'un PNJ avec le clic droit~
 @1110   = ~des sorts lances uniquement~
 @1120   = ~des sorts lances avec l'affichage du temps restant~
+@1125   = ~des sorts lances par les membres du groupe avec l'affichage du temps restant~
 @1130   = ~des objets equipes et des sorts lances~
 @1140   = ~des objets equipes et des sorts lances avec l'affichage du temps restant~
+@1150   = ~des objets equipes et des sorts lances par les membres du groupe avec l'affichage du temps restant~
 
 @1200   = ~Preciser les messages d'avancement de quete, de gain ou de perte d'objet~
 
+@1300   = ~Preciser les messages de TAC0 et de degats~
+@1310   = ~pour le type de degat~
+@1320   = ~pour le type de degat, le TAC0, la classe d'armure et le calcul des degats~
+
+@1400   = ~Ne pas effacer les sorts draines~
+
+@1500   = ~Afficher les points de vie et l'action en cours sur le portrait du personnage~
+@1510   = ~uniquement les points de vie (touche 'tab' pressee)~
+@1520   = ~uniquement les points de vie (toujours)~
+@1530   = ~uniquement l'action en cours (touche 'tab' pressee)~
+@1540   = ~uniquement l'action en cours (toujours)~
+@1550   = ~les points de vie et l'action en cours (touche 'tab' pressee)~
+@1560   = ~les points de vie et l'action en cours (toujours)~
+@1570   = ~les points de vie (toujours) et l'action en cours (touche 'tab' pressee)~
+@1580   = ~les points de vie (touche 'tab' pressee) et l'action en cours (toujours) (recommande)~
 
 /* =============== *
  *  WeiDU prompts  *
