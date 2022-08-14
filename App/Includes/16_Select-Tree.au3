@@ -264,7 +264,7 @@ EndFunc   ;==>_Tree_GetSplittedMods
 ; ---------------------------------------------------------------------------------------------
 Func _Tree_GetTags()
 	_PrintDebug('+' & @ScriptLineNumber & ' Calling _Tree_GetTags')
-	If $g_Flags[14] = 'BWS' Then
+	If $g_Flags[14] = 'BWS' Or $g_Flags[14] = 'BG2EE' Then
 		$g_UI_Menu[0][2]=StringRegExp(IniRead($g_TRAIni, 'UI-Buildtime', 'Menu[2][2]', ''), '\x7c', 3)
 	ElseIf $g_Flags[14] = 'BWP' Then
 		$g_UI_Menu[0][2]=StringRegExp(IniRead($g_TRAIni, 'UI-Buildtime', 'Menu[2][4]', ''), '\x7c', 3)
@@ -283,7 +283,7 @@ Func _Tree_GetTags()
 	Local $Split = StringSplit(IniRead($g_TRAIni, 'UI-Buildtime', 'Menu[2][1]', ''), '|'); => Special|All
 	$g_Tags[2][0]='*'
 	$g_Tags[2][1]=$Split[2]
-	If $g_Flags[14] = 'BWS' Then
+	If $g_Flags[14] = 'BWS' Or $g_Flags[14] = 'BG2EE' Then
 		$Split = StringSplit(IniRead($g_TRAIni, 'UI-Buildtime', 'Menu[2][2]', ''), '|'); => BWS themes
 	ElseIf $g_Flags[14] = 'BWP' Then
 		$Split = StringSplit(IniRead($g_TRAIni, 'UI-Buildtime', 'Menu[2][4]', ''), '|'); => BWP chapters
