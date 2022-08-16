@@ -3,10 +3,7 @@
 Cette application est une modification du [Big World Setup](<https://github.com/BigWorldSetup/BigWorldSetup>).  
 Tout comme ce dernier, elle vous permet de télécharger, extraire et installer automatiquement des mods, tout en gérant les conflits, dépendances et ordres d'installation.
 
-Cette version ne gère que des mods compatibles avec BG2 et BGT et possédant une traduction française. Quelques exceptions qui n'ont aucune conséquence sur les textes affichés sont toutefois gérées.
-
-BGEE, BG2EE et EET ne seront PAS gérés.
-Cependant, si une personne désire le faire, libre à elle de créer une pré-sélection et les fichiers ini associés.
+Cette version ne gère que des mods compatibles avec BGT et EET possédant une traduction française. Quelques exceptions qui n'ont aucune conséquence sur les textes affichés sont toutefois tolérées.
 
 ## Pour commencer
 
@@ -16,6 +13,10 @@ Cependant, si une personne désire le faire, libre à elle de créer une pré-s�
 4. Désactiver votre antivirus (uniquement pendant l'installation - n'oubliez pas de le réactiver après !)
 5. Désactiver le contrôle des comptes d'utilisateur (UAC) (si vous ne le faites pas, l'installation automatisée peut se bloquer !)
 6. Exécuter "BWS-FR.vbs" en double cliquant dessus.
+
+## Mettre à jour l'application
+
+Afin de vous assurer de toujours exécuter la version la plus récente, il suffit d'exécuter le fichier "BWS-FR update.vbs".  
 
 ## Le dossier "OverwriteFiles"
 Parfois, vous devez écraser des fichiers de mod **APRÈS** leur extraction mais **AVANT** que "Big World Fixpack" n'applique ses corrections.  
@@ -30,7 +31,15 @@ Par exemple pour Stratagems (stratagems\stratagems.ini), mettez votre fichier pe
 
 J'invite les auteurs des mods originaux à récupérer ces correctifs pour les intégrer dans leur version officielle (si toutefois la correction leur convient).
 
-#### Corrections de bugs
+#### Pour EET
+
+Les correctifs spécifiques à la version EET se trouvent dans un dépôt à part : [BWS-FR Fixpack](<https://github.com/Selphira/BWS-FR-Fixpack>)
+
+#### Pour BGT
+
+Les correctifs spécifiques à la version BGT sont directement incluses dans ce dépôt.
+
+##### Corrections de bugs
 - Baldurdash v1.75
   - Erreur lors de la modification du fichier MAZZYP.DLG qui provoque une erreur de parsing du script (SetSetGlobal au lieu de SetGlobal)
 
@@ -68,7 +77,7 @@ J'invite les auteurs des mods originaux à récupérer ces correctifs pour les i
 - Wheels of Prophecy v8.3
   - Mauvais chemin enregistré dans la variable **mod_root**
   
-#### Corrections de compatibilité
+##### Corrections de compatibilité
 - Area patcher
   - Les composants 5000 et 5001 se basaient sur le composant 15 de BG1NPC qui est devenu le 80.
 
@@ -100,7 +109,7 @@ J'invite les auteurs des mods originaux à récupérer ces correctifs pour les i
   - Certaines orientations étaient écrites sous forme de lettre et non de chiffre. 
   - Il modifiait le fichier action.ids pour gérer les orientations sous forme de lettre.
   
-#### Traductions et corrections d'orthographe
+##### Traductions et corrections d'orthographe
 
 - Ascalons Questpack v4
   - Utilisation de la [version de travail](<https://github.com/Jazira33/AC_QUEST>) (non finalisée) de Jazira pour avoir la traduction française.  
@@ -148,3 +157,67 @@ J'invite les auteurs des mods originaux à récupérer ces correctifs pour les i
 
 - Unique Artifact v7.2
   - Petite traduction maison, relue et corrigée par [Freedy Gwendo](https://www.baldursgateworld.fr/lacouronne/members/freddy_gwendo.html).
+
+## Informations techniques
+
+### Les types de mod
+Le type général d'un mod renseigné dans son fichier ini permet de savoir dans quelle sélection automatique ils seront présent.
+Il est possible de définir plusieurs types pour un mod, cela permettra de le faire apparaitre dans plusieurs sélections
+automatique. (Ex: Type=F,R,S,T,E)
+  
+F : [F]ixe (Mods essentiels, ils ne pourront pas être désélectionnés)  
+R : [R]ecommandé (Mods au contenu de haute qualité et bien intégré)  
+S : Maximi[S]é (Mods de toutes qualités, excluant les contenus les plus difficiles)  
+T : [T]actique (Mods de toutes qualités, incluant les contenus les plus difficiles)  
+E : [E]xpert (Mods présentant des problèmes connus, pour le débogage)
+
+Note : Pour le type Fixe, il est possible de faire en sorte que certains commposants ne soient pas fixés. Pour se faire,
+il suffit d'ajouter l'option "NotFixed" dans la section [Mod] du fichier ini du mod concerné (Ex: NotFixed=1 2 10)
+
+### Les  lignes d'installation
+
+Un ligne du fichier InstallOrder.ini est composée de différentes sections
+
+[LineType];[SetupName];[ComponentNumber];[Theme];[Defaults];[CompReq]  
+
+LineType : Le type de la ligne d'installation  
+SetupName : Le nom du mod à installer  
+ComponentNumber : Le numéro du composant à installer  
+Theme : La catégorie dans laquelle se trouve le composant  
+Defaults : Les valeurs défaut pour correspondant respectivement aux types RSTE. Cela permet de pouvoir placer un
+composant particulier dans une sélection différente du type général du mod.  
+CompReq : ???
+
+#### Les types de ligne d'installation
+
+ANN : Un commentaire  
+CMD : Une commande shell à exécuter  
+DWN : Téléchargement d'un mod  
+STD : Installation d'un composant  
+MUC : Liste de choix de plusieurs composants différents, un seul peut être sélectionné    
+SUB : Liste de choix pour un même composant, généralement car le composant nécessite une entrée manuelle, un seul peut être sélectionné
+GRP : Permet d'installer plusieurs composants en une seule commande
+
+#### Les catégories de ligne d'installation
+00 : Général  
+01 : Corrections  
+02 : Gros mods: BG1  
+03 : Quêtes: BG1  
+04 : PNJs: BG1  
+05 : Relatif aux PNJs: BG1  
+06 : Rencontres tactiques: BG1  
+07 : Règles et ajustements: BG1  
+08 : Magasins et objets: BG1  
+09 : Gros mods: BG2  
+10 : Quêtes: BG2  
+11 : Mini-Mods  
+12 : PNJs: BG2  
+13 : Petits PNJs: BG2  
+14 : Relatif aux PNJs: BG2  
+15 : Rencontres tactiques: BG2  
+16 : Règles, ajustements et sorts: BG2  
+17 : Magasins et objets: BG2  
+18 : Intelligence artificielle  
+19 : Kits  
+20 : Interface  
+21 : Graphisme, portraits et sons
