@@ -3,10 +3,7 @@
 Cette application est une modification du [Big World Setup](<https://github.com/BigWorldSetup/BigWorldSetup>).  
 Tout comme ce dernier, elle vous permet de télécharger, extraire et installer automatiquement des mods, tout en gérant les conflits, dépendances et ordres d'installation.
 
-Cette version ne gère que des mods compatibles avec BG2 et BGT et possédant une traduction française. Quelques exceptions qui n'ont aucune conséquence sur les textes affichés sont toutefois gérées.
-
-BGEE, BG2EE et EET ne seront PAS gérés.
-Cependant, si une personne désire le faire, libre à elle de créer une pré-sélection et les fichiers ini associés.
+Cette version ne gère que des mods compatibles avec BGT et EET possédant une traduction française. Quelques exceptions qui n'ont aucune conséquence sur les textes affichés sont toutefois tolérées.
 
 ## Pour commencer
 
@@ -16,6 +13,10 @@ Cependant, si une personne désire le faire, libre à elle de créer une pré-s�
 4. Désactiver votre antivirus (uniquement pendant l'installation - n'oubliez pas de le réactiver après !)
 5. Désactiver le contrôle des comptes d'utilisateur (UAC) (si vous ne le faites pas, l'installation automatisée peut se bloquer !)
 6. Exécuter "BWS-FR.vbs" en double cliquant dessus.
+
+## Mettre à jour l'application
+
+Afin de vous assurer de toujours exécuter la version la plus récente, il suffit d'exécuter le fichier "BWS-FR update.vbs".  
 
 ## Le dossier "OverwriteFiles"
 Parfois, vous devez écraser des fichiers de mod **APRÈS** leur extraction mais **AVANT** que "Big World Fixpack" n'applique ses corrections.  
@@ -30,7 +31,15 @@ Par exemple pour Stratagems (stratagems\stratagems.ini), mettez votre fichier pe
 
 J'invite les auteurs des mods originaux à récupérer ces correctifs pour les intégrer dans leur version officielle (si toutefois la correction leur convient).
 
-#### Corrections de bugs
+#### Pour EET
+
+Les correctifs spécifiques à la version EET se trouvent dans un dépôt à part : [BWS-FR Fixpack](<https://github.com/Selphira/BWS-FR-Fixpack>)
+
+#### Pour BGT
+
+Les correctifs spécifiques à la version BGT sont directement incluses dans ce dépôt.
+
+##### Corrections de bugs
 - Baldurdash v1.75
   - Erreur lors de la modification du fichier MAZZYP.DLG qui provoque une erreur de parsing du script (SetSetGlobal au lieu de SetGlobal)
 
@@ -68,7 +77,7 @@ J'invite les auteurs des mods originaux à récupérer ces correctifs pour les i
 - Wheels of Prophecy v8.3
   - Mauvais chemin enregistré dans la variable **mod_root**
   
-#### Corrections de compatibilité
+##### Corrections de compatibilité
 - Area patcher
   - Les composants 5000 et 5001 se basaient sur le composant 15 de BG1NPC qui est devenu le 80.
 
@@ -100,7 +109,7 @@ J'invite les auteurs des mods originaux à récupérer ces correctifs pour les i
   - Certaines orientations étaient écrites sous forme de lettre et non de chiffre. 
   - Il modifiait le fichier action.ids pour gérer les orientations sous forme de lettre.
   
-#### Traductions et corrections d'orthographe
+##### Traductions et corrections d'orthographe
 
 - Ascalons Questpack v4
   - Utilisation de la [version de travail](<https://github.com/Jazira33/AC_QUEST>) (non finalisée) de Jazira pour avoir la traduction française.  
@@ -210,4 +219,5 @@ GRP : Permet d'installer plusieurs composants en une seule commande
 17 : Magasins et objets: BG2  
 18 : Intelligence artificielle  
 19 : Kits  
-20 : Graphisme, portraits et sons
+20 : Interface  
+21 : Graphisme, portraits et sons
