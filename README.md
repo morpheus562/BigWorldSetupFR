@@ -1,3 +1,7 @@
+[![Github Releases](https://img.shields.io/github/v/release/Selphira/BigWorldSetupFR)](https://github.com/Selphira/BigWorldSetupFR/releases/latest)
+![Langues](https://img.shields.io/static/v1?label=Langues&message=Français&color=limegreen)
+![Jeux supportés](https://img.shields.io/static/v1?label=Jeux%20supportés&message=BGT%20%7C%20EET&color=dodgerblue)
+
 # Big World Setup FR (BWS-FR)
 
 Cette application est une modification du [Big World Setup](<https://github.com/BigWorldSetup/BigWorldSetup>).  
