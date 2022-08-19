@@ -36,7 +36,7 @@ Else
 	Set wshShell = nothing
   End If
   Set wshShell = WScript.CreateObject ("wscript.shell")
-  commandDefinition = "%comspec% /c ""App\Tools\Git\cmd\git.exe""" & " " & "log --pretty=oneline --abbrev-commit --abbrev=7 -n 1" & " > " & "EE-Mod-Setup-Version.txt"
+  commandDefinition = "%comspec% /c ""App\Tools\Git\cmd\git.exe""" & " " & "log --pretty=oneline --abbrev-commit --abbrev=7 -n 1" & " > " & "BWS-FR-Version.txt"
   wshShell.Run commandDefinition, 1, True
   wshShell.Run """App\Tools\AutoIt3.exe"" ""App\App.au3""", 1, True
   Set wshShell = nothing
