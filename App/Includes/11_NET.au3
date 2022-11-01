@@ -574,6 +574,7 @@ Func _Net_DownloadStart($p_URL, $p_File, $p_Setup, $p_Prefix, $p_String); Link, 
 		EndIf
 		If $NetInfo[2] < 0 Then; server returned a 0-byte filesize or no info at all
 			;If StringInStr($p_URL, 'master') Then; for Git master branch downloads, the file name does not change for new commits
+			;TODO: Faire une exception pour le BWS-FR-Fixpack ?
 			If StringInStr($p_URL, 'check-temporarily-disabled-for-test') Then; for Git master branch downloads, the file name does not change for new commits
 				; we can't assume a local copy is still up to date if we didn't get a valid size, so ensure we do not use a local copy
 				If FileExists($g_DownDir & '\' & $p_File) Then
