@@ -479,7 +479,7 @@ Func Au3BuildGUI($p_Num = 0)
 	$g_UI_Interact[14][4] = GUICtrlCreateCheckbox('', 30, 190, 370, 20); install in groups
 	$g_UI_Interact[14][10] = GUICtrlCreateCheckbox('', 30, 220, 370, 20); signal pauses
 	GUICtrlCreateGroup('', -99, -99, 1, 1)
-	$g_UI_Seperate[14][2] = GUICtrlCreateGroup('', 15, 270, 400, 140)
+	;$g_UI_Seperate[14][2] = GUICtrlCreateGroup('', 15, 270, 400, 140)
 	GUICtrlSetFont(-1, 8, 800, 0, "MS Sans Serif")
 	$g_UI_Interact[14][5] = GUICtrlCreateCheckbox('', 30, 305, 370, 20); use widescreen
 	$g_UI_Interact[14][6] = GUICtrlCreateInput('', 30, 345, 170, 20, $SS_CENTER)
@@ -586,7 +586,7 @@ Func Au3BuildGUI($p_Num = 0)
 	$g_UI_Menu[1][0] = GUICtrlCreateContextMenu($g_UI_Static[4][2]); >> option-menu
 	$g_UI_Menu[1][6] = GUICtrlCreateMenu('6', $g_UI_Menu[1][0]); Click properties
 	$g_UI_Menu[1][12] = GUICtrlCreateMenu('12', $g_UI_Menu[1][0]); View
-	$g_UI_Menu[1][13] = GUICtrlCreateMenu('13', $g_UI_Menu[1][0]); Tools
+	;$g_UI_Menu[1][13] = GUICtrlCreateMenu('13', $g_UI_Menu[1][0]); Tools
 	GUICtrlCreateMenuItem('', $g_UI_Menu[1][0])
 	$g_UI_Menu[1][1] = GUICtrlCreateMenuItem('1', $g_UI_Menu[1][0]); Load
 	$g_UI_Menu[1][2] = GUICtrlCreateMenuItem('2', $g_UI_Menu[1][0]); Save
@@ -603,10 +603,10 @@ Func Au3BuildGUI($p_Num = 0)
 	$g_UI_Menu[1][5] = GUICtrlCreateMenuItem('5', $g_UI_Menu[1][12]); Extend
 	$g_UI_Menu[1][16] = GUICtrlCreateMenuItem('16', $g_UI_Menu[1][12]); pdf-sorting
 ; Creating sub-menuitems for tools-menu
-	$g_UI_Menu[1][14] = GUICtrlCreateMenuItem('14', $g_UI_Menu[1][13]); administrate mods
-	$g_UI_Menu[1][15] = GUICtrlCreateMenuItem('15', $g_UI_Menu[1][13]); administrate components
-	$g_UI_Menu[1][17] = GUICtrlCreateMenuItem('17', $g_UI_Menu[1][13]); administrate selection
-	$g_UI_Menu[1][18] = GUICtrlCreateMenuItem('18', $g_UI_Menu[1][13]); administrate dependencies
+	;$g_UI_Menu[1][14] = GUICtrlCreateMenuItem('14', $g_UI_Menu[1][13]); administrate mods
+	;$g_UI_Menu[1][15] = GUICtrlCreateMenuItem('15', $g_UI_Menu[1][13]); administrate components
+	;$g_UI_Menu[1][17] = GUICtrlCreateMenuItem('17', $g_UI_Menu[1][13]); administrate selection
+	;$g_UI_Menu[1][18] = GUICtrlCreateMenuItem('18', $g_UI_Menu[1][13]); administrate dependencies
 ; Creating basic add/remove/mark-entries
 	For $m=2 to 4
 		$g_UI_Menu[$m][0] = GUICtrlCreateContextMenu($g_UI_Static[4][$m+1]); context-menu
