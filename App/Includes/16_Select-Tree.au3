@@ -1105,7 +1105,7 @@ Func _Tree_SelectRead($p_Admin=0)
 	;FileWriteLine($g_LogFile, $g_Skip)
 	For $a=1 to $Array[0]
 		If StringRegExp($Array[$a], '\A(\s.*\z|\z)') Then ContinueLoop; skip empty lines
-		If StringRegExp($Array[$a], '(?i)\A(ANN|CMD|GRP)') Then
+		If StringRegExp($Array[$a], '(?i)\A(ANN|CMD|GRP|CMT|PAUSE)') Then
 			If $p_Admin=0 Then
 				ContinueLoop; skip annotations,commands,groups
 			Else

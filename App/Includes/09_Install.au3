@@ -309,6 +309,19 @@ Func Au3Install($p_Num = 0, $p_Debug = 0)
 			ExitLoop; additional code for EET transition follows end of loop below
 		ElseIf StringRegExp($Array[$a], '(?i)\A(DWN|ANN)') Then; skip comments and download-only mods
 			ContinueLoop
+		ElseIf StringRegExp($Array[$a], '(?i)\ACMT') Then ; Commentaire si le mod est sélectionné
+			$Split=StringSplit($Array[$a], ';')
+			If $Split[0] < 3 Then
+				_Process_SetConsoleLog('WARNING:  BWS is skipping an incorrectly formatted line '&$a&' in '&$g_GConfDir&'\InstallOrder.ini'&': '&$Array[$a])
+				ContinueLoop
+			EndIf
+			If IniRead($g_UsrIni, 'Current', $Split[2], '') = '' Then ContinueLoop; the user did not select the mod at all
+			$Split[3] = StringReplace($Split[3], '%UserProfile%', @MyDocumentsDir)
+            _Process_SetConsoleLog($Split[3]);
+            ContinueLoop
+		ElseIf StringRegExp($Array[$a], '(?i)\APAUSE') Then
+			_Process_Pause(); force pause
+			ContinueLoop
 		ElseIf StringRegExp($Array[$a], '(?i)\ACMD') Then
 			$Split=StringReplace($Array[$a], "\;", "&SEMI&") ; allow backslash to escape a semicolon in CMD statements
 			$Split=StringSplit($Split, ';')
@@ -321,16 +334,16 @@ Func Au3Install($p_Num = 0, $p_Debug = 0)
 			EndIf
 			FileDelete($g_GameDir&'\BWS_Finished.nul')
 			GUICtrlSetData($g_UI_Static[6][2], _GetTR($Message, 'L7')); => run batch
-			$Handle = FileOpen($g_GameDir & '\Tmp.bat', 2); yeah, this looks stupid, but how else would I know that the action is done?
+			$Handle = FileOpen($g_GameDir & '\BWS-FR.bat', 2); yeah, this looks stupid, but how else would I know that the action is done?
 			;FileWriteLine($Handle, '@echo off'); be quiet
 			FileWriteLine($Handle, $Split[2]); >> Do not comment if not debugging!!!
 			FileWriteLine($Handle, 'copy "BWS_Dummy.nul" "BWS_Finished.nul" 2>nul 1>nul'); be a little more quiet
 			FileClose($Handle)
 			If Not StringRegExp($Array[$a], '(?i)\s(Call|For|xcopy)\s|_IDS') Then; just avoid some annoying and useless linefeeds
 				_Process_SetConsoleLog($Split[2])
-				ShellExecuteWait('Tmp.bat', '', $g_GameDir, '', @SW_HIDE)
+				ShellExecuteWait('BWS-FR.bat', '', $g_GameDir, '', @SW_HIDE)
 			Else
-				_Process_Run('Tmp.bat', 'BWS_Finished.nul')
+				_Process_Run('BWS-FR.bat', 'BWS_Finished.nul')
 			EndIf
 		ElseIf StringRegExp($Array[$a], '(?i)\AGRP;Start') Then
 			IniWrite($g_BWSIni, 'Options', 'Start', $a); create entry to enable resume (start of a group)

@@ -200,7 +200,7 @@ Func Au3GetVal($p_Num = 0)
 				IniWrite($g_BWSIni, 'Order', 'Au3Exit', 1)
 				Exit
 			EndIf
-			While StringRegExp($Array[$a], '(?i)\A(CMD|ANN|DWN|GRP)') And $a < $Array[0]
+			While StringRegExp($Array[$a], '(?i)\A(CMD|ANN|DWN|GRP|CMT|PAUSE)') And $a < $Array[0]
 				$a += 1
 			WEnd
 			$Split = StringSplit($Array[$a], ';')
