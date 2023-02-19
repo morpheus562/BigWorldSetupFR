@@ -435,8 +435,8 @@ Func Au3Install($p_Num = 0, $p_Debug = 0)
 						ContinueLoop
 					EndIf
 					_Process_SetConsoleLog(_GetTR($Message, 'L17'), -1); => make sure mod exists
-					_Process_Question('r|c|e', _GetTR($TMessage, 'L6'), _GetTR($TMessage, 'Q1'), 3, $g_Flags[18]); => install anyway/skip/exit?
-					If $g_pQuestion = 'e' Then; exit
+					_Process_Question('r|c|q', _GetTR($TMessage, 'L6'), _GetTR($TMessage, 'Q1'), 3, $g_Flags[18]); => install anyway/skip/exit?
+					If $g_pQuestion = 'q' Then; exit
 						Exit
 					ElseIf $g_pQuestion = 'c' Then; continue
 						If $Dependent[0][0] <> 0 Then
@@ -497,11 +497,11 @@ Func Au3Install($p_Num = 0, $p_Debug = 0)
 			If $Success = 0 Then
 				If StringRegExp($Logic, '5') = 0 Then; errors should be displayed
 					_Process_SetConsoleLog(_GetTR($Message, 'L15'), -1); => try to start cmd again?
-					_Process_Question('r|c|e', _GetTR($TMessage, 'L6'), _GetTR($TMessage, 'Q1'), 3, $g_Flags[18]); => retry/continue (skip)/exit?
+					_Process_Question('r|c|q', _GetTR($TMessage, 'L6'), _GetTR($TMessage, 'Q1'), 3, $g_Flags[18]); => retry/continue (skip)/exit?
 				Else
 					$g_pQuestion = 'r'; set answer to retry if user chose not to be prompted
 				EndIf
-				If $g_pQuestion = 'e' Then; exit
+				If $g_pQuestion = 'q' Then; exit
 					Exit
 				ElseIf $g_pQuestion = 'c' Then; continue
 					ContinueLoop
@@ -1292,8 +1292,8 @@ Func _Install_TestInstalled($p_Setup, $p_DebugTest, $p_Logic, $p_Num, $p_Message
 			EndIf
 			If StringRegExp($p_Logic, '1|2|4') Then; errors should be displayed
 				_Process_SetConsoleLog('|'&_GetTR($Message, 'L5'), -1); => want to fix it?
-				_Process_Question('r|c|e', _GetTR($Message, 'L6'), _GetTR($Message, 'Q1'), 3, $g_Flags[18]); => retry/continue/exit
-				If $g_pQuestion = 'e' Then
+				_Process_Question('r|c|q', _GetTR($Message, 'L6'), _GetTR($Message, 'Q1'), 3, $g_Flags[18]); => retry/continue/exit
+				If $g_pQuestion = 'q' Then
 					Exit
 				ElseIf $g_pQuestion = 'r' Then
 					Return 1; decrease number for retry
