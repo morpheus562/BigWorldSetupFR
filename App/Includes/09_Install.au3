@@ -1393,7 +1393,7 @@ Func _Install_ReadWeiDU($p_Setup, $p_Comp='*', $p_Lang='*')
 	If $p_Comp = '*' Then $p_Comp = '.*'
 	$Array = StringSplit(StringStripCR(FileRead($g_GameDir & '\WeiDU.log')), @LF)
 	For $a = $Array[0] To 1 Step -1
-		If StringRegExp($Array[$a], '(?i)\A~([^\x2f]{1,}\x2f|)(setup\x2d|)'&$p_Setup&'.tp2~\s#'&$p_Lang&'\s#'&$p_Comp) Then
+		If StringRegExp($Array[$a], '(?i)\A~([^\x2f]{1,}\x2f|)(setup\x2d|)'&$p_Setup&'.tp2~\s#'&$p_Lang&'\s#'&$p_Comp&'\s') Then
 			$Component = StringRegExpReplace($Array[$a], '\A.*\s//\s', '')
 			Return SetError(0, '', 1)
 			ExitLoop
