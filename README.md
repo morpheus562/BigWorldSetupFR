@@ -104,6 +104,9 @@ J'invite les auteurs des mods originaux à récupérer ces correctifs pour les i
 - BG2 Impoved GUI v3.12
   - Petite traduction maison
   
+- Cerberus v1.06
+  - Mini traduction maison des chaînes non traifiées.
+  
 - Lysre v1.2
   - Corrections d'un grand nombre de fautes d'orthographe
   - Ajout des caractères accentués
