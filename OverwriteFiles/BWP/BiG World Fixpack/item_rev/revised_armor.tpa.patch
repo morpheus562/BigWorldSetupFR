@@ -1,4 +1,4 @@
---- item_rev\\components\\revised_armor.tpa
+--- item_rev\components\revised_armor.tpa
 +++ "b/E:\\Jeux modd\303\251s\\Baldur's Gate 2\\BigWorldSetupFR\\OverwriteFiles\\BWP\\Big World Fixpack\\item_rev\\components\\revised_armor.tpa"	
 @@ -92,9 +92,9 @@ ACTION_PHP_EACH armor AS ind => res BEGIN
              xres=value
