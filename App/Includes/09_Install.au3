@@ -320,6 +320,12 @@ Func Au3Install($p_Num = 0, $p_Debug = 0)
             _Process_SetConsoleLog($Split[3]);
             ContinueLoop
 		ElseIf StringRegExp($Array[$a], '(?i)\APAUSE') Then
+			$Split=StringSplit($Array[$a], ';')
+			If UBound($Split)>2 Then; only look for requirement if line has enough semicolons
+                If $Split[2] <> '' Then; skip if requirements are not met. No feedback - it's just a cmd like copy/del.
+					If IniRead($g_UsrIni, 'Current', $Split[2], '') = '' Then ContinueLoop; the user did not select the mod at all
+                EndIf
+            EndIf
 			_Process_Pause(); force pause
 			ContinueLoop
 		ElseIf StringRegExp($Array[$a], '(?i)\ACMD') Then
