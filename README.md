@@ -44,6 +44,9 @@ J'invite les auteurs des mods originaux à récupérer ces correctifs pour les i
 - Item Upgrade v45
   - Des traductions manquantes dans le fichier itemupgrade/languages/french/lolwot.tra empêchaient le mod de s'installer en français.
   
+- Lolfixer
+  - Correction d'un problème qui génère des effets invalides avec l'opcode 177.
+  
 - Lysre v1.2
   - L'installation échouait lors de l'ajout du kit.
   - Les fichiers audio n'étaient pas installés, car le fichier oggdec.exe était manquant
