@@ -590,8 +590,8 @@ Func Au3BuildGUI($p_Num = 0)
 	GUICtrlCreateMenuItem('', $g_UI_Menu[1][0])
 	$g_UI_Menu[1][1] = GUICtrlCreateMenuItem('1', $g_UI_Menu[1][0]); Load
 	$g_UI_Menu[1][2] = GUICtrlCreateMenuItem('2', $g_UI_Menu[1][0]); Save
-	$g_UI_Menu[1][3] = GUICtrlCreateMenuItem('3', $g_UI_Menu[1][0]); Import
 	$g_UI_Menu[1][4] = GUICtrlCreateMenuItem('4', $g_UI_Menu[1][0]); Export
+	$g_UI_Menu[1][3] = GUICtrlCreateMenuItem('3', $g_UI_Menu[1][0]); Import
 	$g_UI_Menu[1][11] = GUICtrlCreateMenuItem('11', $g_UI_Menu[1][0]); Import WeiDU
 ; Creating sub-menuitems for click-properties
 	$g_UI_Menu[1][7] = GUICtrlCreateMenuItem('7', $g_UI_Menu[1][6]); recommended
