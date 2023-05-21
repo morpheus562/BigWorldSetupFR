@@ -1,62 +1,161 @@
-@6560 = ~Plage de dégâts de la main principale~
-@6561 = ~Plage de dégâts de la main secondaire~
-@6562 = ~Dégâts estimés de la main principale~
-@6563 = ~Dégâts estimés de la main secondaire~
+@6560   = ~Plage de dégâts de la main principale~
+@6561   = ~Plage de dégâts de la deuxième main~
+@6562   = ~Dégâts estimés de la main principale~
+@6563   = ~Dégâts estimés de la deuxième main~
 
-@6564 = ~La quête a été complétée~ [GAM_06]
-@6565 = ~Le journal de quête a été mis à jour~ [GAM_06]
-@6566 = ~Le journal a été mis à jour~ [GAM_06]
-@6567 = ~Une nouvelle quête a été ajoutée au journal~ [GAM_06]
+@6564   = ~Une quête a été réalisée~ [GAM_06]
+@6565   = ~Votre journal de quête a été mis à jour~ [GAM_06]
+@6566   = ~Votre journal a été mis à jour~ [GAM_06]
+@6567   = ~Une nouvelle quête a été ajoutée à votre journal~ [GAM_06]
 
 // ..
 //@6571 = last available
-
-
-@10  = ~Core (mise a jour de Tobex.dll)~
+@10     = ~Composant principal (mise a jour de Tobex.dll)~
 @-10000 = ~Installation~
-@-10001 = ~Deja applique, passe...~
-@-10002 = ~Les octets requis dans BGMain.exe ne correspondent pas, abandon...~
-@-10003 = ~Tobex n'est pas installe, ERREUR !~
+@-10001 = ~Deja installe. Passe...~
+@-10002 = ~Fichier BGMain.exe non conforme, abandon...~
+@-10003 = ~Ce composant necessite l'installation de TobEx~
 
-@100 = ~Panneau du butin~
-@110 = ~Mode classique~
-@120 = ~Deplacer les mêmes objets de differents conteneurs en une seule action~
+@100    = ~Afficher le panneau de butin rapide~
+@110    = ~Mode classique (comme celui des jeux EE)~
+@120    = ~Regrouper les objets identiques et les recuperer en un seul clic~
 
-@200 = ~Colorer l'icone des parchemins non mémorises~
+@200    = ~Surligner en vert les parchemins de sorts non retranscrits dans le livre de sorts~
 
-@300 = ~Cacher le bouton "Retranscrire" pour les sorts deja connus et pour les écoles d'opposition.~
+@300    = ~Ne pas afficher le bouton "Retranscrire" sur les parchemins de sorts deja connus ou d'ecoles d'opposition~
 
-@400 = ~Afficher les points de vie des PNJs/Groupe~
-@410 = ~Ennemi + Allie/Invocation/Charme (par defaut)~
-@420 = ~Ennemi~
-@430 = ~Ennemi + Allie/Invocation/Charme + Groupe~
-@440 = ~Ennemi + Neutre~
-@450 = ~Ennemi + Neutre + Allie/Invocation/Charme~
-@470 = ~Allie/Invocation/Charme~
-@480 = ~Allie/Invocation/Charme + Groupe~
-@490 = ~Tous les PNJs + Groupe~
+@400    = ~Afficher les points de vie au-dessus du groupe et des PNJs~
+@410    = ~des ennemis et des creatures alliees, convoquees ou charmees (par defaut)~
+@420    = ~des ennemis~
+@430    = ~des ennemis, des creatures alliees, convoquees ou charmees, et du groupe~
+@440    = ~des ennemis et des creatures neutres~
+@450    = ~des ennemis et des creatures neutres, alliees, convoquees ou charmees~
+@470    = ~des creatures alliees, convoquees ou charmees~
+@480    = ~des creatures alliees, convoquees ou charmees, et du groupe~
+@490    = ~de tous les PNJs et he groupe~
 
-@550 = ~TAC0 et informations sur les degats sur l'ecran d'inventaire~
-@500 = ~Image de fond originale~
-@510 = ~Image de fond du mod 1pp~
-@520 = ~Image de fond de Sir-Kill~
+@550    = ~Afficher les informations sur le TAC0 et les degats dans l'ecran d'inventaire~
+@500    = ~ecran d'inventaire original~
+@510    = ~ecran d'inventaire du mod 1pp~
+@520    = ~ecran d'inventaire de Sir-Kill~
 
-@600 = ~Portraits sombres sur le groupe lorsque l'on fait glisser un objet non autorise~
+@600    = ~Griser le portrait des personnages quand on fait glisser un objet qu'ils ne peuvent pas utiliser~
 
-@700 = ~Afficher le total des jets de des sur l'ecran de creation du personnage~
+@700    = ~Afficher le total des jets de des dans l'ecran de creation du personnage~
 
-@800 = ~Journal avec possibilite de cacher la description des quetes~
-@810 = ~Grande zone de texte~
-@820 = ~Zone de texte originale~
+@800    = ~Plier et deplier la description des quetes dans le journal~
+@810    = ~Grande zone de texte~
+@820    = ~Zone de texte originale~
 
-@900 = ~Fond en niveaux de gris quand le jeu est en pause~
+@900    = ~Afficher la carte en niveaux de gris quand le jeu est en pause~
 
-@1000 = ~Emplacement illimite pour la main secondaire~
+@1000   = ~Autoriser l'equipement d'arme ou de bouclier dans la main secondaire (experimental)~
 
-@1100 = ~Afficher les effets actifs d'un' PNJ lors d'un clic droit sur lui~
-@1110 = ~Sorts lances ~
-@1120 = ~Sorts lances + afficher le temps restant~
-@1130 = ~Objets équipes et sorts lances~
-@1140 = ~Objets équipes et sorts lances + afficher le temps restant~
+@1100   = ~Afficher les effets actifs d'un PNJ avec le clic droit~
+@1110   = ~des sorts lances uniquement~
+@1120   = ~des sorts lances avec l'affichage du temps restant~
+@1130   = ~des objets equipes et des sorts lances~
+@1140   = ~des objets equipes et des sorts lances avec l'affichage du temps restant~
 
-@1200 = ~Messages etendus a propos des quetes et des objets~
+@1200   = ~Preciser les messages d'avancement de quete, de gain ou de perte d'objet~
+
+
+/* =============== *
+ *  WeiDU prompts  *
+ * =============== */
+@-1000= "Le mod %TP2_FILE_NAME% contient"
+@-1001= "composants optionnels distincts.
+Pour gagner du temps, vous pouvez choisir ce que vous souhaitez faire d'eux
+au niveau general plutot que de repondre aux questions pour chacun.
+"
+@-1002= "Que faut-il faire de tous les composants qui NE sont PAS ENCORE installes ?
+Les [I]nstaller, les [S]auter, dem[A]nder pour chacun ? "
+@-1003= "Que faut-il faire de tous les composants qui sont DEJA installes ?
+Les [R]einstaller, les s[U]pprimer, les [S]auter, dem[A]nder pour chacun ? "
+
+@-1004= "S'IL VOUS PLAIT, envoyez par e-mail le fichier"
+@-1005= "a"
+
+@-1006= "Installer le composant ["
+@-1007= "] ?
+[R]einstaller, co[N]server, s[U]pprimer ou [Q]uitter ? "
+@-1008= "] ?
+[I]nstaller, [N]e pas installer ou [Q]uitter ? "
+
+@-1009= "Entrez une partie du nom du module : "
+
+@-1010= "Reinstallation du composant ["
+@-1011= "] "
+@-1012= "Reinstallation dans la langue"
+
+@-1013= "Suppression de l'ancienne installation de ["
+@-1014= "] au prealable..."
+@-1015= "SUPPRESSION REUSSIE DE L'ANCIEN"
+
+@-1016= "Installation en cours"
+@-1017= "ERREUR pendant l'installation de ["
+@-1018= "], retour a l'etat anterieur"
+@-1019= "INSTALLATION REUSSIE"
+@-1020= "Saute"
+@-1021= "Suppression de ["
+@-1022= "] (composant #"
+@-1023= ")"
+@-1024= "SUPPRESSION REUSSIE DE ["
+
+@-1025= "] ?
+[R]einstaller, co[N]server, s[U]pprimer, [Q]uitter ou choisir un parmi :"
+@-1026= "] ?
+[N]e pas installer, [Q]uitter ou choisir un parmi :"
+@-1027= " (installe actuellement)"
+
+@-1028= "Souhaitez-vous afficher les composants de ["
+@-1029= "] ?
+[Y]Oui, [N]on ? "
+
+@-1030= "] ?
+choisir un parmi :"
+@-1031= "] ?
+[R]einstaller, co[N]server, [Q]uitter ou choisir un parmi :"
+@-1032= "INSTALLATION ECHOUEE A CAUSE D'ERREURS"
+@-1033= "INSTALLATION AVEC DES ALERTES"
+@-1034= "Souhaitez-vous afficher les instructions (ReadMe) ? [Y]Oui [N]on"
+@-1035= "Dans la langue"
+
+@-1036= "Saute le GROUPE ["
+@-1037= "] pour cause d'absence des pre-requis."
+
+@-1038= "dem[A]nder pour chaque composant, tout [S]auter, ou choisir une selection pre-definie :"
+@-1039= "dem[A]nder pour chaque composant, [R]einstaller la configuration courante, tout s[U]pprimer, tout [S]auter, ou choisir une selection pre-definie :"
+
+@-1040= "
+Veuillez choisir la langue dans laquelle vous souhaitez jouer au jeu.
+Si par la suite vous desirez jouer au jeu dans une langue differente, il vous
+faudra editer le fichier weidu.conf et reinstaller vos mods.
+"
+@-1041= "Tcheque"
+@-1042= "Allemand"
+@-1043= "Anglais"
+@-1044= "Espagnol"
+@-1045= "Francais"
+@-1046= "Italien"
+@-1047= "Polonais"
+@-1048= "Portugais"
+@-1049= "Turc"
+@-1050= "Japonais"
+@-1051= "Coreen"
+@-1052= "Chinois simplifie"
+@-1053= "Russe"
+@-1054= "Ukrainien"
+
+@-1060= "
+Ce jeu est disponible en plusieurs langues mais WeiDU ne sait pas laquelle a ete choisie quand ce mod a ete installe.
+
+Veuillez indiquer quelle langue du jeu a ete utilisee quand vous avez installe ce mod. Votre choix servira jusqu'a ce que WeiDU s'arrete mais ne sera pas memorise.
+"
+@-1061= "
+Utilisation de"
+@-1062= " et "
+
+@-1063= "INSTALLATION ABANDONNEE"
+@-1064= "Abandon de l'installation de ["
+@-1065= "], retour à l'etat anterieur"
