@@ -838,7 +838,7 @@ Func _Misc_SwitchGUIToInstallMethod()
 				GUICtrlSetState($g_UI_Button[2][1], $GUI_HIDE)
 				GUICtrlSetData($g_UI_Interact[2][1], '-'); disable BG1EE-folder tests
 			Else; EET is enabled
-				GUICtrlSetData($g_UI_Static[2][1], "Baldur's Gate I: Enhanced Edition, put '-' if you want only BG2:EE")
+				GUICtrlSetData($g_UI_Static[2][1], "Baldur's Gate I: Enhanced Edition, mettez '-' si vous n'installez que des mods pour BG2:EE")
 				GUICtrlSetState($g_UI_Static[2][1], $GUI_SHOW)
 				GUICtrlSetState($g_UI_Interact[2][1], $GUI_SHOW); show BG1EE-for-EET folder
 				GUICtrlSetState($g_UI_Button[2][1], $GUI_SHOW)
