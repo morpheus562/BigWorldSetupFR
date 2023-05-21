@@ -7,7 +7,7 @@
 Cette application est une modification du [Big World Setup](<https://github.com/BigWorldSetup/BigWorldSetup>).  
 Tout comme ce dernier, elle vous permet de télécharger, extraire et installer automatiquement des mods, tout en gérant les conflits, dépendances et ordres d'installation.
 
-Cette version ne gère que des mods compatibles avec BGT et EET possédant une traduction française. Quelques exceptions qui n'ont aucune conséquence sur les textes affichés sont toutefois tolérées.
+Cette version ne gère que des mods compatibles avec EET possédant une traduction française. Quelques exceptions qui n'ont aucune conséquence sur les textes affichés sont toutefois tolérées.
 
 ## Pour commencer
 
