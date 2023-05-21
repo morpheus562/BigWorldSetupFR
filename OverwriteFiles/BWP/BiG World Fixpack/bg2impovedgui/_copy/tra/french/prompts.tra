@@ -48,6 +48,8 @@
 @820    = ~Zone de texte originale~
 
 @900    = ~Afficher la carte en niveaux de gris quand le jeu est en pause~
+@910    = ~la carte en niveaux de gris est desactivee par defaut~
+@920    = ~la carte en niveaux de gris est activee par defaut~
 
 @1000   = ~Autoriser l'equipement d'arme ou de bouclier dans la main secondaire (experimental)~
 
