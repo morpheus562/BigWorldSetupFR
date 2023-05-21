@@ -1,0 +1,107 @@
+--- Lysre\French\CKLysreJ.tra
++++ "b/E:\\Jeux modd\303\251s\\Baldur's Gate 2\\BigWorldSetupFR\\OverwriteFiles\\BWP\\Lysre\\French\\CKLysreJ.tra"	
+@@ -5,70 +5,70 @@
+ //NPC//////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+ 
+ //Lavok
+-@0    = ~Mmm... Un necromencien... De la chair lentement faisandee par la tentative futile des hommes de fuir la mort... <CHARNAME> Laissez moi le manger...~
++@0    = ~Mmm... Un nécromancien... De la chair lentement faisandée par la tentative futile des hommes de fuir la mort... <CHARNAME> Laissez moi le manger...~
+ 
+-//Firkrag
+-@2    = ~Ce dragon va chercher a vous nuir <CHARNAME>, prenez les devants, tuez le.~
++//Firkraag
++@2    = ~Ce dragon va chercher à vous nuir <CHARNAME>, prenez les devants, tuez le.~
+ 
+ //Dryade
+-@4    = ~En tant normal, j'aurais du dire que liberer ces Dryades est une chose idiote, mais franchement, pour en avoir manger quelques unes... c'est trop sec. Les nymphes sont beaucoup plus interessantes... Elle sont... savoureuses.~
++@4    = ~En temps normal, j'aurais dû dire que libérer ces Dryades est une chose idiote, mais franchement, pour en avoir mangé quelques-unes... c'est trop sec. Les nymphes sont beaucoup plus intéressantes... Elles sont... savoureuses.~
+ 
+ //Umar
+-@5    = ~Une chevaliere naine emprisonnee... Ca a une dimension presque comique... C'est une boite dans une boite.~
++@5    = ~Une chevalière naine emprisonnée... Ça a une dimension presque comique... C'est une boite dans une boîte.~
+ @6    = ~Pourquoi aider ces paysans ? c'est au mieux un amuse gueule...~
+ 
+ //Oeil aveugle
+-@12   = ~Une seule Divinite merite la fidelite de tous, et c'est la Grande Tiamat. Massacrons les !~
+-@13   = ~Mmmm, la delicieuse odeur des charniers et de la mort. Il y a beaucoup de choses savoureuse qui se deplacent par ici !~
++@12   = ~Une seule Divinité mérite la fidélité de tous, et c'est la Grande Tiamat. Massacrons les !~
++@13   = ~Mmmm, la délicieuse odeur des charniers et de la mort. Il y a beaucoup de choses savoureuse qui se déplacent par ici !~
+ 
+ //Esclavagiste
+ 
+-@18   = ~Un esclave bipede a plus de valeur qu'un bipede. On hesite a manger des esclaves soumis, alors que les autres...~
++@18   = ~Un esclave bipède a plus de valeur qu'un bipède. On hésite à manger des esclaves soumis, alors que les autres...~
+ 
+ //  Drizzt
+-@23   = ~Ha... je m'offre le droit de douter de vos chances de vaincre ces gens. Quel dommage, on ne croise pas un tel festion tout les jours.~
++@23   = ~Ha... je m'offre le droit de douter de vos chances de vaincre ces gens. Quel dommage, on ne croise pas un tel festin tous les jours.~
+ 
+ //Irenicus
+-@26   = ~Ah, vermine insolante, aujourd'hui sonne le jour ou je dechiqueterai tes entrailles~
++@26   = ~Ah, vermine insolente, aujourd'hui sonne le jour ou je déchiqueterai tes entrailles~
+ 
+ 
+-//Epee d'argent
+-@29   = ~Abandonner un tresor ?! Voila une pensee indigne d'un Dragon~
++//Epée d'argent
++@29   = ~Abandonner un trésor ?! Voilà une pensée indigne d'un Dragon~
+ 
+ //En enfer
+-@30   = ~Mmmm, quel delicieux endroit...~ [O#TIAX40]
+-@31   = ~J'aurai cependant apprecier que vous ne me trainiez pas ici.~ [PPTIAX10]
+-@32   = ~Allons cherchez votre ame, <CHARNAME>, votre route ne s'achevera pas ici.~
++@30   = ~Mmmm, quel délicieux endroit...~ [O#TIAX40]
++@31   = ~J'aurais cependant apprécié que vous ne me traîniez pas ici.~ [PPTIAX10]
++@32   = ~Allons cherchez votre âme, <CHARNAME>, votre route ne s'achèvera pas ici.~
+ 
+ //Le bateau
+-@33   = ~La parole d'un traitre ne vaut rien. Tuez cet avorton <CHARNAME>!~
++@33   = ~La parole d'un traître ne vaut rien. Tuez cet avorton <CHARNAME>!~
+ 
+-//La pretresse sagahin
+-@34   = ~Oh, oui, amenez moi a votre roi, il doit etre une delicieuse creature!~
+-@35   = ~Restez polie, Ãªtre de la surface. Vous Ãªtes prisonniere de notre roi.~
+-@27   = ~Comme si vous pouviez m'enfermer miserables.~
++//La prêtresse sagahin
++@34   = ~Oh, oui, amenez moi à votre roi, il doit être une délicieuse créature!~
++@35   = ~Restez polie, être de la surface. Vous êtes prisonnière de notre roi.~
++@27   = ~Comme si vous pouviez m'enfermer misérables.~
+ 
+ //Les diablotins
+-@36   = ~Pourquoi perdre notre temps avec leur jeu? Tuez les et depouillez les tout simplement !~
++@36   = ~Pourquoi perdre notre temps avec leur jeu? Tuez les et dépouillez les tout simplement !~
+ 
+-@37   = ~Quelle splendide civilisation... tous ces sacrifices...dommage qu'elle venere la mauvaise divinite.~
+-@38   = ~Surveillez vos paroles, vermines, ou vous allez connaitre votre fin aujourd'hui~
++@37   = ~Quelle splendide civilisation... tous ces sacrifices...dommage qu'elle vénère la mauvaise divinité.~
++@38   = ~Surveillez vos paroles, vermines, ou vous allez connaître votre fin aujourd'hui~
+ 
+ //Elfes noirs
+-@40   = ~Meme avec un corps limite, je vais vous montrer l'etendue de ma puissance.~
+-@41   = ~(Ricane) Voila qui est amusant. Je devrais apprendre ce sort...~
+-@43   = ~Maudit Argente, vous m'avez souillee! JAMAIS je n'oublierai cette insulte !~
++@40   = ~Même avec un corps limité, je vais vous montrer l'étendue de ma puissance.~
++@41   = ~(Ricane) Voilà qui est amusant. Je devrais apprendre ce sort...~
++@43   = ~Maudit Argente, vous m'avez souillée! JAMAIS je n'oublierai cette insulte !~
+ @44   = ~Continuez sur ce ton vermisseau, et je vous arrache les entrailles !~
+-@45   = ~Voila tu reconnais ta place. Rampe a mes pieds et supplie moi de t'epargner une mort douloureuse.~
++@45   = ~Voilà tu reconnais ta place. Rampe à mes pieds et supplie moi de t'épargner une mort douloureuse.~
+ 
+ @49   = ~Ton souhait ser-~
+-@50   = ~SILENCE ! Je suis maitresse de mon avenir. Oui, mes souhaits seront exauces, puisque je le desire.~
++@50   = ~SILENCE ! Je suis maîtresse de mon avenir. Oui, mes souhaits seront exaucés, puisque je le désire.~
+ 
+ //Avant combat final
+-@51   = ~Lysre observe les hauteurs, salivant son acide et ricanant. Etonament, cette dragonne acariatre est toujours a vos cotes, elle semble savourer la bataille qui va suivre.~
+-@52   = ~Lysre, je vais me dÃ©brouiller sans toi.~
+-@53   = ~Lysre ? Tu es prete j'espere, je vais avoir besoin de tes competences.~
+-@54   = ~C'est le moment de prendre ta vengeance sur Irenicus Lysre.~
++@51   = ~Lysre observe les hauteurs, salivant son acide et ricanant. Étonnamment, cette dragonne acariâtre est toujours à vos côtés, elle semble savourer la bataille qui va suivre.~
++@52   = ~Lysre, je vais me débrouiller sans toi.~
++@53   = ~Lysre ? Tu es prête j'espère, je vais avoir besoin de tes compétences.~
++@54   = ~C'est le moment de prendre ta vengeance sur Irenicus, Lysre.~
+ 
+-@55   = ~*Lysre vous toise avec dedain*~
+-@56   = ~Inutile de palabrer, allons apprendre a Irenicus qu'il a mal choisi ses ennemis! Allons le tuer !~
++@55   = ~*Lysre vous toise avec dédain*~
++@56   = ~Inutile de palabrer, allons apprendre à Irenicus qu'il a mal choisi ses ennemis! Allons le tuer !~

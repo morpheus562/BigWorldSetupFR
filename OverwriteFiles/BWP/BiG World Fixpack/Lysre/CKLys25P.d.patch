@@ -1,0 +1,21 @@
+--- Lysre\Dialogue\CKLys25P.d
++++ "b/E:\\Jeux modd\303\251s\\Baldur's Gate 2\\BigWorldSetupFR\\OverwriteFiles\\BWP\\Lysre\\Dialogue\\CKLys25P.d"	
+@@ -2,7 +2,7 @@
+ 
+ BEGIN CKLys25P
+ 
+-//Rupture definitive de contrat ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
++//Rupture définitive de contrat ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+ 
+ IF ~~ CKLysreAbdandonToB1
+ SAY ~Un instant ? J'ai du mal comprendre, vous me demandez de partir?!~
+@@ -11,6 +11,6 @@ SAY ~Un instant ? J'ai du mal comprendre, vous me demandez de partir?!~
+ END
+ 
+ IF ~~ CKLysreAbdandonToB2
+-SAY ~Soit maudit <CHARNAME> de rompre notre engagement apres tout ce que j'ai fait pour toi... Compte sur moi pour ne jamais oublier ce moment. Pour te le faire payer, j'ai l'eternite devant moi pour te rendre la pareille.   ~
++SAY ~Soit maudit <CHARNAME> de rompre notre engagement après tout ce que j'ai fait pour toi... Compte sur moi pour ne jamais oublier ce moment. Pour te le faire payer, j'ai l'éternité devant moi pour te rendre la pareille.   ~
+ IF ~~ DO ~EscapeArea()~ EXIT
+-END
+\ No newline at end of file
++END

@@ -1,0 +1,77 @@
+--- ascension\lang\french\ascension.tra
++++ "b/E:\\Jeux modd\303\251s\\Baldur's Gate 2\\BigWorldSetupFR\\OverwriteFiles\\BWP\\ascension\\lang\\french\\ascension.tra"	
+@@ -20,35 +20,35 @@
+ @1031 = ~Symbole : Lenteur~
+ @1037 = ~Changement en Ravageur~
+ @1038 = ~Mélissane : Commande les Créatures des Abysses~
+-@1039 = ~Bhaalspawn Power gained: Immunity to Energy Drain~
+-@1040 = ~Bhaalspawn Power gained: 25% physical damage resistance~
+-@1041 = ~Transfixed~
+-@1042 = ~Weapons weakened by Babau slime~
+-@1043 = ~Grabbed~
+-@1044 = ~Regains Bhaal powers~
+-@1045 = ~You have regained control for now.~
+-@1046 = ~Magic Resistance lowered by 5%~
+-@1047 = ~Magic Resistance lowered by 5%~
+-@1048 = ~Slayer transformation enhanced~
+-@1049 = ~The demon bows to your will~
+-@1050 = ~The demon defies your will~
+-@1051 = ~This power only affects demons~
+-@1052 = ~The demon bows to Melissan's will~
+-@1053 = ~The demon defies Melissan's will~
+-@1054 = ~Bhaalspawn Power gained: Unleash~
+-@1055 = ~Bhaalspawn Power gained: immunity to death magic~
+-@1056 = ~Bhaalspawn Power gained: immunity to vorpal effects~
+-@1057 = ~Bhaalspawn Power gained: Dimension Door~
+-@1058 = ~Bhaalspawn Power gained: Control Demons~
+-@1059 = ~Bhaalspawn Power gained: immunity to Maze and Imprisonment~
+-@1060 = ~Bhaalspawn Power gained: Focus~
+-@1061 = ~Bhaalspawn Power gained: immunity to Taint of the Slayer~
++@1039 = ~Pouvoir de l'Enfant de Bhaal acquis: Immunité au Drain d'énergie~
++@1040 = ~Pouvoir de l'Enfant de Bhaal acquis: 25% de résistance aux dégâts physiques~
++@1041 = ~Transfixé~
++@1042 = ~Armes affaiblies par la bave de Babau~
++@1043 = ~Agrippé~
++@1044 = ~Recouvre les pouvoirs de l'Enfant de Bhaal~
++@1045 = ~Vous avez repris le contrôle pour le moment.~
++@1046 = ~Résistance à la magie diminuée de 5%~
++@1047 = ~Résistance à la magie diminuée de 5%~
++@1048 = ~Capacités d'Écorcheur modifiées~
++@1049 = ~Le démon se plie à votre volonté~
++@1050 = ~Le démon défie votre volonté~
++@1051 = ~Ce pouvoir n'affecte que les démons~
++@1052 = ~Le démon se plie à la volonté de Mélissane.~
++@1053 = ~Le démon défie la volonté de Mélissane~
++@1054 = ~Pouvoir de l'Enfant de Bhaal acquis: Décharge~
++@1055 = ~Pouvoir de l'Enfant de Bhaal acquis: immunité à la mort magique~
++@1056 = ~Pouvoir de l'Enfant de Bhaal acquis: immunité aux effets vorpals~
++@1057 = ~Pouvoir de l'Enfant de Bhaal acquis: Porte dimensionnelle~
++@1058 = ~Pouvoir de l'Enfant de Bhaal acquis: Contrôle de Démons~
++@1059 = ~Pouvoir de l'Enfant de Bhaal acquis: immunité au Labyrinthe et à l'Emprisonnement~
++@1060 = ~Pouvoir de l'Enfant de Bhaal acquis: Focalisation~
++@1061 = ~Pouvoir de l'Enfant de Bhaal acquis: immunité au Souffle de l'Écorcheur~
+ @1062 = ~Manteau Divin~
+-@1063 = ~Magic Resistance Restored~
+-@1064 = ~Antimagic Protections Removed~
+-@1065 = ~Combat Protections Removed~
+-@1066 = ~AI deactivated~
+-@1067 = ~AI activated~
++@1063 = ~Résistance à la magie restaurée~
++@1064 = ~Protections antimagiques supprimées~
++@1065 = ~Protections de combat supprimées~
++@1066 = ~IA désactivée~
++@1067 = ~IA activée~
+ @1068 = ~Lunar Malison~
+ @2000 = ~Pouvoirs de l'Enfant de Bhaal
+ 
+@@ -139,8 +139,8 @@ Tout comme le sort de 5
+ @2007 = ~Pouvoirs de l'Enfant de Bhaal
+ 
+ <CHARNAME> a gagné 25% de résistance aux dégâts physiques (par exemple aux dégâts tranchants, perforants, contondants et aux Projectiles).~
+-@2008 = ~Slayer Change ability improved~
+-@3000 = ~Epée du Chaos +4~
++@2008 = ~Capacité d'Écorcheur améliorée~
++@3000 = ~Épée du Chaos +4~
+ @3001 = ~Lame du Chaos de Sarevok
+ Il s'agit de l'arme de Sarevok, frère de <CHARNAME>, qui fut utilisée dans la bataille de la Porte de Baldur. <CHARNAME> a gagné, ruinant ainsi les plans de Sarevok, et sauvant la Côte des Epées de la guerre. Maintenant, Sarevok s'est joint à la cause de <CHARNAME> et son épée lui a été rendue. Sarevok décrit cette arme comme une Lame Fatale et a restauré une partie des anciens pouvoirs de cet objet. Cependant, sans son essence d'Enfant de Bhaal pour nourrir l'épée, il n'a pu lui rendre la totalité du pouvoir qu'elle possédait autrefois. Quoiqu'il en soit, elle reste une arme formidable... et Sarevok prévient qu'elle deviendrait très difficile à utiliser dans les mains de quelqu'un qui ne fût pas un Porteur de Mort, voire impossible à utiliser.
+ 

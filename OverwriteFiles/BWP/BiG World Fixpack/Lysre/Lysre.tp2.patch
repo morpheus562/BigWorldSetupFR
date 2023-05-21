@@ -1,0 +1,53 @@
+--- Lysre\Lysre.tp2
++++ "b/E:\\Jeux modd\303\251s\\Baldur's Gate 2\\BigWorldSetupFR\\OverwriteFiles\\BWP\\Lysre\\Lysre.tp2"	
+@@ -58,13 +58,13 @@ COMPILE ~Lysre/Dialogue/Intro/CKMORTIN.d~ //Ajout dialogue
+ COMPILE ~Lysre/Scripts/Quete1/CKFelicP.baf~ //Ajout du script de sortie map            //
+ //Pretresse emprisonnée                                                                //
+ COPY    ~Lysre/Characters/Quete1/CKFelici.cre~ ~override/CKFelici.cre~ //Ajout du perso//
+-  SAY NAME1 ~Felicia~                                                                  //
+-  SAY NAME2 ~Felicia~                                                                  //
++  SAY NAME1 ~Félicia~                                                                  //
++  SAY NAME2 ~Félicia~                                                                  //
+ COMPILE ~Lysre/Dialogue/Quete1/CKFelici.d~ //Ajout dialogue                            //
+ //une fois libre                                                                       //
+ COPY    ~Lysre/Characters/Quete1/CKFelic2.cre~ ~override/CKFelic2.cre~ //Ajout du perso//
+-  SAY NAME1 ~Felicia~                                                                  //
+-  SAY NAME2 ~Felicia~                                                                  //
++  SAY NAME1 ~Félicia~                                                                  //
++  SAY NAME2 ~Félicia~                                                                  //
+ COMPILE ~Lysre/Dialogue/Quete1/CKFelic2.d~ //Ajout dialogue                            //
+                                                                                        //
+ //Ajout des suivants                                                                   //
+@@ -295,10 +295,10 @@ COPY ~Lysre/items/coeur1.itm~ ~override~
+ 
+ /////////////////////////////////////////////////////////////////////
+ COPY ~Lysre/items/coeur2.itm~ ~override~
+-  SAY NAME1 ~Coeurs de demons~
+-  SAY NAME2 ~Coeurs de demons~
+-  SAY DESC ~Vous avez vu Lysre arracher le coeur d'un demon et l'avaler d'un bloc. Depuis vous sentez parfois comme les echos d'une multitude de battements provenant d'elle. 
+-C'est toujours a ce moment qu'elle vous observe en souriant, comme si la sentation de malaise que vous resentez l'amuse.~
++  SAY NAME1 ~Coeurs de démons~
++  SAY NAME2 ~Coeurs de démons~
++  SAY DESC ~Vous avez vu Lysre arracher le coeur d'un démon et l'avaler d'un bloc. Depuis vous sentez parfois comme les échos d'une multitude de battements provenant d'elle.
++C'est toujours à ce moment qu'elle vous observe en souriant, comme si la sensation de malaise que vous ressentez l'amuse.~
+ /////////////////////////////////////////////////////////////////////
+ COPY ~Lysre/items/ecaille2.itm~ ~override~
+   SAY NAME1 @2004
+@@ -374,7 +374,7 @@ COPY ~Lysre/items/CKclef.itm~ ~override~
+ COPY ~Lysre/items/CKioniqu.itm~ ~override~
+   SAY NAME1 ~Pierre de chair~
+   SAY NAME2 ~Pierre de chair~
+-  SAY DESC  ~Cette pierre ionique degage l'odeur douceatre du sang pourri. Constiuee d'un melange de chair humaine et de sang de dragon d'argent, il s'aggit sans nul doute d'un objet profondement malefique. Seuls les individus voues au mal sont capables de profiter du simple enchantement de protection qu'elle dispense.
++  SAY DESC  ~Cette pierre ionique dégage l'odeur douceâtre du sang pourri. Constituée d'un mélange de chair humaine et de sang de dragon d'argent, il s'agit sans nul doute d'un objet profondement maléfique. Seuls les individus voués au mal sont capables de profiter du simple enchantement de protection qu'elle dispense.
+ 
+ PARAMETRES :
+ 
+@@ -417,7 +417,7 @@ ADD_KIT ~CKTiamat~
+  // chemin d'accès vers votre fichier 2da de type CLAB                                                                           //
+  ~Lysre/Kit/Tiamat.2da~                                                                                                          //
+  // races et classes de PJ autorisées à utiliser ce kit, provenant de KITTABLE.2da                                               //
+- ~K_S_H~ // Kit de NPC, pas de Pj  -> ajouté humain K_S_H pour tester.                                                           //
++ ~~ // Kit de NPC, pas de Pj  -> ajouté humain K_S_H pour tester.                                                           //
+ // indicateurs d'utilisabilité, ajouté à la fin  	de la nouvelle ligne dans    KITLIST.2da                                 //
+  ~0x00004000	19~                                                                                                              //
+  // Table de CHN à utiliser. Voir LUABBR.2da                                                                                     //

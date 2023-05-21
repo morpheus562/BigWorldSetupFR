@@ -1,0 +1,71 @@
+--- Lysre\Dialogue\Quete1\CKFelici.d
++++ "b/E:\\Jeux modd\303\251s\\Baldur's Gate 2\\BigWorldSetupFR\\OverwriteFiles\\BWP\\Lysre\\Dialogue\\Quete1\\CKFelici.d"	
+@@ -3,11 +3,11 @@
+ /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+ BEGIN CKFelici
+ 
+-// QUETE LANCEE /////////////////////////////////////////////////////////////////////////////////////////////////////
++// QUÊTE LANCÉE /////////////////////////////////////////////////////////////////////////////////////////////////////
+ 
+ IF ~Global("CKquete1","GLOBAL",2)~ THEN BEGIN CKQ1
+-  SAY ~*Une femme d'une trentaine d'annee vous regarde de travers. Ses vetements semblent avoir souffert, tout comme sa peau marquee d'echymose.* Vous venez pou- C'est une drag- Vous etes ici pour quoi?~
+-  IF ~~ THEN REPLY ~Nous sommes la pour te liberer~ GOTO CKQ2
++  SAY ~*Une femme d'une trentaine d'annee vous regarde de travers. Ses vêtements semblent avoir souffert, tout comme sa peau marquée d'ecchymose.* Vous venez pou- C'est une drag- Vous êtes ici pour quoi?~
++  IF ~~ THEN REPLY ~Nous sommes la pour te libérer~ GOTO CKQ2
+   IF ~~ THEN REPLY ~Non, rien mauvaise cellule.~ GOTO CKQ2
+ END
+ 
+@@ -17,12 +17,12 @@ IF ~~ THEN BEGIN CKQ2
+ END
+ 
+ IF ~~ THEN BEGIN CKQ3
+-  SAY ~*La femme aborde un grand sourire.* Je connais pas mal de trucs... Mais j'ai les mains liees. Il faut que vous obteniez la clef d'un garde. Pour le reste, je suis une grande fille.~
++  SAY ~*La femme aborde un grand sourire.* Je connais pas mal de trucs... Mais j'ai les mains liées. Il faut que vous obteniez la clef d'un garde. Pour le reste, je suis une grande fille.~
+   IF ~~ THEN REPLY ~Je vais te trouver ca.~ GOTO CKQ4
+ END
+ 
+ IF ~~ THEN BEGIN CKQ4
+-  SAY ~Je vous attend ici, je n'ai pas le choix apres tout.~
++  SAY ~Je vous attend ici, je n'ai pas le choix après tout.~
+   IF ~~ DO ~SetGlobal("CKquete1","GLOBAL",3)~  EXIT
+ END
+ 
+@@ -38,21 +38,21 @@ IF ~Global("CKquete1","GLOBAL",3)Partyhasitem("CKclef")~ THEN BEGIN CKQ5fin
+ END
+ 
+ IF ~~ THEN BEGIN CKQ5fin2
+-  SAY ~Louee soit la Reine des dragons! Je peux m'en sortir seule maintenant, elle me guidera.~
++  SAY ~Louée soit la Reine des dragons! Je peux m'en sortir seule maintenant, elle me guidera.~
+   IF ~~ DO ~SetGlobal("CKquete1","GLOBAL",4) TakePartyItem("CKclef")~  EXIT
+ END
+ 
+-// AUCUNE QUETE LANCEE /////////////////////////////////////////////////////////////////////////////////////////////////////
++// AUCUNE QUÊTE LANCÉE /////////////////////////////////////////////////////////////////////////////////////////////////////
+ 
+ IF ~Global("CKquete1","GLOBAL",0)~ THEN BEGIN CKF1
+-  SAY ~*Une femme d'une trentaine d'annee vous regarde de travers. Ses vetements semblent avoir souffert, tout comme sa peau marquee d'echymose.* Vous venez pour me pendre ? Vous etes bien en avance...~
++  SAY ~*Une femme d'une trentaine d'annee vous regarde de travers. Ses vêtements semblent avoir souffert, tout comme sa peau marquée d'ecchymose.* Vous venez pour me pendre ? Vous êtes bien en avance...~
+   IF ~~ THEN REPLY ~On ne fait que passer.~ GOTO CKF2
+   IF ~~ THEN REPLY ~C'est exact.~ GOTO CKF3
+-  IF ~~ THEN REPLY ~Pourquoi il vous on enfermee ?~ GOTO CKF4
++  IF ~~ THEN REPLY ~Pourquoi vous ont-ils enfermée ?~ GOTO CKF4
+ END
+ 
+ IF ~~ THEN BEGIN CKF2
+-  SAY ~Vous avez de drole de loisirs...~
++  SAY ~Vous avez de drôle de loisirs...~
+   IF ~~ THEN EXIT
+ END
+ 
+@@ -63,10 +63,6 @@ END
+ 
+ IF ~~ THEN BEGIN CKF4
+   SAY ~*La femme aborde un sourire qui temoigne d'un passage a tabac dans les regles*
+-  Il m'ont chopee quand j'ai tente de foutre le feu au Temple de Heaum. Hehehehehe.~
++  Il m'ont chopé quand j'ai tenté de foutre le feu au Temple de Heaum. Hehehehehe.~
+   IF ~~ THEN EXIT
+ END
+-
+-
+-
+-
