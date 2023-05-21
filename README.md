@@ -41,6 +41,10 @@ J'invite les auteurs des mods originaux à récupérer ces correctifs pour les i
 - Generalized Biffing v2.5
   - La version 247 de Weidu provoque un crash au lancement du jeu. La version 246 est forcée lors de l'installation du mod.
 
+- Item Revision v4 beta 10
+  - Dans certains cas, si une armure possédait déjà de la résistance à un dégât physique, cette dernière était augmentée du double que prévu.
+    Ex: DWCHAN02, DWPLAT01, ISHCHA
+
 - Item Upgrade v45
   - Des traductions manquantes dans le fichier itemupgrade/languages/french/lolwot.tra empêchaient le mod de s'installer en français.
   
@@ -125,6 +129,9 @@ J'invite les auteurs des mods originaux à récupérer ces correctifs pour les i
 
 - Pretre de Mystra v1
   - Corrections d'orthographe
+  
+- Tangled Oak Isle v2.20
+  - Le fichier de traduction items.tra était encodé en utf8 et non en ansi, générant des problèmes d'accent pour toute une partie du mod.
 
 - Unique Artifact v7.2
   - Petite traduction maison
