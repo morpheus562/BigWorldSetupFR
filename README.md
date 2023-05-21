@@ -106,7 +106,10 @@ J'invite les auteurs des mods originaux à récupérer ces correctifs pour les i
   
 - Cerberus v1.06
   - Mini traduction maison des chaînes non traifiées.
-  
+
+- Check the bodies v3.0
+  - Le fichier de traduction wsetup.tra était encodé en utf8 et non en ansi, générant des problèmes d'accent pour toute une partie du mod.
+
 - Lysre v1.2
   - Corrections d'un grand nombre de fautes d'orthographe
   - Ajout des caractères accentués
