@@ -73,7 +73,7 @@
 ~ASCENSION/ASCENSION.TP2~ #2 #1500 // Tougher Yaga-Shura: 2.0.15
 ~ASCENSION/ASCENSION.TP2~ #2 #2000 // Full-body portrait for Bodhi: 2.0.15
 ~ASCENSION/ASCENSION.TP2~ #2 #2400 // Slightly improved cutscenes, by DavidW: 2.0.15
-~ITEM_REV/ITEM_REV.TP2~ #1 #0 // Item Revisions par Demivrgvs: V4 Beta 10
+~ITEM_REV/ITEM_REV.TP2~ #1 #0 // Item Revisions par Demivrgvs: V4 Beta 10 BWS-FR Fix
 ~SPELL_REV/SETUP-SPELL_REV.TP2~ #1 #0 // Spell Revisions: v4 Beta 18
 ~SPELL_REV/SETUP-SPELL_REV.TP2~ #1 #10 // Animations des Devas et Planetaires: v4 Beta 18
 ~SPELL_REV/SETUP-SPELL_REV.TP2~ #1 #20 // Correction d'Image Miroir: v4 Beta 18
@@ -260,7 +260,10 @@
 ~TOD/TOD.TP2~ #6 #0 // Mod Tower of Deception (necessite Throne of Bhaal): v4.0.3
 ~TOD/TOD.TP2~ #6 #1 // Gardien ameliore de l'Eclat Astral: v4.0.3
 ~TOD/TOD.TP2~ #6 #2 // Rencontre avec Ustrain: v4.0.3
+~DC/DC.TP2~ #6 #0 // Dungeon Crawl: v13.1
 ~ASSASSINATIONS/ASSASSINATIONS.TP2~ #6 #0 // Mod Assassinations pour Baldur's Gate II: v16
+~BACKBRYNNLAW/BACKBRYNNLAW.TP2~ #4 #0 // Mod Retour à Brynnlaw mod pour Baldur's Gate II: v9
+~SELLSWORDS/SELLSWORDS.TP2~ #4 #0 // Mod Mercenaires pour Baldur's Gate II: v9.1
 ~TOTDG/SETUP-TOTDG.TP2~ #2 #0 // Couleurs de l'Infini : Contes des Jardins Profonds -> Oui, mais sans corriger les sauvegardes de jeu existantes: 12.6
 ~INNERSHADE/SETUP-INNERSHADE.TP2~ #1 #0 // Couleurs de l'Infini : Innershade -> Oui, mais sans corriger les sauvegardes de jeu existantes: 10.4
 ~WHITEQUEEN/WHITEQUEEN.TP2~ #4 #0 // Couleurs de l'Infini - La Reine Blanche -> Oui, mais sans corriger les sauvegardes de jeu existantes: 6.8
@@ -604,19 +607,19 @@
 ~HAMMERS/SETUP-HAMMERS.TP2~ #2 #50 // Objets magiques supplementaires: v6.1.0
 ~CURSED_ITEMS/CURSED_ITEMS.TP2~ #1 #0 // Cursed items revisions, par Salk: v3.75
 ~CURSED_ITEMS/CURSED_ITEMS.TP2~ #1 #10 // Pierre de rappel: v3.75
-~ITEM_REV/ITEM_REV.TP2~ #1 #3 // Autoriser le lancement de sorts en armure -> Avec une penalite de vitesse d'incantation pour les lanceurs de sorts profanes: V4 Beta 10
-~ITEM_REV/ITEM_REV.TP2~ #1 #9 // Autoriser l'usage des competences de voleur en armure -> Furtivite penalisee par les armures: V4 Beta 10
-~ITEM_REV/ITEM_REV.TP2~ #1 #1030 // Revision des boutiques: V4 Beta 10
-~ITEM_REV/ITEM_REV.TP2~ #1 #1040 // Bonus des armures revus -> Penalite a la vitesse de deplacement: V4 Beta 10
-~ITEM_REV/ITEM_REV.TP2~ #1 #10 // Bonus des boucliers revus: V4 Beta 10
-~ITEM_REV/ITEM_REV.TP2~ #1 #17 // Modifications des armes: V4 Beta 10
-~ITEM_REV/ITEM_REV.TP2~ #1 #11 // Le combat a deux armes differe selon le type d'arme, legere ou lourde: V4 Beta 10
-~ITEM_REV/ITEM_REV.TP2~ #1 #18 // Attaque sournoise revue (avec et sans penalite) -> Uniquement avec les armes du voleur monoclasse: V4 Beta 10
-~ITEM_REV/ITEM_REV.TP2~ #1 #1200 // Evitement des coups critiques revu: V4 Beta 10
-~ITEM_REV/ITEM_REV.TP2~ #1 #12 // Les objets de protection peuvent etre portes en meme temps qu'une armure magique: V4 Beta 10
-~ITEM_REV/ITEM_REV.TP2~ #1 #1093 // Annule les restrictions d'arme pour les lanceurs de sorts divins multiclasses -> Pour les Clercs et les Druides, specialisation diminuee de moitie: V4 Beta 10
-~ITEM_REV/ITEM_REV.TP2~ #1 #15 // Equipement des Druides version papier -> Pour les Druides uniquement: V4 Beta 10
-~ITEM_REV/ITEM_REV.TP2~ #1 #1060 // Les Kensai peuvent porter des bracelets: V4 Beta 10
+~ITEM_REV/ITEM_REV.TP2~ #1 #3 // Autoriser le lancement de sorts en armure -> Avec une penalite de vitesse d'incantation pour les lanceurs de sorts profanes: V4 Beta 10 BWS-FR Fix
+~ITEM_REV/ITEM_REV.TP2~ #1 #9 // Autoriser l'usage des competences de voleur en armure -> Furtivite penalisee par les armures: V4 Beta 10 BWS-FR Fix
+~ITEM_REV/ITEM_REV.TP2~ #1 #1030 // Revision des boutiques: V4 Beta 10 BWS-FR Fix
+~ITEM_REV/ITEM_REV.TP2~ #1 #1040 // Bonus des armures revus -> Penalite a la vitesse de deplacement: V4 Beta 10 BWS-FR Fix
+~ITEM_REV/ITEM_REV.TP2~ #1 #10 // Bonus des boucliers revus: V4 Beta 10 BWS-FR Fix
+~ITEM_REV/ITEM_REV.TP2~ #1 #17 // Modifications des armes: V4 Beta 10 BWS-FR Fix
+~ITEM_REV/ITEM_REV.TP2~ #1 #11 // Le combat a deux armes differe selon le type d'arme, legere ou lourde: V4 Beta 10 BWS-FR Fix
+~ITEM_REV/ITEM_REV.TP2~ #1 #18 // Attaque sournoise revue (avec et sans penalite) -> Uniquement avec les armes du voleur monoclasse: V4 Beta 10 BWS-FR Fix
+~ITEM_REV/ITEM_REV.TP2~ #1 #1200 // Evitement des coups critiques revu: V4 Beta 10 BWS-FR Fix
+~ITEM_REV/ITEM_REV.TP2~ #1 #12 // Les objets de protection peuvent etre portes en meme temps qu'une armure magique: V4 Beta 10 BWS-FR Fix
+~ITEM_REV/ITEM_REV.TP2~ #1 #1093 // Annule les restrictions d'arme pour les lanceurs de sorts divins multiclasses -> Pour les Clercs et les Druides, specialisation diminuee de moitie: V4 Beta 10 BWS-FR Fix
+~ITEM_REV/ITEM_REV.TP2~ #1 #15 // Equipement des Druides version papier -> Pour les Druides uniquement: V4 Beta 10 BWS-FR Fix
+~ITEM_REV/ITEM_REV.TP2~ #1 #1060 // Les Kensai peuvent porter des bracelets: V4 Beta 10 BWS-FR Fix
 ~WSR/WSR.TP2~ #2 #100 // Revision du kit de Tueur de magiciens: v1.14
 ~WSR/WSR.TP2~ #2 #302 // Revision des restrictions d'utilisation d'objets pour le Tueur de magiciens -> Changements moderes: v1.14
 ~WSR/WSR.TP2~ #2 #999 // Icones style BG2 pour le contenu de WSR: v1.14
@@ -905,6 +908,7 @@
 ~SETUP-NSCPORTRAITS.TP2~ #0 #310 // Portraits for Grey Clan Episode I: v3.0 BWP Fix 3
 ~SETUP-NSCPORTRAITS.TP2~ #0 #1300 // Portraits for Tower of Deception: v3.0 BWP Fix 3
 ~SETUP-NSCPORTRAITS.TP2~ #0 #1310 // Portraits for Assassinations: v3.0 BWP Fix 3
+~SETUP-NSCPORTRAITS.TP2~ #0 #1320 // Portraits for Dungeon Crawl: v3.0 BWP Fix 3
 ~SETUP-NSCPORTRAITS.TP2~ #0 #1330 // Portraits for BG2 Romantic Encounters: v3.0 BWP Fix 3
 ~SETUP-NSCPORTRAITS.TP2~ #0 #1780 // Portraits for BG1 Romantic Encounters: v3.0 BWP Fix 3
 ~SETUP-NSCPORTRAITS.TP2~ #0 #1380 // Portraits for Ascalon's Questpack: v3.0 BWP Fix 3
@@ -912,6 +916,8 @@
 ~SETUP-NSCPORTRAITS.TP2~ #0 #1390 // Portraits for Jan's Quest: v3.0 BWP Fix 3
 ~SETUP-NSCPORTRAITS.TP2~ #0 #1410 // Portraits for Innershade: v3.0 BWP Fix 3
 ~SETUP-NSCPORTRAITS.TP2~ #0 #1430 // Portraits for Eilistraees Song: v3.0 BWP Fix 3
+~SETUP-NSCPORTRAITS.TP2~ #0 #1470 // Portraits for Return to Brynnlaw: v3.0 BWP Fix 3
+~SETUP-NSCPORTRAITS.TP2~ #0 #1480 // Portraits for Sellswords: v3.0 BWP Fix 3
 ~SETUP-NSCPORTRAITS.TP2~ #0 #1500 // Portraits for Longer Road: v3.0 BWP Fix 3
 ~SETUP-NSCPORTRAITS.TP2~ #0 #1510 // Portraits for Zalnoya: v3.0 BWP Fix 3
 ~SETUP-NSCPORTRAITS.TP2~ #0 #1520 // Portraits for Ding0's Questpack: v3.0 BWP Fix 3
@@ -931,10 +937,10 @@
 ~MAPNAMES/SETUP-MAPNAMES.TP2~ #1 #0 // Annotations de la carte de la Cote des Epees: v2
 ~MAPNAMES/SETUP-MAPNAMES.TP2~ #1 #25 // Mise a jour des marqueurs de carte: v2
 ~1PP_HQ_MUSIC_BGT/1PP_HQ_MUSIC_BGT.TP2~ #0 #0 // 1pp: High quality music for BGT -> Patch BGT and BGII areas to make full use of updated music (Recommended)
-~SETUP-AREA_PATCHER.TP2~ #0 #0 // Area Patcher: ALPHA 16
-~SETUP-AREA_PATCHER.TP2~ #0 #2001 // Fix AR2300 Script - Prevent infinite loop after Sahuagin king dies: ALPHA 16
-~SETUP-AREA_PATCHER.TP2~ #0 #2002 // Fix AR0701 Script - Undeadify the sea troll for Roger the Fence's quest: ALPHA 16
-~SETUP-AREA_PATCHER.TP2~ #0 #6000 // Fix BGSPAWN Near Areas: ALPHA 16
+~SETUP-AREA_PATCHER.TP2~ #0 #0 // Area Patcher: ALPHA 17
+~SETUP-AREA_PATCHER.TP2~ #0 #2001 // Fix AR2300 Script - Prevent infinite loop after Sahuagin king dies: ALPHA 17
+~SETUP-AREA_PATCHER.TP2~ #0 #2002 // Fix AR0701 Script - Undeadify the sea troll for Roger the Fence's quest: ALPHA 17
+~SETUP-AREA_PATCHER.TP2~ #0 #6000 // Fix BGSPAWN Near Areas: ALPHA 17
 ~SETUP-CRE_PATCHER.TP2~ #0 #0 // Cre Patcher: ALPHA 1
 ~SETUP-ITEM_PATCHER.TP2~ #0 #0 // Item Patcher: ALPHA 6
 ~SETUP-ITEM_PATCHER.TP2~ #0 #100 // Gives some vanilla items the Droppable Flag: ALPHA 6
@@ -963,13 +969,14 @@
 ~SETUP-GUI.TP2~ #2 #3 // Interface Graphique Utilisateur (GUI) -> "Baldur's Gate Trilogy" (Elminster avec baton)
 ~WIDESCREEN/WIDESCREEN.TP2~ #1 #0 // Mod Widescreen -> pour les jeux Infinity Engine originaux (CHOISISSEZ CA !): Widescreen Mod v3.07
 ~GUI_720/SETUP-GUI_720.TP2~ #0 #0 // BG2 GUI in 1280x720
-~BG2IMPOVEDGUI/BG2IMPOVEDGUI.TP2~ #3 #200 // Surligner en vert les parchemins de sorts non retranscrits dans le livre de sorts: 3.15
-~BG2IMPOVEDGUI/BG2IMPOVEDGUI.TP2~ #3 #430 // Afficher les points de vie au-dessus du groupe et des PNJs -> des ennemis, des creatures alliees, convoquees ou charmees, et du groupe: 3.15
-~BG2IMPOVEDGUI/BG2IMPOVEDGUI.TP2~ #3 #510 // Afficher les informations sur le TAC0 et les degats dans l'ecran d'inventaire -> ecran d'inventaire du mod 1pp: 3.15
-~BG2IMPOVEDGUI/BG2IMPOVEDGUI.TP2~ #3 #600 // Griser le portrait des personnages quand on fait glisser un objet qu'ils ne peuvent pas utiliser: 3.15
-~BG2IMPOVEDGUI/BG2IMPOVEDGUI.TP2~ #3 #700 // Afficher le total des jets de des dans l'ecran de creation du personnage: 3.15
-~BG2IMPOVEDGUI/BG2IMPOVEDGUI.TP2~ #3 #810 // Plier et deplier la description des quetes dans le journal -> Grande zone de texte: 3.15
-~BG2IMPOVEDGUI/BG2IMPOVEDGUI.TP2~ #3 #920 // Afficher la carte en niveaux de gris quand le jeu est en pause -> la carte en niveaux de gris est activee par defaut: 3.15
-~BG2IMPOVEDGUI/BG2IMPOVEDGUI.TP2~ #3 #1140 // Afficher les effets actifs d'un PNJ avec le clic droit -> des objets equipes et des sorts lances avec l'affichage du temps restant: 3.15
-~BG2IMPOVEDGUI/BG2IMPOVEDGUI.TP2~ #3 #1200 // Preciser les messages d'avancement de quete, de gain ou de perte d'objet: 3.15
+~BG2IMPOVEDGUI/BG2IMPOVEDGUI.TP2~ #3 #110 // Afficher le panneau de butin rapide -> Mode classique (comme celui des jeux EE): 3.16
+~BG2IMPOVEDGUI/BG2IMPOVEDGUI.TP2~ #3 #200 // Surligner en vert les parchemins de sorts non retranscrits dans le livre de sorts: 3.16
+~BG2IMPOVEDGUI/BG2IMPOVEDGUI.TP2~ #3 #430 // Afficher les points de vie au-dessus du groupe et des PNJs -> des ennemis, des creatures alliees, convoquees ou charmees, et du groupe: 3.16
+~BG2IMPOVEDGUI/BG2IMPOVEDGUI.TP2~ #3 #510 // Afficher les informations sur le TAC0 et les degats dans l'ecran d'inventaire -> ecran d'inventaire du mod 1pp: 3.16
+~BG2IMPOVEDGUI/BG2IMPOVEDGUI.TP2~ #3 #600 // Griser le portrait des personnages quand on fait glisser un objet qu'ils ne peuvent pas utiliser: 3.16
+~BG2IMPOVEDGUI/BG2IMPOVEDGUI.TP2~ #3 #700 // Afficher le total des jets de des dans l'ecran de creation du personnage: 3.16
+~BG2IMPOVEDGUI/BG2IMPOVEDGUI.TP2~ #3 #810 // Plier et deplier la description des quetes dans le journal -> Grande zone de texte: 3.16
+~BG2IMPOVEDGUI/BG2IMPOVEDGUI.TP2~ #3 #920 // Afficher la carte en niveaux de gris quand le jeu est en pause -> la carte en niveaux de gris est activee par defaut: 3.16
+~BG2IMPOVEDGUI/BG2IMPOVEDGUI.TP2~ #3 #1140 // Afficher les effets actifs d'un PNJ avec le clic droit -> des objets equipes et des sorts lances avec l'affichage du temps restant: 3.16
+~BG2IMPOVEDGUI/BG2IMPOVEDGUI.TP2~ #3 #1200 // Preciser les messages d'avancement de quete, de gain ou de perte d'objet: 3.16
 // Recently Uninstalled: ~SETUP-BWS_FINAL.TP2~ #0 #0 // Make quick-logged WeiDU-entries visible
