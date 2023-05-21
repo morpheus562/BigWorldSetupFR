@@ -209,6 +209,11 @@ Func Au3ExFix($p_Num)
 		EndIf
 	EndIf
 ; ================         move files from sub-directories to main     ================
+	If FileExists($g_GameDir&'\WeiDU-Windows') Then
+		FileWrite($g_LogFile, '>WeiDU-Windows\* .' & @CRLF)
+		;DirMove($g_GameDir & '\WeiDU-Windows' , $g_GameDir & '\WeiDU', 0)
+		FileMove($g_GameDir & '\WeiDU-Windows\*.exe' , $g_GameDir & '\WeiDU', 1)
+	EndIf
 	If StringRegExp($g_Flags[14], 'BWP|BWS') And FileExists($g_GameDir&'\A4Auror') Then
 		FileWrite($g_LogFile, '>A4Auror\* .' & @CRLF)
 		FileMove($g_BG2Dir&'\A4Auror\Setup-A4Auror.exe', $g_BG2Dir&'\Setup-A4Auror.exe')
@@ -239,6 +244,10 @@ Func Au3ExFix($p_Num)
 		FileWrite($g_LogFile, '>Big-World-Fixpack-master\* .' & @CRLF)
 		_Extract_MoveMod('Big-World-Fixpack-master')
 	EndIf
+	If StringRegExp($g_Flags[14], 'BWP|BWS|BG1EE|BG2EE|PSTEE') And FileExists($g_GameDir&'\BWS-EE-Fixpack-master') Then
+        FileWrite($g_LogFile, '>BWS-EE-Fixpack-master\* .' & @CRLF)
+        _Extract_MoveMod('BWS-EE-Fixpack-master')
+    EndIf
 ; ==============  Fix textstring so weidu will not fail to install the mod ============
 	If StringRegExp($g_Flags[14], 'BWP|BWS') And FileExists($g_BG2Dir&'\setup-bonehillv275.exe') Then
 		$Text=FileRead($g_BG2Dir&'\bonehillv275\Language\deutsch\D\BHARRNES.TRA')

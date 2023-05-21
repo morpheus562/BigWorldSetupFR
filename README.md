@@ -148,3 +148,66 @@ J'invite les auteurs des mods originaux à récupérer ces correctifs pour les i
 
 - Unique Artifact v7.2
   - Petite traduction maison, relue et corrigée par [Freedy Gwendo](https://www.baldursgateworld.fr/lacouronne/members/freddy_gwendo.html).
+
+## Informations techniques
+
+### Les types de mod
+Le type général d'un mod renseigné dans son fichier ini permet de savoir dans quelle sélection automatique ils seront présent.
+Il est possible de définir plusieurs types pour un mod, cela permettra de le faire apparaitre dans plusieurs sélections
+automatique. (Ex: Type=F,R,S,T,E)
+  
+F : [F]ixe (Mods essentiels, ils ne pourront pas être désélectionnés)  
+R : [R]ecommandé (Mods au contenu de haute qualité et bien intégré)  
+S : Maximi[S]é (Mods de toutes qualités, excluant les contenus les plus difficiles)  
+T : [T]actique (Mods de toutes qualités, incluant les contenus les plus difficiles)  
+E : [E]xpert (Mods présentant des problèmes connus, pour le débogage)
+
+Note : Pour le type Fixe, il est possible de faire en sorte que certains commposants ne soient pas fixés. Pour se faire,
+il suffit d'ajouter l'option "NotFixed" dans la section [Mod] du fichier ini du mod concerné (Ex: NotFixed=1 2 10)
+
+### Les  lignes d'installation
+
+Un ligne du fichier InstallOrder.ini est composée de différentes sections
+
+[LineType];[SetupName];[ComponentNumber];[Theme];[Defaults];[CompReq]  
+
+LineType : Le type de la ligne d'installation  
+SetupName : Le nom du mod à installer  
+ComponentNumber : Le numéro du composant à installer  
+Theme : La catégorie dans laquelle se trouve le composant  
+Defaults : Les valeurs défaut pour correspondant respectivement aux types RSTE. Cela permet de pouvoir placer un
+composant particulier dans une sélection différente du type général du mod.  
+CompReq : ???
+
+#### Les types de ligne d'installation
+
+ANN : Un commentaire  
+CMD : Une commande shell à exécuter  
+DWN : Téléchargement d'un mod  
+STD : Installation d'un composant  
+MUC : Liste de choix de plusieurs composants différents, un seul peut être sélectionné    
+SUB : Liste de choix pour un même composant, généralement car le composant nécessite une entrée manuelle, un seul peut être sélectionné
+GRP : Permet d'installer plusieurs composants en une seule commande
+
+#### Les catégories de ligne d'installation
+00 : Général  
+01 : Corrections  
+02 : Gros mods: BG1  
+03 : Quêtes: BG1  
+04 : PNJs: BG1  
+05 : Relatif aux PNJs: BG1  
+06 : Rencontres tactiques: BG1  
+07 : Règles et ajustements: BG1  
+08 : Magasins et objets: BG1  
+09 : Gros mods: BG2  
+10 : Quêtes: BG2  
+11 : Mini-Mods  
+12 : PNJs: BG2  
+13 : Petits PNJs: BG2  
+14 : Relatif aux PNJs: BG2  
+15 : Rencontres tactiques: BG2  
+16 : Règles, ajustements et sorts: BG2  
+17 : Magasins et objets: BG2  
+18 : Intelligence artificielle  
+19 : Kits  
+20 : Graphisme, portraits et sons

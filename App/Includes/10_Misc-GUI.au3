@@ -10,11 +10,11 @@ EndFunc   ;==>_Misc_Search
 
 Func _Misc_Set_GConfDir($p_GameType)
 	$g_GConfDir = $g_ProgDir & '\Config\'&$p_GameType
-	If StringRegExp($p_GameType, 'BG[1-2]EE') Then
-		$g_ConnectionsConfDir = $g_ProgDir&'\Config\BWP'; make BG1EE and BG2EE use BWP Game.ini for Connections rules
-	Else
+	;If StringRegExp($p_GameType, 'BG[1-2]EE') Then
+	;	$g_ConnectionsConfDir = $g_ProgDir&'\Config\BWP'; make BG1EE and BG2EE use BWP Game.ini for Connections rules
+	;Else
 		$g_ConnectionsConfDir = $g_GConfDir
-	EndIf
+	;EndIf
 EndFunc   ;==>_Misc_SetGConfDir
 
 ; ---------------------------------------------------------------------------------------------
