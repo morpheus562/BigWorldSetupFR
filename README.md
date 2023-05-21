@@ -80,6 +80,10 @@ J'invite les auteurs des mods originaux à récupérer ces correctifs pour les i
     - .\P!Bhaal\2da\P!Bhaal.2da en .\P!Bhaal\2da\PIBhaal.2da
     - .\P!Bhaal\2da\LUP!B.2da en .\P!Bhaal\2da\LUPIB.2da
 
+- Rogue Rebalancing v4.92
+  - \[C\] La description du Maître-lames, couplée au composant "4250 - Changer les sequenceurs de sorts et les contingences en capacites speciales" de Stratagems, générait une description de plus de 4096 caractère, ce qui faisait crasher le jeu lorsque l'on tentait de sélectionner ce kit.
+    La description de la capacité "Démonstration Martiale" a été diminuée.
+
 - Stratagems v33.7
   - \[C\] Certaines orientations étaient écrites sous forme de lettre et non de chiffre. 
   - \[C\] Il modifiait le fichier action.ids pour gérer les orientations sous forme de lettre.
