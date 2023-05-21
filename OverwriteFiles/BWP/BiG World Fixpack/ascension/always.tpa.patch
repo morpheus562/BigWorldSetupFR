@@ -1,0 +1,19 @@
+--- ascension\lib\always.tpa	
++++ "b/e:\\Jeux modd\303\251s\\Baldur's Gate 2\\BigWorldSetup\\OverwriteFiles\\BWP\\ascension\\lib\\always.tpa"	
+@@ -18,10 +18,12 @@
+         /// make sure dir.ids is present and working
+ 
+         COPY "%MOD_FOLDER%/lib/dir.ids" override
+-        COPY_EXISTING "action.ids" override
+-             REPLACE_TEXTUALLY "Face\*)" "Face*DIR)"
+-             REPLACE_TEXTUALLY "Direction\*)" "Direction*DIR)"
+-        BUT_ONLY
++        ACTION_IF GAME_IS ~bgee bg2ee eet iwdee~ THEN BEGIN
++             COPY_EXISTING "action.ids" override
++                  REPLACE_TEXTUALLY "Face\*)" "Face*DIR)"
++                  REPLACE_TEXTUALLY "Direction\*)" "Direction*DIR)"
++             BUT_ONLY
++        END
+ 
+         // compatibility-friendly chapter variables
+ 

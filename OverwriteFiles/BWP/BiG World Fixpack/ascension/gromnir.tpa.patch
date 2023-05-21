@@ -1,0 +1,13 @@
+--- ascension\tougher\gromnir.tpa	
++++ "b/e:\\Jeux modd\303\251s\\Baldur's Gate 2\\BigWorldSetup\\OverwriteFiles\\BWP\\ascension\\tougher\\gromnir.tpa"	
+@@ -92,8 +92,8 @@ IF
+ THEN
+ 	RESPONSE #100
+ 		SetGlobal("fin_grom_reinforce","AR5002",1)
+-		CreateCreature("grommin",[848.894],NW)
+-		CreateCreature("jumjum",[894.841],NW)
++		CreateCreature("grommin",[848.894],6)
++		CreateCreature("jumjum",[894.841],6)
+ END
+ >>>>>>>>
+ 

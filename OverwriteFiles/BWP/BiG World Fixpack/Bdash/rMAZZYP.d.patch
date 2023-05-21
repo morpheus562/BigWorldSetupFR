@@ -1,0 +1,9 @@
+--- Bdash\D\rMAZZYP.d	
++++ "b/e:\\Jeux modd\303\251s\\Baldur's Gate 2\\BigWorldSetup\\OverwriteFiles\\BWP\\Bdash\\D\\rMAZZYP.d"	
+@@ -1,5 +1,5 @@
+ REPLACE_ACTION_TEXT ~MAZZYP~
+-~Global("KickedOut","LOCALS",1)[^!]*
++~SetGlobal("KickedOut","LOCALS",1)[^!]*
+ JoinParty()~
+ ~SetGlobal("KickedOut","LOCALS",1)
+ JoinParty()~

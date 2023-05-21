@@ -193,10 +193,6 @@ Func Au3RunFix($p_Num = 0)
 ; ---------------------------------------------------------------------------------------------
 ; run textharmonisation if wanted
 ; ---------------------------------------------------------------------------------------------
-		If $g_MLang[1] = 'GE' And IniRead($g_UsrIni, 'Options', 'TAPatch', 1) = 1 Then
-			_Process_Run('xcopy /Y /S /E ".\Big World Textpack GERMAN\_Textharmonisation" ".\Big World Textpack GERMAN"', 'xcopy.exe')
-			If Not StringInStr(FileRead($g_BG2Dir&'\WeiDU.log'), 'Textharmonisation.TP2') Then _Install_CreateTP2Entry('Textharmonisation', IniRead($g_MODIni, 'BWTextpack', 'GE-AddSave', ''))
-		EndIf
 		;If Not StringInStr(FileRead($g_BG2Dir&'\WeiDU.log'), 'BWTrimpack.TP2') Then _Install_CreateTP2Entry('BWTrimpack', IniRead($g_MODIni, 'BWTrimpack', 'Save', 'Unknown'))
 		If Not StringInStr(FileRead($g_BG2Dir&'\WeiDU.log'), 'BWInstallpack.TP2') Then _Install_CreateTP2Entry('BWInstallpack', IniRead($g_MODIni, 'BWInstallpack', 'Save', 'Unknown'))
 		If _Install_PatchTest() = 0 Then
@@ -472,10 +468,6 @@ Func Au3Install($p_Num = 0, $p_Debug = 0)
 			If $Sub = 0 Then
 				If $Setup[2] = 'BGT' Then; add bg1-param
 					$InstallString=$Setup[0]&' --no-exit-pause --noautoupdate --language '&StringTrimLeft($Setup[5], 3) &' --skip-at-view '&$g_WeiDUQuickLog&' --args-list ops "'&$g_BG1Dir&'" --force-install-list '&$Setup[3]&' --logapp'
-				ElseIf $Setup[2] = 'BGT-NPCSound' Then; hide the output
-					$InstallString=$Setup[0]&' --no-exit-pause --noautoupdate --language '&StringTrimLeft($Setup[5], 3) &' --skip-at-view '&$g_WeiDUQuickLog&' --force-install-list '&$Setup[3]&' --logapp 2>nul 1>nul'
-				ElseIf $Setup[2] = 'EET' Then; add bg1ee-param
-					$InstallString=$Setup[0]&' --no-exit-pause --noautoupdate --language '&StringTrimLeft($Setup[5], 3) &' --skip-at-view '&$g_WeiDUQuickLog&' --args-list p "'&$g_BG1EEDir&'" --force-install-list '&$Setup[3]&' --logapp'
 				Else
 					$InstallString=$Setup[0]&' --no-exit-pause --noautoupdate --language '&StringTrimLeft($Setup[5], 3) &' --skip-at-view '&$g_WeiDUQuickLog&' --force-install-list '&$Setup[3]&' --logapp'
 				EndIf
@@ -619,44 +611,6 @@ EndFunc   ;==>_Install_BatchRun
 ; install the textpatches if needed
 ; ---------------------------------------------------------------------------------------------
 Func _Install_BG1Textpatch($p_Message)
-	$Success = _Test_CheckBG1TP(); German textpack
-	If $Success <> 1 Then
-		GUICtrlSetData($g_UI_Static[6][2], _GetTR($p_Message, 'L4')); => install TP
-		_Process_ChangeDir($g_BG1Dir, 1)
-		FileCopy($g_BG2Dir&'\WeiDU\WeiDU.exe', $g_BG1Dir&'\Setup-bg1tp.exe', 1)
-		If $Success = -1 Then
-			_Process_Run('Setup-BG1TP.exe --force-uninstall-list 0', 'Setup-bg1tp.exe')
-			If StringInStr(FileRead($g_BG1Dir&'\WeiDU.log'), @LF&'~bg1tp') Then
-				_Misc_MsgGUI(4, _GetTR($p_Message, 'T1'), _GetTR($p_Message, 'L6'), 1, _GetTR($p_Message, 'B1')); => cannot remove old TP
-				Exit
-			EndIf
-			If FileExists($g_BG1Dir&'\Setup-bg1tp.tp2') And FileDelete($g_BG1Dir&'\Setup-bg1tp.tp2') = 0 Then; remove old tp2, else the old version is installed again
-				_Misc_MsgGUI(4, _GetTR($p_Message, 'T1'), _GetTR($p_Message, 'L6'), 1, _GetTR($p_Message, 'B1')); => cannot remove old TP
-				Exit
-			EndIf
-		EndIf
-		_Process_Run('Setup-BG1TP.exe --no-exit-pause --noautoupdate --language 0 --skip-at-view --force-install-list 0', 'Setup-bg1tp.exe')
-		If Not StringInStr(FileRead($g_BG1Dir&'\WeiDU.log'), @LF&'~bg1tp') Then
-			_Misc_MsgGUI(4, _GetTR($p_Message, 'T1'), _GetTR($p_Message, 'L1'), 1, _GetTR($p_Message, 'B1')); => cannot install new TP
-			Exit
-		EndIf
-		_Process_ChangeDir($g_BG2Dir, 1)
-	EndIf
-; ---------------------------------------------------------------------------------------------
-; install the Spanish textpatch if needed
-; ---------------------------------------------------------------------------------------------
-	If $g_MLang[1] = 'SP' And Not StringInStr(FileRead($g_BG1Dir&'\WeiDU.log'), @LF&'~setup-Abra.tp2') And $g_BG1Dir <> '-' Then; first installation
-		GUICtrlSetData($g_UI_Static[6][2], _GetTR($p_Message, 'L4')); => install abra
-		_FileReplace($g_BG1Dir & '\Setup-Abra.tp2', 'AT_INTERACTIVE_EXIT ~VIEW Abra\Readme.htm~', '//AT_INTERACTIVE_EXIT ~VIEW Abra\Readme.htm~'); don't show the readme
-		_Process_ChangeDir($g_BG1Dir, 1)
-		FileCopy($g_BG2Dir&'\WeiDU\WeiDU.exe', $g_BG1Dir&'\Setup-Abra.exe', 1)
-		_Process_Run('Setup-Abra.exe --no-exit-pause --noautoupdate --language 0 --skip-at-view --force-install-list 0 1', 'Setup-Abra.exe')
-		If Not StringInStr(FileRead($g_BG1Dir&'\WeiDU.log'), @LF&'~setup-Abra.tp2') Then
-			_Misc_MsgGUI(4, _GetTR($p_Message, 'T1'), _GetTR($p_Message, 'L1'), 1, _GetTR($p_Message, 'B1')); => cannot install abra
-			Exit
-		EndIf
-		_Process_ChangeDir($g_BG2Dir, 1)
-	EndIf
 ; ---------------------------------------------------------------------------------------------
 ; install the French textpatch if needed
 ; ---------------------------------------------------------------------------------------------
@@ -667,37 +621,6 @@ Func _Install_BG1Textpatch($p_Message)
 		_Process_Run('Setup-correcfrbg1.exe --no-exit-pause --noautoupdate --language 0 --skip-at-view --force-install-list 0 1', 'Setup-correcfrbg1.exe')
 		If Not StringInStr(FileRead($g_BG1Dir&'\WeiDU.log'), @LF&'~correcfrbg1/correcfrbg1.tp2') Then
 			_Misc_MsgGUI(4, _GetTR($p_Message, 'T1'), _GetTR($p_Message, 'L1'), 1, _GetTR($p_Message, 'B1')); => cannot install correcfrbg
-			Exit
-		EndIf
-		_Process_ChangeDir($g_BG2Dir, 1)
-	EndIf
-; ---------------------------------------------------------------------------------------------
-; install the Polish BG1 characters conversion if needed
-; ---------------------------------------------------------------------------------------------
-	If $g_MLang[1] = 'PO' And FileGetSize($g_BG1Dir&'\DialogF.tlk') = '3430385' And Not FileExists($g_BG1Dir&'\Dialog.bak') And $g_BG1Dir <> '-' Then; first installation
-		GUICtrlSetData($g_UI_Static[6][2], _GetTR($p_Message, 'L4')); => install textpatch
-		_Process_ChangeDir($g_BG1Dir, 1)
-		FileCopy($g_BG2Dir&'\BGT\kpzbg1.exe', $g_BG1Dir&'\kpzbg1.exe', 1)
-		$Handle=FileOpen($g_BG1Dir&'\kpzbg1.txt', 2)
-		FileWrite($Handle, 3&@CRLF&1&@CRLF)
-		FileClose($Handle)
-		_Process_Run('type kpzbg1.txt|kpzbg1.exe', 'kpzbg1.exe')
-		If Not StringInStr($g_ConsoleOutput, 'Operacja sie powiodla.') Then
-			_Misc_MsgGUI(4, _GetTR($p_Message, 'T1'), _GetTR($p_Message, 'L1'), 1, _GetTR($p_Message, 'B1')); => cannot install textpatch
-			Exit
-		EndIf
-		_Process_ChangeDir($g_BG2Dir, 1)
-	EndIf
-; ---------------------------------------------------------------------------------------------
-; install the Russian textpatch if needed
-; ---------------------------------------------------------------------------------------------
-	If $g_MLang[1] = 'RU' And Not StringInStr(FileRead($g_BG1Dir&'\WeiDU.log'), @LF&'~bg1textpack/setup-bg1textpack.tp2') And $g_BG1Dir <> '-' Then; first installation
-		GUICtrlSetData($g_UI_Static[6][2], _GetTR($p_Message, 'L4')); => install textpatch
-		_Process_ChangeDir($g_BG1Dir, 1)
-		FileCopy($g_BG1Dir&'\dialog.tlk', $g_BG1Dir&'\dialogf.tlk', 1)
-		_Process_Run('setup-bg1textpack.exe --no-exit-pause --noautoupdate --language 0 --skip-at-view --force-install-list 1', 'setup-bg1textpack.exe')
-		If Not StringInStr(FileRead($g_BG1Dir&'\WeiDU.log'), @LF&'~bg1textpack/setup-bg1textpack.tp2') Then
-			_Misc_MsgGUI(4, _GetTR($p_Message, 'T1'), _GetTR($p_Message, 'L1'), 1, _GetTR($p_Message, 'B1')); => cannot install bg1textpack
 			Exit
 		EndIf
 		_Process_ChangeDir($g_BG2Dir, 1)
@@ -1464,6 +1387,10 @@ EndFunc   ;==>_Install_ReadWeiDU
 Func _Install_UpdateWeiDU($p_File, $p_Size=0)
 	If $p_Size = 0 Then $p_Size=FileGetSize($g_GameDir&'\WeiDU\WeiDU.exe')
 	If $p_Size = 0 Then Return; do nothing if WeiDU.exe does not exist
+	; generalized biffing est buggé en version 247, la version 246 doit être utilisée
+	If StringRegExp($p_File, '(?i)generalized_biffing') Then
+	    Return
+	EndIf
 	$Size=FileGetSize($g_GameDir&'\'&$p_File); get size of target WeiDU-setup exe for comparison
 	If $Size <> $p_Size Then; create or replace the WeiDU-setup exe if it doesn't match reference size
 		FileCopy($g_GameDir&'\WeiDU\WeiDU.exe', $g_GameDir&'\'&$p_File, 1)

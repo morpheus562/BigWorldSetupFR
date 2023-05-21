@@ -1,0 +1,20 @@
+--- Setup-Area_patcher.tp2
++++ "b/e:\\Jeux modd\303\251s\\Baldur's Gate 2\\BigWorldSetup\\OverwriteFiles\\BWP\\BiG World Fixpack\\_Area_Patcher\\Setup-Area_Patcher.tp2"	
+@@ -308,7 +308,7 @@ BUT_ONLY_IF_IT_CHANGES
+ 
+ BEGIN ~Fix BG1NPC X#AJR1.ARE~ DESIGNATED 5000 GROUP ~BG1NPC~
+ REQUIRE_COMPONENT ~setup-area_patcher.tp2~ 0 ~You must install the core component first.~
+-REQUIRE_PREDICATE (MOD_IS_INSTALLED ~bg1npc.tp2~ 15 OR (FILE_EXISTS ~WeiDU-BGEE.log~ AND FILE_CONTAINS ~WeiDU-BGEE.log~ ~BG1NPC\.TP2. #[0-9]+ #15 ~)) ~This component is needed only if you have installed BG1NPC component 15.~
++REQUIRE_PREDICATE (MOD_IS_INSTALLED ~bg1npc.tp2~ 80 OR (FILE_EXISTS ~WeiDU-BGEE.log~ AND FILE_CONTAINS ~WeiDU-BGEE.log~ ~BG1NPC\.TP2. #[0-9]+ #80 ~)) ~This component is needed only if you have installed BG1NPC component 80.~
+ 
+ //(REQUIRE_PREDICATE FILE_EXISTS_IN_GAME ~AR4230.ARE~)
+ 
+@@ -332,7 +332,7 @@ BUT_ONLY_IF_IT_CHANGES
+ 
+ BEGIN ~Fix BG1NPC X#CH11.ARE~ DESIGNATED 5001 GROUP ~BG1NPC~
+ REQUIRE_COMPONENT ~setup-area_patcher.tp2~ 0 ~You must install the core component first.~
+-REQUIRE_PREDICATE (MOD_IS_INSTALLED ~bg1npc.tp2~ 15 OR (FILE_EXISTS ~WeiDU-BGEE.log~ AND FILE_CONTAINS ~WeiDU-BGEE.log~ ~BG1NPC\.TP2. #[0-9]+ #15 ~)) ~This component is needed only if you have installed BG1NPC component 15.~
++REQUIRE_PREDICATE (MOD_IS_INSTALLED ~bg1npc.tp2~ 80 OR (FILE_EXISTS ~WeiDU-BGEE.log~ AND FILE_CONTAINS ~WeiDU-BGEE.log~ ~BG1NPC\.TP2. #[0-9]+ #80 ~)) ~This component is needed only if you have installed BG1NPC component 80.~
+ 
+ //(REQUIRE_PREDICATE FILE_EXISTS_IN_GAME ~AR4230.ARE~)
+ 

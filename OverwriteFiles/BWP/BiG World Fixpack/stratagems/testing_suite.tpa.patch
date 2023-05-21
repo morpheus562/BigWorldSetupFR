@@ -1,0 +1,383 @@
+--- stratagems\lib\testing_suite.tpa	
++++ "b/e:\\Jeux modd\303\251s\\Baldur's Gate 2\\BigWorldSetup\\OverwriteFiles\\BWP\\stratagems\\lib\\testing_suite.tpa"	
+@@ -26,12 +26,12 @@ THEN
+    RESPONSE #100
+        SetGlobal("DW_pp_irenicus","GLOBAL",2)
+        SetGlobal("AsylumPlot","GLOBAL",53)
+-       ActionOverride(Player1,LeaveAreaLUA("AR1515","",[945.1010],NW))
+-       ActionOverride(Player2,LeaveAreaLUA("AR1515","",[947.1013],NW))
+-       ActionOverride(Player3,LeaveAreaLUA("AR1515","",[849.1020],NW))
+-       ActionOverride(Player4,LeaveAreaLUA("AR1515","",[991.1009],NW))
+-       ActionOverride(Player5,LeaveAreaLUA("AR1515","",[997.994],NW))
+-       ActionOverride(Player6,LeaveAreaLUA("AR1515","",[996.1087],NW))
++       ActionOverride(Player1,LeaveAreaLUA("AR1515","",[945.1010],6))
++       ActionOverride(Player2,LeaveAreaLUA("AR1515","",[947.1013],6))
++       ActionOverride(Player3,LeaveAreaLUA("AR1515","",[849.1020],6))
++       ActionOverride(Player4,LeaveAreaLUA("AR1515","",[991.1009],6))
++       ActionOverride(Player5,LeaveAreaLUA("AR1515","",[997.994],6))
++       ActionOverride(Player6,LeaveAreaLUA("AR1515","",[996.1087],6))
+        Continue()
+ END
+ 
+@@ -47,7 +47,7 @@ IF
+ THEN
+    RESPONSE #100
+        SetGlobal("DW_pp_irenicus","GLOBAL",3)
+-       CreateCreature("ppireni2",[800.1100],NW)
++       CreateCreature("ppireni2",[800.1100],6)
+        Continue()
+ END
+ 
+@@ -71,12 +71,12 @@ IF
+ THEN
+    RESPONSE #100
+        SetGlobal("DW_firkraag","GLOBAL",2)
+-       ActionOverride(Player1,LeaveAreaLUA("AR1203","",[1269.1263],NW))
+-       ActionOverride(Player2,LeaveAreaLUA("AR1203","",[1259.1263],NW))
+-       ActionOverride(Player3,LeaveAreaLUA("AR1203","",[1279.1263],NW))
+-       ActionOverride(Player4,LeaveAreaLUA("AR1203","",[1269.1253],NW))
+-       ActionOverride(Player5,LeaveAreaLUA("AR1203","",[1269.1273],NW))
+-       ActionOverride(Player6,LeaveAreaLUA("AR1203","",[1259.1273],NW))
++       ActionOverride(Player1,LeaveAreaLUA("AR1203","",[1269.1263],6))
++       ActionOverride(Player2,LeaveAreaLUA("AR1203","",[1259.1263],6))
++       ActionOverride(Player3,LeaveAreaLUA("AR1203","",[1279.1263],6))
++       ActionOverride(Player4,LeaveAreaLUA("AR1203","",[1269.1253],6))
++       ActionOverride(Player5,LeaveAreaLUA("AR1203","",[1269.1273],6))
++       ActionOverride(Player6,LeaveAreaLUA("AR1203","",[1259.1273],6))
+        Continue()
+ END
+ 
+@@ -107,12 +107,12 @@ IF
+ THEN
+    RESPONSE #100
+        SetGlobal("DW_nizi","GLOBAL",2)
+-       ActionOverride(Player1,LeaveAreaLUA("AR2807","",[616.459],NW))
+-       ActionOverride(Player2,LeaveAreaLUA("AR2807","",[616.479],NW))
+-       ActionOverride(Player3,LeaveAreaLUA("AR2807","",[616.439],NW))
+-       ActionOverride(Player4,LeaveAreaLUA("AR2807","",[626.459],NW))
+-       ActionOverride(Player5,LeaveAreaLUA("AR2807","",[606.459],NW))
+-       ActionOverride(Player6,LeaveAreaLUA("AR2807","",[616.469],NW))
++       ActionOverride(Player1,LeaveAreaLUA("AR2807","",[616.459],6))
++       ActionOverride(Player2,LeaveAreaLUA("AR2807","",[616.479],6))
++       ActionOverride(Player3,LeaveAreaLUA("AR2807","",[616.439],6))
++       ActionOverride(Player4,LeaveAreaLUA("AR2807","",[626.459],6))
++       ActionOverride(Player5,LeaveAreaLUA("AR2807","",[606.459],6))
++       ActionOverride(Player6,LeaveAreaLUA("AR2807","",[616.469],6))
+        Continue()
+ END
+ 
+@@ -141,12 +141,12 @@ IF
+ THEN
+    RESPONSE #100
+        SetGlobal("DW_ada","GLOBAL",2)
+-       ActionOverride(Player1,LeaveAreaLUA("AR2102","",[1180.1306],NW))
+-       ActionOverride(Player2,LeaveAreaLUA("AR2102","",[1190.1306],NW))
+-       ActionOverride(Player3,LeaveAreaLUA("AR2102","",[1170.1306],NW))
+-       ActionOverride(Player4,LeaveAreaLUA("AR2102","",[1180.1316],NW))
+-       ActionOverride(Player5,LeaveAreaLUA("AR2102","",[1180.1296],NW))
+-       ActionOverride(Player6,LeaveAreaLUA("AR2102","",[1170.1296],NW))
++       ActionOverride(Player1,LeaveAreaLUA("AR2102","",[1180.1306],6))
++       ActionOverride(Player2,LeaveAreaLUA("AR2102","",[1190.1306],6))
++       ActionOverride(Player3,LeaveAreaLUA("AR2102","",[1170.1306],6))
++       ActionOverride(Player4,LeaveAreaLUA("AR2102","",[1180.1316],6))
++       ActionOverride(Player5,LeaveAreaLUA("AR2102","",[1180.1296],6))
++       ActionOverride(Player6,LeaveAreaLUA("AR2102","",[1170.1296],6))
+        Continue()
+ END
+ 
+@@ -176,12 +176,12 @@ THEN
+    RESPONSE #100
+        SetGlobal("DW_hellslay","GLOBAL",2)
+        SetGlobal("teardoor","GLOBAL",5)
+-       ActionOverride(Player1,LeaveAreaLUA("AR2900","",[1974.552],NW))
+-       ActionOverride(Player2,LeaveAreaLUA("AR2900","",[1964.552],NW))
+-       ActionOverride(Player3,LeaveAreaLUA("AR2900","",[1984.552],NW))
+-       ActionOverride(Player4,LeaveAreaLUA("AR2900","",[1974.562],NW))
+-       ActionOverride(Player5,LeaveAreaLUA("AR2900","",[1974.542],NW))
+-       ActionOverride(Player6,LeaveAreaLUA("AR2900","",[1964.562],NW))
++       ActionOverride(Player1,LeaveAreaLUA("AR2900","",[1974.552],6))
++       ActionOverride(Player2,LeaveAreaLUA("AR2900","",[1964.552],6))
++       ActionOverride(Player3,LeaveAreaLUA("AR2900","",[1984.552],6))
++       ActionOverride(Player4,LeaveAreaLUA("AR2900","",[1974.562],6))
++       ActionOverride(Player5,LeaveAreaLUA("AR2900","",[1974.542],6))
++       ActionOverride(Player6,LeaveAreaLUA("AR2900","",[1964.562],6))
+        Continue()
+ END
+ 
+@@ -197,7 +197,7 @@ THEN
+        SetGlobal("DW_hellslay","GLOBAL",0)
+        SetGlobal("EnteredArea","AR2900",1)
+        SetGlobal("PlayerIntro","AR2900",1)
+-       CreateCreature("HELLJON",[2009.513],S)
++       CreateCreature("HELLJON",[2009.513],0)
+        StartCutScene("cut85c")
+ END
+ 
+@@ -214,12 +214,12 @@ THEN
+    RESPONSE #100
+        SetGlobal("DW_demogorgon","GLOBAL",0)
+        SetGlobal("KnightsDead","GLOBAL",1)
+-       ActionOverride(Player1,LeaveAreaLUA("AR3020","",[930.912],NW))
+-       ActionOverride(Player2,LeaveAreaLUA("AR3020","",[930.922],NW))
+-       ActionOverride(Player3,LeaveAreaLUA("AR3020","",[930.902],NW))
+-       ActionOverride(Player4,LeaveAreaLUA("AR3020","",[920.912],NW))
+-       ActionOverride(Player5,LeaveAreaLUA("AR3020","",[940.912],NW))
+-       ActionOverride(Player6,LeaveAreaLUA("AR3020","",[940.922],NW))
++       ActionOverride(Player1,LeaveAreaLUA("AR3020","",[930.912],6))
++       ActionOverride(Player2,LeaveAreaLUA("AR3020","",[930.922],6))
++       ActionOverride(Player3,LeaveAreaLUA("AR3020","",[930.902],6))
++       ActionOverride(Player4,LeaveAreaLUA("AR3020","",[920.912],6))
++       ActionOverride(Player5,LeaveAreaLUA("AR3020","",[940.912],6))
++       ActionOverride(Player6,LeaveAreaLUA("AR3020","",[940.922],6))
+        Continue()
+ END
+ 
+@@ -235,12 +235,12 @@ IF
+ THEN                                 
+    RESPONSE #100
+        SetGlobal("DW_kangaxx","GLOBAL",2)
+-       ActionOverride(Player1,LeaveAreaLUA("AR0331","",[611.536],NW))
+-       ActionOverride(Player2,LeaveAreaLUA("AR0331","",[566.591],NW))
+-       ActionOverride(Player3,LeaveAreaLUA("AR0331","",[510.626],NW))
+-       ActionOverride(Player4,LeaveAreaLUA("AR0331","",[467.665],NW))
+-       ActionOverride(Player5,LeaveAreaLUA("AR0331","",[378.673],NW))
+-       ActionOverride(Player6,LeaveAreaLUA("AR0331","",[449.718],NW))
++       ActionOverride(Player1,LeaveAreaLUA("AR0331","",[611.536],6))
++       ActionOverride(Player2,LeaveAreaLUA("AR0331","",[566.591],6))
++       ActionOverride(Player3,LeaveAreaLUA("AR0331","",[510.626],6))
++       ActionOverride(Player4,LeaveAreaLUA("AR0331","",[467.665],6))
++       ActionOverride(Player5,LeaveAreaLUA("AR0331","",[378.673],6))
++       ActionOverride(Player6,LeaveAreaLUA("AR0331","",[449.718],6))
+        Continue()
+ END
+ >>>>>>>>
+@@ -270,12 +270,12 @@ IF
+ THEN
+     RESPONSE #100
+        SetGlobal("DW_c6bodhi","GLOBAL",2)
+-       ActionOverride(Player1,LeaveAreaLUA("AR0809","",[1240.490],NE))
+-       ActionOverride(Player2,LeaveAreaLUA("AR0809","",[1245.495],NE))
+-       ActionOverride(Player3,LeaveAreaLUA("AR0809","",[1250.500],NE))
+-       ActionOverride(Player4,LeaveAreaLUA("AR0809","",[1255.505],NE))
+-       ActionOverride(Player5,LeaveAreaLUA("AR0809","",[1260.510],NE))
+-       ActionOverride(Player6,LeaveAreaLUA("AR0809","",[1265.515],NE))
++       ActionOverride(Player1,LeaveAreaLUA("AR0809","",[1240.490],10))
++       ActionOverride(Player2,LeaveAreaLUA("AR0809","",[1245.495],10))
++       ActionOverride(Player3,LeaveAreaLUA("AR0809","",[1250.500],10))
++       ActionOverride(Player4,LeaveAreaLUA("AR0809","",[1255.505],10))
++       ActionOverride(Player5,LeaveAreaLUA("AR0809","",[1260.510],10))
++       ActionOverride(Player6,LeaveAreaLUA("AR0809","",[1265.515],10))
+        Continue()
+ END
+ >>>>>>>>
+@@ -300,12 +300,12 @@ IF
+ THEN
+     RESPONSE #100
+        SetGlobal("DW_ppitems","GLOBAL",2)
+-       ActionOverride(Player1,LeaveAreaLUA("AR1515","",[1000.1000],NE))
+-       ActionOverride(Player2,LeaveAreaLUA("AR1515","",[1000.990],NE))
+-       ActionOverride(Player3,LeaveAreaLUA("AR1515","",[1000.1010],NE))
+-       ActionOverride(Player4,LeaveAreaLUA("AR1515","",[990.1010],NE))
+-       ActionOverride(Player5,LeaveAreaLUA("AR1515","",[1010.1000],NE))
+-       ActionOverride(Player6,LeaveAreaLUA("AR1515","",[990.1000],NE))
++       ActionOverride(Player1,LeaveAreaLUA("AR1515","",[1000.1000],10))
++       ActionOverride(Player2,LeaveAreaLUA("AR1515","",[1000.990],10))
++       ActionOverride(Player3,LeaveAreaLUA("AR1515","",[1000.1010],10))
++       ActionOverride(Player4,LeaveAreaLUA("AR1515","",[990.1010],10))
++       ActionOverride(Player5,LeaveAreaLUA("AR1515","",[1010.1000],10))
++       ActionOverride(Player6,LeaveAreaLUA("AR1515","",[990.1000],10))
+        SetGlobal("AsylumPlot","GLOBAL",20)
+        Continue()
+ END
+@@ -315,12 +315,12 @@ IF
+ THEN
+     RESPONSE #100
+        SetGlobal("DW_ppitems","GLOBAL",4)
+-       ActionOverride(Player1,LeaveAreaLUA("AR0012","",[1000.1000],NE))
+-       ActionOverride(Player2,LeaveAreaLUA("AR0012","",[1000.990],NE))
+-       ActionOverride(Player3,LeaveAreaLUA("AR0012","",[1000.1010],NE))
+-       ActionOverride(Player4,LeaveAreaLUA("AR0012","",[990.1010],NE))
+-       ActionOverride(Player5,LeaveAreaLUA("AR0012","",[1010.1000],NE))
+-       ActionOverride(Player6,LeaveAreaLUA("AR0012","",[990.1000],NE))
++       ActionOverride(Player1,LeaveAreaLUA("AR0012","",[1000.1000],10))
++       ActionOverride(Player2,LeaveAreaLUA("AR0012","",[1000.990],10))
++       ActionOverride(Player3,LeaveAreaLUA("AR0012","",[1000.1010],10))
++       ActionOverride(Player4,LeaveAreaLUA("AR0012","",[990.1010],10))
++       ActionOverride(Player5,LeaveAreaLUA("AR0012","",[1010.1000],10))
++       ActionOverride(Player6,LeaveAreaLUA("AR0012","",[990.1000],10))
+        SetGlobal("AsylumPlot","GLOBAL",20)
+        Continue()
+ END
+@@ -378,13 +378,13 @@ THEN
+ 		ActionOverride(Player4,MakeUnselectable(1))
+ 		ActionOverride(Player5,MakeUnselectable(1))
+ 		ActionOverride(Player6,MakeUnselectable(1))
+-		LeaveAreaLUAPanic("AR1515","",[1637.888],NW)
+-		LeaveAreaLUA("AR1515","",[1637.888],NW)
+-		ActionOverride(Player2,LeaveAreaLUA("AR1515","",[1647.888],NW))
+-		ActionOverride(Player3,LeaveAreaLUA("AR1515","",[1627.888],NW))
+-		ActionOverride(Player4,LeaveAreaLUA("AR1515","",[1637.898],NW))
+-		ActionOverride(Player5,LeaveAreaLUA("AR1515","",[1637.878],NW))
+-		ActionOverride(Player6,LeaveAreaLUA("AR1515","",[1627.878],NW))
++		LeaveAreaLUAPanic("AR1515","",[1637.888],6)
++		LeaveAreaLUA("AR1515","",[1637.888],6)
++		ActionOverride(Player2,LeaveAreaLUA("AR1515","",[1647.888],6))
++		ActionOverride(Player3,LeaveAreaLUA("AR1515","",[1627.888],6))
++		ActionOverride(Player4,LeaveAreaLUA("AR1515","",[1637.898],6))
++		ActionOverride(Player5,LeaveAreaLUA("AR1515","",[1637.878],6))
++		ActionOverride(Player6,LeaveAreaLUA("AR1515","",[1627.878],6))
+ END
+ >>>>>>>>
+ 
+@@ -487,12 +487,12 @@ THEN
+        SetGlobal("DW_test_balth","GLOBAL",2)
+        SetGlobal("metbal","GLOBAL",1)
+        SetGlobal("SPRITE_IS_DEADBALTH","GLOBAL",0)
+-       ActionOverride(Player1,LeaveAreaLUA("AR5505","",[945.1010],NW))
+-       ActionOverride(Player2,LeaveAreaLUA("AR5505","",[947.1013],NW))
+-       ActionOverride(Player3,LeaveAreaLUA("AR5505","",[849.1020],NW))
+-       ActionOverride(Player4,LeaveAreaLUA("AR5505","",[991.1009],NW))
+-       ActionOverride(Player5,LeaveAreaLUA("AR5505","",[997.994],NW))
+-       ActionOverride(Player6,LeaveAreaLUA("AR5505","",[996.1087],NW))
++       ActionOverride(Player1,LeaveAreaLUA("AR5505","",[945.1010],6))
++       ActionOverride(Player2,LeaveAreaLUA("AR5505","",[947.1013],6))
++       ActionOverride(Player3,LeaveAreaLUA("AR5505","",[849.1020],6))
++       ActionOverride(Player4,LeaveAreaLUA("AR5505","",[991.1009],6))
++       ActionOverride(Player5,LeaveAreaLUA("AR5505","",[997.994],6))
++       ActionOverride(Player6,LeaveAreaLUA("AR5505","",[996.1087],6))
+ END
+ >>>>>>>>
+ 
+@@ -525,12 +525,12 @@ THEN
+              SetGlobal("TalkedSarMel01","GLOBAL",1)
+              SetGlobal("MelissanJob","GLOBAL",1)
+              SetGlobal("SPRITE_IS_DEADGROMNIR","GLOBAL",0)
+-       ActionOverride(Player1,LeaveAreaLUA("AR5001","",[800.600],SSW))
+-       ActionOverride(Player2,LeaveAreaLUA("AR5001","",[810.600],SSW))
+-       ActionOverride(Player3,LeaveAreaLUA("AR5001","",[800.610],SSW))
+-       ActionOverride(Player4,LeaveAreaLUA("AR5001","",[800.590],SSW))
+-       ActionOverride(Player5,LeaveAreaLUA("AR5001","",[790.600],SSW))
+-       ActionOverride(Player6,LeaveAreaLUA("AR5001","",[790.590],SSW))
++       ActionOverride(Player1,LeaveAreaLUA("AR5001","",[800.600],1))
++       ActionOverride(Player2,LeaveAreaLUA("AR5001","",[810.600],1))
++       ActionOverride(Player3,LeaveAreaLUA("AR5001","",[800.610],1))
++       ActionOverride(Player4,LeaveAreaLUA("AR5001","",[800.590],1))
++       ActionOverride(Player5,LeaveAreaLUA("AR5001","",[790.600],1))
++       ActionOverride(Player6,LeaveAreaLUA("AR5001","",[790.590],1))
+ END
+ 
+ IF
+@@ -560,12 +560,12 @@ THEN
+              SetGlobal("SPRITE_IS_DEADGROMNIR","GLOBAL",1)
+              SetGlobal("Mel01GromnirDeath","GLOBAL",1)
+              SetGlobal("DeathOfGromnir","GLOBAL",1)
+-       ActionOverride(Player1,LeaveAreaLUA("AR5203","",[3400.700],SSW))
+-       ActionOverride(Player2,LeaveAreaLUA("AR5203","",[3400.710],SSW))
+-       ActionOverride(Player3,LeaveAreaLUA("AR5203","",[3400.690],SSW))
+-       ActionOverride(Player4,LeaveAreaLUA("AR5203","",[3410.700],SSW))
+-       ActionOverride(Player5,LeaveAreaLUA("AR5203","",[3390.700],SSW))
+-       ActionOverride(Player6,LeaveAreaLUA("AR5203","",[3410.710],SSW))
++       ActionOverride(Player1,LeaveAreaLUA("AR5203","",[3400.700],1))
++       ActionOverride(Player2,LeaveAreaLUA("AR5203","",[3400.710],1))
++       ActionOverride(Player3,LeaveAreaLUA("AR5203","",[3400.690],1))
++       ActionOverride(Player4,LeaveAreaLUA("AR5203","",[3410.700],1))
++       ActionOverride(Player5,LeaveAreaLUA("AR5203","",[3390.700],1))
++       ActionOverride(Player6,LeaveAreaLUA("AR5203","",[3410.710],1))
+ END
+ >>>>>>>>
+ 
+@@ -580,12 +580,12 @@ THEN
+     RESPONSE #100
+              SetGlobal("DW_test_abaz","GLOBAL",0)
+              SetGlobal("SPRITE_IS_DEADABAZIGAL","GLOBAL",0)
+-       ActionOverride(Player1,LeaveAreaLUA("AR6005","",[2300.700],SSW))
+-       ActionOverride(Player2,LeaveAreaLUA("AR6005","",[2310.700],SSW))
+-       ActionOverride(Player3,LeaveAreaLUA("AR6005","",[2290.700],SSW))
+-       ActionOverride(Player4,LeaveAreaLUA("AR6005","",[2300.710],SSW))
+-       ActionOverride(Player5,LeaveAreaLUA("AR6005","",[2300.690],SSW))
+-       ActionOverride(Player6,LeaveAreaLUA("AR6005","",[2310.690],SSW))
++       ActionOverride(Player1,LeaveAreaLUA("AR6005","",[2300.700],1))
++       ActionOverride(Player2,LeaveAreaLUA("AR6005","",[2310.700],1))
++       ActionOverride(Player3,LeaveAreaLUA("AR6005","",[2290.700],1))
++       ActionOverride(Player4,LeaveAreaLUA("AR6005","",[2300.710],1))
++       ActionOverride(Player5,LeaveAreaLUA("AR6005","",[2300.690],1))
++       ActionOverride(Player6,LeaveAreaLUA("AR6005","",[2310.690],1))
+ END
+ >>>>>>>>
+ 
+@@ -602,12 +602,12 @@ THEN
+ 	SetGlobal("DreamSolarTimer","GLOBAL",999999)
+ 	SetGlobal("SolarDream","GLOBAL",0)
+ 	SetGlobal("SPRITE_IS_DEADILLASERA","GLOBAL",0)
+-        ActionOverride(Player1,LeaveAreaLUA("AR4000","",[680.460],SSW))
+-        ActionOverride(Player2,LeaveAreaLUA("AR4000","",[700.460],SSW))
+-        ActionOverride(Player3,LeaveAreaLUA("AR4000","",[720.460],SSW))
+-        ActionOverride(Player4,LeaveAreaLUA("AR4000","",[700.480],SSW))
+-        ActionOverride(Player5,LeaveAreaLUA("AR4000","",[700.440],SSW))
+-        ActionOverride(Player6,LeaveAreaLUA("AR4000","",[720.480],SSW))
++        ActionOverride(Player1,LeaveAreaLUA("AR4000","",[680.460],1))
++        ActionOverride(Player2,LeaveAreaLUA("AR4000","",[700.460],1))
++        ActionOverride(Player3,LeaveAreaLUA("AR4000","",[720.460],1))
++        ActionOverride(Player4,LeaveAreaLUA("AR4000","",[700.480],1))
++        ActionOverride(Player5,LeaveAreaLUA("AR4000","",[700.440],1))
++        ActionOverride(Player6,LeaveAreaLUA("AR4000","",[720.480],1))
+ END
+ >>>>>>>>
+ 
+@@ -622,12 +622,12 @@ THEN
+ 	SetGlobal("IllaseraSpawnTimer","GLOBAL",0)
+ 	SetGlobal("IllaseraSpawn","GLOBAL",0)
+ 	SetGlobal("SetSolarDreamTimer","AR4000",0)
+-        ActionOverride(Player1,LeaveAreaLUA("AR4000","",[680.460],SSW))
+-        ActionOverride(Player2,LeaveAreaLUA("AR4000","",[700.460],SSW))
+-        ActionOverride(Player3,LeaveAreaLUA("AR4000","",[720.460],SSW))
+-        ActionOverride(Player4,LeaveAreaLUA("AR4000","",[700.480],SSW))
+-        ActionOverride(Player5,LeaveAreaLUA("AR4000","",[700.440],SSW))
+-        ActionOverride(Player6,LeaveAreaLUA("AR4000","",[720.480],SSW))
++        ActionOverride(Player1,LeaveAreaLUA("AR4000","",[680.460],1))
++        ActionOverride(Player2,LeaveAreaLUA("AR4000","",[700.460],1))
++        ActionOverride(Player3,LeaveAreaLUA("AR4000","",[720.460],1))
++        ActionOverride(Player4,LeaveAreaLUA("AR4000","",[700.480],1))
++        ActionOverride(Player5,LeaveAreaLUA("AR4000","",[700.440],1))
++        ActionOverride(Player6,LeaveAreaLUA("AR4000","",[720.480],1))
+ END
+ >>>>>>>>
+ 
+@@ -642,12 +642,12 @@ THEN
+ 	RESPONSE #100
+ 		SetGlobal("DW_test_send_stat","GLOBAL",2)
+ 		SetGlobal("SendaiCutScene3","GLOBAL",3)
+-        ActionOverride(Player1,LeaveAreaLUA("AR6108","",[400.600],E))
+-        ActionOverride(Player2,LeaveAreaLUA("AR6108","",[400.660],E))
+-        ActionOverride(Player3,LeaveAreaLUA("AR6108","",[310.570],E))
+-        ActionOverride(Player4,LeaveAreaLUA("AR6108","",[310.620],E))
+-        ActionOverride(Player5,LeaveAreaLUA("AR6108","",[230.550],E))
+-        ActionOverride(Player6,LeaveAreaLUA("AR6108","",[230.600],E))
++        ActionOverride(Player1,LeaveAreaLUA("AR6108","",[400.600],12))
++        ActionOverride(Player2,LeaveAreaLUA("AR6108","",[400.660],12))
++        ActionOverride(Player3,LeaveAreaLUA("AR6108","",[310.570],12))
++        ActionOverride(Player4,LeaveAreaLUA("AR6108","",[310.620],12))
++        ActionOverride(Player5,LeaveAreaLUA("AR6108","",[230.550],12))
++        ActionOverride(Player6,LeaveAreaLUA("AR6108","",[230.600],12))
+ >>>>>>>>	
+ EXTEND_TOP "baldur25.bcs" ".../stratagems-inline/sendai_statues_baldur.baf"
+ <<<<<<<< .../stratagems-inline/dwssnpcc.baf
+@@ -722,12 +722,12 @@ IF
+ THEN
+     RESPONSE #100
+        SetGlobal("DW_test_davaeorn","GLOBAL",0)
+-        ActionOverride(Player1,LeaveAreaLUA("AR1803","",[1069.647],SSW))
+-        ActionOverride(Player2,LeaveAreaLUA("AR1803","",[1049.647],SSW))
+-        ActionOverride(Player3,LeaveAreaLUA("AR1803","",[1089.647],SSW))
+-        ActionOverride(Player4,LeaveAreaLUA("AR1803","",[1069.667],SSW))
+-        ActionOverride(Player5,LeaveAreaLUA("AR1803","",[1069.627],SSW))
+-        ActionOverride(Player6,LeaveAreaLUA("AR1803","",[1079.637],SSW))
++        ActionOverride(Player1,LeaveAreaLUA("AR1803","",[1069.647],1))
++        ActionOverride(Player2,LeaveAreaLUA("AR1803","",[1049.647],1))
++        ActionOverride(Player3,LeaveAreaLUA("AR1803","",[1089.647],1))
++        ActionOverride(Player4,LeaveAreaLUA("AR1803","",[1069.667],1))
++        ActionOverride(Player5,LeaveAreaLUA("AR1803","",[1069.627],1))
++        ActionOverride(Player6,LeaveAreaLUA("AR1803","",[1079.637],1))
+ END
+ >>>>>>>>
+ 

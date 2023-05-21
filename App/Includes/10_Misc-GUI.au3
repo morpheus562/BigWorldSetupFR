@@ -21,7 +21,7 @@ EndFunc   ;==>_Misc_SetGConfDir
 ; Displays the about-screen
 ; ---------------------------------------------------------------------------------------------
 Func _Misc_AboutGUI()
-	Local $String = 'Big World Setup', $Version
+	Local $String = 'Big World Setup FR', $Version
 	Local $Current = GUICtrlRead($g_UI_Seperate[0][0]) + 1
 	; ---------------------------------------------------------------------------------------------
 	; Fetch the version number
@@ -559,10 +559,10 @@ Func _Misc_SetLang()
 	GUICtrlSetData($g_UI_Interact[1][3], $g_GameList[0][2], $g_GameList[1][2]); => installation method
 	$g_Flags[3] = IniRead($g_UsrIni, 'Options', 'ModLang', '')
 	If $g_Flags[3] = '' Then
-		If $g_ATrans[$g_ATNum] <> 'EN' Then
-			$g_Flags[3] = $g_ATrans[$g_ATNum] & ' EN'
+		If $g_ATrans[$g_ATNum] <> 'FR' Then
+			$g_Flags[3] = $g_ATrans[$g_ATNum] & ' FR'
 		Else
-			$g_Flags[3] &= 'EN'
+			$g_Flags[3] &= 'FR EN'
 		EndIf
 	EndIf
 	GUICtrlSetData($g_UI_Interact[2][5], $g_Flags[3])
@@ -849,7 +849,7 @@ Func _Misc_SwitchGUIToInstallMethod()
 			$g_GameDir = $g_BG2EEDir; use BG2EEDir for now even if EET is enabled
 			GUICtrlSetData($g_UI_Interact[2][2], $g_BG2EEDir)
 		Else; BWS/BWP - includes BGT
-			GUICtrlSetData($g_UI_Static[2][1], "Baldur's Gate I, put '-' if you want only BG2")
+			GUICtrlSetData($g_UI_Static[2][1], "Baldur's Gate I, tapez '-' si vous ne voulez que BG2")
 			GUICtrlSetState($g_UI_Static[2][1], $GUI_SHOW)
 			GUICtrlSetState($g_UI_Interact[2][1], $GUI_SHOW); show BG1-for-BGT folder
 			GUICtrlSetState($g_UI_Button[2][1], $GUI_SHOW)

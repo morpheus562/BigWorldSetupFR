@@ -1,0 +1,34 @@
+--- bg1npcbeg\bg1npcbeg.tp2	
++++ "b/e:\\Jeux modd\303\251s\\Baldur's Gate 2\\BigWorldSetup\\OverwriteFiles\\BWP\\bg1npcbeg\\bg1npcbeg.tp2"	
+@@ -79,7 +79,6 @@ END
+ 
+ BEGIN @120 DESIGNATED 120
+ REQUIRE_PREDICATE GAME_IS ~totsc bgt bgee~ @999
+-FORBID_COMPONENT ~bg1npc.tp2~ 18 @998
+ FORBID_COMPONENT ~setup-cdtweaks.tp2~ 1251 @998
+ 
+ ACTION_IF GAME_IS ~bgt~ BEGIN
+@@ -133,7 +132,6 @@ BEGIN @140 DESIGNATED 140
+ REQUIRE_PREDICATE GAME_IS ~totsc bgt bgee~ @999
+ FORBID_COMPONENT ~setup-scs.tp2~ 3070 @998
+ FORBID_COMPONENT ~setup-stratagems.tp2~ 4130 @998
+-FORBID_COMPONENT ~bg1npc.tp2~ 20 @998
+ FORBID_COMPONENT ~setup-cdtweaks.tp2~ 1252 @998
+ 
+ ACTION_IF GAME_IS ~bgt~ BEGIN
+@@ -200,7 +198,6 @@ BEGIN @170 DESIGNATED 170
+ REQUIRE_PREDICATE GAME_IS ~totsc bgt bgee~ @999
+ FORBID_COMPONENT ~setup-scs.tp2~ 3070 @998
+ FORBID_COMPONENT ~setup-stratagems.tp2~ 4130 @998
+-FORBID_COMPONENT ~bg1npc.tp2~ 22 @998
+ FORBID_COMPONENT ~setup-cdtweaks.tp2~ 1253 @998
+ 
+ ACTION_IF GAME_IS ~bgt~ BEGIN
+@@ -264,7 +261,6 @@ BEGIN @200 DESIGNATED 200
+ REQUIRE_PREDICATE GAME_IS ~totsc bgt bgee~ @999
+ FORBID_COMPONENT ~setup-scs.tp2~ 3070 @998
+ FORBID_COMPONENT ~setup-stratagems.tp2~ 4130 @998
+-FORBID_COMPONENT ~bg1npc.tp2~ 24 @998
+ FORBID_COMPONENT ~setup-cdtweaks.tp2~ 1255 @998
+ 
+ ACTION_IF GAME_IS ~bgt~ BEGIN

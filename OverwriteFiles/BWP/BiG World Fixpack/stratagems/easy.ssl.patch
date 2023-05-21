@@ -1,0 +1,11 @@
+--- stratagems\caster_shared\clericmage\ssl\easy.ssl	
++++ "b/e:\\Jeux modd\303\251s\\Baldur's Gate 2\\BigWorldSetupFR\\OverwriteFiles\\BWP\\stratagems\\caster_shared\\clericmage\\ssl\\easy.ssl"	
+@@ -29,7 +29,7 @@ IF TRIGGER
+ THEN DO
+      Combine()
+      SetGlobalTimer("easy_dispel","LOCALS",20)
+-     SetGlobalTimer("east_antimagic","LOCALS",10)
++     SetGlobalTimer("easy_antimagic","LOCALS",10)
+      Action(Spell,WIZARD_DISPEL_MAGIC|100|50)
+ END
+ 

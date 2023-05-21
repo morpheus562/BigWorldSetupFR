@@ -1,0 +1,50 @@
+@103 = ~Bottes de rapidité : les Pattes du Guépard
+Ces bottes enchantées étaient autrefois la propriété d'un assassin sanguinaire qui aimait faire la chasse à ses victimes. Il se déplaçait à une telle vitesse que ses cibles avaient rarement la possibilité de réagir, même à cheval. Avec le temps, la réputation de l'assassin se répandit et, bien que son nom restât inconnu, tout le monde connaissait les derniers mots parvenus aux oreilles de ses victimes : "vous pouvez vous cacher, mais vous ne pouvez pas m'échapper !". Depuis lors, de nombreuses copies ont vu le jour, et celle-ci est l'une d'entre elles.
+
+PARAMETRES :
+
+Augmente la vitesse de déplacement.
+Poids : 4~
+
+@104 = ~Amulette de protection +1 : le Protecteur
+Les gardes du roi Pyronan, maître d'Impiltur, se virent remettre "le Protecteur" comme signe honorifique de leur fonction. Malheureusement, les membres de la garde ne parvinrent pas à tomber d'accord sur l'identité de celui qui recevrait l'amulette. Après des années de dissensions internes, l'objet fut perdu et les gardes remplacés par des soldats moins cupides.
+
+PARAMETRES :
+
+Bonus à la Classe d'Armure : +1
+Bonus sur jet de sauvegarde : +1~
+
+@105 = ~Cape de protection +2 : le Bouclier de l'Esprit
+Cette cape est censée concentrer les énergies de l'esprit d'un individu dans une force protectrice qui l'entoure. Les rumeurs selon lesquelles un vampire serait emprisonné à l'intérieur de l'objet magique sont persistantes mais il est impossible d'en prouver la véracité sans détruire la cape.
+
+PARAMETRES :
+
+Bonus à la Classe d'Armure : +2
+Jet de sauvegarde : +2
+Poids : 3
+Non utilisable par :~
+
+@106 = ~Anneau de protection +2 : l'Anneau du Garde
+Le Garde était une sentinelle chargée de protéger la tombe où reposait une princesse de l'Akanal. Après plusieurs millénaires, le respect inspiré par la tombe disparut avec le souvenir de la famille royale, et des aventuriers commencèrent à se mesurer au Garde. Comme cela devait inévitablement arriver, il finit par être battu. L'anneau qu'il portait fut dérobé de la tombe, à l'instar de nombreux autres objets magiques.
+
+PARAMETRES :
+
+Classe d'Armure : bonus de +2
+Jets de sauvegarde : bonus de +2
+Non utilisable par :~
+
+
+@107 = ~Bottes~
+@108 = ~Bottes de l'Ouest~
+@109 = ~Les bottes sont généralement fabriquées artisanalement par des cordonniers. Les bottes ordinaires sont fabriquées à l'aide d'un moule, mais les bottes de qualité supérieure sont faites sur mesure.
+
+PARAMETRES :
+
+Poids :  4~
+@110 = ~Bottes de l'Ouest
+Ces bottes ont autrefois appartenu au célèbre bûcheron, Randy de l'Ouest.
+
+PARAMETRES :
+
+Augmente le charisme de 1
+Protection contre les maladies~

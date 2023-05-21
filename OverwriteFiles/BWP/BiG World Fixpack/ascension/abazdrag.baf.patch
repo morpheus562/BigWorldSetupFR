@@ -1,0 +1,11 @@
+--- ascension\tougher\abazigal\abazdrag.baf	
++++ "b/e:\\Jeux modd\303\251s\\Baldur's Gate 2\\BigWorldSetup\\OverwriteFiles\\BWP\\ascension\\tougher\\abazigal\\abazdrag.baf"	
+@@ -11,7 +11,7 @@ IF
+ 	OnCreation()
+ THEN
+ 	RESPONSE #100
+-		Face(S)
++		Face(0)
+ END
+ 
+ IF

@@ -1,0 +1,10 @@
+--- mapnames\setup-mapnames.tp2	
++++ "b/e:\\Jeux modd\303\251s\\Baldur's Gate 2\\BigWorldSetup\\OverwriteFiles\\BWP\\BiG World Fixpack\\mapnames\\setup-mapnames.tp2"	
+@@ -274,6 +274,7 @@ END
+ 
+ AUTO_TRA ~mapnames/%s~
+ LANGUAGE ~English~ ~english~ ~mapnames/english/setup.tra~
++LANGUAGE ~French~ ~french~ ~mapnames/french/setup.tra~
+ 
+ //! Sword Coast Map Labels ////////////////////////////////////////////
+ BEGIN @1 //Sword Coast Map Labels

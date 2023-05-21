@@ -1,0 +1,21 @@
+--- ascension\tougher\abazigal.tpa	
++++ "b/e:\\Jeux modd\303\251s\\Baldur's Gate 2\\BigWorldSetup\\OverwriteFiles\\BWP\\ascension\\tougher\\abazigal.tpa"	
+@@ -399,12 +399,12 @@ THEN
+ 		ActionOverride(Player5,MoveToPoint([1578.927]))
+ 		ActionOverride(Player6,MoveToPoint([1577.830]))
+ 		MoveToPoint([1501.786])
+-		ActionOverride(Player2,Face(W))
+-		ActionOverride(Player3,Face(W))
+-		ActionOverride(Player4,Face(W))
+-		ActionOverride(Player5,Face(W))
+-		ActionOverride(Player6,Face(W))
+-		Face(W)
++		ActionOverride(Player2,Face(4))
++		ActionOverride(Player3,Face(4))
++		ActionOverride(Player4,Face(4))
++		ActionOverride(Player5,Face(4))
++		ActionOverride(Player6,Face(4))
++		Face(4)
+ 		Wait(1)
+ 		ActionOverride("abazigal1",StartDialogueNoSet(Player1))
+ END

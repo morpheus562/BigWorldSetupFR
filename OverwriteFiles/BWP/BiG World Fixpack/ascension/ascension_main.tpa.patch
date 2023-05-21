@@ -1,0 +1,11 @@
+--- ascension\ascensionmain\ascension_main.tpa	
++++ "b/e:\\Jeux modd\303\251s\\Baldur's Gate 2\\BigWorldSetup\\OverwriteFiles\\BWP\\ascension\\ascensionmain\\ascension_main.tpa"	
+@@ -405,7 +405,7 @@ ACTION_FOR_EACH script IN pool1b pool2b pool3b pool1b2 pool2b2 pool3b2 BEGIN
+        ~MoveViewPoint(\([^,]*\),INSTANT)~
+        ~
+        MoveViewPoint(\1,INSTANT)
+-       CreateCreature("cutspy",\1,S)
++       CreateCreature("cutspy",\1,0)
+         	ReallyForceSpellRES("finddvi",Player1)  // Teleport
+         	ReallyForceSpellRES("finddvi",Player2)  // Teleport
+         	ReallyForceSpellRES("finddvi",Player3)  // Teleport

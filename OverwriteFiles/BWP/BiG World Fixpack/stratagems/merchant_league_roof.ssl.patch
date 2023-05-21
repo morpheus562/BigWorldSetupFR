@@ -1,0 +1,29 @@
+--- stratagems\tactical_bg1\ssl\merchant_league_roof.ssl
++++ "b/e:\\Jeux modd\303\251s\\Baldur's Gate 2\\BigWorldSetup\\OverwriteFiles\\BWP\\stratagems\\tactical_bg1\\ssl\\merchant_league_roof.ssl"	
+@@ -10,16 +10,16 @@ TRIGGER
+ ACTION
+ 	RESPONSE #100
+ 		SetGlobal("ThirdFloorFight","GLOBAL",1)
+-		CreateCreature("scsargument1",[754.613],W) // Doppelganger
+-		CreateCreature("scsargument1",[1040.633],W) // Doppelganger
+-		CreateCreature("scsargument1",[941.971],NW) // Doppelganger
+-		CreateCreature("scsargument1",[830.668],NW) // Doppelganger
+-		CreateCreature("scsargument1",[505.688],N) // Doppelganger
+-		CreateCreature("scsargument1",[577.733],N) // Doppelganger
+-		CreateCreature("scsargument1",[437.641],NE) // Doppelganger
+-		CreateCreature("scsargument1",[905.422],NW) // Doppelganger
+-		CreateCreature("scsargument1",[860.464],W) // Doppelganger
+-		CreateCreature("scsargument1",[964.497],NWW) // Doppelganger
++		CreateCreature("scsargument1",[754.613],4) // Doppelganger
++		CreateCreature("scsargument1",[1040.633],4) // Doppelganger
++		CreateCreature("scsargument1",[941.971],6) // Doppelganger
++		CreateCreature("scsargument1",[830.668],6) // Doppelganger
++		CreateCreature("scsargument1",[505.688],8) // Doppelganger
++		CreateCreature("scsargument1",[577.733],8) // Doppelganger
++		CreateCreature("scsargument1",[437.641],10) // Doppelganger
++		CreateCreature("scsargument1",[905.422],6) // Doppelganger
++		CreateCreature("scsargument1",[860.464],4) // Doppelganger
++		CreateCreature("scsargument1",[964.497],5) // Doppelganger
+ END
+ 
+ 

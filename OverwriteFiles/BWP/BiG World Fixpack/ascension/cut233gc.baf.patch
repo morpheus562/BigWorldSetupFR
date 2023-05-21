@@ -1,0 +1,11 @@
+--- ascension\ascensionmain\baf\cut\cut233gc.baf
++++ "b/e:\\Jeux modd\303\251s\\Baldur's Gate 2\\BigWorldSetup\\OverwriteFiles\\BWP\\ascension\\ascensionmain\\baf\\cut\\cut233gc.baf"	
+@@ -38,7 +38,7 @@ THEN
+     ActionOverride(Player6,Face(8))
+     ReallyForceSpellRES("jwsleep","finmel01")  // <Invalid Strref -1>
+     Wait(1)
+-    CreateCreature("finsare2",[1150.1164],NEE)
++    CreateCreature("finsare2",[1150.1164],11)
+     ActionOverride("finsare2",FaceObject("finmel01"))
+     SmallWait(5)
+     FadeFromColor([30.0],0)

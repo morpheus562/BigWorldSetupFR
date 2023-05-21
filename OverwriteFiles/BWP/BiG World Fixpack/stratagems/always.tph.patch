@@ -1,0 +1,17 @@
+--- stratagems\lib\always.tph	
++++ "b/e:\\Jeux modd\303\251s\\Baldur's Gate 2\\BigWorldSetup\\OverwriteFiles\\BWP\\stratagems\\lib\\always.tph"	
+@@ -255,9 +255,11 @@ END
+ ////////////////////////////////////////////////////////
+ 
+    COPY "%MOD_FOLDER%/lib/dir.ids" override
+-   COPY_EXISTING "action.ids" override
+-         REPLACE_TEXTUALLY "Face\*)" "Face*DIR)"
+-   BUT_ONLY
++   ACTION_IF GAME_IS ~bgee bg2ee eet iwdee~ THEN BEGIN
++        COPY_EXISTING "action.ids" override
++             REPLACE_TEXTUALLY "Face\*)" "Face*DIR)"
++        BUT_ONLY
++   END
+ 
+ ////////////////////////////////////////////////////////
+ //// mark some functions as not-to-be-parsed

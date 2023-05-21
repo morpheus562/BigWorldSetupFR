@@ -117,7 +117,7 @@ Func Au3BuildGUI($p_Num = 0)
 	$g_UI_Static[3][5] = GUICtrlCreateLabel('', 230, 300, 170, 20, $SS_Center+$SS_CENTERIMAGE); test present
 	$g_UI_Button[3][5] = GUICtrlCreateButton('', 230, 320, 170, 20, 0)
 	$g_UI_Static[3][6] = GUICtrlCreateLabel('', 30, 355, 170, 20, $SS_Center+$SS_CENTERIMAGE); look for update
-	$g_UI_Button[3][6] = GUICtrlCreateButton('', 30, 375, 170, 20, 0)
+	$g_UI_Button[3][6] = GUICtrlCreateLabel('', 30, 375, 170, 20, $SS_Center+$SS_CENTERIMAGE)
 	$g_UI_Static[3][7] = GUICtrlCreateLabel('', 230, 355, 170, 20, $SS_Center+$SS_CENTERIMAGE); list links
 	$g_UI_Button[3][7] = GUICtrlCreateButton('', 230, 375, 170, 20, 0)
 	GUICtrlCreateGroup("", -99, -99, 1, 1)

@@ -1,0 +1,9 @@
+@10 = ~Key Names~
+
+
+@100 = ~Voir le Readme~
+@101 = ~Afficher le readme apres l'installation~
+@102 = ~Ne pas afficher le readme apres l'installation~
+
+@150 = ~(Utilise) %u_name%~  //  %u_name% is replaced with the unidentified item name
+@151 = ~(Utilise) %name%~    //  %name% is replaced with the item name

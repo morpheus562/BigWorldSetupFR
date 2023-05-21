@@ -1,0 +1,48 @@
+--- stratagems\tactical_bg2\ssl\torgal.ssl
++++ "b/e:\\Jeux modd\303\251s\\Baldur's Gate 2\\BigWorldSetup\\OverwriteFiles\\BWP\\stratagems\\tactical_bg2\\ssl\\torgal.ssl"	
+@@ -16,7 +16,7 @@ THEN DO
+      Action(Literal)
+      SetGlobal("DMWWTorgalPrep","MYAREA",1)
+      GiveItemCreate("potn52",Myself,2,0,0)   // extra healing
+-     CreateCreature("dw#kpum1",[2526.500],SW)
++     CreateCreature("dw#kpum1",[2526.500],2)
+      Continue()
+ END
+ 
+@@ -27,8 +27,8 @@ THEN DO
+      Action(Literal)
+      SetGlobal("DMWWTorgalPrep","MYAREA",1)
+      GiveItemCreate("potn52",Myself,2,0,0)   // extra healing
+-     CreateCreature("dw#kpyu1",[2518.370],SW) // yuan-ti mage
+-     CreateCreature("dw#kpum1",[2526.500],SW)
++     CreateCreature("dw#kpyu1",[2518.370],2) // yuan-ti mage
++     CreateCreature("dw#kpum1",[2526.500],2)
+      Continue()
+ END
+ 
+@@ -39,9 +39,9 @@ THEN DO
+      Action(Literal)
+      SetGlobal("DMWWTorgalPrep","MYAREA",1)
+      GiveItemCreate("potn52",Myself,2,0,0)   // extra healing
+-     CreateCreature("dw#kpyu1",[2518.370],SW) // yuan-ti mage
+-     CreateCreature("dw#kpyu2",[2513.315],SW) // yuan-ti mage
+-     CreateCreature("dw#kpum1",[2526.500],SW)
++     CreateCreature("dw#kpyu1",[2518.370],2) // yuan-ti mage
++     CreateCreature("dw#kpyu2",[2513.315],2) // yuan-ti mage
++     CreateCreature("dw#kpum1",[2526.500],2)
+      Continue()
+ END
+ 
+@@ -52,9 +52,9 @@ THEN DO
+      Action(Literal)
+      SetGlobal("DMWWTorgalPrep","MYAREA",1)
+      GiveItemCreate("potn52",Myself,2,0,0)   // extra healing
+-     CreateCreature("dw#kpyi1",[2518.370],SW) // yuan-ti mage
+-     CreateCreature("dw#kpyi2",[2513.315],SW) // yuan-ti mage
+-     CreateCreature("dw#kpum2",[2526.500],SW)
++     CreateCreature("dw#kpyi1",[2518.370],2) // yuan-ti mage
++     CreateCreature("dw#kpyi2",[2513.315],2) // yuan-ti mage
++     CreateCreature("dw#kpum2",[2526.500],2)
+      Continue()
+ END
+ 

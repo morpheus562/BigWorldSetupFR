@@ -1,0 +1,15 @@
+--- BP\SNIP\oar1900.baf
++++ "b/e:\\Jeux modd\303\251s\\Baldur's Gate 2\\BigWorldSetup\\OverwriteFiles\\BWP\\BP\\SNIP\\oar1900.baf"	
+@@ -5,8 +5,8 @@ IF
+ THEN
+   RESPONSE #100
+     SetGlobal("Nilthspawn","AR1900",1)
+-    CreateCreature("Drshnl01",[2320.2648],N)
+-    CreateCreature("Troll01",[2135.2509],NW)
+-    CreateCreature("Troll01",[2528.2511],NE)
++    CreateCreature("Drshnl01",[2320.2648],8)
++    CreateCreature("Troll01",[2135.2509],6)
++    CreateCreature("Troll01",[2528.2511],10)
+     CreateCreature("Troll01",[2283.2541],16)
+ END
+\ No newline at end of file
