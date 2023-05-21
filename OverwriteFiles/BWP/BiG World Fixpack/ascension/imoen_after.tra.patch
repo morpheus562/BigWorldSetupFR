@@ -1,8 +1,0 @@
---- ascension\lang\french\imoen_after.tra
-+++ "b/E:\\Jeux modd\303\251s\\Baldur's Gate 2\\BigWorldSetupFR\\OverwriteFiles\\BWP\\ascension\\lang\\french\\imoen_after.tra"	
-@@ -24,4 +24,4 @@ Pour les deux rounds suivants, Imoen peut rester en 'demi-phase'... partiellemen
- @493 = ~Je vois que nous sommes encore en plein combat. As-tu besoin de moi dans ton groupe ? Je pourrais... quitter le Trône, je pense... je pense que j'ai des pouvoirs assez semblables aux tiens maintenant. Je combattrais à nouveau à tes côtés si tu le désires.~
- @494 = ~Cesse de me distraire en plein milieu du combat je t'ai dit ! Reviens dans le groupe !~
- @495 = ~Oui <PRO_SIRMAAM> ! (clin d'oeil !) Il est temps de botter les fesses de quelqu'un, hein ?~
--@1000 = ~Bhaalspawn powers granted~
-+@1000 = ~Pouvoirs de l'Enfant de Bhaal accordés~

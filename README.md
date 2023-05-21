@@ -26,130 +26,16 @@ Afin de vous assurer de toujours exécuter la version la plus récente, il suffi
 Parfois, vous devez écraser des fichiers de mod **APRÈS** leur extraction mais **AVANT** que "Big World Fixpack" n'applique ses corrections.  
 Dans ce cas, vous pouvez placer tous les fichiers de mods personnalisés en utilisant exactement la même structure de dossiers.
 
-Le BWS-FR s'en sert pour intégrer diverses [corrections](#corrections), ainsi que des fichiers .ini utilisés par certains mods pour pré-configurer leur installation.  
+BWS-FR s'en sert pour intégrer des fichiers de configuration utilisés par certains mods pour pré-configurer leur installation.  
 Vous pouvez les modifier pour ajuster certains paramètres des mods à votre convenance. 
 
 Par exemple pour Stratagems (stratagems\stratagems.ini), mettez votre fichier personnalisé "stratagems.ini" dans le dossier "BWP\stratagems" et il sera utilisé lors de l'installation.
 
 ### <a name="corrections"></a>Corrections intégrées
 
+Divers correctifs pour améliorer la compatibilité ou corriger des bugs sont inclus automatiquement installés. Ils se trouvent dans un dans un dépôt à part : [BWS-FR Fixpack](<https://github.com/Selphira/BWS-FR-Fixpack>)
+
 J'invite les auteurs des mods originaux à récupérer ces correctifs pour les intégrer dans leur version officielle (si toutefois la correction leur convient).
-
-#### Pour EET
-
-Les correctifs spécifiques à la version EET se trouvent dans un dépôt à part : [BWS-FR Fixpack](<https://github.com/Selphira/BWS-FR-Fixpack>)
-
-#### Pour BGT (n'est plus plus supporté)
-
-Les correctifs spécifiques à la version BGT sont directement incluses dans ce dépôt.
-
-##### Corrections de bugs
-- Baldurdash v1.75
-  - Erreur lors de la modification du fichier MAZZYP.DLG qui provoque une erreur de parsing du script (SetSetGlobal au lieu de SetGlobal)
-
-- Big Picture v181
-  - Corrections des entrées ajoutées dans le fichier stats.ids
-  - Le composant "Rencontres sylvanesques" a besoin du sort CLERIC_ANIMATE_TREE, mais ce dernier n'était pas toujours installé pour lui.
-  
-- Generalized Biffing v2.5
-  - La version 247 de Weidu provoque un crash au lancement du jeu. La version 246 est forcée lors de l'installation du mod.
-
-- Item Revision v4 beta 10
-  - Dans certains cas, si une armure possédait déjà de la résistance à un dégât physique, cette dernière était augmentée du double que prévu.
-    Ex: DWCHAN02, DWPLAT01, ISHCHA
-
-- Lolfixer
-  - Correction d'un problème qui génère des effets invalides avec l'opcode 177.
-  
-- Lysre v1.2
-  - L'installation échouait lors de l'ajout du kit.
-  - Les fichiers audio n'étaient pas installés, car le fichier oggdec.exe était manquant
-
-- Prêtre de Bhaal v1.2
-  - Renommage de fichiers pour correspondre à ceux attendus par le script d'installation.
-    - .\P!Bhaal\2da\P!Bhaal.2da en .\P!Bhaal\2da\PIBhaal.2da
-    - .\P!Bhaal\2da\LUP!B.2da en .\P!Bhaal\2da\LUPIB.2da
-
-- Wheels of Prophecy v8.3
-  - Mauvais chemin enregistré dans la variable **mod_root**
-  
-##### Corrections de compatibilité
-- Area patcher
-  - Les composants 5000 et 5001 se basaient sur le composant 15 de BG1NPC qui est devenu le 80.
-
-- Ascension v2.0.15
-  - Certaines orientations étaient écrites sous forme de lettre et non de chiffre.
-  - Il modifiait le fichier action.ids pour gérer les orientations sous forme de lettre.
-  
-- BG1 NPCs at Beginning v3.0
-  - Suppression des conditions relatives à BG1NPC qui empêchent d'installer certains composants. Les composants en question n'existent plus dans BG1NPC.
-  
-- Big Picture v181
-  - Certaines orientations étaient écrites sous forme de lettre et non de chiffre. 
-  
-- Gerri's BGT NPC Portraits v3.0
-  - Le composant "Portraits for BG1 Romantic Encounters" se basait sur le composant 0 de "BG1 Romantics Encounters" qui n'existe plus et remplacé par les composants 100 à 105.
-  
-- Hanna NPC v2.5
-  - Correction d'une petite incompatibilité avec Infinity Animations
-  
-- Kiara-Zaiya NPCs v1.6.2
-  - Le mod remplaçait plusieurs fichiers .ids par d'anciennes versions ne contenant pas toutes les entrées requises.
-    Ce qui provoquait un crash juste après la création du personnage.
-     
-- Rogue Rebalancing v4.92
-  - La description du Maître-lames, couplée au composant "4250 - Changer les sequenceurs de sorts et les contingences en capacites speciales" de Stratagems, générait une description de plus de 4096 caractères, ce qui faisait crasher le jeu lorsque l'on tentait de sélectionner ce kit.
-    La description de la capacité "Démonstration Martiale" a été diminuée.
-    
-- Stratagems v33.7
-  - Certaines orientations étaient écrites sous forme de lettre et non de chiffre. 
-  - Il modifiait le fichier action.ids pour gérer les orientations sous forme de lettre.
-  
-##### Traductions et corrections d'orthographe
-
-- Ascalons Questpack v4
-  - Utilisation de la [version de travail](<https://github.com/Jazira33/AC_QUEST>) (non finalisée) de Jazira pour avoir la traduction française.  
-    Traduction et relecture effectuées par : [Deratiseur](https://www.baldursgateworld.fr/lacouronne/members/deratiseur.html), [Tonton-thon](https://www.baldursgateworld.fr/lacouronne/members/tonton-thon.html) et [Jazira](https://www.baldursgateworld.fr/lacouronne/members/jazira.html).
-
-- Ascension v2.0.15
-  - Traduction maison des nouvelles chaînes ajoutées par la 2.0, à l'exception des épilogues écrits par Shawne.
-
-- BG2 Impoved GUI v3.16
-  - Petite traduction maison, relue et corrigée par [Freedy Gwendo](https://www.baldursgateworld.fr/lacouronne/members/freddy_gwendo.html).
-  
-- Cerberus v1.06
-  - Mini traduction maison des chaînes non traifiées.
-
-- Check the bodies v3.0
-  - Le fichier de traduction wsetup.tra était encodé en utf8 et non en ansi, générant des problèmes d'accent pour toute une partie du mod.
-
-- CorrectfrBG2
-  - Ajout des correctifs du 17.10.16 effectués par [Freedy Gwendo](https://www.baldursgateworld.fr/lacouronne/members/freddy_gwendo.html)
-
-- Lysre v1.2
-  - Corrections d'un grand nombre de fautes d'orthographe.
-  - Ajout des caractères accentués.
-
-- iiKeyNames v2
-  - Petite traduction maison.
-
-- Item Revision v4 beta 10
-  - Le mod vérifie si le composant "Services etendus des temples" de atweaks est installé, mais le numéro du composant est incorrect (600 au lieu de 510).
-
-- Mapnames v2
-  - Ajout de la traduction française trouvée sur forum de [SpellholdStudio](<http://www.shsforums.net/topic/46634-sword-coast-map-labels/?p=545744>).
-
-- Patch correctif des textes pour Baldur's Gate 2 (et ToB) v1.3
-  - Ajout des correctifs du 16/10/2017 réalisés par [Freedy Gwendo](https://www.baldursgateworld.fr/lacouronne/members/freddy_gwendo.html) disponibles [ici](https://www.baldursgateworld.fr/lacouronne/la-correct-zone/14167-erreurs-corriger-pour-baldur-s-gate-2-a-24.html#post443274).
-
-- Pretre de Mystra v1
-  - Corrections d'orthographe.
-  
-- Tangled Oak Isle v2.20
-  - Le fichier de traduction items.tra était encodé en utf8 et non en ansi, générant des problèmes d'accent pour toute une partie du mod.
-
-- Unique Artifact v7.2
-  - Petite traduction maison, relue et corrigée par [Freedy Gwendo](https://www.baldursgateworld.fr/lacouronne/members/freddy_gwendo.html).
 
 ## Informations techniques
 
