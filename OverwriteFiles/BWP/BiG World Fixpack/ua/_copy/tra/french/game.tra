@@ -1,38 +1,48 @@
-@103 = ~Bottes de rapidité : les Pattes du Guépard
-Ces bottes enchantées étaient autrefois la propriété d'un assassin sanguinaire qui aimait faire la chasse à ses victimes. Il se déplaçait à une telle vitesse que ses cibles avaient rarement la possibilité de réagir, même à cheval. Avec le temps, la réputation de l'assassin se répandit et, bien que son nom restât inconnu, tout le monde connaissait les derniers mots parvenus aux oreilles de ses victimes : "vous pouvez vous cacher, mais vous ne pouvez pas m'échapper !". Depuis lors, de nombreuses copies ont vu le jour, et celle-ci est l'une d'entre elles.
+@103 = ~Bottes de rapidité : « Les Pattes du Guépard »
+Ce type de bottes enchantées appartenait autrefois à une guilde d'assassins sanguinaires qui aimaient pourchasser leurs victimes. Ils se déplaçaient à une telle vitesse que leurs cibles avaient rarement la possibilité de réagir, même à cheval. Avec le temps, la réputation de la guilde se répandit et, bien que son nom restât inconnu, tout le monde connaissait les derniers mots parvenus aux oreilles des victimes de ses membres : « vous pouvez vous cacher, mais vous ne pouvez pas nous échapper ! ». Depuis lors, de nombreuses copies ont vu le jour, et celle-ci est l'une d'entre elles.
 
 PARAMÈTRES :
 
-Augmente la vitesse de déplacement.
+Capacité d'équipement :
+- Doublent la vitesse de déplacement
+
 Poids : 4~
 
-@104 = ~Amulette de protection +1 : le Protecteur
-Les gardes du roi Pyronan, maître d'Impiltur, se virent remettre "le Protecteur" comme signe honorifique de leur fonction. Malheureusement, les membres de la garde ne parvinrent pas à tomber d'accord sur l'identité de celui qui recevrait l'amulette. Après des années de dissensions internes, l'objet fut perdu et les gardes remplacés par des soldats moins cupides.
+@104 = ~Amulette de protection +1 : « le Protecteur »
+Les gardes du roi Pyronan, maître d'Impiltur, se virent remettre « le Protecteur » comme signe honorifique de leur fonction. Malheureusement, les membres de la garde ne parvinrent pas à tomber d'accord sur l'identité de celui qui recevrait l'amulette. Après des années de dissensions internes, l'objet fut perdu et les gardes remplacés par des soldats moins cupides. Depuis lors, de nombreuses copies ont vu le jour, et celle-ci est l'une d'entre elles.
 
 PARAMÈTRES :
 
-Classe d'Armure : bonus de +1
-Jets de sauvegarde : bonus de +1~
+Capacités d'équipement :
+- Classe d'armure : +1
+- Jets de sauvegarde : +1
 
-@105 = ~Cape de protection +2 : le Bouclier de l'Esprit
-Cette cape est censée concentrer les énergies de l'esprit d'un individu dans une force protectrice qui l'entoure. Les rumeurs selon lesquelles un vampire serait emprisonné à l'intérieur de l'objet magique sont persistantes mais il est impossible d'en prouver la véracité sans détruire la cape.
+Poids : 1
+Non utilisable par :~
 
-PARAMÈTRES :
+@105 = ~Cape de protection +2 : « le Bouclier de l'Esprit »
+Cette cape est censée concentrer les énergies de l'esprit d'un individu dans une force protectrice qui l'entoure. Les rumeurs selon lesquelles un vampire serait emprisonné à l'intérieur de l'objet magique sont persistantes, mais il est impossible d'en prouver la véracité sans détruire la cape.
 
-Classe d'Armure : bonus de +2
-Jets de sauvegarde : bonus de +2
+Capacités d'équipement :
+- Classe d'armure : +2
+- Jet de sauvegarde : +2
+
 Poids : 3
-Non utilisable par :~
+Non utilisable par :
+ Tueur de magicien~
 
-@106 = ~Anneau de protection +2 : l'Anneau du Garde
-Le Garde était une sentinelle chargée de protéger la tombe où reposait une princesse de l'Akanal. Après plusieurs millénaires, le respect inspiré par la tombe disparut avec le souvenir de la famille royale, et des aventuriers commencèrent à se mesurer au Garde. Comme cela devait inévitablement arriver, il finit par être battu. L'anneau qu'il portait fut dérobé de la tombe, à l'instar de nombreux autres objets magiques.
+@106 = ~Anneau de protection +2 : « L'Anneau du Garde »
+Le Garde était une sentinelle immortelle chargée de protéger la tombe où reposait une princesse de l'Akanal. Après plusieurs millénaires, le respect inspiré par la tombe disparut avec le souvenir de la famille royale, et des aventuriers commencèrent à se mesurer au Garde. Comme cela devait inévitablement arriver, il finit par être battu. L'anneau qu'il portait fut dérobé de la tombe, à l'instar de nombreux autres objets magiques. Depuis lors, de nombreuses copies ont vu le jour, et celle-ci est l'une d'entre elles.
 
 PARAMÈTRES :
 
-Classe d'Armure : bonus de +2
-Jets de sauvegarde : bonus de +2
-Non utilisable par :~
+Capacités d'équipement :
+- Classe d'armure : +2
+- Jets de sauvegarde : +2
 
+Poids : 0
+Non utilisable par :
+ Tueur de magicien~
 
 @107 = ~Bottes~
 @108 = ~Bottes de l'Ouest~
@@ -42,9 +52,12 @@ PARAMÈTRES :
 
 Poids :  4~
 @110 = ~Bottes de l'Ouest
-Ces bottes ont autrefois appartenu au célèbre bûcheron, Randy de l'Ouest.
+Ces bottes appartenaient autrefois au célèbre homme des bois, Randy de l'Ouest.
 
 PARAMÈTRES :
 
-Augmente le charisme de 1
-Protection contre les maladies~
+Capacités d'équipement :
+- +1 en Charisme
+- Protection contre les maladies
+
+Poids : 4~
