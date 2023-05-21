@@ -131,6 +131,9 @@ J'invite les auteurs des mods originaux à récupérer ces correctifs pour les i
 - Mapnames v2
   - Ajout de la traduction française trouvée sur forum de [SpellholdStudio](<http://www.shsforums.net/topic/46634-sword-coast-map-labels/?p=545744>).
 
+- Patch correctif des textes pour Baldur's Gate 2 (et ToB) v1.3
+  - Ajout des correctifs du 16/10/2017 réalisés par [Freedy Gwendo](https://www.baldursgateworld.fr/lacouronne/members/freddy_gwendo.html) disponibles [ici](https://www.baldursgateworld.fr/lacouronne/la-correct-zone/14167-erreurs-corriger-pour-baldur-s-gate-2-a-24.html#post443274).
+
 - Pretre de Mystra v1
   - Corrections d'orthographe.
   
