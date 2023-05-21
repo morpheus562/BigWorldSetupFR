@@ -39,7 +39,7 @@ J'invite les auteurs des mods originaux à récupérer ces correctifs pour les i
 
 Les correctifs spécifiques à la version EET se trouvent dans un dépôt à part : [BWS-FR Fixpack](<https://github.com/Selphira/BWS-FR-Fixpack>)
 
-#### Pour BGT
+#### Pour BGT (n'est plus plus supporté)
 
 Les correctifs spécifiques à la version BGT sont directement incluses dans ce dépôt.
 
