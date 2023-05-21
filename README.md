@@ -103,13 +103,14 @@ J'invite les auteurs des mods originaux à récupérer ces correctifs pour les i
 #### Traductions et corrections d'orthographe
 
 - Ascalons Questpack v4
-  - Utilisation de la [version de travail](<https://github.com/Jazira33/AC_QUEST>) (non finalisée) de Jazira pour avoir la traduction française.
+  - Utilisation de la [version de travail](<https://github.com/Jazira33/AC_QUEST>) (non finalisée) de Jazira pour avoir la traduction française.  
+    Traduction et relecture effectuées par : [Deratiseur](https://www.baldursgateworld.fr/lacouronne/members/deratiseur.html), [Tonton-thon](https://www.baldursgateworld.fr/lacouronne/members/tonton-thon.html) et [Jazira](https://www.baldursgateworld.fr/lacouronne/members/jazira.html).
 
 - Ascension v2.0.15
-  - Traduction maison des nouvelles chaînes ajoutées par la 2.0, à l'exception des épilogues écrits par Shawne 
+  - Traduction maison des nouvelles chaînes ajoutées par la 2.0, à l'exception des épilogues écrits par Shawne.
 
 - BG2 Impoved GUI v3.12
-  - Petite traduction maison
+  - Petite traduction maison, relue et corrigée par [Freedy Gwendo](https://www.baldursgateworld.fr/lacouronne/members/freddy_gwendo.html).
   
 - Cerberus v1.06
   - Mini traduction maison des chaînes non traifiées.
@@ -118,20 +119,23 @@ J'invite les auteurs des mods originaux à récupérer ces correctifs pour les i
   - Le fichier de traduction wsetup.tra était encodé en utf8 et non en ansi, générant des problèmes d'accent pour toute une partie du mod.
 
 - Lysre v1.2
-  - Corrections d'un grand nombre de fautes d'orthographe
-  - Ajout des caractères accentués
+  - Corrections d'un grand nombre de fautes d'orthographe.
+  - Ajout des caractères accentués.
 
 - iiKeyNames v2
-  - Petite traduction maison
+  - Petite traduction maison.
 
 - Mapnames v2
-  - Ajout de la traduction française trouvée sur forum de [SpellholdStudio](<http://www.shsforums.net/topic/46634-sword-coast-map-labels/?p=545744>)
+  - Ajout de la traduction française trouvée sur forum de [SpellholdStudio](<http://www.shsforums.net/topic/46634-sword-coast-map-labels/?p=545744>).
 
 - Pretre de Mystra v1
-  - Corrections d'orthographe
+  - Corrections d'orthographe.
+  
+- Stratagems v33.7
+  - Mise à jour de la traduction par [Jazira](https://www.baldursgateworld.fr/lacouronne/members/jazira.html).
   
 - Tangled Oak Isle v2.20
   - Le fichier de traduction items.tra était encodé en utf8 et non en ansi, générant des problèmes d'accent pour toute une partie du mod.
 
 - Unique Artifact v7.2
-  - Petite traduction maison
+  - Petite traduction maison, relue et corrigée par [Freedy Gwendo](https://www.baldursgateworld.fr/lacouronne/members/freddy_gwendo.html).
