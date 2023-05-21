@@ -73,6 +73,9 @@ J'invite les auteurs des mods originaux à récupérer ces correctifs pour les i
 - Gerri's BGT NPC Portraits v3.0
   - Le composant "Portraits for BG1 Romantic Encounters" se basait sur le composant 0 de "BG1 Romantics Encounters" qui n'existe plus et remplacé par les composants 100 à 105.
   
+- Hanna NPC v2.5
+  - Correction d'une petite incompatibilité avec Infinity Animations
+  
 - Kiara-Zaiya NPCs v1.6.2
   - Le mod remplaçait plusieurs fichiers .ids par d'anciennes versions ne contenant pas toutes les entrées requises.
     Ce qui provoquait un crash juste après la création du personnage.
