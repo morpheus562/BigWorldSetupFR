@@ -118,6 +118,9 @@ J'invite les auteurs des mods originaux à récupérer ces correctifs pour les i
 - Check the bodies v3.0
   - Le fichier de traduction wsetup.tra était encodé en utf8 et non en ansi, générant des problèmes d'accent pour toute une partie du mod.
 
+- CorrectfrBG2
+  - Ajout des correctifs du 17.10.16 effectués par [Freedy Gwendo](https://www.baldursgateworld.fr/lacouronne/members/freddy_gwendo.html)
+
 - Lysre v1.2
   - Corrections d'un grand nombre de fautes d'orthographe.
   - Ajout des caractères accentués.
