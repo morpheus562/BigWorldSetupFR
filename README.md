@@ -58,9 +58,6 @@ Les correctifs spécifiques à la version BGT sont directement incluses dans ce 
   - Dans certains cas, si une armure possédait déjà de la résistance à un dégât physique, cette dernière était augmentée du double que prévu.
     Ex: DWCHAN02, DWPLAT01, ISHCHA
 
-- Item Upgrade v45
-  - Des traductions manquantes dans le fichier itemupgrade/languages/french/lolwot.tra empêchaient le mod de s'installer en français.
-  
 - Lolfixer
   - Correction d'un problème qui génère des effets invalides avec l'opcode 177.
   
@@ -72,11 +69,6 @@ Les correctifs spécifiques à la version BGT sont directement incluses dans ce 
   - Renommage de fichiers pour correspondre à ceux attendus par le script d'installation.
     - .\P!Bhaal\2da\P!Bhaal.2da en .\P!Bhaal\2da\PIBhaal.2da
     - .\P!Bhaal\2da\LUP!B.2da en .\P!Bhaal\2da\LUPIB.2da
-
-- Stratagems v33.7
-  - Correction d'une erreur de typo: **east_antimagic** en **easy_antimagic**
-  - Correction d'une erreur où parfois, la variable **lev_max** était vide (pas certaine que ce soit la bonne façon de corriger).
-  - Correction du [bug](<https://www.gibberlings3.net/forums/topic/31468-sword-coast-stratagems-v33-now-available/?do=findComment&comment=293929>) où les mages ne faisaient plus rien dans certaines conditions.
 
 - Wheels of Prophecy v8.3
   - Mauvais chemin enregistré dans la variable **mod_root**
@@ -152,9 +144,6 @@ Les correctifs spécifiques à la version BGT sont directement incluses dans ce 
 
 - Pretre de Mystra v1
   - Corrections d'orthographe.
-  
-- Stratagems v33.7
-  - Mise à jour de la traduction par [Jazira](https://www.baldursgateworld.fr/lacouronne/members/jazira.html).
   
 - Tangled Oak Isle v2.20
   - Le fichier de traduction items.tra était encodé en utf8 et non en ansi, générant des problèmes d'accent pour toute une partie du mod.
