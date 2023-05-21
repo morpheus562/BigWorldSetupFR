@@ -99,5 +99,8 @@ J'invite les auteurs des mods originaux à récupérer ces correctifs pour les i
 - Mapnames v2
   - Ajout de la traduction française trouvée sur forum de [SpellholdStudio](<http://www.shsforums.net/topic/46634-sword-coast-map-labels/?p=545744>)
 
+- Tweaks Anthology v9
+  - Ajout de traductions manquantes pour le composant "Increase party movement speed outside combat"
+
 - Unique Artifact v7.2
   - Petite traduction maison
