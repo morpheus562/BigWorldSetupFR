@@ -793,7 +793,7 @@ EndFunc   ;==>_Test_GetCustomTP2
 ; Keep this function consistent with _Tree_PurgeUnNeeded in Select-Tree.au3
 ; ---------------------------------------------------------------------------------------------
 Func _Test_Get_EET_Mods(); called by _Tree_EndSelection() just before starting an installation
-	Local $BG1EE_Mods='WeiDU|WeiDU64|bwinstallpack|bwtrimpack|bwfixpack|'; trailing | is needed
+	Local $BG1EE_Mods='WeiDU|WeiDU64|bwinstallpack|bwtrimpack|bwfixpack|bwsfrfixpack|'; trailing | is needed
 	Local $BG2EE_Mods=$BG1EE_Mods&'|'; trailing | is needed
 	; mods in the above list will still be skipped at install time, if purge rules exclude them (e.g., bwtextpackP is for RU installs only)
 	$g_Flags[21]=''; will contain BG1-mods in EET -> Empty means no BG1-install
@@ -824,6 +824,7 @@ Func _Test_Get_EET_Mods(); called by _Tree_EndSelection() just before starting a
 ;	IniWrite($g_UsrIni, 'Debug', 'EETMods', $EETMods)
 	Local $Mod, $DoBG1=0
 	For $s=1 to $Select[0]
+		If StringInStr($Select[$s], ';EET;') Then $EETMods='BG1_install_stopped'; this prevents the logic above from adding any more mods to the BG1EE list
 		If StringRegExp($Select[$s], '(?i)\A(ANN|CMD|GRP);') Then ContinueLoop
 		$Mod=StringRegExpReplace($Select[$s], '\A...;|;.*\z', '')
 		If StringRegExp($Mod, '(?i)\A('&$EETMods&')\z') Then; it's depending on EET and it's installed before EET -> this is a BG1EE-mod
@@ -833,7 +834,6 @@ Func _Test_Get_EET_Mods(); called by _Tree_EndSelection() just before starting a
 				ContinueLoop
 			EndIf
 		EndIf
-		If StringInStr($Select[$s], ';EET;') Then $EETMods='BG1_install_stopped'; this prevents the logic above from adding any more mods to the BG1EE list
 		If Not StringRegExp($Mod, '(?i)\A('&$BG1EE_Mods&')\z') Then; if it's not an BG1EE-mod, it should be BG2EE...
 			If (Not StringRegExp($BG2EE_Mods, '(?i)(\A|\x7c)'&$Mod&'(\z|\x7c)')) Then $BG2EE_Mods&=$Mod&'|'
 		EndIf
