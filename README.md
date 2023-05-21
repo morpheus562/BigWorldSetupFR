@@ -30,68 +30,74 @@ Par exemple pour Stratagems (stratagems\stratagems.ini), mettez votre fichier pe
 
 J'invite les auteurs des mods originaux à récupérer ces correctifs pour les intégrer dans leur version officielle (si toutefois la correction leur convient).
 
-\[C\]ompatibilité, \[F\]ixe, \[T\]raduction
-
-- Area patcher
-  - \[C\] Les composants 5000 et 5001 se basaient sur le composant 15 de BG1NPC qui est devenu le 80.
-
-- Ascalons Questpack v4
-  - \[T\] Utilisation de la [version de travail](<https://github.com/Jazira33/AC_QUEST>) (non finalisée) de Jazira pour avoir la traduction française.
-
-- Ascension v2.0
-  - \[C\] Certaines orientations étaient écrites sous forme de lettre et non de chiffre.
-  - \[C\] Il modifiait le fichier action.ids pour gérer les orientations sous forme de lettre.
-
+#### Corrections de bugs
 - Baldurdash v1.75
-  - \[F\] Erreur lors de la modification du fichier MAZZYP.DLG qui provoque une erreur de parsing du script (SetSetGlobal au lieu de SetGlobal)
-
-- BG1 NPCs at Beginning v3.0
-  - \[C\] Suppression des conditions relatives à BG1NPC qui empêchent d'installer certains composants. Les composants en question n'existent plus dans BG1NPC.
-
-- BG2 Impoved GUI v3.12
-  - \[T\] Petite traduction maison
+  - Erreur lors de la modification du fichier MAZZYP.DLG qui provoque une erreur de parsing du script (SetSetGlobal au lieu de SetGlobal)
 
 - Big Picture v181
-  - \[C\] Certaines orientations étaient écrites sous forme de lettre et non de chiffre. 
-  - \[F\] Corrections des entrées ajoutées dans le fichier stats.ids
-  - \[F\] Le composant "Rencontres sylvanesques" a besoin du sort CLERIC_ANIMATE_TREE, mais ce dernier n'était pas toujours installé pour lui.
-
+  - Corrections des entrées ajoutées dans le fichier stats.ids
+  - Le composant "Rencontres sylvanesques" a besoin du sort CLERIC_ANIMATE_TREE, mais ce dernier n'était pas toujours installé pour lui.
+  
 - Generalized Biffing v2.5
-  - \[F\] La version 247 de Weidu provoque un crash au lancement du jeu. La version 246 est forcée lors de l'installation du mod. 
-
-- Gerri's BGT NPC Portraits v3.0
-  - \[C\] Le composant "Portraits for BG1 Romantic Encounters" se basait sur le composant 0 de "BG1 Romantics Encounters" qui n'existe plus et remplacé par les composants 100 à 105. 
-
-- iiKeyNames v2
-  - \[T\] Petite traduction maison
+  - La version 247 de Weidu provoque un crash au lancement du jeu. La version 246 est forcée lors de l'installation du mod.
 
 - Item Upgrade v45
-  - \[F\] Des traductions manquantes dans le fichier itemupgrade/languages/french/lolwot.tra empêchaient le mod de s'installer en français.
-
-- Kiara-Zaiya NPCs v1.6.2
-  - \[C\] Le mod remplaçait plusieurs fichiers .ids par d'anciennes versions ne contenant pas toutes les entrées requises.
-     Ce qui provoquait un crash juste après la création du personnage.
-
-- Mapnames v2
-  - \[T\] Ajout de la traduction française trouvée sur forum de [SpellholdStudio](<http://www.shsforums.net/topic/46634-sword-coast-map-labels/?p=545744>)
-
+  - Des traductions manquantes dans le fichier itemupgrade/languages/french/lolwot.tra empêchaient le mod de s'installer en français.
+  
 - Prêtre de Bhaal v1.2
-  - \[F\] Renommage de fichiers pour correspondre à ceux attendus par le script.
+  - Renommage de fichiers pour correspondre à ceux attendus par le script d'installation.
     - .\P!Bhaal\2da\P!Bhaal.2da en .\P!Bhaal\2da\PIBhaal.2da
     - .\P!Bhaal\2da\LUP!B.2da en .\P!Bhaal\2da\LUPIB.2da
 
-- Rogue Rebalancing v4.92
-  - \[C\] La description du Maître-lames, couplée au composant "4250 - Changer les sequenceurs de sorts et les contingences en capacites speciales" de Stratagems, générait une description de plus de 4096 caractère, ce qui faisait crasher le jeu lorsque l'on tentait de sélectionner ce kit.
-    La description de la capacité "Démonstration Martiale" a été diminuée.
-
 - Stratagems v33.7
-  - \[C\] Certaines orientations étaient écrites sous forme de lettre et non de chiffre. 
-  - \[C\] Il modifiait le fichier action.ids pour gérer les orientations sous forme de lettre.
-  - \[F\] Correction d'une erreur de typo: **east_antimagic** en **easy_antimagic**
-  - \[F\] Correction d'une erreur où parfois, la variable **lev_max** était vide (pas certaine que ce soit la bonne façon de corriger).
-
-- Unique Artifact v7.2
-  - \[T\] Petite traduction maison
+  - Correction d'une erreur de typo: **east_antimagic** en **easy_antimagic**
+  - Correction d'une erreur où parfois, la variable **lev_max** était vide (pas certaine que ce soit la bonne façon de corriger).
 
 - Wheels of Prophecy v8.3
-  - \[F\] Mauvais chemin enregistré dans la variable **mod_root**
+  - Mauvais chemin enregistré dans la variable **mod_root**
+  
+#### Corrections de compatibilité
+- Area patcher
+  - Les composants 5000 et 5001 se basaient sur le composant 15 de BG1NPC qui est devenu le 80.
+
+- Ascension v2.0
+  - Certaines orientations étaient écrites sous forme de lettre et non de chiffre.
+  - Il modifiait le fichier action.ids pour gérer les orientations sous forme de lettre.
+  
+- BG1 NPCs at Beginning v3.0
+  - Suppression des conditions relatives à BG1NPC qui empêchent d'installer certains composants. Les composants en question n'existent plus dans BG1NPC.
+  
+- Big Picture v181
+  - Certaines orientations étaient écrites sous forme de lettre et non de chiffre. 
+  
+- Gerri's BGT NPC Portraits v3.0
+  - Le composant "Portraits for BG1 Romantic Encounters" se basait sur le composant 0 de "BG1 Romantics Encounters" qui n'existe plus et remplacé par les composants 100 à 105.
+  
+- Kiara-Zaiya NPCs v1.6.2
+  - Le mod remplaçait plusieurs fichiers .ids par d'anciennes versions ne contenant pas toutes les entrées requises.
+    Ce qui provoquait un crash juste après la création du personnage.
+     
+- Rogue Rebalancing v4.92
+  - La description du Maître-lames, couplée au composant "4250 - Changer les sequenceurs de sorts et les contingences en capacites speciales" de Stratagems, générait une description de plus de 4096 caractères, ce qui faisait crasher le jeu lorsque l'on tentait de sélectionner ce kit.
+    La description de la capacité "Démonstration Martiale" a été diminuée.
+    
+- Stratagems v33.7
+  - Certaines orientations étaient écrites sous forme de lettre et non de chiffre. 
+  - Il modifiait le fichier action.ids pour gérer les orientations sous forme de lettre.
+  
+#### Traductions
+
+- Ascalons Questpack v4
+  - Utilisation de la [version de travail](<https://github.com/Jazira33/AC_QUEST>) (non finalisée) de Jazira pour avoir la traduction française.
+
+- BG2 Impoved GUI v3.12
+  - Petite traduction maison
+
+- iiKeyNames v2
+  - Petite traduction maison
+
+- Mapnames v2
+  - Ajout de la traduction française trouvée sur forum de [SpellholdStudio](<http://www.shsforums.net/topic/46634-sword-coast-map-labels/?p=545744>)
+
+- Unique Artifact v7.2
+  - Petite traduction maison
