@@ -248,10 +248,6 @@ Func Au3ExFix($p_Num)
         FileWrite($g_LogFile, '>BWS-EE-Fixpack-master\* .' & @CRLF)
         _Extract_MoveMod('BWS-EE-Fixpack-master')
     EndIf
-	If StringRegExp($g_Flags[14], 'BWP|BWS|BG1EE|BG2EE|PSTEE') And FileExists($g_GameDir&'\BWS-FR-Fixpack-2') Then
-		FileWrite($g_LogFile, '>BWS-FR-Fixpack-2\* .' & @CRLF)
-		_Extract_MoveMod('BWS-FR-Fixpack-2')
-	EndIf
 ; ==============  Fix textstring so weidu will not fail to install the mod ============
 	If StringRegExp($g_Flags[14], 'BWP|BWS') And FileExists($g_BG2Dir&'\setup-bonehillv275.exe') Then
 		$Text=FileRead($g_BG2Dir&'\bonehillv275\Language\deutsch\D\BHARRNES.TRA')
