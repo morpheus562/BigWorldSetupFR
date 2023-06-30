@@ -248,6 +248,18 @@ Func Au3ExFix($p_Num)
         FileWrite($g_LogFile, '>BWS-EE-Fixpack-master\* .' & @CRLF)
         _Extract_MoveMod('BWS-EE-Fixpack-master')
     EndIf
+	If FileExists($g_GameDir&'\Realistic NPC Portraits for BGEE') Then
+        FileWrite($g_LogFile, '>Realistic NPC Portraits for BGEE\Override\* .' & @CRLF)
+        _Extract_MoveModOverride('Realistic NPC Portraits for BGEE')
+    EndIf
+	If FileExists($g_GameDir&'\Realistic NPC Portraits for BG2EE') Then
+        FileWrite($g_LogFile, '>Realistic NPC Portraits for BG2EE\Override\* .' & @CRLF)
+        _Extract_MoveModOverride('Realistic NPC Portraits for BG2EE')
+    EndIf
+	If FileExists($g_GameDir&'\Additonal Pack for SoD') Then
+        FileWrite($g_LogFile, '>Additonal Pack for SoD\Override\* .' & @CRLF)
+        _Extract_MoveModOverride('Additonal Pack for SoD')
+    EndIf
 ; ==============  Fix textstring so weidu will not fail to install the mod ============
 	If StringRegExp($g_Flags[14], 'BWP|BWS') And FileExists($g_BG2Dir&'\setup-bonehillv275.exe') Then
 		$Text=FileRead($g_BG2Dir&'\bonehillv275\Language\deutsch\D\BHARRNES.TRA')
@@ -813,6 +825,21 @@ Func _Extract_MoveModEx($p_Dir)
 	EndIf
 	Return $Success
 EndFunc   ;==>_Extract_MoveModEx
+
+Func _Extract_MoveModOverride($p_Dir)
+	Local $Success=0
+	$Files=_FileSearch($g_GameDir & '\' & $p_Dir & '\override', '*')
+	For $f=1 to $Files[0]
+		If StringInStr(FileGetAttrib($g_GameDir & '\' & $p_Dir & '\override\' & $Files[$f]), "D") Then
+			$Success = 1
+		Else
+			$Success = FileMove($g_GameDir & '\' & $p_Dir & '\override\' & $Files[$f], $g_GameDir & '\override\', 1)
+		EndIf
+		If $Success = 0 Then Return 0
+	Next
+	$Success = DirRemove($g_GameDir & '\' & $p_Dir, 1)
+	Return $Success
+EndFunc   ;==>_Extract_MoveModOverride
 
 ; ---------------------------------------------------------------------------------------------
 ; Little filetests for some content of addtional archives
