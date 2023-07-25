@@ -260,6 +260,10 @@ Func Au3ExFix($p_Num)
         FileWrite($g_LogFile, '>Additonal Pack for SoD\Override\* .' & @CRLF)
         _Extract_MoveModOverride('Additonal Pack for SoD')
     EndIf
+	If FileExists($g_GameDir&'\customs-master') Then
+		FileWrite($g_LogFile, '>customs-master .' & @CRLF)
+		DirMove($g_GameDir & '\customs-master' , $g_GameDir & '\customs', 0)
+	EndIf
 ; ==============  Fix textstring so weidu will not fail to install the mod ============
 	If StringRegExp($g_Flags[14], 'BWP|BWS') And FileExists($g_BG2Dir&'\setup-bonehillv275.exe') Then
 		$Text=FileRead($g_BG2Dir&'\bonehillv275\Language\deutsch\D\BHARRNES.TRA')
