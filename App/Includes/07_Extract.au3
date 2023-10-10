@@ -60,7 +60,17 @@ Func Au3Extract($p_Num = 0)
 					If StringInStr($DirList[$n], 'Everything is Ok') Then
 						$Dir = StringRegExpReplace($DirList[$n - 2], '(?i)extracting\s*|\x5c.*', ''); stripped 7z info and everything after a potential backslash
 						$IsDir = FileGetAttrib($g_GameDir & '\' & $Dir); get the attrib of this file or directory
-						If StringInStr($IsDir, 'D') Then $TP2Exists = _Test_GetCustomTP2($g_CurrentPackages[$e][0], '\'&$Dir&'\', 1); 1 = don't complain if BACKUP mod folder is not found
+						If StringInStr($IsDir, 'D') Then
+							$RenameFolderTo = _IniRead($ReadSection, 'RenameFolderTo', '')
+							If $RenameFolderTo <> '' Then
+								FileWrite($g_LogFile, '> Rename ' & $Dir & ' to ' & $RenameFolderTo & @CRLF)
+								DirMove($g_GameDir & '\' & $Dir , $g_GameDir & '\' & $RenameFolderTo, 0)
+								$TP2Exists = _Test_GetCustomTP2($g_CurrentPackages[$e][0], '\', 1); 1 = don't complain if BACKUP mod folder is not found
+								If $TP2Exists <> '0' Then ContinueLoop 2
+								$Dir = $RenameFolderTo
+							EndIf
+							$TP2Exists = _Test_GetCustomTP2($g_CurrentPackages[$e][0], '\'&$Dir&'\', 1); 1 = don't complain if BACKUP mod folder is not found
+						EndIf
 						ExitLoop
 					EndIf
 				Next
@@ -260,10 +270,6 @@ Func Au3ExFix($p_Num)
         FileWrite($g_LogFile, '>Additonal Pack for SoD\Override\* .' & @CRLF)
         _Extract_MoveModOverride('Additonal Pack for SoD')
     EndIf
-	If FileExists($g_GameDir&'\customs-master') Then
-		FileWrite($g_LogFile, '>customs-master .' & @CRLF)
-		DirMove($g_GameDir & '\customs-master' , $g_GameDir & '\customs', 0)
-	EndIf
 ; ==============  Fix textstring so weidu will not fail to install the mod ============
 	If StringRegExp($g_Flags[14], 'BWP|BWS') And FileExists($g_BG2Dir&'\setup-bonehillv275.exe') Then
 		$Text=FileRead($g_BG2Dir&'\bonehillv275\Language\deutsch\D\BHARRNES.TRA')
