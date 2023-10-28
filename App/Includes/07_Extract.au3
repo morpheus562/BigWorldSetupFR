@@ -254,9 +254,9 @@ Func Au3ExFix($p_Num)
 		FileWrite($g_LogFile, '>Big-World-Fixpack-master\* .' & @CRLF)
 		_Extract_MoveMod('Big-World-Fixpack-master')
 	EndIf
-	If StringRegExp($g_Flags[14], 'BWP|BWS|BG1EE|BG2EE|PSTEE') And FileExists($g_GameDir&'\BWS-EE-Fixpack-master') Then
-        FileWrite($g_LogFile, '>BWS-EE-Fixpack-master\* .' & @CRLF)
-        _Extract_MoveMod('BWS-EE-Fixpack-master')
+	If StringRegExp($g_Flags[14], 'BWP|BWS|BG1EE|BG2EE|PSTEE') And FileExists($g_GameDir&'\EE_Fixpack-master') Then
+        FileWrite($g_LogFile, '>EE_Fixpack-master\* .' & @CRLF)
+        _Extract_MoveMod('EE_Fixpack-master')
     EndIf
 	If FileExists($g_GameDir&'\Realistic NPC Portraits for BGEE') Then
         FileWrite($g_LogFile, '>Realistic NPC Portraits for BGEE\Override\* .' & @CRLF)

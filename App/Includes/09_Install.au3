@@ -276,7 +276,7 @@ Func Au3Install($p_Num = 0, $p_Debug = 0)
 	Local $TMessage = IniReadSection($g_TRAIni, 'IN-Test')
 	Local $Message = IniReadSection($g_TRAIni, 'IN-Au3Install')
 	$g_LogFile = $g_LogDir & '\BWS-Debug-Installation.log'
-	Local $Group = '-1', $CurrentMod, $Setup[10], $Type=StringRegExpReplace($g_Flags[14], '(?i)BWS|BWP', 'BG2')
+	Local $Group = '-1', $CurrentMod, $Setup[11], $Type=StringRegExpReplace($g_Flags[14], '(?i)BWS|BWP', 'BG2')
 	Local $Logic = IniRead($g_UsrIni, 'Options', 'Logic3', 1), $Ref=FileGetSize($g_GameDir&'\WeiDU\WeiDU.exe')
 	Local $EET_Mods
 	If $g_Flags[21] <> '' Then $EET_Mods=$g_Flags[20+StringRegExpReplace($g_Flags[14],  '(?i)\ABG|EE\z', '')]
@@ -413,9 +413,14 @@ Func Au3Install($p_Num = 0, $p_Debug = 0)
 			If $CurrentMod <> $Setup[2] Then; same mod > no update
 				$Setup[5]=_GetTra($Setup[2], 'S')
 				$Setup[7]=IniRead($g_MODIni, $Setup[2], 'Name', $Setup[2]); Modname
+				If $Setup[2] = 'eefixpack-bg2' Then
+					$Setup[10] = 'eefixpack'
+				Else
+					$Setup[10] = $Setup[2]
+				EndIf
 				If $EET_Mods <> '' And StringRegExp($EET_Mods, '(?i)(\A|\x7c)'&$Setup[2]&'(\z|\x7c)') = 0 Then ContinueLoop; this mod should not be installed now
 				If IniRead($g_UsrIni, 'Current', $Setup[2], '') = '' Then ContinueLoop; the user did not select the mod at all
-				$Setup[9]=_Test_GetCustomTP2($Setup[2])
+				$Setup[9]=_Test_GetCustomTP2($Setup[10])
 				$Error=@error
 				_Process_SetConsoleLog(@CRLF&@CRLF&'##### ' & $Setup[7] & ' #####')
 				If $Error = 0 And FileExists($Setup[9]) Then
@@ -481,9 +486,9 @@ Func Au3Install($p_Num = 0, $p_Debug = 0)
 				$Group&=' '&$Setup[3]
 				ContinueLoop
 			EndIf
-			_Install_ManageDebug($Setup[2], 1); clean old debug
+			_Install_ManageDebug($Setup[10], 1); clean old debug
 			$Sub=_Install_BuildSubcmd($Setup[2], $Setup[3])
-			$Setup[0]='Setup-'&$Setup[2]&'.exe'
+			$Setup[0]='Setup-'&$Setup[10]&'.exe'
 			If $Sub = 0 Then
 				If $Setup[2] = 'BGT' Then; add bg1-param
 					$InstallString=$Setup[0]&' --no-exit-pause --noautoupdate --language '&StringTrimLeft($Setup[5], 3) &' --skip-at-view '&$g_WeiDUQuickLog&' --args-list ops "'&$g_BG1Dir&'" --force-install-list '&$Setup[3]&' --logapp'
@@ -495,7 +500,7 @@ Func Au3Install($p_Num = 0, $p_Debug = 0)
 			Else
 				$InstallString='type BWS_SUB.nul | '&$Setup[0]&' --no-exit-pause --noautoupdate --language '&StringTrimLeft($Setup[5], 3) &' --skip-at-view '&$g_WeiDUQuickLog&' --force-install-list '&$Setup[3]&' --logapp'
 			EndIf
-			_Install_ManageDebug($Setup[2], 1); clean old debug log
+			_Install_ManageDebug($Setup[10], 1); clean old debug log
 			_Install_UpdateWeiDU($Setup[0], $Ref); if needed, create or update WeiDU executable for this mod
 			_Install_SetPrompt($Setup[9], StringTrimLeft($Setup[5], 3)); adjust keywords for debugging-output
 			GUICtrlSetData($g_UI_Static[6][2], _GetTR($Message, 'L5') & ' ' & $Setup[8] & ' (' & $Setup[7]&')'); => installing
@@ -519,9 +524,9 @@ Func Au3Install($p_Num = 0, $p_Debug = 0)
 					EndIf
 				EndIf
 			EndIf
-			$DebugTest=_Install_ReadDebug($Setup[2])
+			$DebugTest=_Install_ReadDebug($Setup[10])
 			$a-=_Install_TestInstalled($Setup, $DebugTest, $Logic, 1, $TMessage)
-			_Install_ManageDebug($Setup[2], 2); merge debug-files
+			_Install_ManageDebug($Setup[10], 2); merge debug-files
 			If $Type = 'BG2' Then _Install_RepairIDS()
 			Sleep(1000)
 		EndIf
@@ -1239,7 +1244,7 @@ Func _Install_TestInstalled($p_Setup, $p_DebugTest, $p_Logic, $p_Num, $p_Message
 	Else
 		Local $Message = $p_Message
 	EndIf
-	$WeiDUTest=_Install_ReadWeiDU($p_Setup[2], $p_Setup[3]); do the testing, warnings and stuff there
+	$WeiDUTest=_Install_ReadWeiDU($p_Setup[10], $p_Setup[3]); do the testing, warnings and stuff there
 	If $p_Num > $p_DebugTest[0][0] Then
 		ReDim $p_DebugTest[$p_Num+1][3]
 		$p_DebugTest[$p_Num][0] = 0
