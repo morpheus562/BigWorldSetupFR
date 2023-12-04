@@ -258,6 +258,11 @@ Func Au3ExFix($p_Num)
         FileWrite($g_LogFile, '>EE_Fixpack-master\* .' & @CRLF)
         _Extract_MoveMod('EE_Fixpack-master')
     EndIf
+	If FileExists($g_GameDir&'\IWDSpells-master') Then
+        FileWrite($g_LogFile, '>IWDSpells-master\dw_iwdspells\iwdspells\* to iwdification\' & @CRLF)
+        DirCopy($g_GameDir & '\IWDSpells-master\dw_iwdspells\iwdspells' , $g_GameDir & '\iwdification\iwdspells', 1)
+        DirCopy($g_GameDir & '\IWDSpells-master\dw_iwdspells\sfo' , $g_GameDir & '\iwdification\sfo', 1)
+    EndIf
 	If FileExists($g_GameDir&'\Realistic NPC Portraits for BGEE') Then
         FileWrite($g_LogFile, '>Realistic NPC Portraits for BGEE\Override\* .' & @CRLF)
         _Extract_MoveModOverride('Realistic NPC Portraits for BGEE')
