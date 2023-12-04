@@ -362,6 +362,8 @@ Func Au3Install($p_Num = 0, $p_Debug = 0)
 			EndIf
 			$Group = StringTrimLeft($Group, 1)
 			$Setup[0]='Setup-'&$Setup[2]&'.exe'
+			$Setup[5]=_GetTra($Setup[2], 'S')
+			$Setup[7]=IniRead($g_MODIni, $Setup[2], 'Name', $Setup[2]); Modname
 			$InstallString=$Setup[0]&' --no-exit-pause --noautoupdate --language '&StringTrimLeft($Setup[5], 3) &' --skip-at-view '&$g_WeiDUQuickLog&' --force-install-list '&$Group&' --logapp'
 			_Install_ManageDebug($Setup[2], 1); clean old debug log
 			_Install_UpdateWeiDU($Setup[0], $Ref); if needed, create or update WeiDU executable for this mod
@@ -410,16 +412,16 @@ Func Au3Install($p_Num = 0, $p_Debug = 0)
 			; $Split[4] => theme (not needed here)
 			; $Split[5] => defaults (not needed here)
 			$Setup[6]=$Split[6]; $CompReq
+			If $Setup[2] = 'eefixpack-bg2' Then
+				$Setup[10] = 'eefixpack'
+			Else
+				$Setup[10] = $Setup[2]
+			EndIf
 			If $CurrentMod <> $Setup[2] Then; same mod > no update
-				$Setup[5]=_GetTra($Setup[2], 'S')
-				$Setup[7]=IniRead($g_MODIni, $Setup[2], 'Name', $Setup[2]); Modname
-				If $Setup[2] = 'eefixpack-bg2' Then
-					$Setup[10] = 'eefixpack'
-				Else
-					$Setup[10] = $Setup[2]
-				EndIf
 				If $EET_Mods <> '' And StringRegExp($EET_Mods, '(?i)(\A|\x7c)'&$Setup[2]&'(\z|\x7c)') = 0 Then ContinueLoop; this mod should not be installed now
 				If IniRead($g_UsrIni, 'Current', $Setup[2], '') = '' Then ContinueLoop; the user did not select the mod at all
+				$Setup[5]=_GetTra($Setup[2], 'S')
+				$Setup[7]=IniRead($g_MODIni, $Setup[2], 'Name', $Setup[2]); Modname
 				$Setup[9]=_Test_GetCustomTP2($Setup[10])
 				$Error=@error
 				_Process_SetConsoleLog(@CRLF&@CRLF&'##### ' & $Setup[7] & ' #####')
@@ -462,8 +464,8 @@ Func Au3Install($p_Num = 0, $p_Debug = 0)
 						ContinueLoop
 					EndIf
 				EndIf
-				$CurrentMod = $Setup[2]
 			EndIf
+			$CurrentMod = $Setup[2]
 			$Setup[8] = IniRead($g_GConfDir&'\WeiDU-'&StringLeft($Setup[5],2)&'.ini', $Setup[2], '@' & $Setup[3], ''); component-description
 ; ---------------------------------------------------------------------------------------------
 ; skip for various reasons
