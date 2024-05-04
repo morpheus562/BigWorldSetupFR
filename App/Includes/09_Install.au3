@@ -1029,10 +1029,6 @@ Func _Install_ModifyForGroupInstall($p_Array, $p_Debug=0)
 		If StringRegExp($p_Array[$a], '(?i)\A(DWN|ANN|GRP)') Then ContinueLoop
 		$Split=StringSplit($p_Array[$a], ';')
 		$Mod=$Split[2]; SetupName
-		If $Mod = 'EET' Then
-			ContinueLoop
-		EndIf
-		; FIXME: Empêcher EET de s'installer en groupe !!
 		$Comp=''
 		$n+=1
 		If StringRegExp($p_Array[$a], '(?i)\ACMD') Then
@@ -1074,7 +1070,7 @@ Func _Install_ModifyForGroupInstall($p_Array, $p_Debug=0)
 			WEnd
 		Else
 			$Split=StringSplit($p_Array[$a+1], ';')
-			If $Open = 0 And $Mod=$Split[2] Then ; Only open a group if setup lasts longer then 2 components
+			If $Open = 0 And $Mod=$Split[2] And $Mod <> 'EET' Then ; Only open a group if setup lasts longer then 2 components
 				$NArray[$n]='GRP;Start'
 				$Open=1
 				$n+=1
