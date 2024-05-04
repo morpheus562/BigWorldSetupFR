@@ -1029,6 +1029,10 @@ Func _Install_ModifyForGroupInstall($p_Array, $p_Debug=0)
 		If StringRegExp($p_Array[$a], '(?i)\A(DWN|ANN|GRP)') Then ContinueLoop
 		$Split=StringSplit($p_Array[$a], ';')
 		$Mod=$Split[2]; SetupName
+		If $Mod = 'EET' Then
+			ContinueLoop
+		EndIf
+		; FIXME: Empêcher EET de s'installer en groupe !!
 		$Comp=''
 		$n+=1
 		If StringRegExp($p_Array[$a], '(?i)\ACMD') Then
